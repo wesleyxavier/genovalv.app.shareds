@@ -1,13 +1,18 @@
 # Graph Report - Shareds  (2026-11-23)
 
 ## Corpus Check
-- 78 files · ~45,555 words
+- 83 files · ~46,857 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 547 nodes · 623 edges · 45 communities
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 14 edges (avg confidence: 0.65)
+- 555 nodes · 643 edges · 47 communities (46 shown, 1 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `8e4f41db`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - types.ts
@@ -46,20 +51,23 @@
 - Specification Quality Checklist: Shared Login Foundation & Base Components
 - Genova Shareds (`New/Shareds`)
 - [CHECKLIST TYPE] Checklist: [FEATURE NAME]
+- GenovaInputElement
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
-2. `Tasks: Shared Login Foundation & Base Components` - 14 edges
-3. `Tasks: [FEATURE NAME]` - 13 edges
-4. `registerCustomElement()` - 11 edges
-5. `createTranslator()` - 10 edges
-6. `registerGenovaElements()` - 10 edges
-7. `validateLoginSubmission()` - 8 edges
-8. `Custom Elements Catalog` - 8 edges
-9. `Execution Steps` - 7 edges
-10. `4. Detection Passes (Token-Efficient Analysis)` - 7 edges
+2. `registerGenovaElements()` - 14 edges
+3. `registerCustomElement()` - 14 edges
+4. `Tasks: Shared Login Foundation & Base Components` - 14 edges
+5. `Tasks: [FEATURE NAME]` - 13 edges
+6. `createTranslator()` - 10 edges
+7. `GenovaInputElement` - 10 edges
+8. `validateLoginSubmission()` - 8 edges
+9. `Custom Elements Catalog` - 8 edges
+10. `Execution Steps` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `registerGenovaElements()` --indirect_call--> `GenovaInputElement`  [INFERRED]
+  packages/elements/src/index.ts → packages/elements/src/components/genova-input.ts
 - `registerGenovaElements()` --indirect_call--> `GenovaActionButtonElement`  [INFERRED]
   packages/elements/src/index.ts → packages/elements/src/components/genova-action-button.ts
 - `registerGenovaElements()` --indirect_call--> `GenovaAlertBannerElement`  [INFERRED]
@@ -68,21 +76,19 @@
   packages/elements/src/index.ts → packages/elements/src/components/genova-auth-card.ts
 - `registerGenovaElements()` --indirect_call--> `GenovaAuthShellElement`  [INFERRED]
   packages/elements/src/index.ts → packages/elements/src/components/genova-auth-shell.ts
-- `registerGenovaElements()` --indirect_call--> `GenovaFooterElement`  [INFERRED]
-  packages/elements/src/index.ts → packages/elements/src/components/genova-footer.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (45 total, 0 thin omitted)
+## Communities (47 total, 1 thin omitted)
 
 ### Community 0 - "types.ts"
 Cohesion: 0.14
 Nodes (26): DEFAULT_LOGIN_CONTEXT, formatMfaCodeDisplay(), getMfaGuidance(), MFA_GUIDANCE_MAP, sanitizeMfaCode(), validateMfaCode(), LoginContextConfiguration, LoginDictionary (+18 more)
 
 ### Community 1 - "index.ts"
-Cohesion: 0.13
-Nodes (11): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, GenovaFooterElement, GenovaHeaderElement, GenovaMfaSelectorElement (+3 more)
+Cohesion: 0.10
+Nodes (13): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, GenovaCheckboxElement, GenovaFooterElement, GenovaHeaderElement (+5 more)
 
 ### Community 2 - "Tasks: Shared Login Foundation & Base Components"
 Cohesion: 0.06
@@ -93,8 +99,8 @@ Cohesion: 0.06
 Nodes (28): Contract: `@genovalv/core` Public API, Exported Functions & Constants, Exported Types, 1. `<genova-header>`, 2. `<genova-footer>`, 3. `<genova-auth-shell>`, 4. `<genova-auth-card>`, 5. `<genova-action-button>` (+20 more)
 
 ### Community 4 - "main.ts"
-Cohesion: 0.08
-Nodes (25): alertBanner, card, emailError, emailInput, emailLabel, forgotLink, form, handleSubmit() (+17 more)
+Cohesion: 0.13
+Nodes (12): alertBanner, card, emailInput, form, localeSelect, mfaInput, mfaSelector, params (+4 more)
 
 ### Community 5 - "Tasks: [FEATURE NAME]"
 Cohesion: 0.07
@@ -221,23 +227,24 @@ Cohesion: 0.40
 Nodes (4): [Category 1], [Category 2], [CHECKLIST TYPE] Checklist: [FEATURE NAME], Notes
 
 ## Knowledge Gaps
-- **338 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+333 more)
+- **327 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+322 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `GenovaInputElement` connect `GenovaInputElement` to `index.ts`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Are the 10 inferred relationships involving `registerGenovaElements()` (e.g. with `GenovaActionButtonElement` and `GenovaAlertBannerElement`) actually correct?**
+  _`registerGenovaElements()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _338 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _327 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.13963963963963963 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.13277310924369748 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09758454106280193 - nodes in this community are weakly interconnected._
 - **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `Custom Elements Catalog` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
-- **Should `main.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
-- **Should `Tasks: [FEATURE NAME]` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._

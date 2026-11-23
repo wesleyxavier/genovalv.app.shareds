@@ -18,6 +18,7 @@ Executar a partir de `New/Shareds/`:
 ## Workflow & Governance
 
 - Este workspace usa **Spec Kit** (`.specify/` e `specs/{NNN-nome}/`). Leia `.specify/memory/constitution.md` antes de alterações arquiteturais.
+- **Branch & Worktree (`/openspec-worktree`):** toda nova feature/change deve seguir o fluxo da skill `/openspec-worktree` — iniciar o `tasks.md` com `## 0. Branch`, criar a worktree em `worktrees/{branch}` a partir da `develop`, validar a branch base antes de codificar e remover a worktree após o merge.
 - **Autorização obrigatória:** nunca execute `git commit`, `git push` ou crie PR sem confirmação explícita do usuário.
 - Toda nova feature ou mudança de contrato exige atualização de `spec.md`, `plan.md`, `tasks.md` e `README.md`.
 
