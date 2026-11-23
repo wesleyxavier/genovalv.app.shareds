@@ -1,0 +1,16 @@
+{
+  "name": "@genovalv/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tokens.css": "./src/tokens.css",
+    "./tailwind.css": "./src/tailwind.css"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "node -e \"const fs=require('fs');if(!fs.existsSync('src/tokens.css')||!fs.existsSync('src/tailwind.css'))process.exit(1)\""
+  }
+}
