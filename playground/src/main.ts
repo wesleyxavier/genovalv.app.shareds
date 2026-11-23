@@ -9,7 +9,17 @@ import {
   type SubmissionState,
   type SupportedLocale,
 } from '@genovalv/core';
-import { registerGenovaElements } from '@genovalv/elements';
+import {
+  registerGenovaElements,
+  type GenovaActionButtonElement,
+  type GenovaAlertBannerElement,
+  type GenovaAuthCardElement,
+  type GenovaAuthShellElement,
+  type GenovaCheckboxElement,
+  type GenovaInputElement,
+  type GenovaLocaleSelectorElement,
+  type GenovaMfaSelectorElement,
+} from '@genovalv/elements';
 
 registerGenovaElements();
 
@@ -20,47 +30,18 @@ let currentLocale: SupportedLocale = (params.get('locale') as SupportedLocale | 
 let activeMfaMethod: MfaMethod = 'totp';
 let submissionState: SubmissionState = 'idle';
 
-const shell = document.getElementById('auth-shell') as HTMLElement & {
-  locale: SupportedLocale;
-};
-const card = document.getElementById('auth-card') as HTMLElement & {
-  locale: SupportedLocale;
-  portalTitle: string;
-  portalSubtitle: string;
-};
-const mfaSelector = document.getElementById('mfa-selector') as HTMLElement & {
-  locale: SupportedLocale;
-  selectedMethod: MfaMethod;
-};
-const submitBtn = document.getElementById('submit-btn') as HTMLElement & {
-  locale: SupportedLocale;
-  state: SubmissionState;
-};
-const alertBanner = document.getElementById('form-alert') as HTMLElement & {
-  variant: 'error' | 'success' | 'warning' | 'info';
-  message: string;
-  visible: boolean;
-};
+const shell = document.getElementById('auth-shell') as GenovaAuthShellElement;
+const card = document.getElementById('auth-card') as GenovaAuthCardElement;
+const mfaSelector = document.getElementById('mfa-selector') as GenovaMfaSelectorElement;
+const submitBtn = document.getElementById('submit-btn') as GenovaActionButtonElement;
+const alertBanner = document.getElementById('form-alert') as GenovaAlertBannerElement;
 
-const localeSelect = document.getElementById('locale-select') as HTMLSelectElement;
+const localeSelect = document.getElementById('locale-select') as GenovaLocaleSelectorElement;
 const form = document.getElementById('login-form') as HTMLFormElement;
-const emailInput = document.getElementById('login-email') as HTMLInputElement;
-const passwordInput = document.getElementById('login-password') as HTMLInputElement;
-const mfaField = document.getElementById('mfa-field') as HTMLDivElement;
-const mfaInput = document.getElementById('login-mfa') as HTMLInputElement;
-const rememberInput = document.getElementById('remember-device') as HTMLInputElement;
-const togglePasswordBtn = document.getElementById('toggle-password') as HTMLButtonElement;
-
-const emailLabel = document.getElementById('email-label') as HTMLLabelElement;
-const passwordLabel = document.getElementById('password-label') as HTMLLabelElement;
-const forgotLink = document.getElementById('forgot-link') as HTMLAnchorElement;
-const mfaLabel = document.getElementById('mfa-label') as HTMLLabelElement;
-const mfaHint = document.getElementById('mfa-hint') as HTMLSpanElement;
-const rememberLabel = document.getElementById('remember-label') as HTMLLabelElement;
-
-const emailError = document.getElementById('email-error') as HTMLSpanElement;
-const passwordError = document.getElementById('password-error') as HTMLSpanElement;
-const mfaError = document.getElementById('mfa-error') as HTMLSpanElement;
+const emailInput = document.getElementById('login-email') as GenovaInputElement;
+const passwordInput = document.getElementById('login-password') as GenovaInputElement;
+const mfaInput = document.getElementById('login-mfa') as GenovaInputElement;
+const rememberInput = document.getElementById('remember-device') as GenovaCheckboxElement;
 
 function applyLocale(locale: SupportedLocale): void {
   currentLocale = locale;
@@ -71,53 +52,37 @@ function applyLocale(locale: SupportedLocale): void {
   card.locale = locale;
   mfaSelector.locale = locale;
   submitBtn.locale = locale;
+  localeSelect.locale = locale;
 
-  emailLabel.textContent = t('auth.emailLabel');
+  emailInput.locale = locale;
+  emailInput.label = t('auth.emailLabel');
   emailInput.placeholder = t('auth.emailPlaceholder');
-  passwordLabel.textContent = t('auth.passwordLabel');
-  forgotLink.textContent = t('auth.forgotPassword');
-  mfaLabel.textContent = t('auth.mfaLabel');
-  mfaHint.textContent = t('auth.mfaHint');
-  rememberLabel.textContent = t('auth.rememberDevice', { days: DEFAULT_LOGIN_CONTEXT.rememberDeviceDays });
 
-  const isVisible = passwordInput.type === 'text';
-  togglePasswordBtn.setAttribute('aria-label', isVisible ? t('auth.hidePassword') : t('auth.showPassword'));
-}
+  passwordInput.locale = locale;
+  passwordInput.label = t('auth.passwordLabel');
+  passwordInput.actionLabel = t('auth.forgotPassword');
 
-function setFieldError(input: HTMLInputElement, errEl: HTMLSpanElement, msg?: string): void {
-  if (msg) {
-    input.setAttribute('aria-invalid', 'true');
-    input.setAttribute('aria-describedby', errEl.id);
-    errEl.textContent = msg;
-    errEl.hidden = false;
-  } else {
-    input.removeAttribute('aria-invalid');
-    input.removeAttribute('aria-describedby');
-    errEl.textContent = '';
-    errEl.hidden = true;
-  }
+  mfaInput.locale = locale;
+  mfaInput.label = t('auth.mfaLabel');
+  mfaInput.hint = t('auth.mfaHint');
+
+  rememberInput.label = t('auth.rememberDevice', {
+    days: DEFAULT_LOGIN_CONTEXT.rememberDeviceDays,
+  });
 }
 
 const showMfa = mfaMode !== 'hidden';
-mfaField.hidden = !showMfa;
+mfaInput.hidden = !showMfa;
 mfaSelector.hidden = !showMfa;
 
-localeSelect.value = currentLocale;
 applyLocale(currentLocale);
 
-localeSelect.addEventListener('change', () => {
-  applyLocale(localeSelect.value as SupportedLocale);
+localeSelect.addEventListener('genova-locale-change', (ev) => {
+  const detail = (ev as CustomEvent<{ locale: SupportedLocale }>).detail;
+  applyLocale(detail.locale);
 });
 
-togglePasswordBtn.addEventListener('click', () => {
-  const t = createTranslator(currentLocale);
-  const show = passwordInput.type === 'password';
-  passwordInput.type = show ? 'text' : 'password';
-  togglePasswordBtn.setAttribute('aria-pressed', show ? 'true' : 'false');
-  togglePasswordBtn.setAttribute('aria-label', show ? t('auth.hidePassword') : t('auth.showPassword'));
-});
-
-mfaInput.addEventListener('input', () => {
+mfaInput.addEventListener('genova-input', () => {
   mfaInput.value = sanitizeMfaCode(mfaInput.value);
 });
 
@@ -142,9 +107,9 @@ function handleSubmit(): void {
     { mfaMode, locale: currentLocale },
   );
 
-  setFieldError(emailInput, emailError, result.errors.email);
-  setFieldError(passwordInput, passwordError, result.errors.password);
-  setFieldError(mfaInput, mfaError, result.errors.mfaCode);
+  emailInput.error = result.errors.email ?? '';
+  passwordInput.error = result.errors.password ?? '';
+  mfaInput.error = result.errors.mfaCode ?? '';
 
   if (!result.valid) {
     alertBanner.visible = false;

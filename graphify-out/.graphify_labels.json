@@ -43,5 +43,7 @@
   "41": "check-prerequisites.ps1",
   "42": "resolve-template.ps1",
   "43": "setup-plan.ps1",
-  "44": "setup-tasks.ps1"
+  "44": "setup-tasks.ps1",
+  "45": "GenovaInputElement",
+  "46": "vite.config.ts"
 }

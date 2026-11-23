@@ -8,7 +8,7 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
     await expect(page.locator('genova-auth-card')).toContainText('Genova Cloud');
     await expect(page.locator('genova-auth-card')).toContainText('Admin Console • Acesso Restrito');
     await expect(page.locator('genova-footer')).toBeVisible();
-    await expect(page.locator('#mfa-field')).toBeHidden();
+    await expect(page.locator('#login-mfa')).toBeHidden();
     await expect(page.locator('#mfa-selector')).toBeHidden();
 
     const overflow = await page.evaluate(
@@ -24,28 +24,27 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
 
     // Empty submit blocked
     await page.locator('#submit-btn').click();
-    await expect(page.locator('#email-error')).toBeVisible();
-    await expect(page.locator('#email-error')).toContainText('Informe o e-mail corporativo.');
-    await expect(page.locator('#password-error')).toContainText('Informe sua senha.');
+    await expect(page.locator('#login-email #error-msg')).toContainText('Informe o e-mail corporativo.');
+    await expect(page.locator('#login-password #error-msg')).toContainText('Informe sua senha.');
 
     // Toggle password visibility
-    const pwdInput = page.locator('#login-password');
+    const pwdInput = page.locator('#login-password input');
     await expect(pwdInput).toHaveAttribute('type', 'password');
-    await page.locator('#toggle-password').click();
+    await page.locator('#login-password button.toggle').click();
     await expect(pwdInput).toHaveAttribute('type', 'text');
 
     // Fill valid credentials and trigger error outcome (preserving email)
-    await page.locator('#login-email').fill('  Admin@Genova.Cloud ');
+    await page.locator('#login-email input').fill('  Admin@Genova.Cloud ');
     await pwdInput.fill('MinhaSenha123');
     await page.locator('#submit-btn').click();
 
     await expect(page.locator('#form-alert')).toContainText('Credenciais inválidas');
-    await expect(page.locator('#login-email')).toHaveValue('Admin@Genova.Cloud');
+    await expect(page.locator('#login-email input')).toHaveValue('Admin@Genova.Cloud');
 
     // Success outcome + double submit guard
     await page.goto('/?outcome=success');
-    await page.locator('#login-email').fill('admin@genova.cloud');
-    await page.locator('#login-password').fill('MinhaSenha123');
+    await page.locator('#login-email input').fill('admin@genova.cloud');
+    await page.locator('#login-password input').fill('MinhaSenha123');
 
     const submitBtn = page.locator('#submit-btn');
     await submitBtn.click();
@@ -58,7 +57,7 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
   }) => {
     await page.goto('/?mfaMode=required');
 
-    const mfaInput = page.locator('#login-mfa');
+    const mfaInput = page.locator('#login-mfa input');
     await mfaInput.fill('12a3 45b678');
     await expect(mfaInput).toHaveValue('123456');
 
@@ -73,22 +72,22 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
     await page.goto('/');
 
     // Switch locale dynamically
-    await page.locator('#locale-select').selectOption('en-US');
-    await expect(page.locator('#email-label')).toHaveText('Corporate Email');
+    await page.locator('#locale-select select').selectOption('en-US');
+    await expect(page.locator('#login-email label')).toHaveText('Corporate Email');
     await expect(page.locator('#submit-btn button')).toContainText('Sign In');
 
-    await page.locator('#locale-select').selectOption('es-ES');
-    await expect(page.locator('#email-label')).toHaveText('Correo Corporativo');
+    await page.locator('#locale-select select').selectOption('es-ES');
+    await expect(page.locator('#login-email label')).toHaveText('Correo Corporativo');
     await expect(page.locator('#submit-btn button')).toContainText('Iniciar sesión');
 
-    // Keyboard traversal reaches email, password, toggle, MFA, remember and submit
-    await page.locator('#login-email').focus();
+    // Keyboard traversal reaches email, password, toggle
+    await page.locator('#login-email input').focus();
     await page.keyboard.type('user@genova.cloud');
     await page.keyboard.press('Tab'); // forgot link
     await page.keyboard.press('Tab'); // password input
     await page.keyboard.type('Secret123');
     await page.keyboard.press('Tab'); // toggle password
     await page.keyboard.press('Space');
-    await expect(page.locator('#login-password')).toHaveAttribute('type', 'text');
+    await expect(page.locator('#login-password input')).toHaveAttribute('type', 'text');
   });
 });

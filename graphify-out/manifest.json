@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "packages/core/package.json": {
-    "mtime": 1795458291.5120919,
-    "ast_hash": "f1522f729203e5d5e613167df3111a70",
+    "mtime": 1795462755.4340658,
+    "ast_hash": "c683de02d74c90b9d48896a3c4defd8c",
     "semantic_hash": ""
   },
   "packages/core/src/auth/context.ts": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "packages/elements/src/index.ts": {
-    "mtime": 1795458506.3945794,
-    "ast_hash": "afd7a82932e748e124a40d82fd047f6c",
+    "mtime": 1795463028.4609933,
+    "ast_hash": "a6a72b3ed5e733890834379a41380852",
     "semantic_hash": ""
   },
   "packages/elements/src/register.ts": {
@@ -230,8 +230,8 @@
     "semantic_hash": ""
   },
   "playground/e2e/login-foundation.spec.ts": {
-    "mtime": 1795459321.764259,
-    "ast_hash": "a1fec9056fe2d54a9e33ea6ca87fda7a",
+    "mtime": 1795463116.2398562,
+    "ast_hash": "1a67c1fdbb4b6f237f36f5cb693f0173",
     "semantic_hash": ""
   },
   "playground/package.json": {
@@ -240,8 +240,8 @@
     "semantic_hash": ""
   },
   "playground/src/main.ts": {
-    "mtime": 1795459510.3724587,
-    "ast_hash": "4dff6fcced39ba0db44d5c4b5d686543",
+    "mtime": 1795463116.3445215,
+    "ast_hash": "80023249797f06c2bdb23da528decc02",
     "semantic_hash": ""
   },
   "playwright.config.ts": {
@@ -340,13 +340,13 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1795459700.3078804,
-    "ast_hash": "4f70eb77fd4ad2a69f23e1e78ce3359d",
+    "mtime": 1795463468.2372782,
+    "ast_hash": "51ef874b3bb76f84bafea991a696541d",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795458557.6942897,
-    "ast_hash": "aa86e89e08afee4cffaa0859d48bb85e",
+    "mtime": 1795463468.279854,
+    "ast_hash": "3b5537e9b1f007eba028027fa72cb709",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
@@ -355,8 +355,8 @@
     "semantic_hash": ""
   },
   "playground/index.html": {
-    "mtime": 1795459510.3212626,
-    "ast_hash": "c36e51500c6d20bfc50ffa04a10dcfbe",
+    "mtime": 1795463116.3136508,
+    "ast_hash": "5e21acd93d0570d47f5f070222e6ee36",
     "semantic_hash": ""
   },
   "specs/001-shared-login-foundation/checklists/requirements.md": {
@@ -402,6 +402,31 @@
   "specs/001-shared-login-foundation/tasks.md": {
     "mtime": 1795459233.4863458,
     "ast_hash": "75d729cc14855c205c924477010c51f3",
+    "semantic_hash": ""
+  },
+  "packages/core/vite.config.ts": {
+    "mtime": 1795462399.1090972,
+    "ast_hash": "60ef7856d7ec00b2f8403905749bba21",
+    "semantic_hash": ""
+  },
+  "packages/elements/src/components/genova-checkbox.ts": {
+    "mtime": 1795463001.6655824,
+    "ast_hash": "64e79c9d27ac6997b064761cb12a296d",
+    "semantic_hash": ""
+  },
+  "packages/elements/src/components/genova-input.ts": {
+    "mtime": 1795463000.552557,
+    "ast_hash": "3f9cdceafb70a84cee49212242a08273",
+    "semantic_hash": ""
+  },
+  "packages/elements/src/components/genova-locale-selector.ts": {
+    "mtime": 1795462998.9834442,
+    "ast_hash": "431f7d24f84349629de05cbe97d47f7c",
+    "semantic_hash": ""
+  },
+  "packages/elements/tests/us4.form-controls.test.ts": {
+    "mtime": 1795463029.7440095,
+    "ast_hash": "bd319c26cfb23e0dbba8f5494a76bf72",
     "semantic_hash": ""
   }
 }
