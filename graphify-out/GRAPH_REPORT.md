@@ -1,16 +1,16 @@
 # Graph Report - Shareds  (2026-11-23)
 
 ## Corpus Check
-- 83 files · ~46,903 words
+- 92 files · ~53,668 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 555 nodes · 643 edges · 47 communities (46 shown, 1 thin omitted)
+- 669 nodes · 763 edges · 51 communities
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `346f7fef`
+- Built from commit: `da0ecd1c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -52,22 +52,24 @@
 - Genova Shareds (`New/Shareds`)
 - [CHECKLIST TYPE] Checklist: [FEATURE NAME]
 - GenovaInputElement
+- Tasks: Proxy de Borda Local (Simulação Cloudflare)
+- User Scenarios & Testing *(mandatory)*
+- Plano de Testes E2E: Proxy de Borda Local
+- Implementation Plan: Proxy de Borda Local (Simulação Cloudflare)
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
-2. `registerGenovaElements()` - 14 edges
-3. `registerCustomElement()` - 14 edges
-4. `Tasks: Shared Login Foundation & Base Components` - 14 edges
-5. `Tasks: [FEATURE NAME]` - 13 edges
-6. `createTranslator()` - 10 edges
-7. `GenovaInputElement` - 10 edges
-8. `validateLoginSubmission()` - 8 edges
-9. `Custom Elements Catalog` - 8 edges
-10. `Execution Steps` - 7 edges
+2. `Tasks: Proxy de Borda Local (Simulação Cloudflare)` - 16 edges
+3. `registerGenovaElements()` - 14 edges
+4. `registerCustomElement()` - 14 edges
+5. `Tasks: Shared Login Foundation & Base Components` - 14 edges
+6. `Tasks: [FEATURE NAME]` - 13 edges
+7. `Research: Proxy de Borda Local (Simulação Cloudflare)` - 13 edges
+8. `createTranslator()` - 10 edges
+9. `GenovaInputElement` - 10 edges
+10. `validateLoginSubmission()` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `registerGenovaElements()` --indirect_call--> `GenovaInputElement`  [INFERRED]
-  packages/elements/src/index.ts → packages/elements/src/components/genova-input.ts
 - `registerGenovaElements()` --indirect_call--> `GenovaActionButtonElement`  [INFERRED]
   packages/elements/src/index.ts → packages/elements/src/components/genova-action-button.ts
 - `registerGenovaElements()` --indirect_call--> `GenovaAlertBannerElement`  [INFERRED]
@@ -76,19 +78,21 @@
   packages/elements/src/index.ts → packages/elements/src/components/genova-auth-card.ts
 - `registerGenovaElements()` --indirect_call--> `GenovaAuthShellElement`  [INFERRED]
   packages/elements/src/index.ts → packages/elements/src/components/genova-auth-shell.ts
+- `registerGenovaElements()` --indirect_call--> `GenovaCheckboxElement`  [INFERRED]
+  packages/elements/src/index.ts → packages/elements/src/components/genova-checkbox.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (47 total, 1 thin omitted)
+## Communities (51 total, 0 thin omitted)
 
 ### Community 0 - "types.ts"
 Cohesion: 0.14
 Nodes (26): DEFAULT_LOGIN_CONTEXT, formatMfaCodeDisplay(), getMfaGuidance(), MFA_GUIDANCE_MAP, sanitizeMfaCode(), validateMfaCode(), LoginContextConfiguration, LoginDictionary (+18 more)
 
 ### Community 1 - "index.ts"
-Cohesion: 0.10
-Nodes (13): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, GenovaCheckboxElement, GenovaFooterElement, GenovaHeaderElement (+5 more)
+Cohesion: 0.08
+Nodes (14): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, GenovaCheckboxElement, GenovaFooterElement, GenovaHeaderElement (+6 more)
 
 ### Community 2 - "Tasks: Shared Login Foundation & Base Components"
 Cohesion: 0.06
@@ -163,8 +167,8 @@ Cohesion: 0.18
 Nodes (10): exports, ./tailwind.css, ./tokens.css, files, name, private, scripts, build (+2 more)
 
 ### Community 20 - "Core Principles"
-Cohesion: 0.18
-Nodes (10): Core Principles, Estrutura de Pacotes, Tecnologias e Padrões de Exportação, Fluxo de Desenvolvimento e Portões de Qualidade, Genova Shareds (`New/Shareds`) Constitution, Governance, I. Arquitetura Híbrida de Pacotes Compartilhados, II. Design System Único (Genova Cloud Console), III. Compatibilidade Cross-Framework e SSR-Safety (+2 more)
+Cohesion: 0.20
+Nodes (9): Core Principles, Genova Shareds (`New/Shareds`) Constitution, Governance, I. Arquitetura Híbrida de Pacotes Compartilhados e TS Compartilhado, II. Design System Único (Genova Cloud Console), III. Compatibilidade Cross-Framework e SSR-Safety, IV. Test-First (TDD), Clean Code e Limite de 100 Linhas, V. Governança Spec Kit, Segurança e Estratégia de Idempotência (+1 more)
 
 ### Community 21 - "Core Principles"
 Cohesion: 0.18
@@ -226,25 +230,44 @@ Nodes (4): Comandos, Genova Shareds (`New/Shareds`), Infraestrutura Local (Postg
 Cohesion: 0.40
 Nodes (4): [Category 1], [Category 2], [CHECKLIST TYPE] Checklist: [FEATURE NAME], Notes
 
+### Community 45 - "GenovaInputElement"
+Cohesion: 0.05
+Nodes (35): Content Quality, Feature Readiness, Notes, Requirement Completeness, Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare), Contrato da Borda Local, Endpoints, Headers de resposta (+27 more)
+
+### Community 47 - "Tasks: Proxy de Borda Local (Simulação Cloudflare)"
+Cohesion: 0.05
+Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundational, 3.1 Commit Group — US1, 4.1 Commit Group — US2, 5.1 Commit Group — US3, 6.1 Commit Group — US4, 7.1 Commit Group — Resiliência (+30 more)
+
+### Community 48 - "User Scenarios & Testing *(mandatory)*"
+Cohesion: 0.15
+Nodes (13): Assumptions, Edge Cases, Feature Specification: Proxy de Borda Local (Simulação Cloudflare), Functional Requirements, Key Entities, Measurable Outcomes, Requirements *(mandatory)*, Success Criteria *(mandatory)* (+5 more)
+
+### Community 49 - "Plano de Testes E2E: Proxy de Borda Local"
+Cohesion: 0.17
+Nodes (12): 1. Estratégia em camadas, 2. Pré-requisitos e dados, 3. Casos de teste, 4. Rastreabilidade, 5. Critérios de aceite e execução, 6. Riscos e lacunas, L0 — Smoke, L1 — Contrato (API) (+4 more)
+
+### Community 50 - "Implementation Plan: Proxy de Borda Local (Simulação Cloudflare)"
+Cohesion: 0.25
+Nodes (8): Complexity Tracking, Constitution Check, Documentation (this feature), Implementation Plan: Proxy de Borda Local (Simulação Cloudflare), Project Structure, Source Code (repository root: `New/Shareds/`), Summary, Technical Context
+
 ## Knowledge Gaps
-- **327 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+322 more)
+- **409 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+404 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `GenovaInputElement` connect `GenovaInputElement` to `index.ts`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Why does `Tasks: Proxy de Borda Local (Simulação Cloudflare)` connect `Tasks: Proxy de Borda Local (Simulação Cloudflare)` to `GenovaInputElement`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **Why does `Feature Specification: Proxy de Borda Local (Simulação Cloudflare)` connect `User Scenarios & Testing *(mandatory)*` to `GenovaInputElement`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `registerGenovaElements()` (e.g. with `GenovaActionButtonElement` and `GenovaAlertBannerElement`) actually correct?**
   _`registerGenovaElements()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _327 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _409 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.13963963963963963 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.09758454106280193 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07826694619147449 - nodes in this community are weakly interconnected._
 - **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
-- **Should `Custom Elements Catalog` be split into smaller, more focused modules?**
-  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._

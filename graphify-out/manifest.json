@@ -1,7 +1,7 @@
 {
   ".specify/feature.json": {
-    "mtime": 1795457310.9641976,
-    "ast_hash": "675c5093939e4ca0a68a62030a8eb434",
+    "mtime": 1795465022.6348495,
+    "ast_hash": "c41062cc1b120a92517c260022f3b000",
     "semantic_hash": ""
   },
   ".specify/init-options.json": {
@@ -305,8 +305,8 @@
     "semantic_hash": ""
   },
   ".specify/memory/constitution.md": {
-    "mtime": 1795457170.078719,
-    "ast_hash": "fc7f8435fec258b0016120da04544a8b",
+    "mtime": 1795470720.2333698,
+    "ast_hash": "a9cb0639c76889a5216f180a21ea7dd9",
     "semantic_hash": ""
   },
   ".specify/templates/checklist-template.md": {
@@ -427,6 +427,51 @@
   "packages/elements/tests/us4.form-controls.test.ts": {
     "mtime": 1795463029.7440095,
     "ast_hash": "bd319c26cfb23e0dbba8f5494a76bf72",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/checklists/requirements.md": {
+    "mtime": 1795465021.9651344,
+    "ast_hash": "66a7266bd3ec59588017936a552c9ce1",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md": {
+    "mtime": 1795470041.239331,
+    "ast_hash": "d7cbe6e4a640c5f6c59e89a6de8118e8",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/data-model.md": {
+    "mtime": 1795470034.2132905,
+    "ast_hash": "673e63004348c73d3de2b2d572612a91",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/e2e-test-plan.md": {
+    "mtime": 1795470155.9796464,
+    "ast_hash": "9857c84973a3b83d758faf15d27528a3",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/plan.md": {
+    "mtime": 1795470158.7508664,
+    "ast_hash": "7ebf585bdfa8d2cc0e9299a7898fa3e0",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/quickstart.md": {
+    "mtime": 1795470046.0753043,
+    "ast_hash": "51bf2f3b8abcf9883003c7417545dde5",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/research.md": {
+    "mtime": 1795470029.3550756,
+    "ast_hash": "cf30555204285164ca1fe70cd0ad8293",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/spec.md": {
+    "mtime": 1795465801.310069,
+    "ast_hash": "da5bff6bd2f276e4e1d9a221dc2c5eac",
+    "semantic_hash": ""
+  },
+  "specs/002-cloudflare-edge-proxy/tasks.md": {
+    "mtime": 1795470395.5341384,
+    "ast_hash": "8d125dcb5bc1231df463d101347545d4",
     "semantic_hash": ""
   }
 }

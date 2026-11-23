@@ -1590,7 +1590,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement",
-      "community": 45,
+      "community": 1,
       "norm_label": "genovainputelement"
     },
     {
@@ -1600,7 +1600,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_constructor",
-      "community": 45,
+      "community": 1,
       "norm_label": ".constructor()"
     },
     {
@@ -1610,7 +1610,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_focus",
-      "community": 45,
+      "community": 1,
       "norm_label": ".focus()"
     },
     {
@@ -1620,7 +1620,7 @@
       "source_location": "L184",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_handleinput",
-      "community": 45,
+      "community": 1,
       "norm_label": ".handleinput()"
     },
     {
@@ -1630,7 +1630,7 @@
       "source_location": "L197",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_handlechange",
-      "community": 45,
+      "community": 1,
       "norm_label": ".handlechange()"
     },
     {
@@ -1640,7 +1640,7 @@
       "source_location": "L210",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_togglepassword",
-      "community": 45,
+      "community": 1,
       "norm_label": ".togglepassword()"
     },
     {
@@ -1650,7 +1650,7 @@
       "source_location": "L214",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_rendericon",
-      "community": 45,
+      "community": 1,
       "norm_label": ".rendericon()"
     },
     {
@@ -1660,7 +1660,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_render",
-      "community": 45,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -3637,7 +3637,7 @@
       "label": "Genova Shareds (`New/Shareds`) Constitution",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L19",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "specify_memory_constitution_genova_shareds_new_shareds_constitution",
       "community": 20,
@@ -3647,27 +3647,27 @@
       "label": "Core Principles",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L21",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "specify_memory_constitution_core_principles",
       "community": 20,
       "norm_label": "core principles"
     },
     {
-      "label": "I. Arquitetura H\u00edbrida de Pacotes Compartilhados",
+      "label": "I. Arquitetura H\u00edbrida de Pacotes Compartilhados e TS Compartilhado",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L23",
+      "source_location": "L13",
       "_origin": "ast",
-      "id": "specify_memory_constitution_i_arquitetura_h\u00edbrida_de_pacotes_compartilhados",
+      "id": "specify_memory_constitution_i_arquitetura_h\u00edbrida_de_pacotes_compartilhados_e_ts_compartilhado",
       "community": 20,
-      "norm_label": "i. arquitetura hibrida de pacotes compartilhados"
+      "norm_label": "i. arquitetura hibrida de pacotes compartilhados e ts compartilhado"
     },
     {
       "label": "II. Design System \u00danico (Genova Cloud Console)",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L32",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "specify_memory_constitution_ii_design_system_\u00fanico_genova_cloud_console",
       "community": 20,
@@ -3677,57 +3677,47 @@
       "label": "III. Compatibilidade Cross-Framework e SSR-Safety",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L41",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "specify_memory_constitution_iii_compatibilidade_cross_framework_e_ssr_safety",
       "community": 20,
       "norm_label": "iii. compatibilidade cross-framework e ssr-safety"
     },
     {
-      "label": "IV. Test-First (TDD) e Contratos Verific\u00e1veis",
+      "label": "IV. Test-First (TDD), Clean Code e Limite de 100 Linhas",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L49",
+      "source_location": "L29",
       "_origin": "ast",
-      "id": "specify_memory_constitution_iv_test_first_tdd_e_contratos_verific\u00e1veis",
+      "id": "specify_memory_constitution_iv_test_first_tdd_clean_code_e_limite_de_100_linhas",
       "community": 20,
-      "norm_label": "iv. test-first (tdd) e contratos verificaveis"
+      "norm_label": "iv. test-first (tdd), clean code e limite de 100 linhas"
     },
     {
-      "label": "V. Governan\u00e7a Spec Kit, Simplicidade e Seguran\u00e7a",
+      "label": "V. Governan\u00e7a Spec Kit, Seguran\u00e7a e Estrat\u00e9gia de Idempot\u00eancia",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L57",
+      "source_location": "L35",
       "_origin": "ast",
-      "id": "specify_memory_constitution_v_governan\u00e7a_spec_kit_simplicidade_e_seguran\u00e7a",
+      "id": "specify_memory_constitution_v_governan\u00e7a_spec_kit_seguran\u00e7a_e_estrat\u00e9gia_de_idempot\u00eancia",
       "community": 20,
-      "norm_label": "v. governanca spec kit, simplicidade e seguranca"
+      "norm_label": "v. governanca spec kit, seguranca e estrategia de idempotencia"
     },
     {
-      "label": "Estrutura de Pacotes, Tecnologias e Padr\u00f5es de Exporta\u00e7\u00e3o",
+      "label": "VI. Paridade Local com Cloudflare via Reverse Proxy Nginx em Docker",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L65",
+      "source_location": "L40",
       "_origin": "ast",
-      "id": "specify_memory_constitution_estrutura_de_pacotes_tecnologias_e_padr\u00f5es_de_exporta\u00e7\u00e3o",
+      "id": "specify_memory_constitution_vi_paridade_local_com_cloudflare_via_reverse_proxy_nginx_em_docker",
       "community": 20,
-      "norm_label": "estrutura de pacotes, tecnologias e padroes de exportacao"
-    },
-    {
-      "label": "Fluxo de Desenvolvimento e Port\u00f5es de Qualidade",
-      "file_type": "document",
-      "source_file": ".specify/memory/constitution.md",
-      "source_location": "L71",
-      "_origin": "ast",
-      "id": "specify_memory_constitution_fluxo_de_desenvolvimento_e_port\u00f5es_de_qualidade",
-      "community": 20,
-      "norm_label": "fluxo de desenvolvimento e portoes de qualidade"
+      "norm_label": "vi. paridade local com cloudflare via reverse proxy nginx em docker"
     },
     {
       "label": "Governance",
       "file_type": "document",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L77",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "specify_memory_constitution_governance",
       "community": 20,
@@ -5552,6 +5542,1156 @@
       "id": "specs_001_shared_login_foundation_tasks_incremental_delivery",
       "community": 2,
       "norm_label": "incremental delivery"
+    },
+    {
+      "label": "requirements.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_checklists_requirements",
+      "community": 45,
+      "norm_label": "requirements.md"
+    },
+    {
+      "label": "Specification Quality Checklist: Proxy de Borda Local (Simula\u00e7\u00e3o Cloudflare)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_checklists_requirements_specification_quality_checklist_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "community": 45,
+      "norm_label": "specification quality checklist: proxy de borda local (simulacao cloudflare)"
+    },
+    {
+      "label": "Content Quality",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_checklists_requirements_content_quality",
+      "community": 45,
+      "norm_label": "content quality"
+    },
+    {
+      "label": "Requirement Completeness",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_checklists_requirements_requirement_completeness",
+      "community": 45,
+      "norm_label": "requirement completeness"
+    },
+    {
+      "label": "Feature Readiness",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_checklists_requirements_feature_readiness",
+      "community": 45,
+      "norm_label": "feature readiness"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_checklists_requirements_notes",
+      "community": 45,
+      "norm_label": "notes"
+    },
+    {
+      "label": "edge-contract.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract",
+      "community": 45,
+      "norm_label": "edge-contract.md"
+    },
+    {
+      "label": "Contrato da Borda Local",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "community": 45,
+      "norm_label": "contrato da borda local"
+    },
+    {
+      "label": "Endpoints",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_endpoints",
+      "community": 45,
+      "norm_label": "endpoints"
+    },
+    {
+      "label": "Redirecionamento",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_redirecionamento",
+      "community": 45,
+      "norm_label": "redirecionamento"
+    },
+    {
+      "label": "Headers enviados \u00e0 origem (sobrescrevem valores do cliente)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_headers_enviados_\u00e0_origem_sobrescrevem_valores_do_cliente",
+      "community": 45,
+      "norm_label": "headers enviados a origem (sobrescrevem valores do cliente)"
+    },
+    {
+      "label": "Headers de resposta",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_headers_de_resposta",
+      "community": 45,
+      "norm_label": "headers de resposta"
+    },
+    {
+      "label": "Status gerados pela borda",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_status_gerados_pela_borda",
+      "community": 45,
+      "norm_label": "status gerados pela borda"
+    },
+    {
+      "label": "Vari\u00e1veis de ambiente (`.env`)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_vari\u00e1veis_de_ambiente_env",
+      "community": 45,
+      "norm_label": "variaveis de ambiente (`.env`)"
+    },
+    {
+      "label": "data-model.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_data_model",
+      "community": 45,
+      "norm_label": "data-model.md"
+    },
+    {
+      "label": "Data Model: Proxy de Borda Local",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_data_model_data_model_proxy_de_borda_local",
+      "community": 45,
+      "norm_label": "data model: proxy de borda local"
+    },
+    {
+      "label": "Regra de borda (EdgeRule)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_data_model_regra_de_borda_edgerule",
+      "community": 45,
+      "norm_label": "regra de borda (edgerule)"
+    },
+    {
+      "label": "Origem (Origin)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_data_model_origem_origin",
+      "community": 45,
+      "norm_label": "origem (origin)"
+    },
+    {
+      "label": "Certificado local (LocalCertificate)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_data_model_certificado_local_localcertificate",
+      "community": 45,
+      "norm_label": "certificado local (localcertificate)"
+    },
+    {
+      "label": "Vari\u00e1veis de configura\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_data_model_vari\u00e1veis_de_configura\u00e7\u00e3o",
+      "community": 45,
+      "norm_label": "variaveis de configuracao"
+    },
+    {
+      "label": "e2e-test-plan.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan",
+      "community": 45,
+      "norm_label": "e2e-test-plan.md"
+    },
+    {
+      "label": "Plano de Testes E2E: Proxy de Borda Local",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "community": 49,
+      "norm_label": "plano de testes e2e: proxy de borda local"
+    },
+    {
+      "label": "1. Estrat\u00e9gia em camadas",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_1_estrat\u00e9gia_em_camadas",
+      "community": 49,
+      "norm_label": "1. estrategia em camadas"
+    },
+    {
+      "label": "2. Pr\u00e9-requisitos e dados",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_2_pr\u00e9_requisitos_e_dados",
+      "community": 49,
+      "norm_label": "2. pre-requisitos e dados"
+    },
+    {
+      "label": "3. Casos de teste",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_3_casos_de_teste",
+      "community": 49,
+      "norm_label": "3. casos de teste"
+    },
+    {
+      "label": "L0 \u2014 Smoke",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l0_smoke",
+      "community": 49,
+      "norm_label": "l0 \u2014 smoke"
+    },
+    {
+      "label": "L1 \u2014 Contrato (API)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l1_contrato_api",
+      "community": 49,
+      "norm_label": "l1 \u2014 contrato (api)"
+    },
+    {
+      "label": "L2 \u2014 E2E browser (Chromium, desktop + mobile)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l2_e2e_browser_chromium_desktop_mobile",
+      "community": 49,
+      "norm_label": "l2 \u2014 e2e browser (chromium, desktop + mobile)"
+    },
+    {
+      "label": "L3 \u2014 HMR/WebSocket (FactoryFloor)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l3_hmr_websocket_factoryfloor",
+      "community": 49,
+      "norm_label": "l3 \u2014 hmr/websocket (factoryfloor)"
+    },
+    {
+      "label": "L4 \u2014 Resili\u00eancia e edge cases",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l4_resili\u00eancia_e_edge_cases",
+      "community": 49,
+      "norm_label": "l4 \u2014 resiliencia e edge cases"
+    },
+    {
+      "label": "4. Rastreabilidade",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_4_rastreabilidade",
+      "community": 49,
+      "norm_label": "4. rastreabilidade"
+    },
+    {
+      "label": "5. Crit\u00e9rios de aceite e execu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_5_crit\u00e9rios_de_aceite_e_execu\u00e7\u00e3o",
+      "community": 49,
+      "norm_label": "5. criterios de aceite e execucao"
+    },
+    {
+      "label": "6. Riscos e lacunas",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L131",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_e2e_test_plan_6_riscos_e_lacunas",
+      "community": 49,
+      "norm_label": "6. riscos e lacunas"
+    },
+    {
+      "label": "plan.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan",
+      "community": 45,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "Implementation Plan: Proxy de Borda Local (Simula\u00e7\u00e3o Cloudflare)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_implementation_plan_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "community": 50,
+      "norm_label": "implementation plan: proxy de borda local (simulacao cloudflare)"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_summary",
+      "community": 50,
+      "norm_label": "summary"
+    },
+    {
+      "label": "Technical Context",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_technical_context",
+      "community": 50,
+      "norm_label": "technical context"
+    },
+    {
+      "label": "Constitution Check",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_constitution_check",
+      "community": 50,
+      "norm_label": "constitution check"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_project_structure",
+      "community": 50,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Documentation (this feature)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_documentation_this_feature",
+      "community": 50,
+      "norm_label": "documentation (this feature)"
+    },
+    {
+      "label": "Source Code (repository root: `New/Shareds/`)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_source_code_repository_root_new_shareds",
+      "community": 50,
+      "norm_label": "source code (repository root: `new/shareds/`)"
+    },
+    {
+      "label": "Complexity Tracking",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_plan_complexity_tracking",
+      "community": 50,
+      "norm_label": "complexity tracking"
+    },
+    {
+      "label": "quickstart.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_quickstart",
+      "community": 45,
+      "norm_label": "quickstart.md"
+    },
+    {
+      "label": "Quickstart: validar a borda local",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_quickstart_quickstart_validar_a_borda_local",
+      "community": 45,
+      "norm_label": "quickstart: validar a borda local"
+    },
+    {
+      "label": "1. Subir a borda",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_quickstart_1_subir_a_borda",
+      "community": 45,
+      "norm_label": "1. subir a borda"
+    },
+    {
+      "label": "2. Valida\u00e7\u00e3o manual",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_quickstart_2_valida\u00e7\u00e3o_manual",
+      "community": 45,
+      "norm_label": "2. validacao manual"
+    },
+    {
+      "label": "3. Su\u00edte automatizada",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_quickstart_3_su\u00edte_automatizada",
+      "community": 45,
+      "norm_label": "3. suite automatizada"
+    },
+    {
+      "label": "4. Apps reais",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_quickstart_4_apps_reais",
+      "community": 45,
+      "norm_label": "4. apps reais"
+    },
+    {
+      "label": "research.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research",
+      "community": 45,
+      "norm_label": "research.md"
+    },
+    {
+      "label": "Research: Proxy de Borda Local (Simula\u00e7\u00e3o Cloudflare)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "community": 45,
+      "norm_label": "research: proxy de borda local (simulacao cloudflare)"
+    },
+    {
+      "label": "D1 \u2014 Hosts locais por roteamento",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d1_hosts_locais_por_roteamento",
+      "community": 45,
+      "norm_label": "d1 \u2014 hosts locais por roteamento"
+    },
+    {
+      "label": "D2 \u2014 Alcan\u00e7ar as origens",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d2_alcan\u00e7ar_as_origens",
+      "community": 45,
+      "norm_label": "d2 \u2014 alcancar as origens"
+    },
+    {
+      "label": "D3 \u2014 TLS local",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d3_tls_local",
+      "community": 45,
+      "norm_label": "d3 \u2014 tls local"
+    },
+    {
+      "label": "D4 \u2014 Headers de borda",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d4_headers_de_borda",
+      "community": 45,
+      "norm_label": "d4 \u2014 headers de borda"
+    },
+    {
+      "label": "D5 \u2014 Cache de borda",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d5_cache_de_borda",
+      "community": 45,
+      "norm_label": "d5 \u2014 cache de borda"
+    },
+    {
+      "label": "D6 \u2014 Rate limit",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d6_rate_limit",
+      "community": 45,
+      "norm_label": "d6 \u2014 rate limit"
+    },
+    {
+      "label": "D7 \u2014 WAF b\u00e1sico",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d7_waf_b\u00e1sico",
+      "community": 45,
+      "norm_label": "d7 \u2014 waf basico"
+    },
+    {
+      "label": "D8 \u2014 WebSocket/HMR",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d8_websocket_hmr",
+      "community": 45,
+      "norm_label": "d8 \u2014 websocket/hmr"
+    },
+    {
+      "label": "D9 \u2014 Redirecionamento HTTP\u2192HTTPS com portas n\u00e3o padr\u00e3o",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d9_redirecionamento_http_https_com_portas_n\u00e3o_padr\u00e3o",
+      "community": 45,
+      "norm_label": "d9 \u2014 redirecionamento http\u2192https com portas nao padrao"
+    },
+    {
+      "label": "D10 \u2014 Estrat\u00e9gia de testes (TDD)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d10_estrat\u00e9gia_de_testes_tdd",
+      "community": 45,
+      "norm_label": "d10 \u2014 estrategia de testes (tdd)"
+    },
+    {
+      "label": "D11 \u2014 Dockeriza\u00e7\u00e3o do FactoryFloor",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_d11_dockeriza\u00e7\u00e3o_do_factoryfloor",
+      "community": 45,
+      "norm_label": "d11 \u2014 dockerizacao do factoryfloor"
+    },
+    {
+      "label": "Pontos em aberto (n\u00e3o bloqueantes)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_research_pontos_em_aberto_n\u00e3o_bloqueantes",
+      "community": 45,
+      "norm_label": "pontos em aberto (nao bloqueantes)"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec",
+      "community": 45,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Feature Specification: Proxy de Borda Local (Simula\u00e7\u00e3o Cloudflare)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_feature_specification_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "community": 48,
+      "norm_label": "feature specification: proxy de borda local (simulacao cloudflare)"
+    },
+    {
+      "label": "User Scenarios & Testing *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
+      "community": 48,
+      "norm_label": "user scenarios & testing *(mandatory)*"
+    },
+    {
+      "label": "User Story 1 - Acesso HTTPS local com headers de borda (Priority: P1)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1",
+      "community": 48,
+      "norm_label": "user story 1 - acesso https local com headers de borda (priority: p1)"
+    },
+    {
+      "label": "User Story 2 - Cache de borda para ativos est\u00e1ticos (Priority: P2)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
+      "community": 48,
+      "norm_label": "user story 2 - cache de borda para ativos estaticos (priority: p2)"
+    },
+    {
+      "label": "User Story 3 - Rate limiting e WAF b\u00e1sico (Priority: P3)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
+      "community": 48,
+      "norm_label": "user story 3 - rate limiting e waf basico (priority: p3)"
+    },
+    {
+      "label": "User Story 4 - Apps ERP e FactoryFloor atr\u00e1s da borda (Priority: P2)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
+      "community": 48,
+      "norm_label": "user story 4 - apps erp e factoryfloor atras da borda (priority: p2)"
+    },
+    {
+      "label": "Edge Cases",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_edge_cases",
+      "community": 48,
+      "norm_label": "edge cases"
+    },
+    {
+      "label": "Requirements *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_requirements_mandatory",
+      "community": 48,
+      "norm_label": "requirements *(mandatory)*"
+    },
+    {
+      "label": "Functional Requirements",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_functional_requirements",
+      "community": 48,
+      "norm_label": "functional requirements"
+    },
+    {
+      "label": "Key Entities",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_key_entities",
+      "community": 48,
+      "norm_label": "key entities"
+    },
+    {
+      "label": "Success Criteria *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_success_criteria_mandatory",
+      "community": 48,
+      "norm_label": "success criteria *(mandatory)*"
+    },
+    {
+      "label": "Measurable Outcomes",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_measurable_outcomes",
+      "community": 48,
+      "norm_label": "measurable outcomes"
+    },
+    {
+      "label": "Assumptions",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_spec_assumptions",
+      "community": 48,
+      "norm_label": "assumptions"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks",
+      "community": 45,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "Tasks: Proxy de Borda Local (Simula\u00e7\u00e3o Cloudflare)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "community": 47,
+      "norm_label": "tasks: proxy de borda local (simulacao cloudflare)"
+    },
+    {
+      "label": "Format: `[ID] [P?] [Story] Description`",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_format_id_p_story_description",
+      "community": 47,
+      "norm_label": "format: `[id] [p?] [story] description`"
+    },
+    {
+      "label": "0. Branch",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_0_branch",
+      "community": 47,
+      "norm_label": "0. branch"
+    },
+    {
+      "label": "Phase 1: Setup (Shared Infrastructure)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_1_setup_shared_infrastructure",
+      "community": 47,
+      "norm_label": "phase 1: setup (shared infrastructure)"
+    },
+    {
+      "label": "1.1 Commit Group \u2014 Setup",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_1_1_commit_group_setup",
+      "community": 47,
+      "norm_label": "1.1 commit group \u2014 setup"
+    },
+    {
+      "label": "Phase 2: Foundational (Blocking Prerequisites)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_2_foundational_blocking_prerequisites",
+      "community": 47,
+      "norm_label": "phase 2: foundational (blocking prerequisites)"
+    },
+    {
+      "label": "Tests (escrever primeiro, devem FALHAR)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_tests_escrever_primeiro_devem_falhar",
+      "community": 47,
+      "norm_label": "tests (escrever primeiro, devem falhar)"
+    },
+    {
+      "label": "Implementation",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_implementation",
+      "community": 47,
+      "norm_label": "implementation"
+    },
+    {
+      "label": "2.1 Commit Group \u2014 Foundational",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_2_1_commit_group_foundational",
+      "community": 47,
+      "norm_label": "2.1 commit group \u2014 foundational"
+    },
+    {
+      "label": "Phase 3: User Story 1 - Acesso HTTPS local com headers de borda (Priority: P1) \ud83c\udfaf MVP",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_3_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1_mvp",
+      "community": 47,
+      "norm_label": "phase 3: user story 1 - acesso https local com headers de borda (priority: p1) \ud83c\udfaf mvp"
+    },
+    {
+      "label": "Tests for User Story 1 (escrever primeiro, devem FALHAR) \u26a0\ufe0f",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_1_escrever_primeiro_devem_falhar",
+      "community": 47,
+      "norm_label": "tests for user story 1 (escrever primeiro, devem falhar) \u26a0\ufe0f"
+    },
+    {
+      "label": "Implementation for User Story 1",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_1",
+      "community": 47,
+      "norm_label": "implementation for user story 1"
+    },
+    {
+      "label": "3.1 Commit Group \u2014 US1",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_3_1_commit_group_us1",
+      "community": 47,
+      "norm_label": "3.1 commit group \u2014 us1"
+    },
+    {
+      "label": "Phase 4: User Story 2 - Cache de borda para ativos est\u00e1ticos (Priority: P2)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_4_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
+      "community": 47,
+      "norm_label": "phase 4: user story 2 - cache de borda para ativos estaticos (priority: p2)"
+    },
+    {
+      "label": "Tests for User Story 2 (escrever primeiro, devem FALHAR) \u26a0\ufe0f",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_2_escrever_primeiro_devem_falhar",
+      "community": 47,
+      "norm_label": "tests for user story 2 (escrever primeiro, devem falhar) \u26a0\ufe0f"
+    },
+    {
+      "label": "Implementation for User Story 2",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_2",
+      "community": 47,
+      "norm_label": "implementation for user story 2"
+    },
+    {
+      "label": "4.1 Commit Group \u2014 US2",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L124",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_4_1_commit_group_us2",
+      "community": 47,
+      "norm_label": "4.1 commit group \u2014 us2"
+    },
+    {
+      "label": "Phase 5: User Story 3 - Rate limiting e WAF b\u00e1sico (Priority: P3)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_5_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
+      "community": 47,
+      "norm_label": "phase 5: user story 3 - rate limiting e waf basico (priority: p3)"
+    },
+    {
+      "label": "Tests for User Story 3 (escrever primeiro, devem FALHAR) \u26a0\ufe0f",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L138",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_3_escrever_primeiro_devem_falhar",
+      "community": 47,
+      "norm_label": "tests for user story 3 (escrever primeiro, devem falhar) \u26a0\ufe0f"
+    },
+    {
+      "label": "Implementation for User Story 3",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_3",
+      "community": 47,
+      "norm_label": "implementation for user story 3"
+    },
+    {
+      "label": "5.1 Commit Group \u2014 US3",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_5_1_commit_group_us3",
+      "community": 47,
+      "norm_label": "5.1 commit group \u2014 us3"
+    },
+    {
+      "label": "Phase 6: User Story 4 - Apps ERP e FactoryFloor atr\u00e1s da borda (Priority: P2)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L158",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_6_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
+      "community": 47,
+      "norm_label": "phase 6: user story 4 - apps erp e factoryfloor atras da borda (priority: p2)"
+    },
+    {
+      "label": "Tests for User Story 4 (escrever primeiro, devem FALHAR) \u26a0\ufe0f",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L164",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_4_escrever_primeiro_devem_falhar",
+      "community": 47,
+      "norm_label": "tests for user story 4 (escrever primeiro, devem falhar) \u26a0\ufe0f"
+    },
+    {
+      "label": "Implementation for User Story 4",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L170",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_4",
+      "community": 47,
+      "norm_label": "implementation for user story 4"
+    },
+    {
+      "label": "6.1 Commit Group \u2014 US4",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L177",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_6_1_commit_group_us4",
+      "community": 47,
+      "norm_label": "6.1 commit group \u2014 us4"
+    },
+    {
+      "label": "Phase 7: Resili\u00eancia e Edge Cases (L4)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L183",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_7_resili\u00eancia_e_edge_cases_l4",
+      "community": 47,
+      "norm_label": "phase 7: resiliencia e edge cases (l4)"
+    },
+    {
+      "label": "7.1 Commit Group \u2014 Resili\u00eancia",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L192",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_7_1_commit_group_resili\u00eancia",
+      "community": 47,
+      "norm_label": "7.1 commit group \u2014 resiliencia"
+    },
+    {
+      "label": "Phase 8: Execute test (unit/integration)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L198",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_8_execute_test_unit_integration",
+      "community": 47,
+      "norm_label": "phase 8: execute test (unit/integration)"
+    },
+    {
+      "label": "Phase 9: Pre-PR Checklist",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L205",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_9_pre_pr_checklist",
+      "community": 47,
+      "norm_label": "phase 9: pre-pr checklist"
+    },
+    {
+      "label": "Phase 10: Create PR",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L214",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_phase_10_create_pr",
+      "community": 47,
+      "norm_label": "phase 10: create pr"
+    },
+    {
+      "label": "Dependencies & Execution Order",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L222",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_dependencies_execution_order",
+      "community": 47,
+      "norm_label": "dependencies & execution order"
+    },
+    {
+      "label": "Parallel Opportunities",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L229",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_parallel_opportunities",
+      "community": 47,
+      "norm_label": "parallel opportunities"
+    },
+    {
+      "label": "Parallel Example: User Story 3",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L237",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_parallel_example_user_story_3",
+      "community": 47,
+      "norm_label": "parallel example: user story 3"
+    },
+    {
+      "label": "Implementation Strategy",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L248",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_implementation_strategy",
+      "community": 47,
+      "norm_label": "implementation strategy"
+    },
+    {
+      "label": "MVP First (US1)",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L250",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_mvp_first_us1",
+      "community": 47,
+      "norm_label": "mvp first (us1)"
+    },
+    {
+      "label": "Incremental Delivery",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L254",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_incremental_delivery",
+      "community": 47,
+      "norm_label": "incremental delivery"
+    },
+    {
+      "label": "Cross-repo",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L258",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_cross_repo",
+      "community": 47,
+      "norm_label": "cross-repo"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L264",
+      "_origin": "ast",
+      "id": "specs_002_cloudflare_edge_proxy_tasks_notes",
+      "community": 47,
+      "norm_label": "notes"
     }
   ],
   "links": [
@@ -10341,7 +11481,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L19",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "specify_memory_constitution",
       "target": "specify_memory_constitution_genova_shareds_new_shareds_constitution",
@@ -10351,7 +11491,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L21",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "specify_memory_constitution_genova_shareds_new_shareds_constitution",
       "target": "specify_memory_constitution_core_principles",
@@ -10361,27 +11501,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "specify_memory_constitution_genova_shareds_new_shareds_constitution",
-      "target": "specify_memory_constitution_estrutura_de_pacotes_tecnologias_e_padr\u00f5es_de_exporta\u00e7\u00e3o",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".specify/memory/constitution.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "specify_memory_constitution_genova_shareds_new_shareds_constitution",
-      "target": "specify_memory_constitution_fluxo_de_desenvolvimento_e_port\u00f5es_de_qualidade",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".specify/memory/constitution.md",
-      "source_location": "L77",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "specify_memory_constitution_genova_shareds_new_shareds_constitution",
       "target": "specify_memory_constitution_governance",
@@ -10391,17 +11511,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L23",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "specify_memory_constitution_core_principles",
-      "target": "specify_memory_constitution_i_arquitetura_h\u00edbrida_de_pacotes_compartilhados",
+      "target": "specify_memory_constitution_i_arquitetura_h\u00edbrida_de_pacotes_compartilhados_e_ts_compartilhado",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L32",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "specify_memory_constitution_core_principles",
       "target": "specify_memory_constitution_ii_design_system_\u00fanico_genova_cloud_console",
@@ -10411,7 +11531,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L41",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "specify_memory_constitution_core_principles",
       "target": "specify_memory_constitution_iii_compatibilidade_cross_framework_e_ssr_safety",
@@ -10421,20 +11541,30 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L49",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "specify_memory_constitution_core_principles",
-      "target": "specify_memory_constitution_iv_test_first_tdd_e_contratos_verific\u00e1veis",
+      "target": "specify_memory_constitution_iv_test_first_tdd_clean_code_e_limite_de_100_linhas",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".specify/memory/constitution.md",
-      "source_location": "L57",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "specify_memory_constitution_core_principles",
-      "target": "specify_memory_constitution_v_governan\u00e7a_spec_kit_simplicidade_e_seguran\u00e7a",
+      "target": "specify_memory_constitution_v_governan\u00e7a_spec_kit_seguran\u00e7a_e_estrat\u00e9gia_de_idempot\u00eancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".specify/memory/constitution.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "specify_memory_constitution_core_principles",
+      "target": "specify_memory_constitution_vi_paridade_local_com_cloudflare_via_reverse_proxy_nginx_em_docker",
       "confidence_score": 1.0
     },
     {
@@ -12136,8 +13266,1218 @@
       "source": "specs_001_shared_login_foundation_tasks_implementation_strategy",
       "target": "specs_001_shared_login_foundation_tasks_mvp_first_user_story_1_user_story_2",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_checklists_requirements",
+      "target": "specs_002_cloudflare_edge_proxy_checklists_requirements_specification_quality_checklist_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_checklists_requirements",
+      "target": "specs_002_cloudflare_edge_proxy_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_checklists_requirements_specification_quality_checklist_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_checklists_requirements_content_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_checklists_requirements_specification_quality_checklist_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_checklists_requirements_feature_readiness",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_checklists_requirements_specification_quality_checklist_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_checklists_requirements_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/checklists/requirements.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_checklists_requirements_specification_quality_checklist_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_checklists_requirements_requirement_completeness",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_contracts_edge_contract",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_data_model",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_quickstart",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_endpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_headers_de_resposta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_headers_enviados_\u00e0_origem_sobrescrevem_valores_do_cliente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_redirecionamento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_status_gerados_pela_borda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/contracts/edge-contract.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_contrato_da_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_contracts_edge_contract_vari\u00e1veis_de_ambiente_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_data_model",
+      "target": "specs_002_cloudflare_edge_proxy_data_model_data_model_proxy_de_borda_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_quickstart",
+      "target": "specs_002_cloudflare_edge_proxy_data_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_data_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_data_model_data_model_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_data_model_certificado_local_localcertificate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_data_model_data_model_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_data_model_origem_origin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_data_model_data_model_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_data_model_regra_de_borda_edgerule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/data-model.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_data_model_data_model_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_data_model_vari\u00e1veis_de_configura\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan",
+      "target": "specs_002_cloudflare_edge_proxy_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan",
+      "target": "specs_002_cloudflare_edge_proxy_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_1_estrat\u00e9gia_em_camadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_2_pr\u00e9_requisitos_e_dados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_3_casos_de_teste",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_4_rastreabilidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_5_crit\u00e9rios_de_aceite_e_execu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_plano_de_testes_e2e_proxy_de_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_6_riscos_e_lacunas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_3_casos_de_teste",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l0_smoke",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_3_casos_de_teste",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l1_contrato_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_3_casos_de_teste",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l2_e2e_browser_chromium_desktop_mobile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_3_casos_de_teste",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l3_hmr_websocket_factoryfloor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/e2e-test-plan.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_e2e_test_plan_3_casos_de_teste",
+      "target": "specs_002_cloudflare_edge_proxy_e2e_test_plan_l4_resili\u00eancia_e_edge_cases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan",
+      "target": "specs_002_cloudflare_edge_proxy_plan_implementation_plan_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan",
+      "target": "specs_002_cloudflare_edge_proxy_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan_implementation_plan_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_plan_complexity_tracking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan_implementation_plan_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_plan_constitution_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan_implementation_plan_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_plan_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan_implementation_plan_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_plan_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan_implementation_plan_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_plan_technical_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan_project_structure",
+      "target": "specs_002_cloudflare_edge_proxy_plan_documentation_this_feature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/plan.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_plan_project_structure",
+      "target": "specs_002_cloudflare_edge_proxy_plan_source_code_repository_root_new_shareds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_quickstart",
+      "target": "specs_002_cloudflare_edge_proxy_quickstart_quickstart_validar_a_borda_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_quickstart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_quickstart_quickstart_validar_a_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_quickstart_1_subir_a_borda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_quickstart_quickstart_validar_a_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_quickstart_2_valida\u00e7\u00e3o_manual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_quickstart_quickstart_validar_a_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_quickstart_3_su\u00edte_automatizada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/quickstart.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_quickstart_quickstart_validar_a_borda_local",
+      "target": "specs_002_cloudflare_edge_proxy_quickstart_4_apps_reais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research",
+      "target": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_research",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d10_estrat\u00e9gia_de_testes_tdd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d11_dockeriza\u00e7\u00e3o_do_factoryfloor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d1_hosts_locais_por_roteamento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d2_alcan\u00e7ar_as_origens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d3_tls_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d4_headers_de_borda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d5_cache_de_borda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d6_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d7_waf_b\u00e1sico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d8_websocket_hmr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_d9_redirecionamento_http_https_com_portas_n\u00e3o_padr\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/research.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_research_research_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_research_pontos_em_aberto_n\u00e3o_bloqueantes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec",
+      "target": "specs_002_cloudflare_edge_proxy_spec_feature_specification_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_feature_specification_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_spec_assumptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_feature_specification_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_spec_requirements_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_feature_specification_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_spec_success_criteria_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_feature_specification_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_edge_cases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_requirements_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_functional_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_requirements_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_key_entities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/spec.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_spec_success_criteria_mandatory",
+      "target": "specs_002_cloudflare_edge_proxy_spec_measurable_outcomes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_0_branch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_dependencies_execution_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_format_id_p_story_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L248",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_implementation_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L264",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_10_create_pr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_1_setup_shared_infrastructure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_2_foundational_blocking_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_3_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_4_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_5_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_6_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_7_resili\u00eancia_e_edge_cases_l4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_8_execute_test_unit_integration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_tasks_proxy_de_borda_local_simula\u00e7\u00e3o_cloudflare",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_phase_9_pre_pr_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_1_setup_shared_infrastructure",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_1_1_commit_group_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_2_foundational_blocking_prerequisites",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_2_1_commit_group_foundational",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_2_foundational_blocking_prerequisites",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_implementation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_2_foundational_blocking_prerequisites",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_tests_escrever_primeiro_devem_falhar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_3_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1_mvp",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_3_1_commit_group_us1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_3_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1_mvp",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_3_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1_mvp",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_1_escrever_primeiro_devem_falhar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_4_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_4_1_commit_group_us2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_4_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_4_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_2_escrever_primeiro_devem_falhar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_5_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_5_1_commit_group_us3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_5_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_5_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_3_escrever_primeiro_devem_falhar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_6_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_6_1_commit_group_us4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_6_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_implementation_for_user_story_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_6_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_tests_for_user_story_4_escrever_primeiro_devem_falhar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_phase_7_resili\u00eancia_e_edge_cases_l4",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_7_1_commit_group_resili\u00eancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_dependencies_execution_order",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_parallel_example_user_story_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_dependencies_execution_order",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_parallel_opportunities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_implementation_strategy",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_cross_repo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L254",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_implementation_strategy",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_incremental_delivery",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/002-cloudflare-edge-proxy/tasks.md",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "specs_002_cloudflare_edge_proxy_tasks_implementation_strategy",
+      "target": "specs_002_cloudflare_edge_proxy_tasks_mvp_first_us1",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "346f7fefb5e28ea67c83af8ec474c214667bc499"
+  "built_at_commit": "da0ecd1c321631a43c2ed6733956b6c0178903c4"
 }

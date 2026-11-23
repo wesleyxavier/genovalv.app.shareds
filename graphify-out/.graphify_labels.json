@@ -45,5 +45,9 @@
   "43": "setup-plan.ps1",
   "44": "setup-tasks.ps1",
   "45": "GenovaInputElement",
-  "46": "vite.config.ts"
+  "46": "vite.config.ts",
+  "47": "Tasks: Proxy de Borda Local (Simulação Cloudflare)",
+  "48": "User Scenarios & Testing *(mandatory)*",
+  "49": "Plano de Testes E2E: Proxy de Borda Local",
+  "50": "Implementation Plan: Proxy de Borda Local (Simulação Cloudflare)"
 }
