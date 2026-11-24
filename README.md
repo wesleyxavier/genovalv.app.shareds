@@ -4,7 +4,8 @@ Camada compartilhada multi-framework para os frontends **Admin** (`AnalogJS`), *
 
 ## Pacotes
 
-- **`@genovalv/core`** (`packages/core/`): TypeScript puro (SSR-safe, zero dependências de DOM/framework) com tipos de autenticação, normalização/validação de e-mail, senha e MFA (6 dígitos) e i18n padrão (`pt-BR`, `en-US`, `es-ES` com fallback para `pt-BR`).
+- **`@genovalv/core`** (`packages/core/`): TypeScript puro (SSR-safe, zero dependências de DOM/Node/framework) com contratos puros de sessão/auth/repositórios base, normalização/validação (`email`, `password`, `mfaCode`, CPF/CNPJ), idempotência, `onExecutePostLogin` e i18n padrão (`pt-BR`, `en-US`, `es-ES`).
+- **`@genovalv/server`** (`packages/server/`): Pacote BFF/Node compartilhado com `Auth0Gateway` e helpers HTTP, `JoseSessionTokenGateway`, `NodeHashService`, cookies `HttpOnly`, guards H3 (`requireUserSession`, `requireIdempotencyKey`), `loadEnvFile`, casos de uso de autenticação (`ResolvePostLoginUseCase`, `PasswordLoginUseCase`, `OAuthCallbackUseCase`, `BackchannelLogoutUseCase`, `BootstrapUseCase`) e controllers H3 base/auth.
 - **`@genovalv/tokens`** (`packages/tokens/`): Variáveis CSS (`tokens.css`), mapeamento `@theme` para Tailwind CSS v4 (`tailwind.css`) e classes base de inputs nativos alinhadas ao `DESIGN.md` (*Genova Cloud Console*).
 - **`@genovalv/elements`** (`packages/elements/`): Web Components em Lit 3 com registro SSR-safe e eventos `CustomEvent` (`bubbles: true, composed: true`): `<genova-auth-shell>`, `<genova-header>`, `<genova-footer>`, `<genova-auth-card>`, `<genova-action-button>`, `<genova-alert-banner>`, `<genova-mfa-selector>`, `<genova-locale-selector>`, `<genova-input>` e `<genova-checkbox>` (Form-Associated via `ElementInternals`).
 - **`@genovalv/playground`** (`playground/`): Sandbox Vite local para inspeção visual e alvo dos testes E2E com Playwright.

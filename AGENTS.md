@@ -26,16 +26,17 @@ Executar a partir de `New/Shareds/`:
 
 Monorepo `npm workspaces` (`packages/*` e `playground`):
 
-- **`@genovalv/core` (`packages/core/`)**: TypeScript puro, zero dependências de DOM/browser/framework. Contém tipos, `DEFAULT_LOGIN_CONTEXT`, normalização/validação (`email`, `password`, `mfaCode`), e i18n (`pt-BR`, `en-US`, `es-ES` com fallback para `pt-BR`).
+- **`@genovalv/core` (`packages/core/`)**: TypeScript puro, zero dependências de DOM/browser/Node/framework. Contém tipos, contratos de auth/repositórios base, `DEFAULT_LOGIN_CONTEXT`, normalização/validação (`email`, `password`, `mfaCode`), `onExecutePostLogin` e i18n (`pt-BR`, `en-US`, `es-ES` com fallback para `pt-BR`).
 - **`@genovalv/tokens` (`packages/tokens/`)**: CSS Custom Properties (`src/tokens.css`), mapeamento `@theme` Tailwind v4 (`src/tailwind.css`) e classes utilitárias para `<input>` / `<label>` / checkbox nativos alinhados ao `DESIGN.md`.
 - **`@genovalv/elements` (`packages/elements/`)**: Web Components em **Lit 3** (`<genova-auth-shell>`, `<genova-header>`, `<genova-footer>`, `<genova-auth-card>`, `<genova-action-button>`, `<genova-alert-banner>`, `<genova-mfa-selector>`, `<genova-locale-selector>`, `<genova-input>`, `<genova-checkbox>`).
+- **`@genovalv/server` (`packages/server/`)**: Camada BFF/Node compartilhada (Auth0 Gateway/HTTP helpers, `JoseSessionTokenGateway`, `NodeHashService`, cookies `HttpOnly`, guards H3, `loadEnvFile`, casos de uso de auth e base/auth controllers H3). **Nunca** importar `@genovalv/server` em código client/browser nem incluir secrets hardcoded ou regras/migrations específicas de um único app (`Admin`, `ERP`, `FactoryFloor`).
 - **`@genovalv/playground` (`playground/`)**: Sandbox Vite e alvo dos testes E2E do Playwright. Na tela inicial (`/`), o MFA fica oculto por padrão (`mfaMode = 'hidden'`); use `?mfaMode=required` ou `?mfaMode=optional` para testá-lo.
 
 ## Conventions
 
-- **TypeScript:** `strict: true`, `ES2022`, named exports nos barrels (`src/index.ts`). Proibido `any`.
+- **TypeScript:** `strict: true`, `ES2022`, named exports nos barrels (`src/index.ts`), `<= 100` linhas/arquivo. Proibido `any`.
 - **Web Components de Formulário:** `<genova-input>` e `<genova-checkbox>` usam `static formAssociated = true` (`ElementInternals` com guarda segura para Node/jsdom/happy-dom) e emitem `genova-input` / `genova-change`. `<genova-locale-selector>` emite `genova-locale-change`.
-- **Empacotamento local:** `@genovalv/core` e `@genovalv/elements` compilam para bundle ESM único (`dist/index.js` + `.d.ts`) via Vite, podendo ser empacotados com `npm pack` para consumo em `.vendor/*.tgz` nos apps.
+- **Empacotamento local:** `@genovalv/core`, `@genovalv/elements` e `@genovalv/server` compilam para bundle ESM único (`dist/index.js` + `.d.ts`) via Vite, podendo ser empacotados com `npm pack` para consumo em `.vendor/*.tgz` nos apps.
 - **SSR-Safety:** todo registro de custom element deve passar por `registerCustomElement()` (`typeof window !== 'undefined' && typeof customElements !== 'undefined'`). Imports de `@genovalv/core` e `@genovalv/elements` não podem falhar em Node puro.
 - **Web Components (Lit 3):**
   - Eventos customizados devem usar `{ bubbles: true, composed: true }` para atravessar Shadow DOM.
@@ -49,6 +50,7 @@ Monorepo `npm workspaces` (`packages/*` e `playground`):
 - **TDD obrigatório:** escreva/atualize testes antes da implementação.
 - **`@genovalv/core`:** `Vitest` em ambiente `node` com threshold estrito de **100%** (`lines`, `functions`, `branches`, `statements`).
 - **`@genovalv/elements`:** `Vitest` com `happy-dom` para Shadow DOM/eventos + teste SSR em Node (`@vitest-environment node`).
+- **`@genovalv/server`:** `Vitest` em ambiente `node` cobrindo gateways Auth0/Jose/NodeHash, cookies, guards H3, casos de uso e controllers H3.
 - **`playground/`:** testes E2E Playwright cobrindo `chromium-desktop` e `chromium-mobile` (incluindo overflow horizontal, navegação por teclado, i18n ao vivo e estados de erro/sucesso).
 
 ## Do NOT
@@ -56,5 +58,5 @@ Monorepo `npm workspaces` (`packages/*` e `playground`):
 - Não adicione dependências de React, Vue, Angular, Next.js, Nuxt ou AnalogJS dentro de `New/Shareds/`.
 - Não acesse `window`, `document` ou `customElements` no escopo top-level de módulos.
 - Não duplique regras de validação, sanitização ou dicionários i18n fora de `@genovalv/core`.
-- Não coloque chamadas HTTP, tokens Auth0, secrets ou regras de backend neste repositório.
+- Não coloque chamadas HTTP, tokens Auth0 ou módulos Node/H3 dentro de `@genovalv/core`, `@genovalv/elements` ou `@genovalv/tokens` (use `@genovalv/server` apenas para lógica BFF compartilhada, sem secrets hardcoded e sem schema/regras exclusivas de um app).
 - Não edite arquivos gerados em `dist/`, `test-results/` ou `playwright-report/`.

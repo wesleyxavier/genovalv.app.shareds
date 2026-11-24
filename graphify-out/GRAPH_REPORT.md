@@ -1,16 +1,16 @@
-# Graph Report - Shareds  (2026-11-23)
+# Graph Report - 003-shared-auth-server  (2026-11-24)
 
 ## Corpus Check
-- 92 files · ~53,668 words
+- 224 files · ~62,309 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 669 nodes · 763 edges · 51 communities
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
+- 1047 nodes · 1572 edges · 77 communities (76 shown, 1 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `da0ecd1c`
+- Built from commit: `92995a85`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -56,39 +56,61 @@
 - User Scenarios & Testing *(mandatory)*
 - Plano de Testes E2E: Proxy de Borda Local
 - Implementation Plan: Proxy de Borda Local (Simulação Cloudflare)
+- auth-contracts.ts
+- identity.ts
+- Contrato da Borda Local
+- audit-log.ts
+- Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)
+- Data Model: Proxy de Borda Local
+- Quickstart: validar a borda local
+- package.json
+- Auth0Gateway
+- index.ts
+- base-auth.controller.ts
+- Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`
+- BaseController
+- auth-controllers.test.ts
+- Tasks: Shared Pure Auth Contracts & `@genovalv/server`
+- compilerOptions
+- BackchannelLogoutUseCase
+- base-user.controller.ts
+- JoseSessionTokenGateway
+- NodeHashService
+- audit-log-input.dto.ts
+- User Scenarios & Testing *(mandatory)*
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
 2. `Tasks: Proxy de Borda Local (Simulação Cloudflare)` - 16 edges
-3. `registerGenovaElements()` - 14 edges
-4. `registerCustomElement()` - 14 edges
-5. `Tasks: Shared Login Foundation & Base Components` - 14 edges
-6. `Tasks: [FEATURE NAME]` - 13 edges
-7. `Research: Proxy de Borda Local (Simulação Cloudflare)` - 13 edges
-8. `createTranslator()` - 10 edges
-9. `GenovaInputElement` - 10 edges
-10. `validateLoginSubmission()` - 8 edges
+3. `SupportedLocale` - 14 edges
+4. `CompanyBinding` - 14 edges
+5. `registerGenovaElements()` - 14 edges
+6. `registerCustomElement()` - 14 edges
+7. `BaseController` - 14 edges
+8. `Tasks: Shared Login Foundation & Base Components` - 14 edges
+9. `Auth0Gateway` - 13 edges
+10. `Tasks: [FEATURE NAME]` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `Auth0TokenClaims` --references--> `CompanyBinding`  [EXTRACTED]
+  packages/core/src/domain/dtos/auth0-token-claims.dto.ts → packages/core/src/domain/entities/company-binding.entity.ts
+- `CredentialsSubmission` --references--> `SupportedLocale`  [EXTRACTED]
+  packages/core/src/domain/entities/credentials-submission.entity.ts → packages/core/src/domain/dtos/supported-locale.dto.ts
+- `RememberedAuthSession` --inherits--> `AuthSession`  [EXTRACTED]
+  packages/core/src/domain/entities/remembered-auth-session.entity.ts → packages/core/src/domain/entities/auth-session.entity.ts
+- `UserCookieSession` --references--> `CompanyBinding`  [EXTRACTED]
+  packages/core/src/domain/server-auth/user-cookie-session.ts → packages/core/src/domain/entities/company-binding.entity.ts
 - `registerGenovaElements()` --indirect_call--> `GenovaActionButtonElement`  [INFERRED]
   packages/elements/src/index.ts → packages/elements/src/components/genova-action-button.ts
-- `registerGenovaElements()` --indirect_call--> `GenovaAlertBannerElement`  [INFERRED]
-  packages/elements/src/index.ts → packages/elements/src/components/genova-alert-banner.ts
-- `registerGenovaElements()` --indirect_call--> `GenovaAuthCardElement`  [INFERRED]
-  packages/elements/src/index.ts → packages/elements/src/components/genova-auth-card.ts
-- `registerGenovaElements()` --indirect_call--> `GenovaAuthShellElement`  [INFERRED]
-  packages/elements/src/index.ts → packages/elements/src/components/genova-auth-shell.ts
-- `registerGenovaElements()` --indirect_call--> `GenovaCheckboxElement`  [INFERRED]
-  packages/elements/src/index.ts → packages/elements/src/components/genova-checkbox.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (51 total, 0 thin omitted)
+## Communities (77 total, 1 thin omitted)
 
 ### Community 0 - "types.ts"
-Cohesion: 0.14
-Nodes (26): DEFAULT_LOGIN_CONTEXT, formatMfaCodeDisplay(), getMfaGuidance(), MFA_GUIDANCE_MAP, sanitizeMfaCode(), validateMfaCode(), LoginContextConfiguration, LoginDictionary (+18 more)
+Cohesion: 0.11
+Nodes (25): DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, LoginContextConfiguration, LoginDictionary, LoginFieldName, LoginLink, LoginRawInput (+17 more)
 
 ### Community 1 - "index.ts"
 Cohesion: 0.08
@@ -231,16 +253,16 @@ Cohesion: 0.40
 Nodes (4): [Category 1], [Category 2], [CHECKLIST TYPE] Checklist: [FEATURE NAME], Notes
 
 ### Community 45 - "GenovaInputElement"
-Cohesion: 0.05
-Nodes (35): Content Quality, Feature Readiness, Notes, Requirement Completeness, Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare), Contrato da Borda Local, Endpoints, Headers de resposta (+27 more)
+Cohesion: 0.15
+Nodes (13): D10 — Estratégia de testes (TDD), D11 — Dockerização do FactoryFloor, D1 — Hosts locais por roteamento, D2 — Alcançar as origens, D3 — TLS local, D4 — Headers de borda, D5 — Cache de borda, D6 — Rate limit (+5 more)
 
 ### Community 47 - "Tasks: Proxy de Borda Local (Simulação Cloudflare)"
 Cohesion: 0.05
 Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundational, 3.1 Commit Group — US1, 4.1 Commit Group — US2, 5.1 Commit Group — US3, 6.1 Commit Group — US4, 7.1 Commit Group — Resiliência (+30 more)
 
 ### Community 48 - "User Scenarios & Testing *(mandatory)*"
-Cohesion: 0.15
-Nodes (13): Assumptions, Edge Cases, Feature Specification: Proxy de Borda Local (Simulação Cloudflare), Functional Requirements, Key Entities, Measurable Outcomes, Requirements *(mandatory)*, Success Criteria *(mandatory)* (+5 more)
+Cohesion: 0.29
+Nodes (7): Assumptions, Feature Specification: Proxy de Borda Local (Simulação Cloudflare), Functional Requirements, Key Entities, Measurable Outcomes, Requirements *(mandatory)*, Success Criteria *(mandatory)*
 
 ### Community 49 - "Plano de Testes E2E: Proxy de Borda Local"
 Cohesion: 0.17
@@ -250,24 +272,109 @@ Nodes (12): 1. Estratégia em camadas, 2. Pré-requisitos e dados, 3. Casos de t
 Cohesion: 0.25
 Nodes (8): Complexity Tracking, Constitution Check, Documentation (this feature), Implementation Plan: Proxy de Borda Local (Simulação Cloudflare), Project Structure, Source Code (repository root: `New/Shareds/`), Summary, Technical Context
 
+### Community 51 - "auth-contracts.ts"
+Cohesion: 0.09
+Nodes (20): executeIdempotent(), onExecutePostLogin(), Auth0TokenClaims, BindingValidationResult, BranchType, EmailCpfCompanyEntry, IdempotencyRecord, CompanyBinding (+12 more)
+
+### Community 52 - "identity.ts"
+Cohesion: 0.06
+Nodes (27): BaseLoginAuthUseCase, BaseLogoutAuthUseCase, BaseRefreshSessionUseCase, AuthResult, AuthenticatedMeResponse, HttpAuthRoutes, HttpFetch, HttpRequestInit (+19 more)
+
+### Community 54 - "Contrato da Borda Local"
+Cohesion: 0.29
+Nodes (7): Contrato da Borda Local, Endpoints, Headers de resposta, Headers enviados à origem (sobrescrevem valores do cliente), Redirecionamento, Status gerados pela borda, Variáveis de ambiente (`.env`)
+
+### Community 55 - "audit-log.ts"
+Cohesion: 0.07
+Nodes (12): DocumentType, UserModel, Auth0JwtClaims, Auth0TokenExchangeResult, IAuth0Gateway, IBaseAuthUserRepository, IHashService, ISessionTokenGateway (+4 more)
+
+### Community 56 - "Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)"
+Cohesion: 0.33
+Nodes (5): Content Quality, Feature Readiness, Notes, Requirement Completeness, Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)
+
+### Community 57 - "Data Model: Proxy de Borda Local"
+Cohesion: 0.40
+Nodes (5): Certificado local (LocalCertificate), Data Model: Proxy de Borda Local, Origem (Origin), Regra de borda (EdgeRule), Variáveis de configuração
+
+### Community 58 - "Quickstart: validar a borda local"
+Cohesion: 0.40
+Nodes (5): 1. Subir a borda, 2. Validação manual, 3. Suíte automatizada, 4. Apps reais, Quickstart: validar a borda local
+
+### Community 59 - "package.json"
+Cohesion: 0.08
+Nodes (25): dependencies, dotenv, h3, jose, devDependencies, @genovalv/core, @types/node, typescript (+17 more)
+
+### Community 60 - "Auth0Gateway"
+Cohesion: 0.13
+Nodes (6): AUTH0_PASSWORD_REALM_GRANT, Auth0Gateway, exchangeAuth0Token(), postAuth0Json(), resolveAuth0BaseUrl(), Auth0GatewayConfig
+
+### Community 61 - "index.ts"
+Cohesion: 0.22
+Nodes (4): BootstrapUseCase, OAuthCallbackUseCase, ResolvePostLoginUseCase, SHARED_AUTH_AUDIT_ACTIONS
+
+### Community 62 - "base-auth.controller.ts"
+Cohesion: 0.21
+Nodes (3): buildSessionCookieHeader(), clearSessionCookieHeader(), JoseSessionTokenGateway
+
+### Community 63 - "Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`"
+Cohesion: 0.14
+Nodes (12): Constitution Check, Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`, Project Structure, Summary, Technical Context, Edge Cases, Feature Specification: Shared Pure Auth Contracts (`@genovalv/core`) & Shared BFF Auth Server (`@genovalv/server`), Requirements *(mandatory)* (+4 more)
+
+### Community 64 - "BaseController"
+Cohesion: 0.23
+Nodes (3): LoginController, MeController, BaseController
+
+### Community 65 - "auth-controllers.test.ts"
+Cohesion: 0.21
+Nodes (4): PasswordLoginUseCase, CallbackController, PasswordLoginController, BaseAuthController
+
+### Community 66 - "Tasks: Shared Pure Auth Contracts & `@genovalv/server`"
+Cohesion: 0.20
+Nodes (9): 0. Branch, 1.1 Commit Group 1, 1. Governance & Pure Contracts (`@genovalv/core`), 2.1 Commit Group 2, 2. Shared Server Package (`@genovalv/server`), 3. Verification & Tarball Packaging, 4. Pre-PR Checklist, 5. Create PR (+1 more)
+
+### Community 67 - "compilerOptions"
+Cohesion: 0.25
+Nodes (7): compilerOptions, lib, outDir, rootDir, types, extends, include
+
+### Community 68 - "BackchannelLogoutUseCase"
+Cohesion: 0.19
+Nodes (3): BackchannelLogoutUseCase, BackchannelLogoutController, LogoutController
+
+### Community 70 - "base-user.controller.ts"
+Cohesion: 0.24
+Nodes (4): requireIdempotencyKey(), requireUserSession(), BaseUserController, ProtectedTestController
+
+### Community 71 - "JoseSessionTokenGateway"
+Cohesion: 0.23
+Nodes (8): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, AdminProfileRole, BaseSeedConfig, BaseSeedProfile, ClientProfileRole, ProfileRole, ProfileScope
+
+### Community 75 - "audit-log-input.dto.ts"
+Cohesion: 0.29
+Nodes (5): AuditLogEntry, AuditLogInput, AuditLogLevel, AuditLogger, IAuditLogReader
+
+### Community 76 - "User Scenarios & Testing *(mandatory)*"
+Cohesion: 0.33
+Nodes (6): Edge Cases, User Scenarios & Testing *(mandatory)*, User Story 1 - Acesso HTTPS local com headers de borda (Priority: P1), User Story 2 - Cache de borda para ativos estáticos (Priority: P2), User Story 3 - Rate limiting e WAF básico (Priority: P3), User Story 4 - Apps ERP e FactoryFloor atrás da borda (Priority: P2)
+
 ## Knowledge Gaps
-- **409 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+404 more)
+- **455 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+450 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Tasks: Proxy de Borda Local (Simulação Cloudflare)` connect `Tasks: Proxy de Borda Local (Simulação Cloudflare)` to `GenovaInputElement`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **Why does `Feature Specification: Proxy de Borda Local (Simulação Cloudflare)` connect `User Scenarios & Testing *(mandatory)*` to `GenovaInputElement`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `UserCookieSession` connect `audit-log.ts` to `auth-contracts.ts`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+- **Why does `requireUserSession()` connect `base-user.controller.ts` to `base-auth.controller.ts`, `audit-log.ts`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **Why does `CompanyBinding` connect `auth-contracts.ts` to `audit-log.ts`?**
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `registerGenovaElements()` (e.g. with `GenovaActionButtonElement` and `GenovaAlertBannerElement`) actually correct?**
   _`registerGenovaElements()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _409 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _455 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.13963963963963963 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1063973063973064 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.07826694619147449 - nodes in this community are weakly interconnected._
-- **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
-  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._

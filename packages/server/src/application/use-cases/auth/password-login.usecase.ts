@@ -1,0 +1,46 @@
+import type {
+  AuditLogger,
+  IAuth0Gateway,
+  ISessionTokenGateway,
+  PasswordLoginInput,
+  PasswordLoginOutcome,
+} from '@genovalv/core';
+import {
+  DEFAULT_COOKIE_TTL_SECONDS,
+  REMEMBER_COOKIE_TTL_SECONDS,
+} from '../../../domain/constants/auth-cookie.constants';
+import { SHARED_AUTH_AUDIT_ACTIONS } from '../../../domain/constants/shared-auth-audit-actions';
+import type { ResolvePostLoginUseCase } from './resolve-post-login.usecase';
+
+export class PasswordLoginUseCase {
+  constructor(
+    private readonly auth0: IAuth0Gateway,
+    private readonly resolvePostLogin: ResolvePostLoginUseCase,
+    private readonly sessionTokens: ISessionTokenGateway,
+    private readonly auditLogger: AuditLogger,
+  ) {}
+
+  async execute(input: PasswordLoginInput): Promise<PasswordLoginOutcome> {
+    if (!input.email || !input.password) {
+      return { ok: false, statusCode: 400, message: 'Missing credentials' };
+    }
+    const email = input.email.trim().toLowerCase();
+    const tokenRes = await this.auth0.loginWithPassword(email, input.password);
+    if (!tokenRes.ok) {
+      await this.auditLogger.log({ level: 'warn', action: SHARED_AUTH_AUDIT_ACTIONS.passwordLoginFailed, actorEmail: email, errorMessage: `HTTP ${tokenRes.status}: ${tokenRes.errorBody}`.slice(0, 500) });
+      return { ok: false, statusCode: 401, message: 'Invalid credentials' };
+    }
+
+    const claims = await this.auth0.verifyJwt(tokenRes.idToken);
+    const resolved = await this.resolvePostLogin.execute(String(claims.sub || ''), String(claims.email || email), Boolean(claims.email_verified));
+    if (!resolved.ok) {
+      await this.auditLogger.log({ level: 'warn', action: SHARED_AUTH_AUDIT_ACTIONS.passwordLoginDenied, actorEmail: email, errorMessage: resolved.reason });
+      return { ok: false, statusCode: 403, message: resolved.reason };
+    }
+
+    const ttlSeconds = input.rememberDevice ? REMEMBER_COOKIE_TTL_SECONDS : DEFAULT_COOKIE_TTL_SECONDS;
+    const sessionJwt = await this.sessionTokens.sign(resolved.session, ttlSeconds);
+    await this.auditLogger.log({ level: 'info', action: SHARED_AUTH_AUDIT_ACTIONS.passwordLoginSuccess, actorEmail: resolved.session.email, actorUserId: resolved.session.userId });
+    return { ok: true, sessionJwt, ttlSeconds, rememberDevice: Boolean(input.rememberDevice), session: resolved.session };
+  }
+}
