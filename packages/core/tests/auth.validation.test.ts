@@ -4,7 +4,7 @@ import {
   validateEmail,
   validateLoginSubmission,
   validatePassword,
-} from '../src/auth/validation';
+} from '../src';
 
 describe('auth validation (US2)', () => {
   it('normalizes email by trimming whitespace and lowercasing', () => {

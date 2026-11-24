@@ -14,7 +14,8 @@ Sync Impact Report
 
 Todo código compartilhado em `New/Shareds/` entre os frontends `Admin` (AnalogJS/Angular), `ERP` (Next.js/React) e `FactoryFloor` (Nuxt.js/Vue) DEVE ser organizado em pacotes independentes, coesos e sem dependências cruzadas indevidas:
 
-- **`@genovalv/core` (TypeScript puro):** DEVE concentrar models/tipos compartilhados (auth, perfis `Admin`/`Cliente`, vínculo `admin_clientes`, CPF/CNPJ, idempotência) e funções puras agnósticas de framework (validações, máscaras, formatadores, i18n e aritmética monetária com `decimal`). NÃO DEVE importar Angular, React, Vue, Lit ou APIs de DOM.
+- **`@genovalv/core` / Camadas TS Compartilhadas (TypeScript puro, 100% em inglês):** DEVE concentrar entidades/models, contratos puros de repositório/gateway/sessão e funções puras agnósticas de framework (validações, máscaras CPF/CNPJ/CEP, formatadores, i18n, `onExecutePostLogin` e aritmética monetária com `decimal`). NÃO DEVE importar Angular, React, Vue, Lit, Node builtins ou APIs de DOM no core puro.
+- **`@genovalv/server` (BFF/Node compartilhado em `packages/server/`):** DEVE concentrar adaptadores Auth0/JOSE/NodeHash, helpers `HttpOnly` e guards/controllers H3 compartilháveis, e casos de uso transversais de autenticação, sem armazenar secrets hardcoded nem lógica exclusiva de um app.
 - **`@genovalv/tokens` (Design Tokens CSS & Tailwind):** fonte única de verdade visual do `DESIGN.md` consumível por Tailwind v4 e CSS padrão.
 - **`@genovalv/elements` (Web Components em Lit):** componentes autocontidos multi-framework com estilos isolados e `CustomEvent` (`bubbles: true, composed: true`), carregados *client-only* em SSR.
 

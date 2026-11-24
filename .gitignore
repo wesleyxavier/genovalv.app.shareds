@@ -29,3 +29,6 @@ pnpm-debug.log*
 
 worktrees/
 graphify-out/cache/
+
+.certs/
+*.pem

@@ -4,9 +4,9 @@ import {
   formatMfaCodeDisplay,
   getMfaGuidance,
   sanitizeMfaCode,
+  validateLoginSubmission,
   validateMfaCode,
-} from '../src/auth/mfa';
-import { validateLoginSubmission } from '../src/auth/validation';
+} from '../src';
 
 describe('auth MFA rules (US3)', () => {
   it('sanitizes pasted MFA code keeping max 6 numeric digits', () => {

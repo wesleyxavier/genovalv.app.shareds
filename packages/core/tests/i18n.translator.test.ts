@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { DEFAULT_LOCALE, LOGIN_TRANSLATIONS, createTranslator } from '../src/i18n/translator';
+import { DEFAULT_LOCALE, LOGIN_TRANSLATIONS, createTranslator } from '../src';
 
 describe('i18n translator', () => {
   it('defaults to pt-BR and exposes pt-BR, en-US and es-ES dictionaries', () => {

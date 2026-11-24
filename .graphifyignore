@@ -1,7 +1,9 @@
-﻿# Claude Code â€” nunca commitar segredos
+# Claude Code â€” nunca commitar segredos
 .claude/settings.local.json
 .mcp.json
 .env
+.certs/
+*.pem
 .worktrees/
 .worktree
 worktrees/

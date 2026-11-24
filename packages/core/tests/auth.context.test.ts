@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { DEFAULT_LOGIN_CONTEXT } from '../src/auth/context';
+import { DEFAULT_LOGIN_CONTEXT } from '../src';
 
 describe('DEFAULT_LOGIN_CONTEXT', () => {
   it('provides Genova Cloud Console defaults aligned with reference template', () => {
