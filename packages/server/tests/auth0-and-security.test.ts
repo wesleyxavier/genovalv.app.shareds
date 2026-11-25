@@ -52,4 +52,25 @@ describe('@genovalv/server security, http & auth0', () => {
     expect(gw.buildAuthorizeUrl()).toContain('https://tenant.us.auth0.com/authorize');
     expect(gw.buildLogoutUrl()).toContain('https://tenant.us.auth0.com/v2/logout');
   });
+
+  it('includes env and must_change_password in createManagementUser app_metadata', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ user_id: 'auth0|admin1' }),
+    });
+    const gw = new Auth0Gateway({
+      auth0Domain: 'tenant.us.auth0.com', auth0ClientId: 'cid', auth0ClientSecret: 'sec',
+      auth0MgmtClientId: '', auth0MgmtClientSecret: '', auth0Audience: 'https://api',
+      auth0CallbackUrl: 'https://app/cb', auth0LogoutReturnUrl: 'https://app/logout',
+    }, fetchMock as unknown as typeof fetch);
+
+    const res = await gw.createManagementUser('mgmt-tok', {
+      email: 'admin@empresa.com', fullName: 'Admin', password: 'Strong!2026', sqlId: 'u-1', cpf: '52998224725', env: 'staging', mustChangePassword: false,
+    });
+    expect(res.userId).toBe('auth0|admin1');
+    const body = JSON.parse((fetchMock.mock.calls[0]?.[1] as { body: string }).body);
+    expect(body.app_metadata).toEqual({
+      sql_id: 'u-1', cpf: '52998224725', active: true, must_change_password: false, env: 'staging',
+    });
+  });
 });

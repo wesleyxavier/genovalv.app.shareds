@@ -68,12 +68,9 @@
   "66": "Tasks: Shared Pure Auth Contracts & `@genovalv/server`",
   "67": "compilerOptions",
   "68": "BackchannelLogoutUseCase",
-  "69": "OAuthCallbackUseCase",
   "70": "base-user.controller.ts",
   "71": "JoseSessionTokenGateway",
-  "72": "NodeHashService",
   "73": "vite.config.ts",
   "74": "vitest.config.ts",
-  "75": "audit-log-input.dto.ts",
-  "76": "User Scenarios & Testing *(mandatory)*"
+  "75": "audit-log-input.dto.ts"
 }

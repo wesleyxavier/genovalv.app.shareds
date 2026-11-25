@@ -73,14 +73,21 @@ export class Auth0Gateway implements IAuth0Gateway {
     return { ok: true as const, token: access_token };
   }
 
-  async createManagementUser(mgmtToken: string, payload: { email: string; fullName: string; password: string; sqlId: string; cpf: string }) {
+  async createManagementUser(mgmtToken: string, payload: { email: string; fullName: string; password: string; sqlId: string; cpf: string; env?: string; mustChangePassword?: boolean }) {
+    const appMetadata: Record<string, unknown> = {
+      sql_id: payload.sqlId,
+      cpf: payload.cpf,
+      active: true,
+      must_change_password: payload.mustChangePassword ?? true,
+      ...(payload.env ? { env: payload.env } : {}),
+    };
     const created = await postAuth0Json<{ user_id: string }>(`${this.baseUrl}/api/v2/users`, {
       connection: 'Username-Password-Authentication',
       email: payload.email,
       name: payload.fullName,
       password: payload.password,
       email_verified: true,
-      app_metadata: { sql_id: payload.sqlId, cpf: payload.cpf, active: true, must_change_password: true },
+      app_metadata: appMetadata,
     }, this.fetchFn, mgmtToken);
     return { userId: created.user_id };
   }
