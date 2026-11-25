@@ -65,7 +65,7 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1795540486.258023,
+    "mtime": 1795540829.3659933,
     "ast_hash": "5bd3f8a3c7a0d1a88d6e83d07dc15f9a",
     "semantic_hash": ""
   },
@@ -74,59 +74,29 @@
     "ast_hash": "3a2d47c7dbee4ebe47d8a24ddc52a5aa",
     "semantic_hash": ""
   },
-  "packages/core/src/auth/context.ts": {
-    "mtime": 1795540121.1694918,
-    "ast_hash": "b0a837bdb900d1e109d6c9c210b59d22",
-    "semantic_hash": ""
-  },
-  "packages/core/src/auth/mfa.ts": {
-    "mtime": 1795540121.1694918,
-    "ast_hash": "bc460a56bce28df08c4a6c62710c03c2",
-    "semantic_hash": ""
-  },
-  "packages/core/src/auth/types.ts": {
-    "mtime": 1795540121.1704934,
-    "ast_hash": "18487579fb0c53919abad5d2852dbd14",
-    "semantic_hash": ""
-  },
-  "packages/core/src/auth/validation.ts": {
-    "mtime": 1795540121.1704934,
-    "ast_hash": "480e2f68aeada813d94024355f9656dc",
-    "semantic_hash": ""
-  },
-  "packages/core/src/i18n/locales.ts": {
-    "mtime": 1795540121.1704934,
-    "ast_hash": "47ed66af12220f448aa1ffb4828628fd",
-    "semantic_hash": ""
-  },
-  "packages/core/src/i18n/translator.ts": {
-    "mtime": 1795540121.1714916,
-    "ast_hash": "2d4c4d7d4e92d029d682703f2dc4f50c",
-    "semantic_hash": ""
-  },
   "packages/core/src/index.ts": {
-    "mtime": 1795540526.7954967,
-    "ast_hash": "cb2dfd842c525f2f9eb182018059e930",
+    "mtime": 1795544231.6242714,
+    "ast_hash": "b6e330fc361d63c32f75ff71a9120f53",
     "semantic_hash": ""
   },
   "packages/core/tests/auth.context.test.ts": {
-    "mtime": 1795540121.172494,
-    "ast_hash": "92d585b6a6d0da401b1e8403eb460461",
+    "mtime": 1795544231.7807338,
+    "ast_hash": "65cab405693c7e495c70a86a609420c4",
     "semantic_hash": ""
   },
   "packages/core/tests/auth.mfa.test.ts": {
-    "mtime": 1795540121.172494,
-    "ast_hash": "a601d32dc90570fb7a5114eb216d32a7",
+    "mtime": 1795544231.8114812,
+    "ast_hash": "6cbd166ea103fdaf4d6ee19feba798a7",
     "semantic_hash": ""
   },
   "packages/core/tests/auth.validation.test.ts": {
-    "mtime": 1795540121.1745074,
-    "ast_hash": "43fe37818763777bf6c2ce186e75e74c",
+    "mtime": 1795544231.8527317,
+    "ast_hash": "d2eca58d2fb332af46a387fd57918e37",
     "semantic_hash": ""
   },
   "packages/core/tests/i18n.translator.test.ts": {
-    "mtime": 1795540121.1755085,
-    "ast_hash": "43de8360876f4d4ef068197377cc2af0",
+    "mtime": 1795544231.8920352,
+    "ast_hash": "12875a6c23f3717d237e18a161e6f6c8",
     "semantic_hash": ""
   },
   "packages/core/tsconfig.json": {
@@ -135,8 +105,8 @@
     "semantic_hash": ""
   },
   "packages/core/vitest.config.ts": {
-    "mtime": 1795540121.1765077,
-    "ast_hash": "bfe038d8448beb9b105d033454ff2d37",
+    "mtime": 1795544231.923914,
+    "ast_hash": "6308d583869a432a7570230193e73a66",
     "semantic_hash": ""
   },
   "packages/elements/package.json": {
@@ -305,7 +275,7 @@
     "semantic_hash": ""
   },
   ".specify/memory/constitution.md": {
-    "mtime": 1795540484.3275373,
+    "mtime": 1795540829.2015896,
     "ast_hash": "84fd2e935f00f3a29c8f7a6e8f73a2c0",
     "semantic_hash": ""
   },
@@ -340,12 +310,12 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1795540481.7199845,
+    "mtime": 1795540829.2656605,
     "ast_hash": "58d10f2fb3cd6bfbb758ce16974b050f",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1795540755.6441362,
+    "mtime": 1795541294.1564026,
     "ast_hash": "57388a1b2c7ae95d96e36340053f93dc",
     "semantic_hash": ""
   },
@@ -474,69 +444,19 @@
     "ast_hash": "f677e6d47eb79b8fdcf50f96ad236c2e",
     "semantic_hash": ""
   },
-  "packages/core/src/application/audit-log.ts": {
-    "mtime": 1795480288.564419,
-    "ast_hash": "991ba830e7ae644b25cf591b3904c509",
-    "semantic_hash": ""
-  },
-  "packages/core/src/application/auth-usecases.ts": {
-    "mtime": 1795533139.2101748,
-    "ast_hash": "1ae98a2d132ababdd580834af1d0076a",
-    "semantic_hash": ""
-  },
-  "packages/core/src/application/idempotency.ts": {
-    "mtime": 1795476718.6592007,
-    "ast_hash": "463895bf47f635cc0e39a165d77adead",
-    "semantic_hash": ""
-  },
-  "packages/core/src/application/seed-config.ts": {
-    "mtime": 1795476719.8700874,
-    "ast_hash": "400c5310cec68faac367a9dc52d879bd",
-    "semantic_hash": ""
-  },
-  "packages/core/src/domain/auth-contracts.ts": {
-    "mtime": 1795540687.5009234,
-    "ast_hash": "bd19ae2a5e59045527a5cc30832addcb",
-    "semantic_hash": ""
-  },
-  "packages/core/src/domain/auth-session-vo.ts": {
-    "mtime": 1795540689.449697,
-    "ast_hash": "8264a39562d3aa50b4584d23a7e2c204",
-    "semantic_hash": ""
-  },
-  "packages/core/src/domain/bindings.ts": {
-    "mtime": 1795476766.4453454,
-    "ast_hash": "6316fd85a9414912ff7e1d10e90fdd80",
-    "semantic_hash": ""
-  },
-  "packages/core/src/domain/document.ts": {
-    "mtime": 1795476768.418238,
-    "ast_hash": "f535a280a973706df09c5f7d56c437bf",
-    "semantic_hash": ""
-  },
-  "packages/core/src/domain/identity.ts": {
-    "mtime": 1795476714.4107852,
-    "ast_hash": "1c0e10b2ddcffa10d3ffeb7b9e096128",
-    "semantic_hash": ""
-  },
   "packages/core/src/infrastructure/http-auth-repository.ts": {
-    "mtime": 1795533174.6666677,
-    "ast_hash": "b2b806db97c2458247621d32c728f7f8",
+    "mtime": 1795544231.7487173,
+    "ast_hash": "57149c948fd2ce59f26649677ad32a77",
     "semantic_hash": ""
   },
   "packages/core/tests/auth-architecture.test.ts": {
-    "mtime": 1795540694.7254405,
+    "mtime": 1795540830.218947,
     "ast_hash": "ad777323945937dd5c408533702a7570",
     "semantic_hash": ""
   },
   "packages/core/tests/domain-and-idempotency.test.ts": {
     "mtime": 1795476750.0735047,
     "ast_hash": "e22eb24b64e2b113aa1ea4b9d0cd4d62",
-    "semantic_hash": ""
-  },
-  "packages/core/src/application/post-login-action.ts": {
-    "mtime": 1795540522.7101278,
-    "ast_hash": "0d5166b9be1269a4c3ccc76498fdf6a2",
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/auth-cookie-config.ts": {
@@ -565,8 +485,8 @@
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/iaudit-log-reader.ts": {
-    "mtime": 1795540519.1794643,
-    "ast_hash": "f68bf5ee1e634b85aa1af5f065a5ce07",
+    "mtime": 1795544230.8416843,
+    "ast_hash": "fbe4144f2c1ccd509eb23e03651d5816",
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/iauth0-gateway.ts": {
@@ -575,8 +495,8 @@
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/ibase-auth-user-repository.ts": {
-    "mtime": 1795540515.4153926,
-    "ast_hash": "41f309dfd2aa7d0a3ef169e52810f9b4",
+    "mtime": 1795544230.8786101,
+    "ast_hash": "6f5bdc11d2e0310746b3fc9dbf7566af",
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/ihash-service.ts": {
@@ -620,8 +540,8 @@
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/post-login-user-metadata.ts": {
-    "mtime": 1795540507.1853666,
-    "ast_hash": "8376c8fc0dfac8e55a0c41830fa643f1",
+    "mtime": 1795544230.940509,
+    "ast_hash": "008bf663b0baf4a97917ee0cc91891dc",
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/resolve-user-result.ts": {
@@ -630,8 +550,8 @@
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/user-cookie-session.ts": {
-    "mtime": 1795540489.958356,
-    "ast_hash": "a3cf5393f1fa222862b60e7d0bf070bd",
+    "mtime": 1795544230.9836118,
+    "ast_hash": "e562b5c472fc7ca9c635723af9c92d71",
     "semantic_hash": ""
   },
   "packages/core/tests/post-login-action.test.ts": {
@@ -830,8 +750,388 @@
     "semantic_hash": ""
   },
   "specs/003-shared-auth-server/tasks.md": {
-    "mtime": 1795540757.5279505,
-    "ast_hash": "e7f1e6c6475d04f4163f1541433b33e0",
+    "mtime": 1795547640.2309725,
+    "ast_hash": "46e8016b6bbe3e2d2a229bb53882259d",
+    "semantic_hash": ""
+  },
+  "packages/core/src/application/use-cases/base-login-auth.usecase.ts": {
+    "mtime": 1795544027.3439996,
+    "ast_hash": "3c47a295d5a615bb020109ca2e8ede4b",
+    "semantic_hash": ""
+  },
+  "packages/core/src/application/use-cases/base-logout-auth.usecase.ts": {
+    "mtime": 1795544029.2629056,
+    "ast_hash": "57f9ab2793ce0ae0f9856221e07a83ae",
+    "semantic_hash": ""
+  },
+  "packages/core/src/application/use-cases/base-refresh-session.usecase.ts": {
+    "mtime": 1795544031.3740125,
+    "ast_hash": "5dceaf94bd132061225c9c77c51913a9",
+    "semantic_hash": ""
+  },
+  "packages/core/src/application/use-cases/execute-idempotent.usecase.ts": {
+    "mtime": 1795544033.0261328,
+    "ast_hash": "1ac1f6ea0dad755ca84f1ba1ddad13b3",
+    "semantic_hash": ""
+  },
+  "packages/core/src/application/use-cases/post-login-action.usecase.ts": {
+    "mtime": 1795544035.190617,
+    "ast_hash": "518d1334a07526742840c8f7d4fa5de6",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/constants/default-base-profiles.ts": {
+    "mtime": 1795543960.1510162,
+    "ast_hash": "aa1023a91314e120840c4497b043e4de",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/constants/default-base-seed-config.ts": {
+    "mtime": 1795543961.5276704,
+    "ast_hash": "d803f9e83dec07e4afc9ab95b9e681f2",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/constants/default-locale.ts": {
+    "mtime": 1795543953.2050574,
+    "ast_hash": "95d5398c86182f77ac9b34b52eb5dfcb",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/constants/default-login-context.ts": {
+    "mtime": 1795543955.1384525,
+    "ast_hash": "f6dda2fc0ac678a67ed4894afe38d033",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/constants/login-translations.ts": {
+    "mtime": 1795543956.7157445,
+    "ast_hash": "49a9fbbea99e5d31f66408f1aeeca24b",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/constants/mfa-guidance-map.ts": {
+    "mtime": 1795543958.4419186,
+    "ast_hash": "5449c931a44e7943137ea448ac0515d9",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/admin-profile-role.dto.ts": {
+    "mtime": 1795543856.7373264,
+    "ast_hash": "a7cd809aa5bc90ceecff43e8f23ed180",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/audit-log-entry.dto.ts": {
+    "mtime": 1795543880.816827,
+    "ast_hash": "25ebf5746acc8182ad0d3e2e2231b7c4",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/audit-log-input.dto.ts": {
+    "mtime": 1795543878.7450578,
+    "ast_hash": "da06edb2eebe51448e7dbff8ea096b91",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/audit-log-level.dto.ts": {
+    "mtime": 1795543876.9403138,
+    "ast_hash": "59496bba71940c95ab71a56080a7fa88",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/auth-result.dto.ts": {
+    "mtime": 1795543874.8320236,
+    "ast_hash": "0ef3464abcc4218df32c42db40490581",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/auth0-token-claims.dto.ts": {
+    "mtime": 1795543865.5884202,
+    "ast_hash": "72903c13acf9ad06a2ce0a361be8805b",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/authenticated-me-response.dto.ts": {
+    "mtime": 1795543872.5208776,
+    "ast_hash": "cc9e54c2cb26872fe388ed9bec113180",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/base-seed-config.dto.ts": {
+    "mtime": 1795543886.223993,
+    "ast_hash": "fa59317dcbe5ee28bda626a6c563874b",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/base-seed-profile.dto.ts": {
+    "mtime": 1795543884.445686,
+    "ast_hash": "fefda621581a53c276550b421e416ece",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/binding-validation-result.dto.ts": {
+    "mtime": 1795543867.9421256,
+    "ast_hash": "f6b75cf6a4ccf8ac679fe42b9c5d5b81",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/branch-type.dto.ts": {
+    "mtime": 1795543863.868084,
+    "ast_hash": "4360eed72c842ce43e04e5a068c0b93d",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/client-profile-role.dto.ts": {
+    "mtime": 1795543858.4362051,
+    "ast_hash": "98f5e7319ed9d26501e2b935902b7c7f",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/document-type.dto.ts": {
+    "mtime": 1795543861.9472623,
+    "ast_hash": "7af4fd0244b9ff7cff3effb8a1e64312",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/email-cpf-company-entry.dto.ts": {
+    "mtime": 1795543870.3356318,
+    "ast_hash": "a7bc1638be591548e76ebc3103cda36e",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/http-auth-routes.dto.ts": {
+    "mtime": 1795543888.6071603,
+    "ast_hash": "7e0bb070bdc9e005026b5aae4220692c",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/http-fetch.dto.ts": {
+    "mtime": 1795543894.0297055,
+    "ast_hash": "fa369cedb1f8782766799a0ae194fd94",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/http-request-init.dto.ts": {
+    "mtime": 1795543890.4692185,
+    "ast_hash": "5729f9e1fe7309fbf766efbe2c95c23a",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/http-response-like.dto.ts": {
+    "mtime": 1795543892.6009333,
+    "ast_hash": "ea75e85889094014d2338a118d47bf6a",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/idempotency-record.dto.ts": {
+    "mtime": 1795543882.6346097,
+    "ast_hash": "421c15d597fbae1f3208cfa33f5a7611",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-context-configuration.dto.ts": {
+    "mtime": 1795543844.0034418,
+    "ast_hash": "6693153611a458f63bd8257ee6363182",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-dictionary.dto.ts": {
+    "mtime": 1795543840.6892858,
+    "ast_hash": "4508be28d3fe5a1070cbbcfa352f7691",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-field-name.dto.ts": {
+    "mtime": 1795543849.9581728,
+    "ast_hash": "977f4ddfe008876b941a5992f48241c4",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-link.dto.ts": {
+    "mtime": 1795543842.3684306,
+    "ast_hash": "31cf83486a4f54368ac8addf8d63d69d",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-raw-input.dto.ts": {
+    "mtime": 1795543845.7029579,
+    "ast_hash": "6c89c2437148f9745eedde2160fb8a22",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-submission-input.dto.ts": {
+    "mtime": 1795543847.91243,
+    "ast_hash": "a775a9bbba7ef9a2685ff1554b93680c",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-translation-key.dto.ts": {
+    "mtime": 1795543838.9969254,
+    "ast_hash": "90f307787f82c341640382d0f6051748",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/login-validation-result.dto.ts": {
+    "mtime": 1795543851.914007,
+    "ast_hash": "22ae4bdd3a2786d2329dd109cd52eead",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/mfa-guidance.dto.ts": {
+    "mtime": 1795543853.476511,
+    "ast_hash": "ed8fe123fd2b6332605696ef5a504d5a",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/mfa-method.dto.ts": {
+    "mtime": 1795543835.8946962,
+    "ast_hash": "398b6424a67e531bccdb75d17ef0135e",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/mfa-mode.dto.ts": {
+    "mtime": 1795543834.0171595,
+    "ast_hash": "c777740a70a217ade499720fb0b9f639",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/profile-role.dto.ts": {
+    "mtime": 1795543860.0169814,
+    "ast_hash": "edd548b4ad481236f69d1740e74d63dd",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/profile-scope.dto.ts": {
+    "mtime": 1795543855.3359902,
+    "ast_hash": "d073655421d0460efa12e2060e3b4f0d",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/submission-state.dto.ts": {
+    "mtime": 1795543837.4011126,
+    "ast_hash": "c2f46d8c8b7348510b748944ab08b187",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/dtos/supported-locale.dto.ts": {
+    "mtime": 1795543832.2799716,
+    "ast_hash": "39c87ffeda356e4e67e0a4db8cc38387",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/entities/auth-session.entity.ts": {
+    "mtime": 1795543927.8640385,
+    "ast_hash": "6f2174a3f63703149712cbfec650d8c4",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/entities/company-binding.entity.ts": {
+    "mtime": 1795543934.6813328,
+    "ast_hash": "2767586d2774283e911fc44765ddc217",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/entities/credentials-submission.entity.ts": {
+    "mtime": 1795543931.7089095,
+    "ast_hash": "4204283bc18fd697ca54d0b82099e13f",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/entities/remembered-auth-session.entity.ts": {
+    "mtime": 1795543929.9489288,
+    "ast_hash": "7279b2e66590dc9ccc18a0d60753b729",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/entities/session-user.entity.ts": {
+    "mtime": 1795543922.0654905,
+    "ast_hash": "e5a062b6a71c958a0e869f0ad81f322f",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/entities/user-model.entity.ts": {
+    "mtime": 1795543933.1091635,
+    "ast_hash": "abc04c9dd4782f4da75521a854b5fe51",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/i18n/create-translator.ts": {
+    "mtime": 1795544025.3324945,
+    "ast_hash": "51f3ff82caceba50bfb7ae6e2f5c6dcd",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/i18n/resolve-supported-locale.ts": {
+    "mtime": 1795544023.558007,
+    "ast_hash": "35b7ff4924d730db189d1378bec9049c",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/interfaces/iaudit-logger.ts": {
+    "mtime": 1795543949.867841,
+    "ast_hash": "edd71872b02bfee37bee20da56224858",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/interfaces/iauth-repository.ts": {
+    "mtime": 1795543940.297374,
+    "ast_hash": "c698edfc938a628cc4fb7094651525ab",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/interfaces/iauth-session-writer.ts": {
+    "mtime": 1795543947.3276012,
+    "ast_hash": "ed39f5a550146ac419047e1be20c22c1",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/interfaces/iidempotency-store.ts": {
+    "mtime": 1795543951.6568608,
+    "ast_hash": "b622ff1c5e621e211ace86aef2f259af",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/interfaces/ilogin-auth-use-case.ts": {
+    "mtime": 1795543941.9786572,
+    "ast_hash": "ad20d49dce5ac8619b841d094cc323a6",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/interfaces/ilogout-auth-use-case.ts": {
+    "mtime": 1795543943.62814,
+    "ast_hash": "d4e4abb8c2d1248aaa83c6f110b8f5d2",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/interfaces/irefresh-from-cookie-auth-use-case.ts": {
+    "mtime": 1795543945.7402854,
+    "ast_hash": "112c615a5c94fc093df71b661fed2dde",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/extract-cnpj-root.ts": {
+    "mtime": 1795544004.7693784,
+    "ast_hash": "7a0652548eb9c0a9461788866a7ab3fa",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/format-mfa-code-display.ts": {
+    "mtime": 1795544011.9073687,
+    "ast_hash": "ca28d2dc2a16f9d8b7c20da2d4d6b409",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/get-mfa-guidance.ts": {
+    "mtime": 1795544014.717671,
+    "ast_hash": "87c4092c213bfea0a5d9541b1f9b3c79",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/has-email-cpf-company-conflict.ts": {
+    "mtime": 1795544008.4377997,
+    "ast_hash": "26d55ae8f6356d7ae5be3a4f3aba0694",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/is-valid-cnpj.ts": {
+    "mtime": 1795544003.4325838,
+    "ast_hash": "14cb544b467517ddb087b432b49315c4",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/is-valid-cpf.ts": {
+    "mtime": 1795544001.9085991,
+    "ast_hash": "5c5fece634bdcc0c959ba2e3eb57f297",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/normalize-email.ts": {
+    "mtime": 1795544016.3838556,
+    "ast_hash": "29fc9c3cfaec5adb6bf59d0c09954e36",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/sanitize-mfa-code.ts": {
+    "mtime": 1795544010.6104565,
+    "ast_hash": "56b6c39d3e196f5e01cb17dcfcf51bc5",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/strip-non-digits.ts": {
+    "mtime": 1795544000.5213437,
+    "ast_hash": "1720503da2d833f0410d7c5e45e4727a",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/validate-active-bindings.ts": {
+    "mtime": 1795544006.2045155,
+    "ast_hash": "109e588d285de219aa492bae6c2bdb2c",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/validate-email.ts": {
+    "mtime": 1795544018.4292312,
+    "ast_hash": "0d4887f130030a0c8b1d472690f35dda",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/validate-login-submission.ts": {
+    "mtime": 1795544021.9330058,
+    "ast_hash": "7adec1c5b10bc9161da866d6ec2c496a",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/validate-mfa-code.ts": {
+    "mtime": 1795544013.2956169,
+    "ast_hash": "e786966236d05238d178cca10494fb13",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/validators/validate-password.ts": {
+    "mtime": 1795544020.1698015,
+    "ast_hash": "99149a9cfa027ac24a99e4692aef89fd",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/value-objects/create-unauthenticated-session.vo.ts": {
+    "mtime": 1795543938.1621206,
+    "ast_hash": "32bd399569ad0921c6334bd6a6f63f69",
+    "semantic_hash": ""
+  },
+  "packages/core/src/domain/value-objects/unauthenticated-session.vo.ts": {
+    "mtime": 1795543936.1491692,
+    "ast_hash": "32d165eb75058b3c914b520513687910",
     "semantic_hash": ""
   }
 }

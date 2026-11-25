@@ -6,6 +6,8 @@ import type { AuthSession } from '../domain/entities/auth-session.entity';
 import type { CredentialsSubmission } from '../domain/entities/credentials-submission.entity';
 import type { IAuthRepository } from '../domain/interfaces/iauth-repository';
 
+const defaultFetch: HttpFetch = (input, init) => globalThis.fetch(input, init);
+
 export class HttpAuthRepository<
   TSubmission = CredentialsSubmission,
   TSession = AuthSession,
@@ -15,7 +17,7 @@ export class HttpAuthRepository<
   constructor(
     protected readonly routes: HttpAuthRoutes,
     protected readonly invalidCredentialsKey: TErrorKey,
-    protected readonly fetchFn: HttpFetch = (globalThis as unknown as { fetch: HttpFetch }).fetch,
+    protected readonly fetchFn: HttpFetch = defaultFetch,
   ) {}
 
   async login(input: TSubmission): Promise<AuthResult<TSession, TErrorKey>> {

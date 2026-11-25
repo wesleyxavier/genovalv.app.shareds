@@ -1,16 +1,16 @@
-# Graph Report - 003-shared-auth-server  (2026-11-24)
+# Graph Report - 004-auth0-env-metadata  (2026-11-25)
 
 ## Corpus Check
-- 224 files · ~62,309 words
+- 223 files · ~62,397 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1047 nodes · 1572 edges · 77 communities (76 shown, 1 thin omitted)
+- 1048 nodes · 1573 edges · 74 communities (73 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `92995a85`
+- Built from commit: `b96fccb5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -75,9 +75,7 @@
 - BackchannelLogoutUseCase
 - base-user.controller.ts
 - JoseSessionTokenGateway
-- NodeHashService
 - audit-log-input.dto.ts
-- User Scenarios & Testing *(mandatory)*
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
@@ -106,7 +104,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (77 total, 1 thin omitted)
+## Communities (74 total, 1 thin omitted)
 
 ### Community 0 - "types.ts"
 Cohesion: 0.11
@@ -261,8 +259,8 @@ Cohesion: 0.05
 Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundational, 3.1 Commit Group — US1, 4.1 Commit Group — US2, 5.1 Commit Group — US3, 6.1 Commit Group — US4, 7.1 Commit Group — Resiliência (+30 more)
 
 ### Community 48 - "User Scenarios & Testing *(mandatory)*"
-Cohesion: 0.29
-Nodes (7): Assumptions, Feature Specification: Proxy de Borda Local (Simulação Cloudflare), Functional Requirements, Key Entities, Measurable Outcomes, Requirements *(mandatory)*, Success Criteria *(mandatory)*
+Cohesion: 0.15
+Nodes (13): Assumptions, Edge Cases, Feature Specification: Proxy de Borda Local (Simulação Cloudflare), Functional Requirements, Key Entities, Measurable Outcomes, Requirements *(mandatory)*, Success Criteria *(mandatory)* (+5 more)
 
 ### Community 49 - "Plano de Testes E2E: Proxy de Borda Local"
 Cohesion: 0.17
@@ -285,7 +283,7 @@ Cohesion: 0.29
 Nodes (7): Contrato da Borda Local, Endpoints, Headers de resposta, Headers enviados à origem (sobrescrevem valores do cliente), Redirecionamento, Status gerados pela borda, Variáveis de ambiente (`.env`)
 
 ### Community 55 - "audit-log.ts"
-Cohesion: 0.07
+Cohesion: 0.06
 Nodes (12): DocumentType, UserModel, Auth0JwtClaims, Auth0TokenExchangeResult, IAuth0Gateway, IBaseAuthUserRepository, IHashService, ISessionTokenGateway (+4 more)
 
 ### Community 56 - "Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)"
@@ -309,24 +307,24 @@ Cohesion: 0.13
 Nodes (6): AUTH0_PASSWORD_REALM_GRANT, Auth0Gateway, exchangeAuth0Token(), postAuth0Json(), resolveAuth0BaseUrl(), Auth0GatewayConfig
 
 ### Community 61 - "index.ts"
-Cohesion: 0.22
-Nodes (4): BootstrapUseCase, OAuthCallbackUseCase, ResolvePostLoginUseCase, SHARED_AUTH_AUDIT_ACTIONS
+Cohesion: 0.19
+Nodes (3): BootstrapUseCase, ResolvePostLoginUseCase, SHARED_AUTH_AUDIT_ACTIONS
 
 ### Community 62 - "base-auth.controller.ts"
-Cohesion: 0.21
-Nodes (3): buildSessionCookieHeader(), clearSessionCookieHeader(), JoseSessionTokenGateway
+Cohesion: 0.29
+Nodes (3): buildSessionCookieHeader(), clearSessionCookieHeader(), NodeHashService
 
 ### Community 63 - "Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`"
 Cohesion: 0.14
 Nodes (12): Constitution Check, Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`, Project Structure, Summary, Technical Context, Edge Cases, Feature Specification: Shared Pure Auth Contracts (`@genovalv/core`) & Shared BFF Auth Server (`@genovalv/server`), Requirements *(mandatory)* (+4 more)
 
 ### Community 64 - "BaseController"
-Cohesion: 0.23
-Nodes (3): LoginController, MeController, BaseController
+Cohesion: 0.16
+Nodes (5): BackchannelLogoutUseCase, BackchannelLogoutController, LoginController, MeController, BaseController
 
 ### Community 65 - "auth-controllers.test.ts"
-Cohesion: 0.21
-Nodes (4): PasswordLoginUseCase, CallbackController, PasswordLoginController, BaseAuthController
+Cohesion: 0.17
+Nodes (6): OAuthCallbackUseCase, PasswordLoginUseCase, CallbackController, LogoutController, PasswordLoginController, BaseAuthController
 
 ### Community 66 - "Tasks: Shared Pure Auth Contracts & `@genovalv/server`"
 Cohesion: 0.20
@@ -335,10 +333,6 @@ Nodes (9): 0. Branch, 1.1 Commit Group 1, 1. Governance & Pure Contracts (`@geno
 ### Community 67 - "compilerOptions"
 Cohesion: 0.25
 Nodes (7): compilerOptions, lib, outDir, rootDir, types, extends, include
-
-### Community 68 - "BackchannelLogoutUseCase"
-Cohesion: 0.19
-Nodes (3): BackchannelLogoutUseCase, BackchannelLogoutController, LogoutController
 
 ### Community 70 - "base-user.controller.ts"
 Cohesion: 0.24
@@ -352,10 +346,6 @@ Nodes (8): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, AdminProfileRole, Ba
 Cohesion: 0.29
 Nodes (5): AuditLogEntry, AuditLogInput, AuditLogLevel, AuditLogger, IAuditLogReader
 
-### Community 76 - "User Scenarios & Testing *(mandatory)*"
-Cohesion: 0.33
-Nodes (6): Edge Cases, User Scenarios & Testing *(mandatory)*, User Story 1 - Acesso HTTPS local com headers de borda (Priority: P1), User Story 2 - Cache de borda para ativos estáticos (Priority: P2), User Story 3 - Rate limiting e WAF básico (Priority: P3), User Story 4 - Apps ERP e FactoryFloor atrás da borda (Priority: P2)
-
 ## Knowledge Gaps
 - **455 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+450 more)
   These have ≤1 connection - possible missing edges or undocumented components.
@@ -368,8 +358,8 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **Why does `requireUserSession()` connect `base-user.controller.ts` to `base-auth.controller.ts`, `audit-log.ts`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `CompanyBinding` connect `auth-contracts.ts` to `audit-log.ts`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+- **Why does `PasswordLoginUseCase` connect `auth-controllers.test.ts` to `index.ts`, `audit-log.ts`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `registerGenovaElements()` (e.g. with `GenovaActionButtonElement` and `GenovaAlertBannerElement`) actually correct?**
   _`registerGenovaElements()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `version`, `private` to the rest of the system?**

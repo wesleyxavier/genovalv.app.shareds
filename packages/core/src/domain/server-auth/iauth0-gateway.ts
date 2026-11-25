@@ -10,7 +10,7 @@ export interface IAuth0Gateway {
   obtainManagementToken(): Promise<{ ok: true; token: string } | { ok: false; status: number; errorBody: string }>;
   createManagementUser(
     mgmtToken: string,
-    payload: { email: string; fullName: string; password: string; sqlId: string; cpf: string },
+    payload: { email: string; fullName: string; password: string; sqlId: string; cpf: string; env?: string; mustChangePassword?: boolean },
   ): Promise<{ userId: string }>;
   createPasswordChangeTicket(mgmtToken: string, userId: string, resultUrl: string): Promise<string>;
   signupDatabaseUser(email: string, fullName: string, password: string): Promise<{ auth0Id: string; emailVerified: boolean }>;
