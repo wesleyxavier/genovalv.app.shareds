@@ -1,16 +1,16 @@
-# Graph Report - 004-shared-remove-h3  (2026-11-26)
+# Graph Report - 005-shared-storybook  (2026-11-26)
 
 ## Corpus Check
-- 214 files · ~61,406 words
+- 222 files · ~62,267 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1012 nodes · 1472 edges · 70 communities (69 shown, 1 thin omitted)
+- 1040 nodes · 1492 edges · 80 communities (76 shown, 4 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d6fa6693`
+- Built from commit: `62d1be04`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -69,9 +69,19 @@
 - base-auth.controller.ts
 - Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`
 - BaseController
+- Tasks: 005-shared-storybook
 - Tasks: Shared Pure Auth Contracts & `@genovalv/server`
 - compilerOptions
+- login-foundation.stories.ts
+- User Scenarios & Testing *(mandatory)*
+- auth-shell.stories.ts
 - JoseSessionTokenGateway
+- Feature Specification: 005-shared-storybook
+- feedback-and-actions.stories.ts
+- inputs.stories.ts
+- main.ts
+- preview.ts
+- plan.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
@@ -100,7 +110,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (70 total, 1 thin omitted)
+## Communities (80 total, 4 thin omitted)
 
 ### Community 0 - "types.ts"
 Cohesion: 0.09
@@ -119,8 +129,8 @@ Cohesion: 0.06
 Nodes (28): Contract: `@genovalv/core` Public API, Exported Functions & Constants, Exported Types, 1. `<genova-header>`, 2. `<genova-footer>`, 3. `<genova-auth-shell>`, 4. `<genova-auth-card>`, 5. `<genova-action-button>` (+20 more)
 
 ### Community 4 - "main.ts"
-Cohesion: 0.13
-Nodes (12): alertBanner, card, emailInput, form, localeSelect, mfaInput, mfaSelector, params (+4 more)
+Cohesion: 0.36
+Nodes (4): AuditLogEntry, AuditLogInput, AuditLogLevel, IAuditLogReader
 
 ### Community 5 - "Tasks: [FEATURE NAME]"
 Cohesion: 0.07
@@ -159,8 +169,8 @@ Cohesion: 0.23
 Nodes (13): Find-SpecifyRoot(), Format-SpecKitCommand(), Get-CurrentBranch(), Get-FeaturePathsEnv(), Get-InvokeSeparator(), Get-NormalizedPriority(), Get-Python3Command(), Get-RepoRoot() (+5 more)
 
 ### Community 14 - "package.json"
-Cohesion: 0.13
-Nodes (14): dependencies, @genovalv/core, @genovalv/elements, @genovalv/tokens, devDependencies, vite, name, private (+6 more)
+Cohesion: 0.10
+Nodes (19): dependencies, @genovalv/core, @genovalv/elements, @genovalv/tokens, lit, devDependencies, sirv-cli, storybook (+11 more)
 
 ### Community 15 - "Feature Specification: [FEATURE NAME]"
 Cohesion: 0.15
@@ -255,8 +265,8 @@ Cohesion: 0.05
 Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundational, 3.1 Commit Group — US1, 4.1 Commit Group — US2, 5.1 Commit Group — US3, 6.1 Commit Group — US4, 7.1 Commit Group — Resiliência (+30 more)
 
 ### Community 48 - "User Scenarios & Testing *(mandatory)*"
-Cohesion: 0.15
-Nodes (13): Assumptions, Edge Cases, Feature Specification: Proxy de Borda Local (Simulação Cloudflare), Functional Requirements, Key Entities, Measurable Outcomes, Requirements *(mandatory)*, Success Criteria *(mandatory)* (+5 more)
+Cohesion: 0.29
+Nodes (7): Assumptions, Feature Specification: Proxy de Borda Local (Simulação Cloudflare), Functional Requirements, Key Entities, Measurable Outcomes, Requirements *(mandatory)*, Success Criteria *(mandatory)*
 
 ### Community 49 - "Plano de Testes E2E: Proxy de Borda Local"
 Cohesion: 0.17
@@ -279,8 +289,8 @@ Cohesion: 0.29
 Nodes (7): Contrato da Borda Local, Endpoints, Headers de resposta, Headers enviados à origem (sobrescrevem valores do cliente), Redirecionamento, Status gerados pela borda, Variáveis de ambiente (`.env`)
 
 ### Community 55 - "audit-log.ts"
-Cohesion: 0.06
-Nodes (17): AuditLogEntry, AuditLogInput, AuditLogLevel, DocumentType, UserModel, AuditLogger, Auth0JwtClaims, Auth0TokenExchangeResult (+9 more)
+Cohesion: 0.07
+Nodes (13): DocumentType, UserModel, AuditLogger, Auth0JwtClaims, Auth0TokenExchangeResult, IAuth0Gateway, IBaseAuthUserRepository, IHashService (+5 more)
 
 ### Community 56 - "Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)"
 Cohesion: 0.33
@@ -314,6 +324,10 @@ Nodes (3): Feature Specification: 004-shared-remove-h3, Overview, Requirements
 Cohesion: 0.14
 Nodes (12): Constitution Check, Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`, Project Structure, Summary, Technical Context, Edge Cases, Feature Specification: Shared Pure Auth Contracts (`@genovalv/core`) & Shared BFF Auth Server (`@genovalv/server`), Requirements *(mandatory)* (+4 more)
 
+### Community 65 - "Tasks: 005-shared-storybook"
+Cohesion: 0.25
+Nodes (7): 0. Branch, 1. Setup do Storybook (`@storybook/web-components-vite`), 2. Stories dos Componentes e Fluxo de Login, 3. E2E Playwright & Build, 4. Pre-PR Checklist, 5. Create PR, Tasks: 005-shared-storybook
+
 ### Community 66 - "Tasks: Shared Pure Auth Contracts & `@genovalv/server`"
 Cohesion: 0.20
 Nodes (9): 0. Branch, 1.1 Commit Group 1, 1. Governance & Pure Contracts (`@genovalv/core`), 2.1 Commit Group 2, 2. Shared Server Package (`@genovalv/server`), 3. Verification & Tarball Packaging, 4. Pre-PR Checklist, 5. Create PR (+1 more)
@@ -322,26 +336,50 @@ Nodes (9): 0. Branch, 1.1 Commit Group 1, 1. Governance & Pure Contracts (`@geno
 Cohesion: 0.25
 Nodes (7): compilerOptions, lib, outDir, rootDir, types, extends, include
 
+### Community 68 - "login-foundation.stories.ts"
+Cohesion: 0.33
+Nodes (4): Default, LoginArgs, meta, Story
+
+### Community 69 - "User Scenarios & Testing *(mandatory)*"
+Cohesion: 0.33
+Nodes (6): Edge Cases, User Scenarios & Testing *(mandatory)*, User Story 1 - Acesso HTTPS local com headers de borda (Priority: P1), User Story 2 - Cache de borda para ativos estáticos (Priority: P2), User Story 3 - Rate limiting e WAF básico (Priority: P3), User Story 4 - Apps ERP e FactoryFloor atrás da borda (Priority: P2)
+
+### Community 70 - "auth-shell.stories.ts"
+Cohesion: 0.40
+Nodes (4): DefaultShell, HeaderAndFooter, meta, Story
+
 ### Community 71 - "JoseSessionTokenGateway"
 Cohesion: 0.23
 Nodes (8): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, AdminProfileRole, BaseSeedConfig, BaseSeedProfile, ClientProfileRole, ProfileRole, ProfileScope
 
+### Community 72 - "Feature Specification: 005-shared-storybook"
+Cohesion: 0.40
+Nodes (4): Feature Specification: 005-shared-storybook, Overview, Requirements, User Scenarios
+
+### Community 75 - "feedback-and-actions.stories.ts"
+Cohesion: 0.50
+Nodes (3): InteractiveControls, meta, Story
+
+### Community 76 - "inputs.stories.ts"
+Cohesion: 0.50
+Nodes (3): EmailAndPassword, meta, Story
+
 ## Knowledge Gaps
-- **462 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+457 more)
+- **481 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+476 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `audit-log.ts`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Why does `CompanyBinding` connect `auth-contracts.ts` to `audit-log.ts`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `registerGenovaElements()` (e.g. with `GenovaActionButtonElement` and `GenovaAlertBannerElement`) actually correct?**
   _`registerGenovaElements()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _462 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _481 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.08779631255487269 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**
