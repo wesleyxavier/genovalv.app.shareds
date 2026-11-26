@@ -64,13 +64,9 @@
   "62": "base-auth.controller.ts",
   "63": "Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`",
   "64": "BaseController",
-  "65": "auth-controllers.test.ts",
   "66": "Tasks: Shared Pure Auth Contracts & `@genovalv/server`",
   "67": "compilerOptions",
-  "68": "BackchannelLogoutUseCase",
-  "70": "base-user.controller.ts",
   "71": "JoseSessionTokenGateway",
   "73": "vite.config.ts",
-  "74": "vitest.config.ts",
-  "75": "audit-log-input.dto.ts"
+  "74": "vitest.config.ts"
 }
