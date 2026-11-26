@@ -10,7 +10,7 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: false,
     rollupOptions: {
-      external: ['@genovalv/core', 'dotenv', 'h3', 'jose', /^node:/],
+      external: ['@genovalv/core', 'dotenv', 'jose', /^node:/],
     },
   },
 });

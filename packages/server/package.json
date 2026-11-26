@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "dotenv": "^18.0.10",
-    "h3": "^1.15.4",
     "jose": "^6.2.18"
   },
   "peerDependencies": {

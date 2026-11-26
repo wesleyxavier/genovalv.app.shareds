@@ -1,16 +1,16 @@
-# Graph Report - 004-auth0-env-metadata  (2026-11-25)
+# Graph Report - 004-shared-remove-h3  (2026-11-26)
 
 ## Corpus Check
-- 223 files · ~62,397 words
+- 214 files · ~61,406 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1048 nodes · 1573 edges · 74 communities (73 shown, 1 thin omitted)
+- 1012 nodes · 1472 edges · 70 communities (69 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b96fccb5`
+- Built from commit: `d6fa6693`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -69,13 +69,9 @@
 - base-auth.controller.ts
 - Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`
 - BaseController
-- auth-controllers.test.ts
 - Tasks: Shared Pure Auth Contracts & `@genovalv/server`
 - compilerOptions
-- BackchannelLogoutUseCase
-- base-user.controller.ts
 - JoseSessionTokenGateway
-- audit-log-input.dto.ts
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
@@ -84,10 +80,10 @@
 4. `CompanyBinding` - 14 edges
 5. `registerGenovaElements()` - 14 edges
 6. `registerCustomElement()` - 14 edges
-7. `BaseController` - 14 edges
-8. `Tasks: Shared Login Foundation & Base Components` - 14 edges
-9. `Auth0Gateway` - 13 edges
-10. `Tasks: [FEATURE NAME]` - 13 edges
+7. `Tasks: Shared Login Foundation & Base Components` - 14 edges
+8. `Auth0Gateway` - 13 edges
+9. `Tasks: [FEATURE NAME]` - 13 edges
+10. `Research: Proxy de Borda Local (Simulação Cloudflare)` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Auth0TokenClaims` --references--> `CompanyBinding`  [EXTRACTED]
@@ -104,11 +100,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (74 total, 1 thin omitted)
+## Communities (70 total, 1 thin omitted)
 
 ### Community 0 - "types.ts"
-Cohesion: 0.11
-Nodes (25): DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, LoginContextConfiguration, LoginDictionary, LoginFieldName, LoginLink, LoginRawInput (+17 more)
+Cohesion: 0.09
+Nodes (31): DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, LoginContextConfiguration, LoginDictionary, LoginFieldName, LoginLink, LoginRawInput (+23 more)
 
 ### Community 1 - "index.ts"
 Cohesion: 0.08
@@ -275,8 +271,8 @@ Cohesion: 0.09
 Nodes (20): executeIdempotent(), onExecutePostLogin(), Auth0TokenClaims, BindingValidationResult, BranchType, EmailCpfCompanyEntry, IdempotencyRecord, CompanyBinding (+12 more)
 
 ### Community 52 - "identity.ts"
-Cohesion: 0.06
-Nodes (27): BaseLoginAuthUseCase, BaseLogoutAuthUseCase, BaseRefreshSessionUseCase, AuthResult, AuthenticatedMeResponse, HttpAuthRoutes, HttpFetch, HttpRequestInit (+19 more)
+Cohesion: 0.07
+Nodes (21): BaseLoginAuthUseCase, BaseLogoutAuthUseCase, BaseRefreshSessionUseCase, AuthResult, AuthenticatedMeResponse, HttpAuthRoutes, HttpFetch, HttpRequestInit (+13 more)
 
 ### Community 54 - "Contrato da Borda Local"
 Cohesion: 0.29
@@ -284,7 +280,7 @@ Nodes (7): Contrato da Borda Local, Endpoints, Headers de resposta, Headers envi
 
 ### Community 55 - "audit-log.ts"
 Cohesion: 0.06
-Nodes (12): DocumentType, UserModel, Auth0JwtClaims, Auth0TokenExchangeResult, IAuth0Gateway, IBaseAuthUserRepository, IHashService, ISessionTokenGateway (+4 more)
+Nodes (17): AuditLogEntry, AuditLogInput, AuditLogLevel, DocumentType, UserModel, AuditLogger, Auth0JwtClaims, Auth0TokenExchangeResult (+9 more)
 
 ### Community 56 - "Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)"
 Cohesion: 0.33
@@ -300,31 +296,23 @@ Nodes (5): 1. Subir a borda, 2. Validação manual, 3. Suíte automatizada, 4. A
 
 ### Community 59 - "package.json"
 Cohesion: 0.08
-Nodes (25): dependencies, dotenv, h3, jose, devDependencies, @genovalv/core, @types/node, typescript (+17 more)
+Nodes (24): dependencies, dotenv, jose, devDependencies, @genovalv/core, @types/node, typescript, vite (+16 more)
 
 ### Community 60 - "Auth0Gateway"
-Cohesion: 0.13
-Nodes (6): AUTH0_PASSWORD_REALM_GRANT, Auth0Gateway, exchangeAuth0Token(), postAuth0Json(), resolveAuth0BaseUrl(), Auth0GatewayConfig
+Cohesion: 0.06
+Nodes (16): BackchannelLogoutUseCase, BootstrapUseCase, OAuthCallbackUseCase, PasswordLoginUseCase, ResolvePostLoginUseCase, AUTH0_PASSWORD_REALM_GRANT, SHARED_AUTH_AUDIT_ACTIONS, Auth0Gateway (+8 more)
 
 ### Community 61 - "index.ts"
-Cohesion: 0.19
-Nodes (3): BootstrapUseCase, ResolvePostLoginUseCase, SHARED_AUTH_AUDIT_ACTIONS
+Cohesion: 0.29
+Nodes (6): 0. Branch, 1. Desacoplamento de h3, 2. Testes e Build, 3. Pre-PR Checklist, 4. Create PR, Tasks: 004-shared-remove-h3
 
 ### Community 62 - "base-auth.controller.ts"
-Cohesion: 0.29
-Nodes (3): buildSessionCookieHeader(), clearSessionCookieHeader(), NodeHashService
+Cohesion: 0.50
+Nodes (3): Feature Specification: 004-shared-remove-h3, Overview, Requirements
 
 ### Community 63 - "Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`"
 Cohesion: 0.14
 Nodes (12): Constitution Check, Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`, Project Structure, Summary, Technical Context, Edge Cases, Feature Specification: Shared Pure Auth Contracts (`@genovalv/core`) & Shared BFF Auth Server (`@genovalv/server`), Requirements *(mandatory)* (+4 more)
-
-### Community 64 - "BaseController"
-Cohesion: 0.16
-Nodes (5): BackchannelLogoutUseCase, BackchannelLogoutController, LoginController, MeController, BaseController
-
-### Community 65 - "auth-controllers.test.ts"
-Cohesion: 0.17
-Nodes (6): OAuthCallbackUseCase, PasswordLoginUseCase, CallbackController, LogoutController, PasswordLoginController, BaseAuthController
 
 ### Community 66 - "Tasks: Shared Pure Auth Contracts & `@genovalv/server`"
 Cohesion: 0.20
@@ -334,37 +322,29 @@ Nodes (9): 0. Branch, 1.1 Commit Group 1, 1. Governance & Pure Contracts (`@geno
 Cohesion: 0.25
 Nodes (7): compilerOptions, lib, outDir, rootDir, types, extends, include
 
-### Community 70 - "base-user.controller.ts"
-Cohesion: 0.24
-Nodes (4): requireIdempotencyKey(), requireUserSession(), BaseUserController, ProtectedTestController
-
 ### Community 71 - "JoseSessionTokenGateway"
 Cohesion: 0.23
 Nodes (8): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, AdminProfileRole, BaseSeedConfig, BaseSeedProfile, ClientProfileRole, ProfileRole, ProfileScope
 
-### Community 75 - "audit-log-input.dto.ts"
-Cohesion: 0.29
-Nodes (5): AuditLogEntry, AuditLogInput, AuditLogLevel, AuditLogger, IAuditLogReader
-
 ## Knowledge Gaps
-- **455 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+450 more)
+- **462 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+457 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UserCookieSession` connect `audit-log.ts` to `auth-contracts.ts`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
-- **Why does `requireUserSession()` connect `base-user.controller.ts` to `base-auth.controller.ts`, `audit-log.ts`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `PasswordLoginUseCase` connect `auth-controllers.test.ts` to `index.ts`, `audit-log.ts`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `audit-log.ts`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Why does `CompanyBinding` connect `auth-contracts.ts` to `audit-log.ts`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `registerGenovaElements()` (e.g. with `GenovaActionButtonElement` and `GenovaAlertBannerElement`) actually correct?**
   _`registerGenovaElements()` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _455 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _462 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.1063973063973064 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08779631255487269 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.07826694619147449 - nodes in this community are weakly interconnected._
+- **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
+  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
