@@ -1,8 +1,10 @@
 import { expect, test } from '@playwright/test';
 
+const STORY_URL = '/iframe.html?id=flows-login-foundation--default';
+
 test.describe('Shared Login Foundation E2E (US1-US4)', () => {
   test('US1: renders institutional shell, card, support links and has no horizontal overflow', async ({ page }) => {
-    await page.goto('/');
+    await page.goto(STORY_URL);
 
     await expect(page.locator('genova-header')).toBeVisible();
     await expect(page.locator('genova-auth-card')).toContainText('Genova Cloud');
@@ -20,7 +22,7 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
   test('US2: toggles password visibility, blocks invalid input, prevents double submit and handles success/error', async ({
     page,
   }) => {
-    await page.goto('/?outcome=error');
+    await page.goto(`${STORY_URL}&outcome=error`);
 
     // Empty submit blocked
     await page.locator('#submit-btn').click();
@@ -42,7 +44,7 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
     await expect(page.locator('#login-email input')).toHaveValue('Admin@Genova.Cloud');
 
     // Success outcome + double submit guard
-    await page.goto('/?outcome=success');
+    await page.goto(`${STORY_URL}&outcome=success`);
     await page.locator('#login-email input').fill('admin@genova.cloud');
     await page.locator('#login-password input').fill('MinhaSenha123');
 
@@ -55,7 +57,7 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
   test('US3: sanitizes pasted MFA code, enforces required mode and updates guidance on method switch', async ({
     page,
   }) => {
-    await page.goto('/?mfaMode=required');
+    await page.goto(`${STORY_URL}&mfaMode=required`);
 
     const mfaInput = page.locator('#login-mfa input');
     await mfaInput.fill('12a3 45b678');
@@ -69,7 +71,7 @@ test.describe('Shared Login Foundation E2E (US1-US4)', () => {
   test('US4: supports full keyboard navigation and live locale switching (pt-BR / en-US / es-ES)', async ({
     page,
   }) => {
-    await page.goto('/');
+    await page.goto(STORY_URL);
 
     // Switch locale dynamically
     await page.locator('#locale-select select').selectOption('en-US');
