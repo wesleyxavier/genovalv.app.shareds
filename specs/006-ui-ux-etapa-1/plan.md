@@ -2,7 +2,7 @@
 
 ## Architecture & Packages (`New/Shareds`)
 - **`@genovalv/tokens`**:
-  - Atualizar `src/tokens.css` e `src/tailwind.css` com a paleta Etapa 1 (`#FAF7F0`, `#4C3A8A`, `#E7E2D8`, etc.) e fonte `Plus Jakarta Sans`.
+  - Atualizar `src/tokens.css` e `src/tailwind.css` com a paleta Etapa 1 (`#FAF7F0`, `#715faf`, `#E7E2D8`, etc.) e fonte `Plus Jakarta Sans`.
   - Adicionar `src/assets/logo/*.svg` com os 7 SVGs oficiais da marca.
 - **`@genovalv/elements`**:
   - Estrutura modular por categoria em `packages/elements/src/components/`:

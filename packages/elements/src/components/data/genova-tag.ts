@@ -23,7 +23,7 @@ export class GenovaTagElement extends LitElement {
     return html`
       <span class="tag">
         <span>${this.label}<slot></slot></span>
-        ${this.removable ? html`<button type="button" aria-label="Remover" @click=${() => this.dispatchEvent(new CustomEvent('genova-remove', { bubbles: true, composed: true }))}>âœ•</button>` : ''}
+        ${this.removable ? html`<button type="button" aria-label="Remover" @click=${() => this.dispatchEvent(new CustomEvent('genova-remove', { bubbles: true, composed: true }))}>✕</button>` : ''}
       </span>
     `;
   }

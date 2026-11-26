@@ -57,7 +57,7 @@ function createLoginFoundationNode(args: LoginArgs): HTMLElement {
       <div slot="actions" style="display:flex;align-items:center;gap:0.5rem;">
         <genova-locale-selector id="locale-select"></genova-locale-selector>
       </div>
-      <genova-auth-card id="auth-card" portal-title="Genova Cloud" portal-subtitle="Admin Console • Acesso Restrito">
+      <genova-auth-card id="auth-card" badge-text="Acesso Seguro" portal-title="Genova Cloud" portal-subtitle="Admin Console • Acesso Restrito">
         <genova-alert-banner id="form-alert" slot="feedback"></genova-alert-banner>
         <form id="login-form" class="genova-form" novalidate>
           <genova-input id="login-email" name="email" type="email" icon="email" autocomplete="email" required></genova-input>
@@ -158,4 +158,38 @@ function createLoginFoundationNode(args: LoginArgs): HTMLElement {
 
 export const Default: Story = {
   render: (args) => createLoginFoundationNode(args),
+};
+
+export const FirstAccessOnboarding: Story = {
+  render: () => {
+    const root = document.createElement('div');
+    root.innerHTML = `
+      <genova-auth-shell
+        id="onboarding-shell"
+        hero-title="Vamos preparar"
+        hero-subtitle="O seu console."
+      >
+        <div slot="actions" style="display:flex;align-items:center;gap:0.5rem;">
+          <genova-locale-selector></genova-locale-selector>
+        </div>
+        <genova-auth-card
+          badge-text="Primeiro Acesso"
+          portal-title="Bem-vindo ao Genova Cloud"
+          portal-subtitle="Informe os dados iniciais da operação."
+        >
+          <form class="genova-form" novalidate style="gap:0.875rem;">
+            <genova-input name="appId" type="text" label="App ID" placeholder="app_..."></genova-input>
+            <genova-input name="appSecret" type="password" label="App Secret (token mestre)" placeholder="sec_..." show-password-toggle></genova-input>
+            <genova-divider></genova-divider>
+            <genova-input name="email" type="email" icon="email" label="E-mail do Administrador" placeholder="admin@empresa.com.br" required></genova-input>
+            <genova-input name="cpf" type="text" label="CPF" placeholder="000.000.000-00"></genova-input>
+            <genova-action-button type="button" label="Concluir Configuração"></genova-action-button>
+          </form>
+        </genova-auth-card>
+      </genova-auth-shell>
+    `;
+    const shell = root.querySelector('#onboarding-shell') as GenovaAuthShellElement;
+    shell.heroSteps = ['Credenciais da operação', 'Administrador e senha'];
+    return root;
+  },
 };

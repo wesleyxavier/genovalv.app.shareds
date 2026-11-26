@@ -13,7 +13,7 @@ export class GenovaTabsElement extends LitElement {
         font-size: 0.875rem; font-weight: 600; color: var(--gnv-text-muted, #64748b);
         border-bottom: 2px solid transparent; cursor: pointer;
       }
-      button[aria-selected='true'] { color: var(--gnv-primary, #4c3a8a); border-bottom-color: var(--gnv-primary, #4c3a8a); }
+      button[aria-selected='true'] { color: var(--gnv-primary, #715faf); border-bottom-color: var(--gnv-primary, #715faf); }
       .panel { padding: 1rem 0; font-size: 0.875rem; }
     `,
   ];

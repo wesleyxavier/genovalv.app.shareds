@@ -27,7 +27,7 @@ export class GenovaModalElement extends LitElement {
             <button type="button" aria-label="Fechar" @click=${() => {
               this.open = false;
               this.dispatchEvent(new CustomEvent('genova-close', { bubbles: true, composed: true }));
-            }}>âœ•</button>
+            }}>✕</button>
           </div>
           <div><slot></slot></div>
         </div>

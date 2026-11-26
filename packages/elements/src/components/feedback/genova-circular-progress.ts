@@ -22,7 +22,7 @@ export class GenovaCircularProgressElement extends LitElement {
     return html`
       <svg width=${this.size} height=${this.size} viewBox="0 0 56 56" role="progressbar" aria-valuenow=${pct} aria-valuemin="0" aria-valuemax="100">
         ${svg`<circle cx="28" cy="28" r=${r} fill="none" stroke="#e7e2d8" stroke-width="5" />`}
-        ${svg`<circle cx="28" cy="28" r=${r} fill="none" stroke="#4c3a8a" stroke-width="5" stroke-linecap="round" stroke-dasharray=${c} stroke-dashoffset=${offset} transform="rotate(-90 28 28)" />`}
+        ${svg`<circle cx="28" cy="28" r=${r} fill="none" stroke="var(--gnv-primary, #715faf)" stroke-width="5" stroke-linecap="round" stroke-dasharray=${c} stroke-dashoffset=${offset} transform="rotate(-90 28 28)" />`}
       </svg>
       <span class="label">${pct}%</span>
     `;

@@ -23,6 +23,6 @@ export class GenovaCloseButtonElement extends LitElement {
 
   override render() {
     return html`<button type="button" aria-label=${this.label} ?disabled=${this.disabled}
-      @click=${() => this.dispatchEvent(new CustomEvent('genova-close', { bubbles: true, composed: true }))}>âœ•</button>`;
+      @click=${() => this.dispatchEvent(new CustomEvent('genova-close', { bubbles: true, composed: true }))}>✕</button>`;
   }
 }

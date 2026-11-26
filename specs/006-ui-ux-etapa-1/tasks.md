@@ -4,7 +4,7 @@
 - [x] Worktree `worktrees/006-ui-ux-etapa-1` criado a partir de `develop`.
 
 ## 1. Fundamentos, Tokens, Fonte & Logos (`@genovalv/tokens`)
-- [x] Atualizar `tokens.css` e `tailwind.css` com a paleta `#FAF7F0` / `#4C3A8A` e fonte `Plus Jakarta Sans`.
+- [x] Atualizar `tokens.css` e `tailwind.css` com a paleta `#FAF7F0` / `#715faf` e fonte `Plus Jakarta Sans`.
 - [x] Importar os 7 SVGs de `logo/` em `packages/tokens/src/assets/logo/` e configurar Storybook (`preview-head.html`).
 
 ## 2. Primitivos & Ações (`00-fundamentos` + `01-acoes`)

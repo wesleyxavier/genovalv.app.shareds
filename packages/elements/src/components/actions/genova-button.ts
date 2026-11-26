@@ -15,13 +15,13 @@ export class GenovaButtonElement extends LitElement {
       button[data-size='sm'] { padding: 0.375rem 0.75rem; font-size: 0.75rem; }
       button[data-size='md'] { padding: 0.55rem 1rem; font-size: 0.875rem; }
       button[data-size='lg'] { padding: 0.75rem 1.35rem; font-size: 1rem; }
-      button[data-variant='solid'] { background: var(--gnv-primary, #4c3a8a); color: #fff; }
+      button[data-variant='solid'] { background: var(--gnv-primary, #715faf); color: #fff; }
       button[data-variant='solid']:hover:not(:disabled) { background: var(--gnv-primary-hover, #3e2f73); }
-      button[data-variant='outline'] { background: #fff; color: var(--gnv-primary, #4c3a8a); border-color: var(--gnv-primary-border, #cfc4f5); }
+      button[data-variant='outline'] { background: #fff; color: var(--gnv-primary, #715faf); border-color: var(--gnv-primary-border, #cfc4f5); }
       button[data-variant='outline']:hover:not(:disabled) { background: var(--gnv-primary-container, #f1eefc); }
       button[data-variant='ghost'] { background: transparent; color: var(--gnv-on-surface, #0f172a); }
       button[data-variant='ghost']:hover:not(:disabled) { background: var(--gnv-surface-container, #eeebe4); }
-      button[data-variant='danger'] { background: var(--gnv-error, #b91c1c); color: #fff; }
+      button[data-variant='danger'] { background: var(--gnv-error, #bc3737); color: #fff; }
       button:disabled { opacity: 0.55; cursor: not-allowed; }
     `,
   ];

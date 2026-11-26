@@ -13,7 +13,7 @@ export class GenovaToastElement extends LitElement {
         color: #fff; font-size: 0.875rem; box-shadow: 0 10px 24px rgba(15, 23, 42, 0.16);
       }
       .toast[data-status='success'] { background: var(--gnv-status-success-text, #1f5c4a); }
-      .toast[data-status='error'] { background: var(--gnv-error, #b91c1c); }
+      .toast[data-status='error'] { background: var(--gnv-error, #bc3737); }
       button { border: 0; background: transparent; color: inherit; cursor: pointer; font-size: 0.875rem; }
     `,
   ];
@@ -30,7 +30,7 @@ export class GenovaToastElement extends LitElement {
         <button type="button" aria-label="Fechar" @click=${() => {
           this.open = false;
           this.dispatchEvent(new CustomEvent('genova-close', { bubbles: true, composed: true }));
-        }}>âœ•</button>
+        }}>✕</button>
       </div>
     `;
   }

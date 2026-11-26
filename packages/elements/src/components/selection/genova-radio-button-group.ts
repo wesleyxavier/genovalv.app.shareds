@@ -12,7 +12,7 @@ export class GenovaRadioButtonGroupElement extends LitElement {
         border: 0; background: transparent; padding: 0.45rem 0.9rem; font-family: inherit;
         font-size: 0.8125rem; font-weight: 600; color: var(--gnv-on-surface-variant, #475569); cursor: pointer;
       }
-      button[aria-checked='true'] { background: var(--gnv-primary, #4c3a8a); color: #fff; }
+      button[aria-checked='true'] { background: var(--gnv-primary, #715faf); color: #fff; }
     `,
   ];
 

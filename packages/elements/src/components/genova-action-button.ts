@@ -30,10 +30,10 @@ export class GenovaActionButtonElement extends LitElement {
       width: 100%;
       border: 0;
       border-radius: var(--gnv-radius-md, 0.25rem);
-      background: var(--gnv-secondary, #0051d5);
-      color: var(--gnv-on-secondary, #ffffff);
+      background: var(--gnv-primary, #715faf);
+      color: var(--gnv-on-primary, #ffffff);
       padding: 0.625rem var(--gnv-space-lg, 1rem);
-      font-family: var(--gnv-font-sans, 'Inter', sans-serif);
+      font-family: var(--gnv-font-sans, 'Plus Jakarta Sans', system-ui, sans-serif);
       font-size: 0.9375rem;
       line-height: 1.375rem;
       font-weight: 600;
@@ -46,13 +46,13 @@ export class GenovaActionButtonElement extends LitElement {
       transition: background-color 150ms ease, transform 100ms ease, opacity 150ms ease;
     }
     button:hover:not(:disabled) {
-      background: var(--gnv-secondary-container, #316bf3);
+      background: var(--gnv-primary-hover, #3e2f73);
     }
     button:active:not(:disabled) {
       transform: scale(0.99);
     }
     button:focus-visible {
-      outline: 2px solid var(--gnv-secondary, #0051d5);
+      outline: 2px solid var(--gnv-primary-focus, #8e7cd8);
       outline-offset: 2px;
     }
     button:disabled {
@@ -60,7 +60,7 @@ export class GenovaActionButtonElement extends LitElement {
       cursor: not-allowed;
     }
     button[data-state='success'] {
-      background: var(--gnv-primary-container, #131b2e);
+      background: var(--gnv-status-success, #3fa37c);
     }
     .spinner {
       animation: gnv-spin 1s linear infinite;

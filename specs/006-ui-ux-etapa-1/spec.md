@@ -7,16 +7,16 @@
 
 ## Overview
 
-Evoluir o Design System compartilhado (`@genovalv/tokens`, `@genovalv/elements`, `@genovalv/playground` Storybook) para a **UI/UX Etapa 1**, adotando a nova identidade visual (`#FAF7F0` creme, `#4C3A8A` roxo Genova, `#E7E2D8` bordas, fonte **Plus Jakarta Sans** e novos logos SVG) e implementando o catálogo completo de **46 componentes Web Components (Lit 3)** com stories interativas no Storybook.
+Evoluir o Design System compartilhado (`@genovalv/tokens`, `@genovalv/elements`, `@genovalv/playground` Storybook) para a **UI/UX Etapa 1**, adotando a nova identidade visual (`#FAF7F0` creme, `#715faf` roxo Genova, `#E7E2D8` bordas, fonte **Plus Jakarta Sans** e novos logos SVG) e implementando o catálogo completo de **46 componentes Web Components (Lit 3)** com stories interativas no Storybook.
 
 ## Visual Foundations & Typography (`00-fundamentos.svg`)
 
 - **Fonte da aplicação:** `Plus Jakarta Sans` (`--gnv-font-sans`) com fallback `system-ui, sans-serif`.
 - **Paleta extraída de `00-fundamentos.svg`:**
   - Superfícies: `--gnv-surface: #FAF7F0`, `--gnv-surface-container-lowest: #FFFFFF`, `--gnv-surface-container: #EEEBE4`, `--gnv-outline-variant: #E7E2D8`
-  - Marca / Primário: `--gnv-primary: #4C3A8A`, `--gnv-primary-hover: #3E2F73`, `--gnv-primary-active: #31255C`, `--gnv-primary-tint: #F1EEFC`, `--gnv-primary-border: #CFC4F5`, `--gnv-primary-focus: #8E7CD8`
+  - Marca / Primário: `--gnv-primary: #715faf`, `--gnv-primary-hover: #3E2F73`, `--gnv-primary-active: #31255C`, `--gnv-primary-tint: #F1EEFC`, `--gnv-primary-border: #CFC4F5`, `--gnv-primary-focus: #8E7CD8`
   - Texto: `--gnv-on-surface: #0F172A`, `--gnv-on-surface-variant: #475569`, `--gnv-text-muted: #64748B`
-  - Semânticas: Success (`#3FA37C` / `#E6F5EE` / `#1F5C4A`), Warning (`#92400E` / `#FEF3C7`), Danger (`#B91C1C` / `#FEF2F2`), Info (`#2F4A8C`)
+  - Semânticas: Success (`#3FA37C` / `#E6F5EE` / `#1F5C4A`), Warning (`#92400E` / `#FEF3C7`), Danger (`#BC3737` / `#FEF2F2`), Info (`#2F4A8C`)
 - **Logos:** Incorporar os 7 SVGs de `logo/` (`genova-cabecalho.svg`, `genova-cabecalho-escuro.svg`, `genova-cloud-horizontal.svg`, `genova-cloud-horizontal-escuro.svg`, `genova-simbolo.svg`, `genova-simbolo-reduzido.svg`, `genova-logo-prancha.svg`).
 
 ## Component Catalog (46 Componentes no Storybook)

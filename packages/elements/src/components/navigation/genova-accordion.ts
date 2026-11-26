@@ -29,7 +29,7 @@ export class GenovaAccordionElement extends LitElement {
           return html`
             <div class="item">
               <button type="button" aria-expanded=${String(isOpen)} @click=${() => { this.openId = isOpen ? '' : item.id; }}>
-                <span>${item.title}</span><span>${isOpen ? 'âˆ’' : '+'}</span>
+                <span>${item.title}</span><span>${isOpen ? '−' : '+'}</span>
               </button>
               ${isOpen ? html`<div class="body">${item.content}</div>` : ''}
             </div>

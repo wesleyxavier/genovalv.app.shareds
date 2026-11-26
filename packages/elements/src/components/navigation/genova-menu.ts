@@ -20,17 +20,17 @@ export class GenovaMenuElement extends LitElement {
         display: block; width: 100%; text-align: left; border: 0; background: transparent;
         padding: 0.5rem 0.75rem; border-radius: 0.375rem; font-family: inherit; font-size: 0.8125rem; cursor: pointer;
       }
-      .item:hover { background: var(--gnv-primary-container, #f1eefc); color: var(--gnv-primary, #4c3a8a); }
+      .item:hover { background: var(--gnv-primary-container, #f1eefc); color: var(--gnv-primary, #715faf); }
     `,
   ];
 
-  @property({ type: String }) label = 'OpÃ§Ãµes';
+  @property({ type: String }) label = 'Opções';
   @property({ type: Array }) items: Array<{ id: string; label: string }> = [];
   @property({ type: Boolean }) open = false;
 
   override render() {
     return html`
-      <button type="button" class="trigger" aria-expanded=${String(this.open)} @click=${() => { this.open = !this.open; }}>${this.label} â–¾</button>
+      <button type="button" class="trigger" aria-expanded=${String(this.open)} @click=${() => { this.open = !this.open; }}>${this.label} ▾</button>
       ${this.open ? html`
         <div class="list" role="menu">
           ${this.items.map((item) => html`

@@ -81,21 +81,21 @@ export class GenovaInputElement extends LitElement {
       font-size: 0.8125rem;
       line-height: 1rem;
       font-weight: 600;
-      color: var(--gnv-on-surface, #0b1c30);
+      color: var(--gnv-on-surface, #0f172a);
     }
     .hint {
       font-family: var(--gnv-font-mono, 'JetBrains Mono', monospace);
       font-size: 0.6875rem;
       line-height: 1rem;
       font-weight: 500;
-      color: var(--gnv-on-surface-variant, #45464d);
+      color: var(--gnv-on-surface-variant, #475569);
     }
     a.action-link {
       font-size: 0.6875rem;
       line-height: 0.875rem;
       font-weight: 600;
       letter-spacing: 0.025em;
-      color: var(--gnv-secondary, #0051d5);
+      color: var(--gnv-primary, #715faf);
       text-decoration: none;
     }
     a.action-link:hover,
@@ -122,13 +122,13 @@ export class GenovaInputElement extends LitElement {
     input {
       width: 100%;
       box-sizing: border-box;
-      background-color: var(--gnv-surface-container-low, #eff4ff);
-      color: var(--gnv-on-surface, #0b1c30);
-      font-family: var(--gnv-font-sans, 'Inter', system-ui, sans-serif);
+      background-color: var(--gnv-surface-container-lowest, #ffffff);
+      color: var(--gnv-on-surface, #0f172a);
+      font-family: var(--gnv-font-sans, 'Plus Jakarta Sans', system-ui, sans-serif);
       font-size: 0.8125rem;
       line-height: 1.25rem;
       padding: 0.625rem 0.875rem;
-      border: 1px solid transparent;
+      border: 1px solid var(--gnv-outline, #857f93);
       border-radius: var(--gnv-radius-lg, 0.5rem);
       outline: none;
       transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
@@ -145,10 +145,12 @@ export class GenovaInputElement extends LitElement {
     }
     input:focus {
       background-color: var(--gnv-surface-container-lowest, #ffffff);
-      box-shadow: 0 0 0 2px var(--gnv-secondary, #0051d5);
+      border-color: var(--gnv-primary, #715faf);
+      box-shadow: 0 0 0 2px var(--gnv-primary-border, #cfc4f5);
     }
     input[aria-invalid='true'] {
-      box-shadow: 0 0 0 1.5px var(--gnv-error, #ba1a1a);
+      border-color: var(--gnv-error, #bc3737);
+      box-shadow: 0 0 0 1.5px rgba(188, 55, 55, 0.25);
     }
     button.toggle {
       position: absolute;
@@ -159,20 +161,20 @@ export class GenovaInputElement extends LitElement {
       padding: 0.25rem;
       border: none;
       background: transparent;
-      color: var(--gnv-on-surface-variant, #45464d);
+      color: var(--gnv-on-surface-variant, #475569);
       border-radius: var(--gnv-radius-md, 0.25rem);
       cursor: pointer;
     }
     button.toggle:hover,
     button.toggle:focus-visible {
-      color: var(--gnv-on-surface, #0b1c30);
-      outline: 2px solid var(--gnv-secondary, #0051d5);
+      color: var(--gnv-on-surface, #0f172a);
+      outline: 2px solid var(--gnv-primary-focus, #8e7cd8);
       outline-offset: 1px;
     }
     .error-msg {
       font-size: 0.75rem;
       line-height: 1.125rem;
-      color: var(--gnv-error, #ba1a1a);
+      color: var(--gnv-error, #bc3737);
       font-weight: 500;
     }
   `;

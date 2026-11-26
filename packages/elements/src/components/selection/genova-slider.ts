@@ -8,7 +8,7 @@ export class GenovaSliderElement extends LitElement {
     css`
       :host { display: block; }
       .row { display: flex; align-items: center; gap: 0.75rem; }
-      input { flex: 1; accent-color: var(--gnv-primary, #4c3a8a); }
+      input { flex: 1; accent-color: var(--gnv-primary, #715faf); }
       .val { font-size: 0.8125rem; font-weight: 600; min-width: 2rem; text-align: right; }
     `,
   ];

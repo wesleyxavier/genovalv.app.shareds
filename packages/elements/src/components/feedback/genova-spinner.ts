@@ -9,7 +9,7 @@ export class GenovaSpinnerElement extends LitElement {
       :host { display: inline-flex; }
       .spin {
         border-radius: 9999px; border: 2.5px solid var(--gnv-outline-variant, #e7e2d8);
-        border-top-color: var(--gnv-primary, #4c3a8a); animation: spin 0.7s linear infinite;
+        border-top-color: var(--gnv-primary, #715faf); animation: spin 0.7s linear infinite;
       }
       @keyframes spin { to { transform: rotate(360deg); } }
     `,

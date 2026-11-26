@@ -11,6 +11,7 @@ type Story = StoryObj;
 export const SelectionCatalog: Story = {
   render: () => html`
     <div style="padding:2rem;background:#faf7f0;display:grid;gap:1.25rem;max-width:520px;">
+      <genova-checkbox name="rememberDevice" label="Checkbox individual (Lembrar dispositivo)" checked></genova-checkbox>
       <genova-checkbox-group
         direction="row"
         .options=${[{ label: 'Lavagem', value: 'wash' }, { label: 'Secagem', value: 'dry' }, { label: 'Passadoria', value: 'iron' }]}
