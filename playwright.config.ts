@@ -27,9 +27,9 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run dev --workspace=@genovalv/playground -- --host 127.0.0.1 --port 4173',
+    command: 'npm run build --workspace=@genovalv/playground && npm run preview --workspace=@genovalv/playground',
     url: 'http://127.0.0.1:4173',
     reuseExistingServer: !process.env.CI,
-    timeout: 30000,
+    timeout: 90000,
   },
 });

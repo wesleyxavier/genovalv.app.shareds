@@ -64,9 +64,19 @@
   "62": "base-auth.controller.ts",
   "63": "Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`",
   "64": "BaseController",
+  "65": "Tasks: 005-shared-storybook",
   "66": "Tasks: Shared Pure Auth Contracts & `@genovalv/server`",
   "67": "compilerOptions",
+  "68": "login-foundation.stories.ts",
+  "69": "User Scenarios & Testing *(mandatory)*",
+  "70": "auth-shell.stories.ts",
   "71": "JoseSessionTokenGateway",
+  "72": "Feature Specification: 005-shared-storybook",
   "73": "vite.config.ts",
-  "74": "vitest.config.ts"
+  "74": "vitest.config.ts",
+  "75": "feedback-and-actions.stories.ts",
+  "76": "inputs.stories.ts",
+  "77": "main.ts",
+  "78": "preview.ts",
+  "79": "plan.md"
 }

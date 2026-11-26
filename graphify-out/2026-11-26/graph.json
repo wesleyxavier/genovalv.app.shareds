@@ -930,7 +930,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_entry_dto",
-      "community": 75,
+      "community": 55,
       "norm_label": "audit-log-entry.dto.ts"
     },
     {
@@ -940,7 +940,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_entry_dto_auditlogentry",
-      "community": 75,
+      "community": 55,
       "norm_label": "auditlogentry"
     },
     {
@@ -950,7 +950,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_input_dto",
-      "community": 75,
+      "community": 55,
       "norm_label": "audit-log-input.dto.ts"
     },
     {
@@ -960,7 +960,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_input_dto_auditloginput",
-      "community": 75,
+      "community": 55,
       "norm_label": "auditloginput"
     },
     {
@@ -970,7 +970,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_level_dto",
-      "community": 75,
+      "community": 55,
       "norm_label": "audit-log-level.dto.ts"
     },
     {
@@ -980,7 +980,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_level_dto_auditloglevel",
-      "community": 75,
+      "community": 55,
       "norm_label": "auditloglevel"
     },
     {
@@ -1560,7 +1560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_submission_state_dto",
-      "community": 52,
+      "community": 0,
       "norm_label": "submission-state.dto.ts"
     },
     {
@@ -1570,7 +1570,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_submission_state_dto_submissionstate",
-      "community": 52,
+      "community": 0,
       "norm_label": "submissionstate"
     },
     {
@@ -1760,7 +1760,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iaudit_logger",
-      "community": 75,
+      "community": 55,
       "norm_label": "iaudit-logger.ts"
     },
     {
@@ -1770,7 +1770,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iaudit_logger_auditlogger",
-      "community": 75,
+      "community": 55,
       "norm_label": "auditlogger"
     },
     {
@@ -1780,7 +1780,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iaudit_logger_auditlogger_log",
-      "community": 75,
+      "community": 55,
       "norm_label": ".log()"
     },
     {
@@ -2010,7 +2010,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_auth_cookie_config",
-      "community": 52,
+      "community": 0,
       "norm_label": "auth-cookie-config.ts"
     },
     {
@@ -2020,7 +2020,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_auth_cookie_config_authcookieconfig",
-      "community": 52,
+      "community": 0,
       "norm_label": "authcookieconfig"
     },
     {
@@ -2070,7 +2070,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_bootstrap_user_input",
-      "community": 52,
+      "community": 0,
       "norm_label": "bootstrap-user-input.ts"
     },
     {
@@ -2080,7 +2080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_bootstrap_user_input_bootstrapuserinput",
-      "community": 52,
+      "community": 0,
       "norm_label": "bootstrapuserinput"
     },
     {
@@ -2090,7 +2090,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_bootstrap_user_result",
-      "community": 52,
+      "community": 0,
       "norm_label": "bootstrap-user-result.ts"
     },
     {
@@ -2100,7 +2100,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_bootstrap_user_result_bootstrapuserresult",
-      "community": 52,
+      "community": 0,
       "norm_label": "bootstrapuserresult"
     },
     {
@@ -2110,7 +2110,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader",
-      "community": 75,
+      "community": 55,
       "norm_label": "iaudit-log-reader.ts"
     },
     {
@@ -2120,7 +2120,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader_iauditlogreader",
-      "community": 75,
+      "community": 55,
       "norm_label": "iauditlogreader"
     },
     {
@@ -2130,7 +2130,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader_iauditlogreader_listrecent",
-      "community": 75,
+      "community": 55,
       "norm_label": ".listrecent()"
     },
     {
@@ -2440,7 +2440,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_oauth_callback_outcome",
-      "community": 52,
+      "community": 0,
       "norm_label": "oauth-callback-outcome.ts"
     },
     {
@@ -2450,7 +2450,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_oauth_callback_outcome_oauthcallbackoutcome",
-      "community": 52,
+      "community": 0,
       "norm_label": "oauthcallbackoutcome"
     },
     {
@@ -2460,7 +2460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_password_login_input",
-      "community": 52,
+      "community": 0,
       "norm_label": "password-login-input.ts"
     },
     {
@@ -2470,7 +2470,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_password_login_input_passwordlogininput",
-      "community": 52,
+      "community": 0,
       "norm_label": "passwordlogininput"
     },
     {
@@ -2920,7 +2920,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_index",
-      "community": 52,
+      "community": 0,
       "norm_label": "index.ts"
     },
     {
@@ -4174,20 +4174,10 @@
       "norm_label": "dotenv"
     },
     {
-      "label": "h3",
-      "file_type": "code",
-      "source_file": "packages/server/package.json",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "packages_server_package_dependencies_h3",
-      "community": 59,
-      "norm_label": "h3"
-    },
-    {
       "label": "jose",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L25",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "packages_server_package_dependencies_jose",
       "community": 59,
@@ -4197,7 +4187,7 @@
       "label": "peerDependencies",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L27",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "packages_server_package_peerdependencies",
       "community": 59,
@@ -4207,7 +4197,7 @@
       "label": "@genovalv/core",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L28",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "packages_server_package_peerdependencies_genovalv_core",
       "community": 59,
@@ -4217,7 +4207,7 @@
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L30",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "packages_server_package_devdependencies",
       "community": 59,
@@ -4227,7 +4217,7 @@
       "label": "@genovalv/core",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L31",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "packages_server_package_devdependencies_genovalv_core",
       "community": 59,
@@ -4237,7 +4227,7 @@
       "label": "@types/node",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L32",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "packages_server_package_devdependencies_types_node",
       "community": 59,
@@ -4247,7 +4237,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L33",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "packages_server_package_devdependencies_typescript",
       "community": 59,
@@ -4257,7 +4247,7 @@
       "label": "vite",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L34",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "packages_server_package_devdependencies_vite",
       "community": 59,
@@ -4267,7 +4257,7 @@
       "label": "vitest",
       "file_type": "code",
       "source_file": "packages/server/package.json",
-      "source_location": "L35",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "packages_server_package_devdependencies_vitest",
       "community": 59,
@@ -4280,7 +4270,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase",
-      "community": 64,
+      "community": 60,
       "norm_label": "backchannel-logout.usecase.ts"
     },
     {
@@ -4290,7 +4280,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase",
-      "community": 64,
+      "community": 60,
       "norm_label": "backchannellogoutusecase"
     },
     {
@@ -4300,7 +4290,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase_constructor",
-      "community": 64,
+      "community": 60,
       "norm_label": ".constructor()"
     },
     {
@@ -4310,7 +4300,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase_execute",
-      "community": 55,
+      "community": 60,
       "norm_label": ".execute()"
     },
     {
@@ -4320,7 +4310,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_bootstrap_user_usecase",
-      "community": 61,
+      "community": 60,
       "norm_label": "bootstrap-user.usecase.ts"
     },
     {
@@ -4330,7 +4320,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_bootstrap_user_usecase_bootstrapusecase",
-      "community": 61,
+      "community": 60,
       "norm_label": "bootstrapusecase"
     },
     {
@@ -4340,7 +4330,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_bootstrap_user_usecase_bootstrapusecase_constructor",
-      "community": 61,
+      "community": 60,
       "norm_label": ".constructor()"
     },
     {
@@ -4360,7 +4350,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
-      "community": 61,
+      "community": 60,
       "norm_label": "oauth-callback.usecase.ts"
     },
     {
@@ -4370,7 +4360,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
-      "community": 65,
+      "community": 60,
       "norm_label": "oauthcallbackusecase"
     },
     {
@@ -4380,7 +4370,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_constructor",
-      "community": 61,
+      "community": 60,
       "norm_label": ".constructor()"
     },
     {
@@ -4400,7 +4390,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_password_login_usecase",
-      "community": 61,
+      "community": 60,
       "norm_label": "password-login.usecase.ts"
     },
     {
@@ -4410,7 +4400,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
-      "community": 65,
+      "community": 60,
       "norm_label": "passwordloginusecase"
     },
     {
@@ -4420,7 +4410,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_constructor",
-      "community": 61,
+      "community": 60,
       "norm_label": ".constructor()"
     },
     {
@@ -4440,7 +4430,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase",
-      "community": 61,
+      "community": 60,
       "norm_label": "resolve-post-login.usecase.ts"
     },
     {
@@ -4450,7 +4440,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase",
-      "community": 61,
+      "community": 60,
       "norm_label": "resolvepostloginusecase"
     },
     {
@@ -4460,7 +4450,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase_constructor",
-      "community": 61,
+      "community": 60,
       "norm_label": ".constructor()"
     },
     {
@@ -4480,7 +4470,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_domain_constants_auth_cookie_constants",
-      "community": 61,
+      "community": 60,
       "norm_label": "auth-cookie.constants.ts"
     },
     {
@@ -4500,7 +4490,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_domain_constants_shared_auth_audit_actions",
-      "community": 61,
+      "community": 60,
       "norm_label": "shared-auth-audit-actions.ts"
     },
     {
@@ -4510,7 +4500,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_domain_constants_shared_auth_audit_actions_shared_auth_audit_actions",
-      "community": 61,
+      "community": 60,
       "norm_label": "shared_auth_audit_actions"
     },
     {
@@ -4520,7 +4510,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_index",
-      "community": 61,
+      "community": 60,
       "norm_label": "index.ts"
     },
     {
@@ -4740,7 +4730,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_config_load_env_file",
-      "community": 61,
+      "community": 60,
       "norm_label": "load-env-file.ts"
     },
     {
@@ -4750,7 +4740,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_config_load_env_file_loadenvfile",
-      "community": 61,
+      "community": 60,
       "norm_label": "loadenvfile()"
     },
     {
@@ -4760,7 +4750,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_build_session_cookie_header",
-      "community": 62,
+      "community": 60,
       "norm_label": "build-session-cookie-header.ts"
     },
     {
@@ -4770,7 +4760,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_build_session_cookie_header_buildsessioncookieheader",
-      "community": 62,
+      "community": 60,
       "norm_label": "buildsessioncookieheader()"
     },
     {
@@ -4780,7 +4770,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_clear_session_cookie_header",
-      "community": 62,
+      "community": 60,
       "norm_label": "clear-session-cookie-header.ts"
     },
     {
@@ -4790,48 +4780,8 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_clear_session_cookie_header_clearsessioncookieheader",
-      "community": 62,
+      "community": 60,
       "norm_label": "clearsessioncookieheader()"
-    },
-    {
-      "label": "require-idempotency-key.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/infrastructure/http/require-idempotency-key.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_infrastructure_http_require_idempotency_key",
-      "community": 70,
-      "norm_label": "require-idempotency-key.ts"
-    },
-    {
-      "label": "requireIdempotencyKey()",
-      "file_type": "code",
-      "source_file": "packages/server/src/infrastructure/http/require-idempotency-key.ts",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "packages_server_src_infrastructure_http_require_idempotency_key_requireidempotencykey",
-      "community": 70,
-      "norm_label": "requireidempotencykey()"
-    },
-    {
-      "label": "require-user-session.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/infrastructure/http/require-user-session.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_infrastructure_http_require_user_session",
-      "community": 70,
-      "norm_label": "require-user-session.ts"
-    },
-    {
-      "label": "requireUserSession()",
-      "file_type": "code",
-      "source_file": "packages/server/src/infrastructure/http/require-user-session.ts",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "packages_server_src_infrastructure_http_require_user_session_requireusersession",
-      "community": 70,
-      "norm_label": "requireusersession()"
     },
     {
       "label": "jose-session-token.gateway.ts",
@@ -4840,7 +4790,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway",
-      "community": 61,
+      "community": 60,
       "norm_label": "jose-session-token.gateway.ts"
     },
     {
@@ -4850,7 +4800,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway",
-      "community": 68,
+      "community": 60,
       "norm_label": "josesessiontokengateway"
     },
     {
@@ -4860,7 +4810,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway_constructor",
-      "community": 68,
+      "community": 60,
       "norm_label": ".constructor()"
     },
     {
@@ -4870,7 +4820,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway_sign",
-      "community": 68,
+      "community": 60,
       "norm_label": ".sign()"
     },
     {
@@ -4880,7 +4830,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway_verify",
-      "community": 68,
+      "community": 60,
       "norm_label": ".verify()"
     },
     {
@@ -4890,7 +4840,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service",
-      "community": 62,
+      "community": 60,
       "norm_label": "node-hash.service.ts"
     },
     {
@@ -4900,7 +4850,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service_nodehashservice",
-      "community": 62,
+      "community": 60,
       "norm_label": "nodehashservice"
     },
     {
@@ -4910,7 +4860,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service_nodehashservice_sha256",
-      "community": 62,
+      "community": 60,
       "norm_label": ".sha256()"
     },
     {
@@ -4920,438 +4870,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service_nodehashservice_generatestrongpassword",
-      "community": 62,
+      "community": 60,
       "norm_label": ".generatestrongpassword()"
-    },
-    {
-      "label": "backchannel-logout.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller",
-      "community": 64,
-      "norm_label": "backchannel-logout.controller.ts"
-    },
-    {
-      "label": "BackchannelLogoutController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller",
-      "community": 64,
-      "norm_label": "backchannellogoutcontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller_constructor",
-      "community": 64,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller_handle",
-      "community": 55,
-      "norm_label": ".handle()"
-    },
-    {
-      "label": "callback.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_callback_controller",
-      "community": 65,
-      "norm_label": "callback.controller.ts"
-    },
-    {
-      "label": "CallbackController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller",
-      "community": 65,
-      "norm_label": "callbackcontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller_constructor",
-      "community": 65,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller_handle",
-      "community": 55,
-      "norm_label": ".handle()"
-    },
-    {
-      "label": "login.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_login_controller",
-      "community": 64,
-      "norm_label": "login.controller.ts"
-    },
-    {
-      "label": "LoginController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller",
-      "community": 64,
-      "norm_label": "logincontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller_constructor",
-      "community": 64,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller_handle",
-      "community": 64,
-      "norm_label": ".handle()"
-    },
-    {
-      "label": "logout.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_logout_controller",
-      "community": 65,
-      "norm_label": "logout.controller.ts"
-    },
-    {
-      "label": "LogoutController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller",
-      "community": 65,
-      "norm_label": "logoutcontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller_constructor",
-      "community": 65,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller_handle",
-      "community": 65,
-      "norm_label": ".handle()"
-    },
-    {
-      "label": "me.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_me_controller",
-      "community": 64,
-      "norm_label": "me.controller.ts"
-    },
-    {
-      "label": "MeController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller",
-      "community": 64,
-      "norm_label": "mecontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller_constructor",
-      "community": 64,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller_handle",
-      "community": 55,
-      "norm_label": ".handle()"
-    },
-    {
-      "label": "password-login.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_password_login_controller",
-      "community": 65,
-      "norm_label": "password-login.controller.ts"
-    },
-    {
-      "label": "PasswordLoginController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller",
-      "community": 65,
-      "norm_label": "passwordlogincontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller_constructor",
-      "community": 65,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".handle()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller_handle",
-      "community": 55,
-      "norm_label": ".handle()"
-    },
-    {
-      "label": "base-auth.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "community": 62,
-      "norm_label": "base-auth.controller.ts"
-    },
-    {
-      "label": "BaseAuthController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "community": 65,
-      "norm_label": "baseauthcontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_constructor",
-      "community": 65,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".setSessionCookie()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_setsessioncookie",
-      "community": 65,
-      "norm_label": ".setsessioncookie()"
-    },
-    {
-      "label": ".clearSessionCookie()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_clearsessioncookie",
-      "community": 65,
-      "norm_label": ".clearsessioncookie()"
-    },
-    {
-      "label": "base-user.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "community": 70,
-      "norm_label": "base-user.controller.ts"
-    },
-    {
-      "label": "BaseUserController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "community": 70,
-      "norm_label": "baseusercontroller"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller_constructor",
-      "community": 70,
-      "norm_label": ".constructor()"
-    },
-    {
-      "label": ".requireSession()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller_requiresession",
-      "community": 70,
-      "norm_label": ".requiresession()"
-    },
-    {
-      "label": ".requireIdempotencyKey()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller_requireidempotencykey",
-      "community": 70,
-      "norm_label": ".requireidempotencykey()"
-    },
-    {
-      "label": "base.controller.ts",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_controller",
-      "community": 64,
-      "norm_label": "base.controller.ts"
-    },
-    {
-      "label": "BaseController",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "community": 64,
-      "norm_label": "basecontroller"
-    },
-    {
-      "label": ".readJsonBody()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_controller_basecontroller_readjsonbody",
-      "community": 64,
-      "norm_label": ".readjsonbody()"
-    },
-    {
-      "label": ".getQueryString()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_controller_basecontroller_getquerystring",
-      "community": 64,
-      "norm_label": ".getquerystring()"
-    },
-    {
-      "label": ".executeOrBadRequest()",
-      "file_type": "code",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "packages_server_src_presentation_controllers_base_base_controller_basecontroller_executeorbadrequest",
-      "community": 64,
-      "norm_label": ".executeorbadrequest()"
-    },
-    {
-      "label": "auth-controllers.test.ts",
-      "file_type": "code",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "packages_server_tests_auth_controllers_test",
-      "community": 65,
-      "norm_label": "auth-controllers.test.ts"
-    },
-    {
-      "label": "mockEvent()",
-      "file_type": "code",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "packages_server_tests_auth_controllers_test_mockevent",
-      "community": 65,
-      "norm_label": "mockevent()"
-    },
-    {
-      "label": "ProtectedTestController",
-      "file_type": "code",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L29",
-      "_origin": "ast",
-      "id": "packages_server_tests_auth_controllers_test_protectedtestcontroller",
-      "community": 70,
-      "norm_label": "protectedtestcontroller"
-    },
-    {
-      "label": ".check()",
-      "file_type": "code",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L30",
-      "_origin": "ast",
-      "id": "packages_server_tests_auth_controllers_test_protectedtestcontroller_check",
-      "community": 70,
-      "norm_label": ".check()"
     },
     {
       "label": "auth-usecases.test.ts",
@@ -5360,7 +4880,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_tests_auth_usecases_test",
-      "community": 61,
+      "community": 60,
       "norm_label": "auth-usecases.test.ts"
     },
     {
@@ -5370,18 +4890,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_tests_auth0_and_security_test",
-      "community": 62,
+      "community": 60,
       "norm_label": "auth0-and-security.test.ts"
-    },
-    {
-      "label": "mockReqEvent()",
-      "file_type": "code",
-      "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "packages_server_tests_auth0_and_security_test_mockreqevent",
-      "community": 62,
-      "norm_label": "mockreqevent()"
     },
     {
       "label": "tsconfig.json",
@@ -10482,6 +9992,136 @@
       "id": "specs_003_shared_auth_server_tasks_5_create_pr",
       "community": 66,
       "norm_label": "5. create pr"
+    },
+    {
+      "label": "plan.md",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_plan",
+      "community": 64,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "Implementation Plan: 004-shared-remove-h3",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_plan_implementation_plan_004_shared_remove_h3",
+      "community": 64,
+      "norm_label": "implementation plan: 004-shared-remove-h3"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_spec",
+      "community": 62,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Feature Specification: 004-shared-remove-h3",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_spec_feature_specification_004_shared_remove_h3",
+      "community": 62,
+      "norm_label": "feature specification: 004-shared-remove-h3"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/spec.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_spec_overview",
+      "community": 62,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/spec.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_spec_requirements",
+      "community": 62,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_tasks",
+      "community": 61,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "Tasks: 004-shared-remove-h3",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
+      "community": 61,
+      "norm_label": "tasks: 004-shared-remove-h3"
+    },
+    {
+      "label": "0. Branch",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_tasks_0_branch",
+      "community": 61,
+      "norm_label": "0. branch"
+    },
+    {
+      "label": "1. Desacoplamento de h3",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_tasks_1_desacoplamento_de_h3",
+      "community": 61,
+      "norm_label": "1. desacoplamento de h3"
+    },
+    {
+      "label": "2. Testes e Build",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_tasks_2_testes_e_build",
+      "community": 61,
+      "norm_label": "2. testes e build"
+    },
+    {
+      "label": "3. Pre-PR Checklist",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_tasks_3_pre_pr_checklist",
+      "community": 61,
+      "norm_label": "3. pre-pr checklist"
+    },
+    {
+      "label": "4. Create PR",
+      "file_type": "document",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "specs_004_shared_remove_h3_tasks_4_create_pr",
+      "community": 61,
+      "norm_label": "4. create pr"
     }
   ],
   "links": [
@@ -16642,28 +16282,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/infrastructure/http/require-user-session.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "packages_server_src_infrastructure_http_require_user_session_requireusersession",
-      "target": "packages_core_src_domain_server_auth_isession_token_gateway_isessiontokengateway_verify"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller_handle",
-      "target": "packages_core_src_domain_server_auth_isession_token_gateway_isessiontokengateway_verify"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/oauth-callback-outcome.ts",
@@ -19587,7 +19205,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L30",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "packages_server_package",
       "target": "packages_server_package_devdependencies",
@@ -19637,7 +19255,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L27",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "packages_server_package",
       "target": "packages_server_package_peerdependencies",
@@ -19760,16 +19378,6 @@
       "source_location": "L24",
       "weight": 1.0,
       "source": "packages_server_package_dependencies",
-      "target": "packages_server_package_dependencies_h3",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "packages_server_package_dependencies",
       "target": "packages_server_package_dependencies_jose",
       "confidence_score": 1.0
     },
@@ -19777,7 +19385,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L28",
+      "source_location": "L27",
       "weight": 1.0,
       "source": "packages_server_package_peerdependencies",
       "target": "packages_server_package_peerdependencies_genovalv_core",
@@ -19787,7 +19395,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L31",
+      "source_location": "L30",
       "weight": 1.0,
       "source": "packages_server_package_devdependencies",
       "target": "packages_server_package_devdependencies_genovalv_core",
@@ -19797,7 +19405,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L32",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "packages_server_package_devdependencies",
       "target": "packages_server_package_devdependencies_types_node",
@@ -19807,7 +19415,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L33",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "packages_server_package_devdependencies",
       "target": "packages_server_package_devdependencies_typescript",
@@ -19817,7 +19425,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L34",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "packages_server_package_devdependencies",
       "target": "packages_server_package_devdependencies_vite",
@@ -19827,7 +19435,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/package.json",
-      "source_location": "L35",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "packages_server_package_devdependencies",
       "target": "packages_server_package_devdependencies_vitest",
@@ -19855,17 +19463,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller",
-      "target": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/backchannel-logout.usecase.ts",
@@ -19889,56 +19486,12 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller",
-      "target": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller_constructor",
-      "target": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "packages/server/tests/auth-usecases.test.ts",
       "source_location": "L3",
       "weight": 1.0,
       "source": "packages_server_tests_auth_usecases_test",
       "target": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller_handle",
-      "target": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase_execute"
     },
     {
       "relation": "contains",
@@ -20058,17 +19611,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller",
-      "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
@@ -20086,39 +19628,6 @@
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
       "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller",
-      "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller_constructor",
-      "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
       "confidence_score": 1.0
     },
     {
@@ -20153,17 +19662,6 @@
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase_execute"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller_handle",
-      "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute"
     },
     {
       "relation": "contains",
@@ -20242,17 +19740,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller",
-      "target": "packages_server_src_application_use_cases_auth_password_login_usecase",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
@@ -20270,39 +19757,6 @@
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
       "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller",
-      "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller_constructor",
-      "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
       "confidence_score": 1.0
     },
     {
@@ -20337,17 +19791,6 @@
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase_execute"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller_handle",
-      "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute"
     },
     {
       "relation": "contains",
@@ -20583,7 +20026,7 @@
       "source_location": "L17",
       "weight": 1.0,
       "source": "packages_server_src_index",
-      "target": "packages_server_src_infrastructure_http_require_idempotency_key",
+      "target": "packages_server_src_infrastructure_security_jose_session_token_gateway",
       "confidence_score": 1.0
     },
     {
@@ -20594,128 +20037,7 @@
       "source_location": "L16",
       "weight": 1.0,
       "source": "packages_server_src_index",
-      "target": "packages_server_src_infrastructure_http_require_user_session",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_infrastructure_security_jose_session_token_gateway",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
       "target": "packages_server_src_infrastructure_security_node_hash_service",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_auth_callback_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_auth_login_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_auth_logout_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_auth_me_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_auth_password_login_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_base_base_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/index.ts",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "packages_server_src_index",
-      "target": "packages_server_src_presentation_controllers_base_base_user_controller",
       "confidence_score": 1.0
     },
     {
@@ -20723,20 +20045,9 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_server_tests_auth0_and_security_test",
-      "target": "packages_server_src_index",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
       "target": "packages_server_src_index",
       "confidence_score": 1.0
     },
@@ -20964,7 +20275,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_server_tests_auth0_and_security_test",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
@@ -21108,17 +20419,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "target": "packages_server_src_infrastructure_http_build_session_cookie_header",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -21144,30 +20444,8 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "target": "packages_server_src_infrastructure_http_build_session_cookie_header_buildsessioncookieheader",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_setsessioncookie",
-      "target": "packages_server_src_infrastructure_http_build_session_cookie_header_buildsessioncookieheader"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_server_tests_auth0_and_security_test",
       "target": "packages_server_src_infrastructure_http_build_session_cookie_header_buildsessioncookieheader",
@@ -21184,144 +20462,14 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "target": "packages_server_src_infrastructure_http_clear_session_cookie_header",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "target": "packages_server_src_infrastructure_http_clear_session_cookie_header_clearsessioncookieheader",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_clearsessioncookie",
-      "target": "packages_server_src_infrastructure_http_clear_session_cookie_header_clearsessioncookieheader"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_server_tests_auth0_and_security_test",
       "target": "packages_server_src_infrastructure_http_clear_session_cookie_header_clearsessioncookieheader",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/infrastructure/http/require-idempotency-key.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_infrastructure_http_require_idempotency_key",
-      "target": "packages_server_src_infrastructure_http_require_idempotency_key_requireidempotencykey",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "target": "packages_server_src_infrastructure_http_require_idempotency_key",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "target": "packages_server_src_infrastructure_http_require_idempotency_key_requireidempotencykey",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth0_and_security_test",
-      "target": "packages_server_src_infrastructure_http_require_idempotency_key_requireidempotencykey",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/infrastructure/http/require-user-session.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_infrastructure_http_require_user_session",
-      "target": "packages_server_src_infrastructure_http_require_user_session_requireusersession",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "target": "packages_server_src_infrastructure_http_require_user_session",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "target": "packages_server_src_infrastructure_http_require_user_session_requireusersession",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller_requiresession",
-      "target": "packages_server_src_infrastructure_http_require_user_session_requireusersession"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth0_and_security_test",
-      "target": "packages_server_src_infrastructure_http_require_user_session_requireusersession",
       "confidence_score": 1.0
     },
     {
@@ -21369,7 +20517,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_server_tests_auth0_and_security_test",
       "target": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway",
@@ -21410,702 +20558,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L5",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_server_tests_auth0_and_security_test",
       "target": "packages_server_src_infrastructure_security_node_hash_service_nodehashservice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller",
-      "target": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller",
-      "target": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller",
-      "target": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller_handle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/backchannel-logout.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_presentation_controllers_auth_backchannel_logout_controller_backchannellogoutcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller",
-      "target": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller",
-      "target": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller",
-      "target": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller_handle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/callback.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_presentation_controllers_auth_callback_controller_callbackcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_login_controller",
-      "target": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_login_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_login_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller",
-      "target": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller",
-      "target": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller_handle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/login.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_presentation_controllers_auth_login_controller_logincontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_logout_controller",
-      "target": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_logout_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_logout_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller",
-      "target": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller",
-      "target": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller_handle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/logout.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_presentation_controllers_auth_logout_controller_logoutcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_me_controller",
-      "target": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_me_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_me_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller",
-      "target": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller",
-      "target": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller_handle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/me.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_presentation_controllers_auth_me_controller_mecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller",
-      "target": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller",
-      "target": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller",
-      "target": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller_handle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/auth/password-login.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_presentation_controllers_auth_password_login_controller_passwordlogincontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_clearsessioncookie",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller_setsessioncookie",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-auth.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_auth_controller_baseauthcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller_constructor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller_requireidempotencykey",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base-user.controller.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller_requiresession",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "context": "type",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test_protectedtestcontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_user_controller_baseusercontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_controller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller_executeorbadrequest",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller_getquerystring",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/src/presentation/controllers/base/base.controller.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "packages_server_src_presentation_controllers_base_base_controller_basecontroller",
-      "target": "packages_server_src_presentation_controllers_base_base_controller_basecontroller_readjsonbody",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_tests_auth_controllers_test_mockevent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test",
-      "target": "packages_server_tests_auth_controllers_test_protectedtestcontroller",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth-controllers.test.ts",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth_controllers_test_protectedtestcontroller",
-      "target": "packages_server_tests_auth_controllers_test_protectedtestcontroller_check",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/server/tests/auth0-and-security.test.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "packages_server_tests_auth0_and_security_test",
-      "target": "packages_server_tests_auth0_and_security_test_mockreqevent",
       "confidence_score": 1.0
     },
     {
@@ -26927,8 +25383,108 @@
       "source": "specs_003_shared_auth_server_tasks_2_shared_server_package_genovalv_server",
       "target": "specs_003_shared_auth_server_tasks_2_1_commit_group_2",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_plan",
+      "target": "specs_004_shared_remove_h3_plan_implementation_plan_004_shared_remove_h3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_spec",
+      "target": "specs_004_shared_remove_h3_spec_feature_specification_004_shared_remove_h3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/spec.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_spec_feature_specification_004_shared_remove_h3",
+      "target": "specs_004_shared_remove_h3_spec_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/spec.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_spec_feature_specification_004_shared_remove_h3",
+      "target": "specs_004_shared_remove_h3_spec_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_tasks",
+      "target": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
+      "target": "specs_004_shared_remove_h3_tasks_0_branch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
+      "target": "specs_004_shared_remove_h3_tasks_1_desacoplamento_de_h3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
+      "target": "specs_004_shared_remove_h3_tasks_2_testes_e_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
+      "target": "specs_004_shared_remove_h3_tasks_3_pre_pr_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/004-shared-remove-h3/tasks.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
+      "target": "specs_004_shared_remove_h3_tasks_4_create_pr",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b96fccb5ed0bed8bae3e1713b166e70c68f8c654"
+  "built_at_commit": "d6fa669360ab3a676abd434eaffd05214ec1cd9e"
 }

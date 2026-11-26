@@ -930,7 +930,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_entry_dto",
-      "community": 55,
+      "community": 4,
       "norm_label": "audit-log-entry.dto.ts"
     },
     {
@@ -940,7 +940,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_entry_dto_auditlogentry",
-      "community": 55,
+      "community": 4,
       "norm_label": "auditlogentry"
     },
     {
@@ -950,7 +950,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_input_dto",
-      "community": 55,
+      "community": 4,
       "norm_label": "audit-log-input.dto.ts"
     },
     {
@@ -960,7 +960,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_input_dto_auditloginput",
-      "community": 55,
+      "community": 4,
       "norm_label": "auditloginput"
     },
     {
@@ -970,7 +970,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_level_dto",
-      "community": 55,
+      "community": 4,
       "norm_label": "audit-log-level.dto.ts"
     },
     {
@@ -980,7 +980,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_level_dto_auditloglevel",
-      "community": 55,
+      "community": 4,
       "norm_label": "auditloglevel"
     },
     {
@@ -1760,7 +1760,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iaudit_logger",
-      "community": 55,
+      "community": 4,
       "norm_label": "iaudit-logger.ts"
     },
     {
@@ -2110,7 +2110,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader",
-      "community": 55,
+      "community": 4,
       "norm_label": "iaudit-log-reader.ts"
     },
     {
@@ -2120,7 +2120,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader_iauditlogreader",
-      "community": 55,
+      "community": 4,
       "norm_label": "iauditlogreader"
     },
     {
@@ -2130,7 +2130,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader_iauditlogreader_listrecent",
-      "community": 55,
+      "community": 4,
       "norm_label": ".listrecent()"
     },
     {
@@ -4300,7 +4300,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase_execute",
-      "community": 60,
+      "community": 55,
       "norm_label": ".execute()"
     },
     {
@@ -5104,6 +5104,46 @@
       "norm_label": "build"
     },
     {
+      "label": "main.ts",
+      "file_type": "code",
+      "source_file": "playground/.storybook/main.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "playground_storybook_main",
+      "community": 77,
+      "norm_label": "main.ts"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "playground/.storybook/main.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "playground_storybook_main_config",
+      "community": 77,
+      "norm_label": "config"
+    },
+    {
+      "label": "preview.ts",
+      "file_type": "code",
+      "source_file": "playground/.storybook/preview.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "playground_storybook_preview",
+      "community": 78,
+      "norm_label": "preview.ts"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "playground/.storybook/preview.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "playground_storybook_preview_preview",
+      "community": 78,
+      "norm_label": "preview"
+    },
+    {
       "label": "login-foundation.spec.ts",
       "file_type": "code",
       "source_file": "playground/e2e/login-foundation.spec.ts",
@@ -5244,174 +5284,264 @@
       "norm_label": "@genovalv/tokens"
     },
     {
+      "label": "lit",
+      "file_type": "code",
+      "source_file": "playground/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "playground_package_dependencies_lit",
+      "community": 14,
+      "norm_label": "lit"
+    },
+    {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "playground/package.json",
-      "source_location": "L16",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "playground_package_devdependencies",
       "community": 14,
       "norm_label": "devdependencies"
     },
     {
+      "label": "@storybook/addon-essentials",
+      "file_type": "code",
+      "source_file": "playground/package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "playground_package_devdependencies_storybook_addon_essentials",
+      "community": 14,
+      "norm_label": "@storybook/addon-essentials"
+    },
+    {
+      "label": "@storybook/web-components-vite",
+      "file_type": "code",
+      "source_file": "playground/package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "playground_package_devdependencies_storybook_web_components_vite",
+      "community": 14,
+      "norm_label": "@storybook/web-components-vite"
+    },
+    {
+      "label": "sirv-cli",
+      "file_type": "code",
+      "source_file": "playground/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "playground_package_devdependencies_sirv_cli",
+      "community": 14,
+      "norm_label": "sirv-cli"
+    },
+    {
+      "label": "storybook",
+      "file_type": "code",
+      "source_file": "playground/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "playground_package_devdependencies_storybook",
+      "community": 14,
+      "norm_label": "storybook"
+    },
+    {
       "label": "vite",
       "file_type": "code",
       "source_file": "playground/package.json",
-      "source_location": "L17",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "playground_package_devdependencies_vite",
       "community": 14,
       "norm_label": "vite"
     },
     {
-      "label": "main.ts",
+      "label": "auth-shell.stories.ts",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "playground_src_main",
-      "community": 4,
-      "norm_label": "main.ts"
+      "id": "playground_src_stories_elements_auth_shell_stories",
+      "community": 70,
+      "norm_label": "auth-shell.stories.ts"
     },
     {
-      "label": "params",
+      "label": "meta",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L26",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
+      "source_location": "L4",
       "_origin": "ast",
-      "id": "playground_src_main_params",
-      "community": 4,
-      "norm_label": "params"
+      "id": "playground_src_stories_elements_auth_shell_stories_meta",
+      "community": 70,
+      "norm_label": "meta"
     },
     {
-      "label": "shell",
+      "label": "Story",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L33",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
+      "source_location": "L19",
       "_origin": "ast",
-      "id": "playground_src_main_shell",
-      "community": 4,
-      "norm_label": "shell"
+      "id": "playground_src_stories_elements_auth_shell_stories_story",
+      "community": 70,
+      "norm_label": "story"
     },
     {
-      "label": "card",
+      "label": "DefaultShell",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L34",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
+      "source_location": "L21",
       "_origin": "ast",
-      "id": "playground_src_main_card",
-      "community": 4,
-      "norm_label": "card"
+      "id": "playground_src_stories_elements_auth_shell_stories_defaultshell",
+      "community": 70,
+      "norm_label": "defaultshell"
     },
     {
-      "label": "mfaSelector",
+      "label": "HeaderAndFooter",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "playground_src_main_mfaselector",
-      "community": 4,
-      "norm_label": "mfaselector"
-    },
-    {
-      "label": "submitBtn",
-      "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "playground_src_main_submitbtn",
-      "community": 4,
-      "norm_label": "submitbtn"
-    },
-    {
-      "label": "alertBanner",
-      "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "playground_src_main_alertbanner",
-      "community": 4,
-      "norm_label": "alertbanner"
-    },
-    {
-      "label": "localeSelect",
-      "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "playground_src_main_localeselect",
-      "community": 4,
-      "norm_label": "localeselect"
-    },
-    {
-      "label": "form",
-      "file_type": "code",
-      "source_file": "playground/src/main.ts",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "playground_src_main_form",
-      "community": 4,
-      "norm_label": "form"
+      "id": "playground_src_stories_elements_auth_shell_stories_headerandfooter",
+      "community": 70,
+      "norm_label": "headerandfooter"
     },
     {
-      "label": "emailInput",
+      "label": "feedback-and-actions.stories.ts",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L41",
+      "source_file": "playground/src/stories/elements/feedback-and-actions.stories.ts",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "playground_src_main_emailinput",
-      "community": 4,
-      "norm_label": "emailinput"
+      "id": "playground_src_stories_elements_feedback_and_actions_stories",
+      "community": 75,
+      "norm_label": "feedback-and-actions.stories.ts"
     },
     {
-      "label": "passwordInput",
+      "label": "meta",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L42",
+      "source_file": "playground/src/stories/elements/feedback-and-actions.stories.ts",
+      "source_location": "L4",
       "_origin": "ast",
-      "id": "playground_src_main_passwordinput",
-      "community": 4,
-      "norm_label": "passwordinput"
+      "id": "playground_src_stories_elements_feedback_and_actions_stories_meta",
+      "community": 75,
+      "norm_label": "meta"
     },
     {
-      "label": "mfaInput",
+      "label": "Story",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L43",
+      "source_file": "playground/src/stories/elements/feedback-and-actions.stories.ts",
+      "source_location": "L19",
       "_origin": "ast",
-      "id": "playground_src_main_mfainput",
-      "community": 4,
-      "norm_label": "mfainput"
+      "id": "playground_src_stories_elements_feedback_and_actions_stories_story",
+      "community": 75,
+      "norm_label": "story"
     },
     {
-      "label": "rememberInput",
+      "label": "InteractiveControls",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
+      "source_file": "playground/src/stories/elements/feedback-and-actions.stories.ts",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "playground_src_stories_elements_feedback_and_actions_stories_interactivecontrols",
+      "community": 75,
+      "norm_label": "interactivecontrols"
+    },
+    {
+      "label": "inputs.stories.ts",
+      "file_type": "code",
+      "source_file": "playground/src/stories/elements/inputs.stories.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "playground_src_stories_elements_inputs_stories",
+      "community": 76,
+      "norm_label": "inputs.stories.ts"
+    },
+    {
+      "label": "meta",
+      "file_type": "code",
+      "source_file": "playground/src/stories/elements/inputs.stories.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "playground_src_stories_elements_inputs_stories_meta",
+      "community": 76,
+      "norm_label": "meta"
+    },
+    {
+      "label": "Story",
+      "file_type": "code",
+      "source_file": "playground/src/stories/elements/inputs.stories.ts",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "playground_src_stories_elements_inputs_stories_story",
+      "community": 76,
+      "norm_label": "story"
+    },
+    {
+      "label": "EmailAndPassword",
+      "file_type": "code",
+      "source_file": "playground/src/stories/elements/inputs.stories.ts",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "playground_src_stories_elements_inputs_stories_emailandpassword",
+      "community": 76,
+      "norm_label": "emailandpassword"
+    },
+    {
+      "label": "login-foundation.stories.ts",
+      "file_type": "code",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "playground_src_stories_flows_login_foundation_stories",
+      "community": 68,
+      "norm_label": "login-foundation.stories.ts"
+    },
+    {
+      "label": "LoginArgs",
+      "file_type": "code",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "playground_src_stories_flows_login_foundation_stories_loginargs",
+      "community": 68,
+      "norm_label": "loginargs"
+    },
+    {
+      "label": "meta",
+      "file_type": "code",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "playground_src_stories_flows_login_foundation_stories_meta",
+      "community": 68,
+      "norm_label": "meta"
+    },
+    {
+      "label": "Story",
+      "file_type": "code",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "playground_src_main_rememberinput",
-      "community": 4,
-      "norm_label": "rememberinput"
+      "id": "playground_src_stories_flows_login_foundation_stories_story",
+      "community": 68,
+      "norm_label": "story"
     },
     {
-      "label": "applyLocale()",
+      "label": "createLoginFoundationNode()",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
       "source_location": "L46",
       "_origin": "ast",
-      "id": "playground_src_main_applylocale",
-      "community": 4,
-      "norm_label": "applylocale()"
+      "id": "playground_src_stories_flows_login_foundation_stories_createloginfoundationnode",
+      "community": 68,
+      "norm_label": "createloginfoundationnode()"
     },
     {
-      "label": "handleSubmit()",
+      "label": "Default",
       "file_type": "code",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L94",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L159",
       "_origin": "ast",
-      "id": "playground_src_main_handlesubmit",
-      "community": 4,
-      "norm_label": "handlesubmit()"
+      "id": "playground_src_stories_flows_login_foundation_stories_default",
+      "community": 68,
+      "norm_label": "default"
     },
     {
       "label": "playwright.config.ts",
@@ -9250,7 +9380,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "specs_002_cloudflare_edge_proxy_spec_user_scenarios_testing_mandatory",
-      "community": 48,
+      "community": 69,
       "norm_label": "user scenarios & testing *(mandatory)*"
     },
     {
@@ -9260,7 +9390,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "specs_002_cloudflare_edge_proxy_spec_user_story_1_acesso_https_local_com_headers_de_borda_priority_p1",
-      "community": 48,
+      "community": 69,
       "norm_label": "user story 1 - acesso https local com headers de borda (priority: p1)"
     },
     {
@@ -9270,7 +9400,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "specs_002_cloudflare_edge_proxy_spec_user_story_2_cache_de_borda_para_ativos_est\u00e1ticos_priority_p2",
-      "community": 48,
+      "community": 69,
       "norm_label": "user story 2 - cache de borda para ativos estaticos (priority: p2)"
     },
     {
@@ -9280,7 +9410,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "specs_002_cloudflare_edge_proxy_spec_user_story_3_rate_limiting_e_waf_b\u00e1sico_priority_p3",
-      "community": 48,
+      "community": 69,
       "norm_label": "user story 3 - rate limiting e waf basico (priority: p3)"
     },
     {
@@ -9290,7 +9420,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "specs_002_cloudflare_edge_proxy_spec_user_story_4_apps_erp_e_factoryfloor_atr\u00e1s_da_borda_priority_p2",
-      "community": 48,
+      "community": 69,
       "norm_label": "user story 4 - apps erp e factoryfloor atras da borda (priority: p2)"
     },
     {
@@ -9300,7 +9430,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "specs_002_cloudflare_edge_proxy_spec_edge_cases",
-      "community": 48,
+      "community": 69,
       "norm_label": "edge cases"
     },
     {
@@ -10122,6 +10252,156 @@
       "id": "specs_004_shared_remove_h3_tasks_4_create_pr",
       "community": 61,
       "norm_label": "4. create pr"
+    },
+    {
+      "label": "plan.md",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_plan",
+      "community": 79,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "Implementation Plan: 005-shared-storybook",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_plan_implementation_plan_005_shared_storybook",
+      "community": 79,
+      "norm_label": "implementation plan: 005-shared-storybook"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_spec",
+      "community": 72,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Feature Specification: 005-shared-storybook",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_spec_feature_specification_005_shared_storybook",
+      "community": 72,
+      "norm_label": "feature specification: 005-shared-storybook"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_spec_overview",
+      "community": 72,
+      "norm_label": "overview"
+    },
+    {
+      "label": "User Scenarios",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_spec_user_scenarios",
+      "community": 72,
+      "norm_label": "user scenarios"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_spec_requirements",
+      "community": 72,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks",
+      "community": 65,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "Tasks: 005-shared-storybook",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "community": 65,
+      "norm_label": "tasks: 005-shared-storybook"
+    },
+    {
+      "label": "0. Branch",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks_0_branch",
+      "community": 65,
+      "norm_label": "0. branch"
+    },
+    {
+      "label": "1. Setup do Storybook (`@storybook/web-components-vite`)",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks_1_setup_do_storybook_storybook_web_components_vite",
+      "community": 65,
+      "norm_label": "1. setup do storybook (`@storybook/web-components-vite`)"
+    },
+    {
+      "label": "2. Stories dos Componentes e Fluxo de Login",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks_2_stories_dos_componentes_e_fluxo_de_login",
+      "community": 65,
+      "norm_label": "2. stories dos componentes e fluxo de login"
+    },
+    {
+      "label": "3. E2E Playwright & Build",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks_3_e2e_playwright_build",
+      "community": 65,
+      "norm_label": "3. e2e playwright & build"
+    },
+    {
+      "label": "4. Pre-PR Checklist",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks_4_pre_pr_checklist",
+      "community": 65,
+      "norm_label": "4. pre-pr checklist"
+    },
+    {
+      "label": "5. Create PR",
+      "file_type": "document",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "specs_005_shared_storybook_tasks_5_create_pr",
+      "community": 65,
+      "norm_label": "5. create pr"
     }
   ],
   "links": [
@@ -20737,6 +21017,26 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "playground/.storybook/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "playground_storybook_main",
+      "target": "playground_storybook_main_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/.storybook/preview.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "playground_storybook_preview",
+      "target": "playground_storybook_preview_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "playground/package.json",
       "source_location": "L11",
       "weight": 1.0,
@@ -20748,7 +21048,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "playground/package.json",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "playground_package",
       "target": "playground_package_devdependencies",
@@ -20868,7 +21168,57 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "playground/package.json",
-      "source_location": "L17",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "playground_package_dependencies",
+      "target": "playground_package_dependencies_lit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "playground_package_devdependencies",
+      "target": "playground_package_devdependencies_sirv_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "playground_package_devdependencies",
+      "target": "playground_package_devdependencies_storybook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "playground_package_devdependencies",
+      "target": "playground_package_devdependencies_storybook_addon_essentials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "playground_package_devdependencies",
+      "target": "playground_package_devdependencies_storybook_web_components_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/package.json",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "playground_package_devdependencies",
       "target": "playground_package_devdependencies_vite",
@@ -20877,141 +21227,151 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L37",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
+      "source_location": "L21",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_alertbanner",
+      "source": "playground_src_stories_elements_auth_shell_stories",
+      "target": "playground_src_stories_elements_auth_shell_stories_defaultshell",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_applylocale",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_card",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_emailinput",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
       "source_location": "L40",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_form",
+      "source": "playground_src_stories_elements_auth_shell_stories",
+      "target": "playground_src_stories_elements_auth_shell_stories_headerandfooter",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L94",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
+      "source_location": "L4",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_handlesubmit",
+      "source": "playground_src_stories_elements_auth_shell_stories",
+      "target": "playground_src_stories_elements_auth_shell_stories_meta",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L39",
+      "source_file": "playground/src/stories/elements/auth-shell.stories.ts",
+      "source_location": "L19",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_localeselect",
+      "source": "playground_src_stories_elements_auth_shell_stories",
+      "target": "playground_src_stories_elements_auth_shell_stories_story",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L43",
+      "source_file": "playground/src/stories/elements/feedback-and-actions.stories.ts",
+      "source_location": "L21",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_mfainput",
+      "source": "playground_src_stories_elements_feedback_and_actions_stories",
+      "target": "playground_src_stories_elements_feedback_and_actions_stories_interactivecontrols",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L35",
+      "source_file": "playground/src/stories/elements/feedback-and-actions.stories.ts",
+      "source_location": "L4",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_mfaselector",
+      "source": "playground_src_stories_elements_feedback_and_actions_stories",
+      "target": "playground_src_stories_elements_feedback_and_actions_stories_meta",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L26",
+      "source_file": "playground/src/stories/elements/feedback-and-actions.stories.ts",
+      "source_location": "L19",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_params",
+      "source": "playground_src_stories_elements_feedback_and_actions_stories",
+      "target": "playground_src_stories_elements_feedback_and_actions_stories_story",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L42",
+      "source_file": "playground/src/stories/elements/inputs.stories.ts",
+      "source_location": "L23",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_passwordinput",
+      "source": "playground_src_stories_elements_inputs_stories",
+      "target": "playground_src_stories_elements_inputs_stories_emailandpassword",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
+      "source_file": "playground/src/stories/elements/inputs.stories.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "playground_src_stories_elements_inputs_stories",
+      "target": "playground_src_stories_elements_inputs_stories_meta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/src/stories/elements/inputs.stories.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "playground_src_stories_elements_inputs_stories",
+      "target": "playground_src_stories_elements_inputs_stories_story",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "playground_src_stories_flows_login_foundation_stories",
+      "target": "playground_src_stories_flows_login_foundation_stories_createloginfoundationnode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "playground_src_stories_flows_login_foundation_stories",
+      "target": "playground_src_stories_flows_login_foundation_stories_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "playground_src_stories_flows_login_foundation_stories",
+      "target": "playground_src_stories_flows_login_foundation_stories_loginargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "playground_src_stories_flows_login_foundation_stories",
+      "target": "playground_src_stories_flows_login_foundation_stories_meta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "playground/src/stories/flows/login-foundation.stories.ts",
       "source_location": "L44",
       "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_rememberinput",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_shell",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "playground/src/main.ts",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "playground_src_main",
-      "target": "playground_src_main_submitbtn",
+      "source": "playground_src_stories_flows_login_foundation_stories",
+      "target": "playground_src_stories_flows_login_foundation_stories_story",
       "confidence_score": 1.0
     },
     {
@@ -25483,8 +25843,128 @@
       "source": "specs_004_shared_remove_h3_tasks_tasks_004_shared_remove_h3",
       "target": "specs_004_shared_remove_h3_tasks_4_create_pr",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_plan",
+      "target": "specs_005_shared_storybook_plan_implementation_plan_005_shared_storybook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_spec",
+      "target": "specs_005_shared_storybook_spec_feature_specification_005_shared_storybook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_spec_feature_specification_005_shared_storybook",
+      "target": "specs_005_shared_storybook_spec_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_spec_feature_specification_005_shared_storybook",
+      "target": "specs_005_shared_storybook_spec_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/spec.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_spec_feature_specification_005_shared_storybook",
+      "target": "specs_005_shared_storybook_spec_user_scenarios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_tasks",
+      "target": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "target": "specs_005_shared_storybook_tasks_0_branch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "target": "specs_005_shared_storybook_tasks_1_setup_do_storybook_storybook_web_components_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "target": "specs_005_shared_storybook_tasks_2_stories_dos_componentes_e_fluxo_de_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "target": "specs_005_shared_storybook_tasks_3_e2e_playwright_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "target": "specs_005_shared_storybook_tasks_4_pre_pr_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/005-shared-storybook/tasks.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "specs_005_shared_storybook_tasks_tasks_005_shared_storybook",
+      "target": "specs_005_shared_storybook_tasks_5_create_pr",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d6fa669360ab3a676abd434eaffd05214ec1cd9e"
+  "built_at_commit": "62d1be04b2d864089e2837d0aa6c1a892650105b"
 }
