@@ -13,13 +13,13 @@ export class GenovaIconButtonElement extends LitElement {
         border: 1px solid var(--gnv-outline-variant, #e7e2d8);
         background: #fff; color: var(--gnv-on-surface, #0f172a); cursor: pointer;
       }
-      button[data-variant='solid'] { background: var(--gnv-primary, #4c3a8a); border-color: var(--gnv-primary, #4c3a8a); color: #fff; }
+      button[data-variant='solid'] { background: var(--gnv-primary, #715faf); border-color: var(--gnv-primary, #715faf); color: #fff; }
       button:hover:not(:disabled) { filter: brightness(0.95); }
       button:disabled { opacity: 0.5; cursor: not-allowed; }
     `,
   ];
 
-  @property({ type: String }) override ariaLabel = 'AÃƒÂ§ÃƒÂ£o';
+  @property({ type: String }) override ariaLabel = 'Ação';
   @property({ type: String }) variant: 'outline' | 'solid' = 'outline';
   @property({ type: Boolean }) disabled = false;
 

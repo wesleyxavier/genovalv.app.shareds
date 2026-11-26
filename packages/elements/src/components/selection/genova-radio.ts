@@ -8,7 +8,7 @@ export class GenovaRadioElement extends LitElement {
     css`
       :host { display: inline-flex; }
       label { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; cursor: pointer; }
-      input { accent-color: var(--gnv-primary, #4c3a8a); width: 1rem; height: 1rem; }
+      input { accent-color: var(--gnv-primary, #715faf); width: 1rem; height: 1rem; }
     `,
   ];
 

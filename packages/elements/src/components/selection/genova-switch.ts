@@ -15,7 +15,7 @@ export class GenovaSwitchElement extends LitElement {
         position: relative; width: 2.5rem; height: 1.375rem; border-radius: 9999px;
         background: var(--gnv-outline-variant, #e7e2d8); transition: background-color 0.15s ease;
       }
-      button[aria-checked='true'] .track { background: var(--gnv-primary, #4c3a8a); }
+      button[aria-checked='true'] .track { background: var(--gnv-primary, #715faf); }
       .thumb {
         position: absolute; top: 0.1875rem; left: 0.1875rem; width: 1rem; height: 1rem;
         border-radius: 9999px; background: #fff; transition: transform 0.15s ease;

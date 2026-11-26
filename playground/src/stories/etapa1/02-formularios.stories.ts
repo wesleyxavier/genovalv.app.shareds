@@ -11,6 +11,14 @@ type Story = StoryObj;
 export const FormsCatalog: Story = {
   render: () => html`
     <div style="padding:2rem;background:#faf7f0;display:grid;gap:1.25rem;max-width:520px;">
+      <genova-input
+        name="email"
+        type="email"
+        icon="email"
+        label="E-mail Corporativo"
+        placeholder="nome@empresa.com"
+        required
+      ></genova-input>
       <genova-form-control label="Subdomínio" hint="Usado para acesso exclusivo da lavanderia" required>
         <genova-input-group>
           <span slot="prefix">https://</span>

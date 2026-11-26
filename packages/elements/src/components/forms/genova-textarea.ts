@@ -12,7 +12,7 @@ export class GenovaTextareaElement extends LitElement {
         border: 1px solid var(--gnv-outline-variant, #e7e2d8); background: #fff;
         font-family: inherit; font-size: 0.875rem; resize: vertical;
       }
-      textarea[data-invalid] { border-color: var(--gnv-error, #b91c1c); }
+      textarea[data-invalid] { border-color: var(--gnv-error, #bc3737); }
     `,
   ];
 

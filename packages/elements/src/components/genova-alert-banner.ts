@@ -31,24 +31,24 @@ export class GenovaAlertBannerElement extends LitElement {
       border: 1px solid transparent;
     }
     .banner[data-variant='error'] {
-      background: var(--gnv-error-container, #ffdad6);
-      color: var(--gnv-on-error-container, #93000a);
-      border-color: rgba(186, 26, 26, 0.25);
+      background: var(--gnv-error-container, #fef2f2);
+      color: var(--gnv-on-error-container, #bc3737);
+      border-color: rgba(188, 55, 55, 0.28);
     }
     .banner[data-variant='success'] {
-      background: #ecfdf5;
-      color: #047857;
-      border-color: #a7f3d0;
+      background: var(--gnv-status-success-bg, #e6f5ee);
+      color: var(--gnv-status-success-text, #1f5c4a);
+      border-color: var(--gnv-status-success-border, #a8dfc6);
     }
     .banner[data-variant='warning'] {
-      background: #fef3c7;
-      color: #b45309;
+      background: var(--gnv-status-warning-bg, #fef3c7);
+      color: var(--gnv-status-warning, #92400e);
       border-color: #fde68a;
     }
     .banner[data-variant='info'] {
-      background: var(--gnv-surface-container-low, #eff4ff);
-      color: var(--gnv-on-surface, #0b1c30);
-      border-color: var(--gnv-surface-container, #e5eeff);
+      background: var(--gnv-primary-container, #f1eefc);
+      color: var(--gnv-on-surface, #0f172a);
+      border-color: var(--gnv-primary-border, #cfc4f5);
     }
   `;
 

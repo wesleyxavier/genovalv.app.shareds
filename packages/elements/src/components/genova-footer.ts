@@ -20,9 +20,7 @@ export class GenovaFooterElement extends LitElement {
     }
     footer {
       width: 100%;
-      background: rgba(255, 255, 255, 0.72);
-      backdrop-filter: blur(12px);
-      box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.02);
+      background: transparent;
     }
     .inner {
       max-width: 80rem;
@@ -33,7 +31,7 @@ export class GenovaFooterElement extends LitElement {
       align-items: center;
       justify-content: space-between;
       gap: var(--gnv-space-sm, 0.5rem);
-      color: var(--gnv-on-surface-variant, #45464d);
+      color: var(--gnv-text-muted, #64748b);
       font-size: 0.6875rem;
       line-height: 0.875rem;
       font-weight: 600;
@@ -58,8 +56,8 @@ export class GenovaFooterElement extends LitElement {
     }
     a:hover,
     a:focus-visible {
-      color: var(--gnv-on-surface, #0b1c30);
-      outline: 2px solid var(--gnv-secondary, #0051d5);
+      color: var(--gnv-on-surface, #0f172a);
+      outline: 2px solid var(--gnv-primary-focus, #8e7cd8);
       outline-offset: 2px;
       border-radius: var(--gnv-radius-sm, 0.125rem);
     }

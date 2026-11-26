@@ -5,8 +5,10 @@
   "type": "module",
   "exports": {
     "./tokens.css": "./src/tokens.css",
+    "./fonts.css": "./src/fonts.css",
     "./tailwind.css": "./src/tailwind.css",
-    "./logo/*": "./src/assets/logo/*"
+    "./logo/*": "./src/assets/logo/*",
+    "./fonts/*": "./src/assets/fonts/*"
   },
   "files": [
     "src"

@@ -1,3 +1,5 @@
+@import './fonts.css';
+
 @theme {
   --color-surface: #faf7f0;
   --color-surface-dim: #e7e2d8;
@@ -13,19 +15,19 @@
   --color-on-background: #0f172a;
   --color-outline: #857f93;
   --color-outline-variant: #e7e2d8;
-  --color-primary: #4c3a8a;
+  --color-primary: #715faf;
   --color-on-primary: #ffffff;
   --color-primary-container: #f1eefc;
   --color-on-primary-container: #31255c;
-  --color-secondary: #4c3a8a;
+  --color-secondary: #715faf;
   --color-on-secondary: #ffffff;
   --color-secondary-container: #3e2f73;
   --color-secondary-fixed: #f1eefc;
   --color-on-secondary-fixed: #31255c;
-  --color-error: #b91c1c;
+  --color-error: #bc3737;
   --color-on-error: #ffffff;
   --color-error-container: #fef2f2;
-  --color-on-error-container: #b91c1c;
+  --color-on-error-container: #bc3737;
 
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;

@@ -17,21 +17,21 @@ export class GenovaLocaleSelectorElement extends LitElement {
       display: none;
     }
     select {
-      font-family: var(--gnv-font-sans, 'Inter', system-ui, sans-serif);
+      font-family: var(--gnv-font-sans, 'Plus Jakarta Sans', system-ui, sans-serif);
       font-size: 0.75rem;
-      font-weight: 500;
-      padding: 0.25rem 0.5rem;
-      border-radius: var(--gnv-radius-md, 0.25rem);
-      border: 1px solid var(--gnv-outline-variant, #c6c6cd);
+      font-weight: 600;
+      padding: 0.35rem 0.65rem;
+      border-radius: var(--gnv-radius-lg, 0.5rem);
+      border: 1px solid var(--gnv-outline-variant, #e7e2d8);
       background: var(--gnv-surface-container-lowest, #ffffff);
-      color: var(--gnv-on-surface, #0b1c30);
+      color: var(--gnv-on-surface, #0f172a);
       cursor: pointer;
       outline: none;
       transition: border-color 150ms ease, box-shadow 150ms ease;
     }
     select:focus-visible {
-      border-color: var(--gnv-secondary, #0051d5);
-      box-shadow: 0 0 0 2px rgba(0, 81, 213, 0.2);
+      border-color: var(--gnv-primary, #715faf);
+      box-shadow: 0 0 0 2px rgba(113, 95, 175, 0.22);
     }
   `;
 

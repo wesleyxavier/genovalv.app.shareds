@@ -14,7 +14,7 @@ export class GenovaImageElement extends LitElement {
 
   @property({ type: String }) src = '';
   @property({ type: String }) alt = '';
-  @property({ type: String }) fallbackText = 'Imagem indisponÃ­vel';
+  @property({ type: String }) fallbackText = 'Imagem indisponível';
   @state() private failed = false;
 
   override render() {

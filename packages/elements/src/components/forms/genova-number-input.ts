@@ -29,7 +29,7 @@ export class GenovaNumberInputElement extends LitElement {
   override render() {
     return html`
       <div class="wrap">
-        <button type="button" aria-label="Diminuir" ?disabled=${this.disabled || this.value <= this.min} @click=${() => this.updateVal(this.value - this.step)}>âˆ’</button>
+        <button type="button" aria-label="Diminuir" ?disabled=${this.disabled || this.value <= this.min} @click=${() => this.updateVal(this.value - this.step)}>−</button>
         <input type="number" .value=${String(this.value)} ?disabled=${this.disabled} @change=${(e: Event) => this.updateVal(Number((e.target as HTMLInputElement).value))} />
         <button type="button" aria-label="Aumentar" ?disabled=${this.disabled || this.value >= this.max} @click=${() => this.updateVal(this.value + this.step)}>+</button>
       </div>

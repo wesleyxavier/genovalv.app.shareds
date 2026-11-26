@@ -46,13 +46,14 @@ export class GenovaCheckboxElement extends LitElement {
       width: 1rem;
       height: 1rem;
       border-radius: var(--gnv-radius-sm, 0.125rem);
-      accent-color: var(--gnv-secondary, #0051d5);
+      accent-color: var(--gnv-primary, #715faf);
       cursor: pointer;
     }
     label {
+      font-family: var(--gnv-font-sans, 'Plus Jakarta Sans', system-ui, sans-serif);
       font-size: 0.75rem;
       line-height: 1.125rem;
-      color: var(--gnv-on-surface, #0b1c30);
+      color: var(--gnv-on-surface, #0f172a);
       cursor: pointer;
       user-select: none;
     }

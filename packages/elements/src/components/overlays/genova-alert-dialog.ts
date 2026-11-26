@@ -12,12 +12,12 @@ export class GenovaAlertDialogElement extends LitElement {
       .body { font-size: 0.875rem; color: var(--gnv-on-surface-variant, #475569); margin-bottom: 1rem; }
       .actions { display: flex; justify-content: flex-end; gap: 0.5rem; }
       button { padding: 0.5rem 0.9rem; border-radius: 0.5rem; font-family: inherit; font-size: 0.8125rem; font-weight: 600; cursor: pointer; border: 1px solid var(--gnv-outline-variant, #e7e2d8); background: #fff; }
-      .confirm { background: var(--gnv-error, #b91c1c); border-color: var(--gnv-error, #b91c1c); color: #fff; }
+      .confirm { background: var(--gnv-error, #bc3737); border-color: var(--gnv-error, #bc3737); color: #fff; }
     `,
   ];
 
   @property({ type: Boolean }) open = false;
-  @property({ type: String }) override title = 'Confirmar aÃƒÂ§ÃƒÂ£o';
+  @property({ type: String }) override title = 'Confirmar ação';
   @property({ type: String }) confirmLabel = 'Confirmar';
   @property({ type: String }) cancelLabel = 'Cancelar';
 

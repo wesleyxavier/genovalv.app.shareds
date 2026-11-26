@@ -1,3 +1,5 @@
+@import './fonts.css';
+
 :root {
   /* Surfaces & Backgrounds (Genova Etapa 1) */
   --gnv-surface: #faf7f0;
@@ -18,7 +20,7 @@
   --gnv-outline-variant: #e7e2d8;
 
   /* Brand & Interactive Accents */
-  --gnv-primary: #4c3a8a;
+  --gnv-primary: #715faf;
   --gnv-primary-hover: #3e2f73;
   --gnv-primary-active: #31255c;
   --gnv-on-primary: #ffffff;
@@ -26,24 +28,24 @@
   --gnv-on-primary-container: #31255c;
   --gnv-primary-border: #cfc4f5;
   --gnv-primary-focus: #8e7cd8;
-  --gnv-secondary: #4c3a8a;
+  --gnv-secondary: #715faf;
   --gnv-on-secondary: #ffffff;
   --gnv-secondary-container: #3e2f73;
   --gnv-secondary-fixed: #f1eefc;
   --gnv-on-secondary-fixed: #31255c;
 
   /* Semantic Status */
-  --gnv-error: #b91c1c;
+  --gnv-error: #bc3737;
   --gnv-on-error: #ffffff;
   --gnv-error-container: #fef2f2;
-  --gnv-on-error-container: #b91c1c;
+  --gnv-on-error-container: #bc3737;
   --gnv-status-success: #3fa37c;
   --gnv-status-success-bg: #e6f5ee;
   --gnv-status-success-text: #1f5c4a;
   --gnv-status-success-border: #a8dfc6;
   --gnv-status-warning: #92400e;
   --gnv-status-warning-bg: #fef3c7;
-  --gnv-status-danger: #b91c1c;
+  --gnv-status-danger: #bc3737;
   --gnv-status-info: #2f4a8c;
 
   /* Typography */

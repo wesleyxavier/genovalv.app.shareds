@@ -8,9 +8,9 @@ export class GenovaFormControlElement extends LitElement {
     css`
       :host { display: flex; flex-direction: column; gap: 0.375rem; }
       label { font-size: 0.8125rem; font-weight: 600; color: var(--gnv-on-surface, #0f172a); }
-      .req { color: var(--gnv-error, #b91c1c); margin-left: 0.15rem; }
+      .req { color: var(--gnv-error, #bc3737); margin-left: 0.15rem; }
       .hint { font-size: 0.75rem; color: var(--gnv-text-muted, #64748b); }
-      .error { font-size: 0.75rem; color: var(--gnv-error, #b91c1c); font-weight: 500; }
+      .error { font-size: 0.75rem; color: var(--gnv-error, #bc3737); font-weight: 500; }
     `,
   ];
 

@@ -1,6 +1,7 @@
 import { LitElement, css, html } from 'lit';
 import { createTranslator, type SupportedLocale } from '@genovalv/core';
 import { registerCustomElement } from '../register';
+import { renderGenovaBrandSymbol } from './genova-brand-logo';
 
 export class GenovaHeaderElement extends LitElement {
   static override properties = {
@@ -22,12 +23,10 @@ export class GenovaHeaderElement extends LitElement {
     }
     header {
       width: 100%;
-      background: rgba(248, 249, 255, 0.85);
-      backdrop-filter: blur(16px);
-      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+      background: transparent;
     }
     .inner {
-      height: 4rem;
+      height: 3.75rem;
       max-width: 80rem;
       margin: 0 auto;
       padding: 0 var(--gnv-space-lg, 1rem);
@@ -44,14 +43,14 @@ export class GenovaHeaderElement extends LitElement {
     .brand {
       display: flex;
       align-items: center;
-      gap: var(--gnv-space-md, 0.75rem);
+      gap: var(--gnv-space-sm, 0.5rem);
     }
     .icon-box {
       width: 2rem;
       height: 2rem;
       border-radius: var(--gnv-radius-lg, 0.5rem);
-      background: var(--gnv-primary-container, #131b2e);
-      color: var(--gnv-on-primary, #ffffff);
+      background: var(--gnv-surface-container-lowest, #ffffff);
+      border: 1px solid var(--gnv-outline-variant, #e7e2d8);
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -61,17 +60,17 @@ export class GenovaHeaderElement extends LitElement {
       display: flex;
       align-items: baseline;
       gap: var(--gnv-space-xs, 0.25rem);
-      font-size: 1.125rem;
+      font-size: 1rem;
       line-height: 1.5rem;
       letter-spacing: -0.015em;
     }
     .brand-name {
-      font-weight: 600;
-      color: var(--gnv-on-surface, #0b1c30);
+      font-weight: 700;
+      color: var(--gnv-on-surface, #0f172a);
     }
     .brand-suffix {
-      font-weight: 400;
-      color: var(--gnv-on-surface-variant, #45464d);
+      font-weight: 500;
+      color: var(--gnv-on-surface-variant, #475569);
     }
     .right {
       display: flex;
@@ -84,8 +83,8 @@ export class GenovaHeaderElement extends LitElement {
       gap: var(--gnv-space-xs, 0.25rem);
       padding: 0.25rem 0.625rem;
       border-radius: var(--gnv-radius-pill, 9999px);
-      background: var(--gnv-surface-container-low, #eff4ff);
-      color: var(--gnv-on-surface-variant, #45464d);
+      background: var(--gnv-surface-container, #eeebe4);
+      color: var(--gnv-on-surface-variant, #475569);
       font-size: 0.6875rem;
       line-height: 0.875rem;
       font-weight: 600;
@@ -93,7 +92,7 @@ export class GenovaHeaderElement extends LitElement {
       white-space: nowrap;
     }
     .lock-icon {
-      color: var(--gnv-secondary, #0051d5);
+      color: var(--gnv-primary, #715faf);
       display: inline-flex;
     }
   `;
@@ -108,9 +107,7 @@ export class GenovaHeaderElement extends LitElement {
           <div class="brand">
             <div class="icon-box" aria-hidden="true">
               <slot name="icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
-                </svg>
+                ${renderGenovaBrandSymbol(22, 24, 'hdr')}
               </slot>
             </div>
             <div class="brand-text">

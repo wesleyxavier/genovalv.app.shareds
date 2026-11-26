@@ -8,7 +8,7 @@ export class GenovaProgressElement extends LitElement {
     css`
       :host { display: block; }
       .track { width: 100%; height: 0.5rem; border-radius: 9999px; background: var(--gnv-surface-container-high, #e7e2d8); overflow: hidden; }
-      .fill { height: 100%; background: var(--gnv-primary, #4c3a8a); transition: width 0.2s ease; }
+      .fill { height: 100%; background: var(--gnv-primary, #715faf); transition: width 0.2s ease; }
     `,
   ];
 

@@ -1,16 +1,16 @@
-# Graph Report - 006-ui-ux-etapa-1  (2026-11-26)
+# Graph Report - fix-etapa1-storybook-offline-branding  (2026-11-26)
 
 ## Corpus Check
-- 279 files · ~112,042 words
+- 327 files · ~121,357 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1280 nodes · 1846 edges · 130 communities (93 shown, 37 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 10 edges (avg confidence: 0.5)
+- 1524 nodes · 2051 edges · 169 communities (135 shown, 34 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 10 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3aee7aac`
+- Built from commit: `7b14ee90`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -132,6 +132,45 @@
 - GenovaIconElement
 - Implementation Plan: 006-ui-ux-etapa-1
 - Implementation Plan: 004-shared-remove-h3
+- checkbox.stories.ts
+- circular-progress.stories.ts
+- close-button.stories.ts
+- control-box.stories.ts
+- divider.stories.ts
+- drawer.stories.ts
+- form-control.stories.ts
+- heading.stories.ts
+- icon-button.stories.ts
+- input-group.stories.ts
+- link.stories.ts
+- number-input.stories.ts
+- progress.stories.ts
+- pseudo-box.stories.ts
+- radio-button-group.stories.ts
+- radio.stories.ts
+- skeleton.stories.ts
+- spinner.stories.ts
+- stats.stories.ts
+- switch.stories.ts
+- tabs.stories.ts
+- tag.stories.ts
+- textarea.stories.ts
+- toast.stories.ts
+- genova-button-group.ts
+- genova-close-button.ts
+- genova-modal.ts
+- genova-control-box.ts
+- genova-pseudo-box.ts
+- genova-radio.ts
+- alert-dialog.stories.ts
+- collapse.stories.ts
+- editable.stories.ts
+- image.stories.ts
+- modal.stories.ts
+- slider.stories.ts
+- tooltip.stories.ts
+- logos.stories.ts
+- Implementation Plan: 005-shared-storybook
 
 ## God Nodes (most connected - your core abstractions)
 1. `etapa1BaseStyles` - 45 edges
@@ -154,21 +193,21 @@
   packages/core/src/domain/entities/remembered-auth-session.entity.ts → packages/core/src/domain/entities/auth-session.entity.ts
 - `UserCookieSession` --references--> `CompanyBinding`  [EXTRACTED]
   packages/core/src/domain/server-auth/user-cookie-session.ts → packages/core/src/domain/entities/company-binding.entity.ts
-- `validateActiveBindings()` --calls--> `extractCnpjRoot()`  [EXTRACTED]
-  packages/core/src/domain/validators/validate-active-bindings.ts → packages/core/src/domain/validators/extract-cnpj-root.ts
+- `registerGenovaElements()` --calls--> `registerCustomElement()`  [EXTRACTED]
+  packages/elements/src/index.ts → packages/elements/src/register.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (130 total, 37 thin omitted)
+## Communities (169 total, 34 thin omitted)
 
 ### Community 0 - "types.ts"
-Cohesion: 0.11
-Nodes (25): DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, LoginContextConfiguration, LoginDictionary, LoginFieldName, LoginLink, LoginRawInput (+17 more)
+Cohesion: 0.07
+Nodes (39): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, AdminProfileRole, BaseSeedConfig, BaseSeedProfile (+31 more)
 
 ### Community 1 - "index.ts"
 Cohesion: 0.09
-Nodes (11): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, GenovaFooterElement, GenovaHeaderElement, GenovaLocaleSelectorElement (+3 more)
+Nodes (13): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, renderGenovaBrandSymbol(), renderGenovaCloudHorizontalDark(), GenovaFooterElement (+5 more)
 
 ### Community 2 - "Tasks: Shared Login Foundation & Base Components"
 Cohesion: 0.05
@@ -176,11 +215,11 @@ Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundati
 
 ### Community 3 - "Custom Elements Catalog"
 Cohesion: 0.07
-Nodes (17): GenovaButtonElement, property, GenovaCloseButtonElement, property, GenovaTableElement, property, GenovaAlertElement, property (+9 more)
+Nodes (19): GenovaButtonElement, property, GenovaTableElement, property, GenovaTagElement, property, GenovaToastElement, property (+11 more)
 
 ### Community 4 - "main.ts"
-Cohesion: 0.36
-Nodes (4): AuditLogEntry, AuditLogInput, AuditLogLevel, IAuditLogReader
+Cohesion: 0.10
+Nodes (19): dependencies, @genovalv/core, @genovalv/elements, @genovalv/tokens, lit, devDependencies, sirv-cli, storybook (+11 more)
 
 ### Community 5 - "Tasks: [FEATURE NAME]"
 Cohesion: 0.06
@@ -191,8 +230,8 @@ Cohesion: 0.06
 Nodes (28): Contract: `@genovalv/core` Public API, Exported Functions & Constants, Exported Types, 1. `<genova-header>`, 2. `<genova-footer>`, 3. `<genova-auth-shell>`, 4. `<genova-auth-card>`, 5. `<genova-action-button>` (+20 more)
 
 ### Community 7 - "Implementation Plan: Shared Login Foundation & Base Components"
-Cohesion: 0.11
-Nodes (13): DocumentType, SubmissionState, UserModel, AuthCookieConfig, BootstrapUserInput, BootstrapUserResult, ISessionTokenGateway, OAuthCallbackOutcome (+5 more)
+Cohesion: 0.25
+Nodes (7): 0. Branch, 1. Setup do Storybook (`@storybook/web-components-vite`), 2. Stories dos Componentes e Fluxo de Login, 3. E2E Playwright & Build, 4. Pre-PR Checklist, 5. Create PR, Tasks: 005-shared-storybook
 
 ### Community 8 - "package.json"
 Cohesion: 0.07
@@ -207,8 +246,8 @@ Cohesion: 0.08
 Nodes (24): dependencies, dotenv, jose, devDependencies, @genovalv/core, @types/node, typescript, vite (+16 more)
 
 ### Community 11 - "compilerOptions"
-Cohesion: 0.11
-Nodes (10): GenovaButtonGroupElement, property, GenovaToastElement, property, GenovaPseudoBoxElement, property, GenovaRadioElement, property (+2 more)
+Cohesion: 0.09
+Nodes (12): GenovaAlertElement, property, GenovaCollapseElement, property, GenovaMenuElement, property, GenovaBoxElement, property (+4 more)
 
 ### Community 12 - "Execution Steps"
 Cohesion: 0.09
@@ -219,8 +258,8 @@ Cohesion: 0.10
 Nodes (20): dependencies, @genovalv/core, lit, devDependencies, happy-dom, typescript, vite, vitest (+12 more)
 
 ### Community 14 - "package.json"
-Cohesion: 0.10
-Nodes (19): dependencies, @genovalv/core, @genovalv/elements, @genovalv/tokens, lit, devDependencies, sirv-cli, storybook (+11 more)
+Cohesion: 0.29
+Nodes (6): Default, meta, Sizes, States, Story, Variants
 
 ### Community 15 - "Feature Specification: [FEATURE NAME]"
 Cohesion: 0.12
@@ -239,8 +278,8 @@ Cohesion: 0.12
 Nodes (15): 1. Initialize Convergence Context, 2. Load Artifacts (Progressive Disclosure), 3. Build the Intent Inventory, 4. Assess the Codebase and Classify Findings, 5. Assign Severity, 6. Present the In-Session Findings Summary, 7. Append Convergence Tasks (or report converged), 8. Provide Next Actions (Handoff) (+7 more)
 
 ### Community 19 - "package.json"
-Cohesion: 0.17
-Nodes (11): exports, ./logo/*, ./tailwind.css, ./tokens.css, files, name, private, scripts (+3 more)
+Cohesion: 0.14
+Nodes (13): exports, ./fonts/*, ./fonts.css, ./logo/*, ./tailwind.css, ./tokens.css, files, name (+5 more)
 
 ### Community 20 - "Core Principles"
 Cohesion: 0.23
@@ -255,8 +294,8 @@ Cohesion: 0.14
 Nodes (12): Constitution Check, Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`, Project Structure, Summary, Technical Context, Edge Cases, Feature Specification: Shared Pure Auth Contracts (`@genovalv/core`) & Shared BFF Auth Server (`@genovalv/server`), Requirements *(mandatory)* (+4 more)
 
 ### Community 23 - "AGENTS.md — `New/Shareds` (`@genovalv/shareds`)"
-Cohesion: 0.26
-Nodes (8): EmailCpfCompanyEntry, extractCnpjRoot(), hasEmailCpfCompanyConflict(), computeCnpjDigit(), isValidCnpj(), computeCpfDigit(), isValidCpf(), stripNonDigits()
+Cohesion: 0.29
+Nodes (6): defaultItems, meta, Ordered, Plain, Story, Unordered
 
 ### Community 24 - "SKILL.md"
 Cohesion: 0.15
@@ -307,8 +346,8 @@ Cohesion: 0.22
 Nodes (8): Complexity Tracking, Constitution Check, Documentation (this feature), Implementation Plan: [FEATURE], Project Structure, Source Code (repository root), Summary, Technical Context
 
 ### Community 41 - "check-prerequisites.ps1"
-Cohesion: 0.42
-Nodes (3): executeIdempotent(), IdempotencyRecord, IdempotencyStore
+Cohesion: 0.33
+Nodes (5): AllCollapsed, Default, defaultItems, meta, Story
 
 ### Community 42 - "resolve-template.ps1"
 Cohesion: 0.25
@@ -339,8 +378,8 @@ Cohesion: 0.29
 Nodes (6): Completion Report, Done When, Mandatory Post-Execution Hooks, Outline, Pre-Execution Checks, User Input
 
 ### Community 51 - "auth-contracts.ts"
-Cohesion: 0.19
-Nodes (9): onExecutePostLogin(), Auth0TokenClaims, BindingValidationResult, BranchType, CompanyBinding, PostLoginApi, PostLoginEvent, PostLoginUserMetadata (+1 more)
+Cohesion: 0.09
+Nodes (20): executeIdempotent(), onExecutePostLogin(), Auth0TokenClaims, BindingValidationResult, BranchType, EmailCpfCompanyEntry, IdempotencyRecord, CompanyBinding (+12 more)
 
 ### Community 52 - "identity.ts"
 Cohesion: 0.07
@@ -355,8 +394,8 @@ Cohesion: 0.29
 Nodes (6): compilerOptions, lib, outDir, rootDir, extends, include
 
 ### Community 55 - "audit-log.ts"
-Cohesion: 0.12
-Nodes (5): AuditLogger, Auth0JwtClaims, Auth0TokenExchangeResult, IAuth0Gateway, IHashService
+Cohesion: 0.06
+Nodes (17): AuditLogEntry, AuditLogInput, AuditLogLevel, DocumentType, UserModel, AuditLogger, Auth0JwtClaims, Auth0TokenExchangeResult (+9 more)
 
 ### Community 56 - "Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)"
 Cohesion: 0.29
@@ -374,6 +413,10 @@ Nodes (6): 0. Branch, 1. Desacoplamento de h3, 2. Testes e Build, 3. Pre-PR Chec
 Cohesion: 0.06
 Nodes (16): BackchannelLogoutUseCase, BootstrapUseCase, OAuthCallbackUseCase, PasswordLoginUseCase, ResolvePostLoginUseCase, AUTH0_PASSWORD_REALM_GRANT, SHARED_AUTH_AUDIT_ACTIONS, Auth0Gateway (+8 more)
 
+### Community 61 - "index.ts"
+Cohesion: 0.33
+Nodes (5): Default, meta, options, RowLayout, Story
+
 ### Community 62 - "base-auth.controller.ts"
 Cohesion: 0.33
 Nodes (5): Outline, Post-Execution Checks, Pre-Execution Checks, Scope Guard, User Input
@@ -387,8 +430,8 @@ Cohesion: 0.33
 Nodes (5): Content Quality, Feature Readiness, Notes, Requirement Completeness, Specification Quality Checklist: Shared Login Foundation & Base Components
 
 ### Community 65 - "Tasks: 005-shared-storybook"
-Cohesion: 0.25
-Nodes (7): 0. Branch, 1. Setup do Storybook (`@storybook/web-components-vite`), 2. Stories dos Componentes e Fluxo de Login, 3. E2E Playwright & Build, 4. Pre-PR Checklist, 5. Create PR, Tasks: 005-shared-storybook
+Cohesion: 0.33
+Nodes (5): AllIcons, Default, ICON_NAMES, meta, Story
 
 ### Community 66 - "Tasks: Shared Pure Auth Contracts & `@genovalv/server`"
 Cohesion: 0.33
@@ -399,8 +442,8 @@ Cohesion: 0.33
 Nodes (5): Component Catalog (46 Componentes no Storybook), Feature Specification: 006-ui-ux-etapa-1, Overview, Requirements, Visual Foundations & Typography (`00-fundamentos.svg`)
 
 ### Community 68 - "login-foundation.stories.ts"
-Cohesion: 0.33
-Nodes (4): Default, LoginArgs, meta, Story
+Cohesion: 0.29
+Nodes (5): Default, FirstAccessOnboarding, LoginArgs, meta, Story
 
 ### Community 69 - "User Scenarios & Testing *(mandatory)*"
 Cohesion: 0.40
@@ -411,12 +454,12 @@ Cohesion: 0.40
 Nodes (4): DefaultShell, HeaderAndFooter, meta, Story
 
 ### Community 71 - "JoseSessionTokenGateway"
-Cohesion: 0.23
-Nodes (8): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, AdminProfileRole, BaseSeedConfig, BaseSeedProfile, ClientProfileRole, ProfileRole, ProfileScope
+Cohesion: 0.33
+Nodes (5): Default, meta, PasswordWithToggle, Story, WithError
 
 ### Community 72 - "Feature Specification: 005-shared-storybook"
-Cohesion: 0.40
-Nodes (4): Feature Specification: 005-shared-storybook, Overview, Requirements, User Scenarios
+Cohesion: 0.33
+Nodes (5): Default, items, meta, OpenByDefault, Story
 
 ### Community 75 - "feedback-and-actions.stories.ts"
 Cohesion: 0.50
@@ -425,6 +468,10 @@ Nodes (3): InteractiveControls, meta, Story
 ### Community 76 - "inputs.stories.ts"
 Cohesion: 0.50
 Nodes (3): EmailAndPassword, meta, Story
+
+### Community 79 - "plan.md"
+Cohesion: 0.33
+Nodes (5): Default, Disabled, meta, options, Story
 
 ### Community 80 - "Data Model: Proxy de Borda Local"
 Cohesion: 0.40
@@ -435,7 +482,7 @@ Cohesion: 0.40
 Nodes (5): 1. Subir a borda, 2. Validação manual, 3. Suíte automatizada, 4. Apps reais, Quickstart: validar a borda local
 
 ### Community 83 - "GenovaEditableElement"
-Cohesion: 0.50
+Cohesion: 0.40
 Nodes (3): GenovaEditableElement, property, state
 
 ### Community 85 - "GenovaTooltipElement"
@@ -449,6 +496,34 @@ Nodes (3): GenovaImageElement, property, state
 ### Community 88 - "Feature Specification: 004-shared-remove-h3"
 Cohesion: 0.50
 Nodes (3): Feature Specification: 004-shared-remove-h3, Overview, Requirements
+
+### Community 94 - "genova-tag.ts"
+Cohesion: 0.33
+Nodes (5): columns, Default, meta, rows, Story
+
+### Community 102 - "genova-breadcrumb.ts"
+Cohesion: 0.40
+Nodes (4): Feature Specification: 005-shared-storybook, Overview, Requirements, User Scenarios
+
+### Community 103 - "genova-collapse.ts"
+Cohesion: 0.40
+Nodes (4): AllStatuses, Default, meta, Story
+
+### Community 104 - "genova-menu.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Sizes, Story
+
+### Community 108 - "genova-box.ts"
+Cohesion: 0.40
+Nodes (4): AllVariants, Default, meta, Story
+
+### Community 109 - "genova-divider.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Story, Variants
+
+### Community 114 - "genova-switch.ts"
+Cohesion: 0.40
+Nodes (4): DeepNavigation, Default, meta, Story
 
 ### Community 115 - "00-fundamentos.stories.ts"
 Cohesion: 0.50
@@ -482,25 +557,157 @@ Nodes (3): meta, OverlaysCatalog, Story
 Cohesion: 0.50
 Nodes (3): DataCatalog, meta, Story
 
+### Community 123 - "GenovaIconElement"
+Cohesion: 0.40
+Nodes (4): Attached, Default, meta, Story
+
+### Community 130 - "checkbox.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, States, Story
+
+### Community 131 - "circular-progress.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, ProgressSteps, Story
+
+### Community 132 - "close-button.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, Disabled, meta, Story
+
+### Community 133 - "control-box.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, States, Story
+
+### Community 134 - "divider.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Story, Vertical
+
+### Community 135 - "drawer.stories.ts"
+Cohesion: 0.40
+Nodes (4): Interactive, LeftPlacement, meta, Story
+
+### Community 136 - "form-control.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Story, WithError
+
+### Community 137 - "heading.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Scale, Story
+
+### Community 138 - "icon-button.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Story, Variants
+
+### Community 139 - "input-group.stories.ts"
+Cohesion: 0.40
+Nodes (4): CurrencyInput, DomainInput, meta, Story
+
+### Community 140 - "link.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, InternalLink, meta, Story
+
+### Community 141 - "number-input.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, Disabled, meta, Story
+
+### Community 142 - "progress.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Steps, Story
+
+### Community 143 - "pseudo-box.stories.ts"
+Cohesion: 0.40
+Nodes (4): Disabled, Interactive, meta, Story
+
+### Community 144 - "radio-button-group.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, options, Story
+
+### Community 145 - "radio.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, GroupExample, meta, Story
+
+### Community 146 - "skeleton.stories.ts"
+Cohesion: 0.40
+Nodes (4): CardPlaceholder, Default, meta, Story
+
+### Community 147 - "spinner.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Sizes, Story
+
+### Community 148 - "stats.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, MetricsGrid, Story
+
+### Community 149 - "switch.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, States, Story
+
+### Community 150 - "tabs.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, Story, tabs
+
+### Community 151 - "tag.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, Group, meta, Story
+
+### Community 152 - "textarea.stories.ts"
+Cohesion: 0.40
+Nodes (4): Default, meta, States, Story
+
+### Community 153 - "toast.stories.ts"
+Cohesion: 0.40
+Nodes (4): AllStatuses, Default, meta, Story
+
+### Community 160 - "alert-dialog.stories.ts"
+Cohesion: 0.50
+Nodes (3): Interactive, meta, Story
+
+### Community 161 - "collapse.stories.ts"
+Cohesion: 0.50
+Nodes (3): Default, meta, Story
+
+### Community 162 - "editable.stories.ts"
+Cohesion: 0.50
+Nodes (3): Default, meta, Story
+
+### Community 163 - "image.stories.ts"
+Cohesion: 0.50
+Nodes (3): FallbackPlaceholder, meta, Story
+
+### Community 164 - "modal.stories.ts"
+Cohesion: 0.50
+Nodes (3): Interactive, meta, Story
+
+### Community 165 - "slider.stories.ts"
+Cohesion: 0.50
+Nodes (3): Default, meta, Story
+
+### Community 166 - "tooltip.stories.ts"
+Cohesion: 0.50
+Nodes (3): Default, meta, Story
+
+### Community 167 - "logos.stories.ts"
+Cohesion: 0.50
+Nodes (3): BrandLogos, meta, Story
+
 ## Knowledge Gaps
-- **522 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+517 more)
+- **716 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+711 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **34 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `index.ts`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **Why does `Tasks: Proxy de Borda Local (Simulação Cloudflare)` connect `Tasks: Shared Login Foundation & Base Components` to `Quickstart: validar a borda local`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `audit-log.ts`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `GenovaCheckboxElement` connect `GenovaCheckboxElement` to `index.ts`, `compilerOptions`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _522 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _716 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.1063973063973064 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06741250717154332 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.09206349206349207 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0931174089068826 - nodes in this community are weakly interconnected._
 - **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
   _Cohesion score 0.05263157894736842 - nodes in this community are weakly interconnected._
-- **Should `Custom Elements Catalog` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._

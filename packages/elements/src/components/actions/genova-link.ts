@@ -7,7 +7,7 @@ export class GenovaLinkElement extends LitElement {
     etapa1BaseStyles,
     css`
       :host { display: inline-block; }
-      a { color: var(--gnv-primary, #4c3a8a); font-weight: 500; text-decoration: none; }
+      a { color: var(--gnv-primary, #715faf); font-weight: 500; text-decoration: none; }
       a:hover { text-decoration: underline; color: var(--gnv-primary-hover, #3e2f73); }
     `,
   ];

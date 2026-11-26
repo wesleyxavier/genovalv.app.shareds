@@ -9,7 +9,7 @@ export class GenovaEditableElement extends LitElement {
       :host { display: inline-block; }
       .preview { padding: 0.25rem 0.5rem; border-radius: 0.375rem; cursor: text; }
       .preview:hover { background: var(--gnv-surface-container, #eeebe4); }
-      input { padding: 0.25rem 0.5rem; border-radius: 0.375rem; border: 1px solid var(--gnv-primary, #4c3a8a); font-family: inherit; font-size: inherit; }
+      input { padding: 0.25rem 0.5rem; border-radius: 0.375rem; border: 1px solid var(--gnv-primary, #715faf); font-family: inherit; font-size: inherit; }
     `,
   ];
 

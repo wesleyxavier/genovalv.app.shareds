@@ -38,27 +38,28 @@ export class GenovaMfaSelectorElement extends LitElement {
       gap: 0.375rem;
       padding: 0.45rem 0.5rem;
       border-radius: var(--gnv-radius-md, 0.25rem);
-      border: 1px solid var(--gnv-surface-container, #e5eeff);
-      background: var(--gnv-surface-container-low, #eff4ff);
-      color: var(--gnv-on-surface, #0b1c30);
-      font-family: var(--gnv-font-sans, 'Inter', sans-serif);
+      border: 1px solid var(--gnv-outline-variant, #e7e2d8);
+      background: var(--gnv-surface-container-lowest, #ffffff);
+      color: var(--gnv-on-surface, #0f172a);
+      font-family: var(--gnv-font-sans, 'Plus Jakarta Sans', system-ui, sans-serif);
       font-size: 0.6875rem;
       font-weight: 600;
       cursor: pointer;
     }
     button.option[aria-pressed='true'] {
-      background: var(--gnv-surface-container, #e5eeff);
-      border-color: var(--gnv-secondary, #0051d5);
+      background: var(--gnv-primary-container, #f1eefc);
+      border-color: var(--gnv-primary, #715faf);
+      color: var(--gnv-on-primary-container, #31255c);
     }
     button.option:focus-visible {
-      outline: 2px solid var(--gnv-secondary, #0051d5);
+      outline: 2px solid var(--gnv-primary-focus, #8e7cd8);
       outline-offset: 1px;
     }
     .guidance {
       padding: var(--gnv-space-sm, 0.5rem) var(--gnv-space-md, 0.75rem);
       border-radius: var(--gnv-radius-md, 0.25rem);
-      background: var(--gnv-surface-container-low, #eff4ff);
-      border: 1px solid var(--gnv-surface-container, #e5eeff);
+      background: var(--gnv-surface-container, #eeebe4);
+      border: 1px solid var(--gnv-outline-variant, #e7e2d8);
       display: flex;
       flex-direction: column;
       gap: 0.125rem;
@@ -66,12 +67,12 @@ export class GenovaMfaSelectorElement extends LitElement {
     .guidance-title {
       font-size: 0.6875rem;
       font-weight: 600;
-      color: var(--gnv-on-surface, #0b1c30);
+      color: var(--gnv-on-surface, #0f172a);
     }
     .guidance-hint {
       font-family: var(--gnv-font-mono, 'JetBrains Mono', monospace);
       font-size: 0.6875rem;
-      color: var(--gnv-on-surface-variant, #45464d);
+      color: var(--gnv-on-surface-variant, #475569);
     }
   `;
 

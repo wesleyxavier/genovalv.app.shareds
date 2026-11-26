@@ -14,7 +14,7 @@ export class GenovaControlBoxElement extends LitElement {
         transition: all 0.15s ease;
       }
       .cbox[data-shape='circle'] { border-radius: 9999px; }
-      .cbox[data-checked] { background: var(--gnv-primary, #4c3a8a); border-color: var(--gnv-primary, #4c3a8a); }
+      .cbox[data-checked] { background: var(--gnv-primary, #715faf); border-color: var(--gnv-primary, #715faf); }
       .cbox[data-disabled] { opacity: 0.5; }
     `,
   ];

@@ -10,7 +10,7 @@ export class GenovaAvatarElement extends LitElement {
       .avatar {
         display: inline-flex; align-items: center; justify-content: center;
         border-radius: 9999px; overflow: hidden; background: var(--gnv-primary-container, #f1eefc);
-        color: var(--gnv-primary, #4c3a8a); font-weight: 700; font-size: 0.875rem;
+        color: var(--gnv-primary, #715faf); font-weight: 700; font-size: 0.875rem;
       }
       img { width: 100%; height: 100%; object-fit: cover; }
     `,
