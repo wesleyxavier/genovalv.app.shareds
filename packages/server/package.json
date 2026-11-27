@@ -24,7 +24,7 @@
     "jose": "^6.2.18"
   },
   "peerDependencies": {
-    "@genovalv/core": "^0.2.0"
+    "@genovalv/core": "^0.3.0"
   },
   "devDependencies": {
     "@genovalv/core": "0.3.0",
