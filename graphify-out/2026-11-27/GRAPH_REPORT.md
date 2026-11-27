@@ -1,11 +1,11 @@
 # Graph Report - Shareds  (2026-11-27)
 
 ## Corpus Check
-- 374 files · ~132,207 words
+- 380 files · ~132,633 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1719 nodes · 2320 edges · 203 communities (159 shown, 44 thin omitted)
+- 1733 nodes · 2334 edges · 207 communities (159 shown, 48 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 10 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
@@ -203,9 +203,13 @@
 - genova-switch.ts
 - GenovaLocaleSelectorElement
 - GenovaMfaSelectorElement
+- Feature Specification: 009-shared-loading-and-i18n
+- codes.md
+- plan.md
+- tasks.md
 
 ## God Nodes (most connected - your core abstractions)
-1. `etapa1BaseStyles` - 48 edges
+1. `etapa1BaseStyles` - 49 edges
 2. `compilerOptions` - 16 edges
 3. `Tasks: Proxy de Borda Local (Simulação Cloudflare)` - 16 edges
 4. `SupportedLocale` - 14 edges
@@ -231,7 +235,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (203 total, 44 thin omitted)
+## Communities (207 total, 48 thin omitted)
 
 ### Community 0 - "types.ts"
 Cohesion: 0.26
@@ -244,10 +248,6 @@ Nodes (5): GenovaAuthCardElement, GenovaAuthShellElement, renderGenovaBrandSymbo
 ### Community 2 - "Tasks: Shared Login Foundation & Base Components"
 Cohesion: 0.05
 Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundational, 3.1 Commit Group — US1, 4.1 Commit Group — US2, 5.1 Commit Group — US3, 6.1 Commit Group — US4, 7.1 Commit Group — Resiliência (+30 more)
-
-### Community 3 - "Custom Elements Catalog"
-Cohesion: 0.11
-Nodes (10): GenovaToastElement, property, GenovaFormControlElement, property, GenovaIconElement, ICON_PATHS, property, GenovaRadioButtonGroupElement (+2 more)
 
 ### Community 4 - "main.ts"
 Cohesion: 0.10
@@ -279,7 +279,7 @@ Nodes (13): BASE_MODULE_CATALOG, BaseModuleCatalogEntry, SubmissionState, resolv
 
 ### Community 11 - "compilerOptions"
 Cohesion: 0.10
-Nodes (10): GenovaTableElement, property, GenovaInputGroupElement, GenovaBreadcrumbElement, property, GenovaAlertDialogElement, property, ELEMENTS (+2 more)
+Nodes (10): GenovaProgressElement, property, GenovaInputGroupElement, GenovaControlBoxElement, property, GenovaRadioButtonGroupElement, property, ELEMENTS (+2 more)
 
 ### Community 12 - "Execution Steps"
 Cohesion: 0.08
@@ -522,8 +522,8 @@ Cohesion: 0.33
 Nodes (5): Comandos, Genova Shareds (`New/Shareds`), Infraestrutura Local (PostgreSQL 17), Pacotes, v0.2.0 — Catalog, List UI & File Dropzone (`008-shared-catalog-and-data-ui`)
 
 ### Community 82 - "GenovaAvatarElement"
-Cohesion: 0.14
-Nodes (6): listToolbarStyles, paginationStyles, GenovaAlertElement, property, GenovaAccordionElement, property
+Cohesion: 0.10
+Nodes (11): GenovaButtonElement, property, paginationStyles, GenovaAlertElement, property, GenovaBreadcrumbElement, property, GenovaIconElement (+3 more)
 
 ### Community 83 - "GenovaEditableElement"
 Cohesion: 0.40
@@ -544,6 +544,10 @@ Nodes (3): Feature Specification: 004-shared-remove-h3, Overview, Requirements
 ### Community 91 - "genova-badge.ts"
 Cohesion: 0.60
 Nodes (3): LoginFieldName, LoginSubmissionInput, LoginValidationResult
+
+### Community 93 - "genova-stats.ts"
+Cohesion: 0.12
+Nodes (7): listToolbarStyles, GenovaStatsElement, property, GenovaTableElement, property, GenovaTextareaElement, property
 
 ### Community 94 - "genova-tag.ts"
 Cohesion: 0.33
@@ -810,24 +814,24 @@ Cohesion: 0.60
 Nodes (3): formatEnvBadgeLabel(), getUserInitials(), HIDDEN_ENV_VALUES
 
 ## Knowledge Gaps
-- **782 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+777 more)
+- **786 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+781 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **44 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `audit-log.ts`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `CompanyBinding` connect `auth-contracts.ts` to `audit-log.ts`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _782 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _786 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
   _Cohesion score 0.05263157894736842 - nodes in this community are weakly interconnected._
-- **Should `Custom Elements Catalog` be split into smaller, more focused modules?**
-  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
 - **Should `main.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Tasks: [FEATURE NAME]` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
+- **Should `SKILL.md` be split into smaller, more focused modules?**
+  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
+- **Should `package.json` be split into smaller, more focused modules?**
+  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._

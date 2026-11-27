@@ -56,4 +56,20 @@ describe('@genovalv/server auth use cases', () => {
     const boot = await new BootstrapUseCase(repo, auth0, hash).execute({ seedUserEmail: 'a@b.c', appBaseUrl: 'https://app' });
     expect(boot.provisioningMode).toBe('management-api');
   });
+
+  it('fetches email_verified from Auth0 user when omitted from id_token', async () => {
+    const auth0 = {
+      loginWithPassword: vi.fn().mockResolvedValue({ ok: true, idToken: 'idt', accessToken: 'act' }),
+      verifyJwt: vi.fn().mockResolvedValue({ sub: 'auth0|1', email: 'a@b.c' }),
+      getUserEmailVerified: vi.fn().mockResolvedValue(true),
+    } as unknown as IAuth0Gateway;
+    const resolvePostLogin = {
+      execute: vi.fn().mockResolvedValue({ ok: true, session: { userId: 'u-1', auth0Id: 'auth0|1', email: 'a@b.c', fullName: 'A', documentType: 'CPF', documentNumber: '000', bindings: [] } }),
+    } as unknown as ResolvePostLoginUseCase;
+    const tokens = { sign: vi.fn().mockResolvedValue('jwt-tok') } as unknown as ISessionTokenGateway;
+    const res = await new PasswordLoginUseCase(auth0, resolvePostLogin, tokens, { log: vi.fn() }).execute({ email: 'a@b.c', password: '123' });
+    expect(res.ok).toBe(true);
+    expect(auth0.getUserEmailVerified).toHaveBeenCalledWith('auth0|1', 'act');
+    expect(resolvePostLogin.execute).toHaveBeenCalledWith('auth0|1', 'a@b.c', true);
+  });
 });

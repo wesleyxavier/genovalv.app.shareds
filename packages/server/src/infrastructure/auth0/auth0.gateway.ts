@@ -103,4 +103,24 @@ export class Auth0Gateway implements IAuth0Gateway {
     if (!rawId) throw new Error('Auth0 /dbconnections/signup returned no user id');
     return { auth0Id: rawId.startsWith('auth0|') ? rawId : `auth0|${rawId}`, emailVerified: Boolean(data.email_verified) };
   }
+
+  async getUserEmailVerified(userId: string, accessToken?: string): Promise<boolean | null> {
+    if (accessToken) {
+      try {
+        const res = await this.fetchFn(`${this.baseUrl}/userinfo`, { headers: { Authorization: `Bearer ${accessToken}` } });
+        if (res.ok) {
+          const info = (await res.json()) as { email_verified?: boolean };
+          if (typeof info.email_verified === 'boolean') return info.email_verified;
+        }
+      } catch { /* fallback to management API */ }
+    }
+    const mgmt = await this.obtainManagementToken();
+    if (!mgmt.ok || !userId) return null;
+    const res = await this.fetchFn(`${this.baseUrl}/api/v2/users/${encodeURIComponent(userId)}?fields=email_verified`, {
+      headers: { Authorization: `Bearer ${mgmt.token}` },
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as { email_verified?: boolean };
+    return typeof data.email_verified === 'boolean' ? data.email_verified : null;
+  }
 }

@@ -25,7 +25,13 @@ export class OAuthCallbackUseCase {
 
     const claims = await this.auth0.verifyJwt(tokenRes.idToken);
     const email = String(claims.email || '');
-    const resolved = await this.resolvePostLogin.execute(String(claims.sub || ''), email, Boolean(claims.email_verified));
+    const sub = String(claims.sub || '');
+    let emailVerified = claims.email_verified === true;
+    if (!emailVerified && this.auth0.getUserEmailVerified) {
+      const fetched = await this.auth0.getUserEmailVerified(sub, tokenRes.accessToken);
+      if (fetched !== null) emailVerified = fetched;
+    }
+    const resolved = await this.resolvePostLogin.execute(sub, email, emailVerified);
     if (!resolved.ok) {
       await this.auditLogger.log({ level: 'warn', action: SHARED_AUTH_AUDIT_ACTIONS.oauthCallbackDenied, actorEmail: email, errorMessage: resolved.reason });
       return { ok: false, redirectTo: `/login?error=${resolved.reason}` };

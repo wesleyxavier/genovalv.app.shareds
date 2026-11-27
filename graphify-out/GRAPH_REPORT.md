@@ -1,16 +1,16 @@
 # Graph Report - Shareds  (2026-11-27)
 
 ## Corpus Check
-- 380 files · ~132,633 words
+- 380 files · ~132,917 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1733 nodes · 2334 edges · 207 communities (159 shown, 48 thin omitted)
+- 1735 nodes · 2339 edges · 193 communities (158 shown, 35 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 10 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `552a5ac9`
+- Built from commit: `fa800999`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -104,7 +104,6 @@
 - genova-tag.ts
 - genova-circular-progress.ts
 - genova-progress.ts
-- genova-skeleton.ts
 - genova-spinner.ts
 - genova-textarea.ts
 - GenovaCheckboxElement
@@ -130,7 +129,6 @@
 - 06-sobreposicoes.stories.ts
 - 07-dados.stories.ts
 - GenovaIconElement
-- Implementation Plan: 006-ui-ux-etapa-1
 - Implementation Plan: 004-shared-remove-h3
 - check-prerequisites.ps1
 - resolve-template.ps1
@@ -160,10 +158,8 @@
 - tag.stories.ts
 - textarea.stories.ts
 - toast.stories.ts
-- genova-button-group.ts
 - genova-close-button.ts
 - genova-modal.ts
-- genova-control-box.ts
 - genova-pseudo-box.ts
 - genova-radio.ts
 - alert-dialog.stories.ts
@@ -176,19 +172,12 @@
 - logos.stories.ts
 - Implementation Plan: 005-shared-storybook
 - genova-alert.ts
-- genova-toast.ts
 - genova-form-control.ts
-- genova-collapse.ts
 - genova-menu.ts
-- genova-box.ts
 - genova-divider.ts
-- Data Model: 007-app-header-menu
 - Implementation Plan: 006-ui-ux-etapa-1
-- IAuthSessionWriter
 - base-refresh-session.usecase.ts
 - Tasks: 008-shared-catalog-and-data-ui
-- elements.ssr.test.ts
-- AGENTS.md — `New/Shareds` (`@genovalv/shareds`)
 - GenovaInputElement
 - 08-list-and-upload.stories.ts
 - GenovaFileDropzoneElement
@@ -197,12 +186,9 @@
 - GenovaListToolbarElement
 - genova-badge.ts
 - GenovaPaginationElement
-- genova-spinner.ts
 - GenovaCheckboxElement
 - genova-radio.ts
 - genova-switch.ts
-- GenovaLocaleSelectorElement
-- GenovaMfaSelectorElement
 - Feature Specification: 009-shared-loading-and-i18n
 - codes.md
 - plan.md
@@ -215,39 +201,43 @@
 4. `SupportedLocale` - 14 edges
 5. `CompanyBinding` - 14 edges
 6. `registerCustomElement()` - 14 edges
-7. `Tasks: Shared Login Foundation & Base Components` - 14 edges
-8. `Auth0Gateway` - 13 edges
+7. `Auth0Gateway` - 14 edges
+8. `Tasks: Shared Login Foundation & Base Components` - 14 edges
 9. `Tasks: [FEATURE NAME]` - 13 edges
 10. `Research: Proxy de Borda Local (Simulação Cloudflare)` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Auth0TokenClaims` --references--> `CompanyBinding`  [EXTRACTED]
   packages/core/src/domain/dtos/auth0-token-claims.dto.ts → packages/core/src/domain/entities/company-binding.entity.ts
-- `LoginContextConfiguration` --references--> `MfaMethod`  [EXTRACTED]
-  packages/core/src/domain/dtos/login-context-configuration.dto.ts → packages/core/src/domain/dtos/mfa-method.dto.ts
-- `LoginContextConfiguration` --references--> `MfaMode`  [EXTRACTED]
-  packages/core/src/domain/dtos/login-context-configuration.dto.ts → packages/core/src/domain/dtos/mfa-mode.dto.ts
-- `LoginContextConfiguration` --references--> `SupportedLocale`  [EXTRACTED]
-  packages/core/src/domain/dtos/login-context-configuration.dto.ts → packages/core/src/domain/dtos/supported-locale.dto.ts
-- `LoginSubmissionInput` --references--> `MfaMethod`  [EXTRACTED]
-  packages/core/src/domain/dtos/login-submission-input.dto.ts → packages/core/src/domain/dtos/mfa-method.dto.ts
+- `CredentialsSubmission` --references--> `SupportedLocale`  [EXTRACTED]
+  packages/core/src/domain/entities/credentials-submission.entity.ts → packages/core/src/domain/dtos/supported-locale.dto.ts
+- `RememberedAuthSession` --inherits--> `AuthSession`  [EXTRACTED]
+  packages/core/src/domain/entities/remembered-auth-session.entity.ts → packages/core/src/domain/entities/auth-session.entity.ts
+- `UserCookieSession` --references--> `CompanyBinding`  [EXTRACTED]
+  packages/core/src/domain/server-auth/user-cookie-session.ts → packages/core/src/domain/entities/company-binding.entity.ts
+- `HttpAuthRepository` --implements--> `IAuthRepository`  [EXTRACTED]
+  packages/core/src/infrastructure/http-auth-repository.ts → packages/core/src/domain/interfaces/iauth-repository.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (207 total, 48 thin omitted)
+## Communities (193 total, 35 thin omitted)
 
 ### Community 0 - "types.ts"
-Cohesion: 0.26
-Nodes (11): MFA_GUIDANCE_MAP, MfaMode, createTranslator(), formatMfaCodeDisplay(), getMfaGuidance(), normalizeEmail(), sanitizeMfaCode(), validateEmail() (+3 more)
+Cohesion: 0.11
+Nodes (25): DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, LoginContextConfiguration, LoginDictionary, LoginFieldName, LoginLink, LoginRawInput (+17 more)
 
 ### Community 1 - "index.ts"
-Cohesion: 0.26
-Nodes (5): GenovaAuthCardElement, GenovaAuthShellElement, renderGenovaBrandSymbol(), renderGenovaCloudHorizontalDark(), GenovaHeaderElement
+Cohesion: 0.09
+Nodes (13): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, renderGenovaBrandSymbol(), renderGenovaCloudHorizontalDark(), GenovaFooterElement (+5 more)
 
 ### Community 2 - "Tasks: Shared Login Foundation & Base Components"
 Cohesion: 0.05
 Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundational, 3.1 Commit Group — US1, 4.1 Commit Group — US2, 5.1 Commit Group — US3, 6.1 Commit Group — US4, 7.1 Commit Group — Resiliência (+30 more)
+
+### Community 3 - "Custom Elements Catalog"
+Cohesion: 0.26
+Nodes (5): BaseLoginAuthUseCase, AuthResult, CredentialsSubmission, IAuthRepository, ILoginAuthUseCase
 
 ### Community 4 - "main.ts"
 Cohesion: 0.10
@@ -275,11 +265,11 @@ Nodes (25): 1. Initialize Analysis Context, 2. Load Artifacts (Progressive Discl
 
 ### Community 10 - "package.json"
 Cohesion: 0.08
-Nodes (13): BASE_MODULE_CATALOG, BaseModuleCatalogEntry, SubmissionState, resolveEffectiveModules(), AuthCookieConfig, BootstrapUserInput, BootstrapUserResult, OAuthCallbackOutcome (+5 more)
+Nodes (15): BASE_MODULE_CATALOG, BaseModuleCatalogEntry, AdminProfileRole, ClientProfileRole, SubmissionState, resolveEffectiveModules(), AuthCookieConfig, BootstrapUserInput (+7 more)
 
 ### Community 11 - "compilerOptions"
-Cohesion: 0.10
-Nodes (10): GenovaProgressElement, property, GenovaInputGroupElement, GenovaControlBoxElement, property, GenovaRadioButtonGroupElement, property, ELEMENTS (+2 more)
+Cohesion: 0.05
+Nodes (22): GenovaStatsElement, property, GenovaTagElement, property, GenovaAlertElement, property, GenovaCircularProgressElement, property (+14 more)
 
 ### Community 12 - "Execution Steps"
 Cohesion: 0.08
@@ -346,8 +336,8 @@ Cohesion: 0.14
 Nodes (13): D10 — Estratégia de testes (TDD), D11 — Dockerização do FactoryFloor, D1 — Hosts locais por roteamento, D2 — Alcançar as origens, D3 — TLS local, D4 — Headers de borda, D5 — Cache de borda, D6 — Rate limit (+5 more)
 
 ### Community 28 - "SKILL.md"
-Cohesion: 0.37
-Nodes (5): LOGIN_TRANSLATIONS, LoginDictionary, LoginTranslationKey, SupportedLocale, resolveSupportedLocale()
+Cohesion: 0.23
+Nodes (4): BaseRefreshSessionUseCase, AuthenticatedMeResponse, IAuthSessionWriter, IRefreshFromCookieAuthUseCase
 
 ### Community 29 - "compilerOptions"
 Cohesion: 0.15
@@ -406,8 +396,8 @@ Cohesion: 0.25
 Nodes (7): AGENTS.md — `New/Shareds` (`@genovalv/shareds`), Architecture & Package Boundaries, Build & Test, Conventions, Do NOT, Testing, Workflow & Governance
 
 ### Community 49 - "Plano de Testes E2E: Proxy de Borda Local"
-Cohesion: 0.07
-Nodes (21): BaseLoginAuthUseCase, BaseLogoutAuthUseCase, BaseRefreshSessionUseCase, AuthResult, AuthenticatedMeResponse, HttpAuthRoutes, HttpFetch, HttpRequestInit (+13 more)
+Cohesion: 0.16
+Nodes (5): HttpAuthRoutes, HttpFetch, HttpRequestInit, HttpResponseLike, HttpAuthRepository
 
 ### Community 50 - "Implementation Plan: Proxy de Borda Local (Simulação Cloudflare)"
 Cohesion: 0.25
@@ -418,8 +408,8 @@ Cohesion: 0.07
 Nodes (25): executeIdempotent(), onExecutePostLogin(), Auth0TokenClaims, BindingValidationResult, BranchType, EmailCpfCompanyEntry, IdempotencyRecord, ListFilterConfig (+17 more)
 
 ### Community 52 - "identity.ts"
-Cohesion: 0.61
-Nodes (3): LoginRawInput, MfaGuidance, MfaMethod
+Cohesion: 0.44
+Nodes (5): AuthSession, RememberedAuthSession, SessionUser, createUnauthenticatedSession(), UNAUTHENTICATED_SESSION
 
 ### Community 53 - "tasks.md"
 Cohesion: 0.39
@@ -456,10 +446,6 @@ Nodes (16): BackchannelLogoutUseCase, BootstrapUseCase, OAuthCallbackUseCase, Pa
 ### Community 61 - "index.ts"
 Cohesion: 0.33
 Nodes (5): Default, meta, options, RowLayout, Story
-
-### Community 62 - "base-auth.controller.ts"
-Cohesion: 0.43
-Nodes (3): DEFAULT_LOGIN_CONTEXT, LoginContextConfiguration, LoginLink
 
 ### Community 63 - "Implementation Plan: Shared Pure Auth Contracts (`@genovalv/core`) & `@genovalv/server`"
 Cohesion: 0.29
@@ -522,11 +508,11 @@ Cohesion: 0.33
 Nodes (5): Comandos, Genova Shareds (`New/Shareds`), Infraestrutura Local (PostgreSQL 17), Pacotes, v0.2.0 — Catalog, List UI & File Dropzone (`008-shared-catalog-and-data-ui`)
 
 ### Community 82 - "GenovaAvatarElement"
-Cohesion: 0.10
-Nodes (11): GenovaButtonElement, property, paginationStyles, GenovaAlertElement, property, GenovaBreadcrumbElement, property, GenovaIconElement (+3 more)
+Cohesion: 0.40
+Nodes (3): GenovaIconElement, ICON_PATHS, property
 
 ### Community 83 - "GenovaEditableElement"
-Cohesion: 0.40
+Cohesion: 0.50
 Nodes (3): GenovaEditableElement, property, state
 
 ### Community 85 - "GenovaTooltipElement"
@@ -534,20 +520,16 @@ Cohesion: 0.40
 Nodes (3): GenovaTooltipElement, property, state
 
 ### Community 86 - "GenovaImageElement"
-Cohesion: 0.40
-Nodes (3): GenovaImageElement, property, state
+Cohesion: 0.13
+Nodes (7): GenovaTableElement, property, GenovaFormControlElement, property, GenovaImageElement, property, state
 
 ### Community 88 - "Feature Specification: 004-shared-remove-h3"
 Cohesion: 0.50
 Nodes (3): Feature Specification: 004-shared-remove-h3, Overview, Requirements
 
-### Community 91 - "genova-badge.ts"
-Cohesion: 0.60
-Nodes (3): LoginFieldName, LoginSubmissionInput, LoginValidationResult
-
-### Community 93 - "genova-stats.ts"
-Cohesion: 0.12
-Nodes (7): listToolbarStyles, GenovaStatsElement, property, GenovaTableElement, property, GenovaTextareaElement, property
+### Community 92 - "genova-list.ts"
+Cohesion: 0.07
+Nodes (15): GenovaButtonGroupElement, property, GenovaListElement, property, GenovaSkeletonElement, property, GenovaSpinnerElement, property (+7 more)
 
 ### Community 94 - "genova-tag.ts"
 Cohesion: 0.33
@@ -594,8 +576,8 @@ Cohesion: 0.40
 Nodes (4): Default, meta, Story, Variants
 
 ### Community 110 - "genova-heading.ts"
-Cohesion: 0.23
-Nodes (8): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, AdminProfileRole, BaseSeedConfig, BaseSeedProfile, ClientProfileRole, ProfileRole, ProfileScope
+Cohesion: 0.35
+Nodes (6): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, BaseSeedConfig, BaseSeedProfile, ProfileRole, ProfileScope
 
 ### Community 111 - "genova-radio-button-group.ts"
 Cohesion: 0.33
@@ -793,45 +775,45 @@ Nodes (3): BrandLogos, meta, Story
 Cohesion: 0.50
 Nodes (3): Data Model: 007-app-header-menu, Pure Contracts (`@genovalv/core`), Pure Helpers (`@genovalv/core`)
 
-### Community 174 - "genova-box.ts"
-Cohesion: 0.31
-Nodes (3): AlertVariant, METHODS, registerCustomElement()
-
-### Community 182 - "elements.ssr.test.ts"
-Cohesion: 0.25
-Nodes (3): GenovaActionButtonElement, GenovaAlertBannerElement, GenovaFooterElement
-
 ### Community 186 - "08-list-and-upload.stories.ts"
 Cohesion: 0.29
 Nodes (6): FILTERS, ListToolbarAndPagination, meta, Story, SupportAccessModalWithDropzone, UPLOADED_FILES
 
 ### Community 187 - "GenovaFileDropzoneElement"
-Cohesion: 0.47
-Nodes (3): GenovaFileDropzoneElement, property, state
+Cohesion: 0.31
+Nodes (4): GenovaFileDropzoneElement, fileDropzoneStyles, property, state
 
 ### Community 188 - "app-header.helpers.ts"
 Cohesion: 0.60
 Nodes (3): formatEnvBadgeLabel(), getUserInitials(), HIDDEN_ENV_VALUES
 
+### Community 191 - "GenovaListToolbarElement"
+Cohesion: 0.36
+Nodes (3): GenovaListToolbarElement, listToolbarStyles, property
+
+### Community 193 - "GenovaPaginationElement"
+Cohesion: 0.38
+Nodes (3): GenovaPaginationElement, paginationStyles, property
+
 ## Knowledge Gaps
 - **786 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+781 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **35 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `audit-log.ts`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `private` to the rest of the system?**
   _786 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `types.ts` be split into smaller, more focused modules?**
+  _Cohesion score 0.1063973063973064 - nodes in this community are weakly interconnected._
+- **Should `index.ts` be split into smaller, more focused modules?**
+  _Cohesion score 0.0931174089068826 - nodes in this community are weakly interconnected._
 - **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
   _Cohesion score 0.05263157894736842 - nodes in this community are weakly interconnected._
 - **Should `main.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Tasks: [FEATURE NAME]` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
-- **Should `SKILL.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
-- **Should `package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._

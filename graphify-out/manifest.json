@@ -60,13 +60,13 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1795806555.101102,
-    "ast_hash": "a0aa609398861d094d23165a0eb0be03",
+    "mtime": 1795808451.179341,
+    "ast_hash": "428ba319a3a4bd867954e80485695d88",
     "semantic_hash": ""
   },
   "packages/core/package.json": {
-    "mtime": 1795806555.102102,
-    "ast_hash": "0b78248c8006e3f5285ceeddc9ece6bc",
+    "mtime": 1795808451.1803412,
+    "ast_hash": "283389b1f15f5ece4f75d1d130ffdc0a",
     "semantic_hash": ""
   },
   "packages/core/src/index.ts": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "packages/elements/package.json": {
-    "mtime": 1795806555.102102,
-    "ast_hash": "bed9e9416824276b0b003c1f4dc9e3f0",
+    "mtime": 1795808451.1833417,
+    "ast_hash": "1accddea44379344f9493cbdf1abefb2",
     "semantic_hash": ""
   },
   "packages/elements/src/components/genova-action-button.ts": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "packages/tokens/package.json": {
-    "mtime": 1795806555.1046102,
-    "ast_hash": "0474057ea039e8b04f4161057c5e3271",
+    "mtime": 1795808451.1813405,
+    "ast_hash": "f7dd08fecfed560ba11d1e48f285268a",
     "semantic_hash": ""
   },
   "playground/e2e/login-foundation.spec.ts": {
@@ -455,8 +455,8 @@
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/auth0-token-exchange-result.ts": {
-    "mtime": 1795548423.2977898,
-    "ast_hash": "dbdf61fd1e3a85f186e391dd31f3656e",
+    "mtime": 1795808411.1779847,
+    "ast_hash": "6ff3463e9a01d6dc593d4596c36b94f5",
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/bootstrap-user-input.ts": {
@@ -475,8 +475,8 @@
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/iauth0-gateway.ts": {
-    "mtime": 1795609062.7892773,
-    "ast_hash": "3f3ff1ec20015ae4f9fc0500a0373533",
+    "mtime": 1795808409.9165194,
+    "ast_hash": "e7ffca156cd46164ce4b5b12a2f687b8",
     "semantic_hash": ""
   },
   "packages/core/src/domain/server-auth/ibase-auth-user-repository.ts": {
@@ -545,8 +545,8 @@
     "semantic_hash": ""
   },
   "packages/server/package.json": {
-    "mtime": 1795806594.8433309,
-    "ast_hash": "89a780e620f46c3ce6562920c6e5d085",
+    "mtime": 1795808451.1843417,
+    "ast_hash": "b7fa88d450046f7803c298959a4af9eb",
     "semantic_hash": ""
   },
   "packages/server/src/application/use-cases/auth/backchannel-logout.usecase.ts": {
@@ -560,13 +560,13 @@
     "semantic_hash": ""
   },
   "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts": {
-    "mtime": 1795548423.3640234,
-    "ast_hash": "64558cb6c9dea1e2bce438d6b7e2ed70",
+    "mtime": 1795808430.7939332,
+    "ast_hash": "e9b4dff845c1f9383de4d67e2fb38ab6",
     "semantic_hash": ""
   },
   "packages/server/src/application/use-cases/auth/password-login.usecase.ts": {
-    "mtime": 1795548423.3640234,
-    "ast_hash": "40bc5067272169e519b6aa75b0ad8e74",
+    "mtime": 1795808429.4261682,
+    "ast_hash": "cd3713ddd5ea4dabcfbe0f4e49ef3e94",
     "semantic_hash": ""
   },
   "packages/server/src/application/use-cases/auth/resolve-post-login.usecase.ts": {
@@ -590,13 +590,13 @@
     "semantic_hash": ""
   },
   "packages/server/src/infrastructure/auth0/auth0.gateway.ts": {
-    "mtime": 1795609062.790277,
-    "ast_hash": "46125e81cb234e6cd206c905e1e1e08e",
+    "mtime": 1795808428.1535254,
+    "ast_hash": "1cc6dca894a1f9ddeb6bda575294928c",
     "semantic_hash": ""
   },
   "packages/server/src/infrastructure/auth0/exchange-auth0-token.ts": {
-    "mtime": 1795548423.3670287,
-    "ast_hash": "8db7ce9089a3cff24b947a9820dc1f6d",
+    "mtime": 1795808412.3822527,
+    "ast_hash": "7520d44211e76b56fd0b613073f3c657",
     "semantic_hash": ""
   },
   "packages/server/src/infrastructure/auth0/post-auth0-json.ts": {
@@ -640,8 +640,8 @@
     "semantic_hash": ""
   },
   "packages/server/tests/auth-usecases.test.ts": {
-    "mtime": 1795548423.4496572,
-    "ast_hash": "ab85b3e8213306155822e5853d3baa8b",
+    "mtime": 1795808431.920743,
+    "ast_hash": "0ce01de1d0fb21bda0344495e2a97fb4",
     "semantic_hash": ""
   },
   "packages/server/tests/auth0-and-security.test.ts": {
@@ -1925,33 +1925,33 @@
     "semantic_hash": ""
   },
   "packages/elements/src/components/feedback/genova-loading-state.ts": {
-    "mtime": 1795806555.1031027,
-    "ast_hash": "5140f5797aa4eb98afecc1cf4d807fd3",
+    "mtime": 1795806807.609136,
+    "ast_hash": "d7821b3e756ba702892fa2fdf84200ed",
     "semantic_hash": ""
   },
   "packages/elements/tests/loading-state.test.ts": {
-    "mtime": 1795806555.1036065,
-    "ast_hash": "9bf10b6b873dd32ba59dc16976c598fe",
+    "mtime": 1795806807.689039,
+    "ast_hash": "e9e0bd1d0d30fd4a7f0297f627e64649",
     "semantic_hash": ""
   },
   "specs/009-shared-loading-and-i18n/codes.md": {
-    "mtime": 1795806555.10561,
-    "ast_hash": "134f34196c6cab0557e8f2821f48624c",
+    "mtime": 1795806807.8106563,
+    "ast_hash": "73271d632cd302cb9db51d07341baf28",
     "semantic_hash": ""
   },
   "specs/009-shared-loading-and-i18n/plan.md": {
-    "mtime": 1795806555.10561,
-    "ast_hash": "2561b7a693d4144a811000da99ac5995",
+    "mtime": 1795806807.8866348,
+    "ast_hash": "98679580ae9c246ab0011de794651d45",
     "semantic_hash": ""
   },
   "specs/009-shared-loading-and-i18n/spec.md": {
-    "mtime": 1795806555.10561,
-    "ast_hash": "366b6e29273efdb40e96cc283af678fd",
+    "mtime": 1795806807.9728484,
+    "ast_hash": "9d177664af77f4d1a4951ce99e3fdbb5",
     "semantic_hash": ""
   },
   "specs/009-shared-loading-and-i18n/tasks.md": {
-    "mtime": 1795806555.1066105,
-    "ast_hash": "131be4235948d96838d4701d66be3bed",
+    "mtime": 1795806808.0573118,
+    "ast_hash": "b63d8e0a85e9b5ef28ced04345aa3bc7",
     "semantic_hash": ""
   }
 }

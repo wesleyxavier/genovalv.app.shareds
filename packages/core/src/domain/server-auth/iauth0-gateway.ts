@@ -14,4 +14,5 @@ export interface IAuth0Gateway {
   ): Promise<{ userId: string }>;
   createPasswordChangeTicket(mgmtToken: string, userId: string, resultUrl: string): Promise<string>;
   signupDatabaseUser(email: string, fullName: string, password: string): Promise<{ auth0Id: string; emailVerified: boolean }>;
+  getUserEmailVerified?(userId: string, accessToken?: string): Promise<boolean | null>;
 }

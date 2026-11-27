@@ -60,13 +60,13 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1795781786.1672342,
-    "ast_hash": "23c58bcb02fe211dcdef3a26a856e897",
+    "mtime": 1795806555.101102,
+    "ast_hash": "a0aa609398861d094d23165a0eb0be03",
     "semantic_hash": ""
   },
   "packages/core/package.json": {
-    "mtime": 1795781786.1672342,
-    "ast_hash": "64dcdcb506997c85c9b5307a75775053",
+    "mtime": 1795806555.102102,
+    "ast_hash": "0b78248c8006e3f5285ceeddc9ece6bc",
     "semantic_hash": ""
   },
   "packages/core/src/index.ts": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "packages/elements/package.json": {
-    "mtime": 1795781786.1752336,
-    "ast_hash": "f6eafa284f09d741ce78a6553a1ddc58",
+    "mtime": 1795806555.102102,
+    "ast_hash": "bed9e9416824276b0b003c1f4dc9e3f0",
     "semantic_hash": ""
   },
   "packages/elements/src/components/genova-action-button.ts": {
@@ -145,8 +145,8 @@
     "semantic_hash": ""
   },
   "packages/elements/src/index.ts": {
-    "mtime": 1795781786.1787393,
-    "ast_hash": "a9dd1b098bff0e28881598838b110d22",
+    "mtime": 1795806555.1036065,
+    "ast_hash": "7949932b3582707e98c001f7598cc83c",
     "semantic_hash": ""
   },
   "packages/elements/src/register.ts": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "packages/tokens/package.json": {
-    "mtime": 1795781786.1807408,
-    "ast_hash": "996332280beb7fda704cbc8369684282",
+    "mtime": 1795806555.1046102,
+    "ast_hash": "0474057ea039e8b04f4161057c5e3271",
     "semantic_hash": ""
   },
   "playground/e2e/login-foundation.spec.ts": {
@@ -545,8 +545,8 @@
     "semantic_hash": ""
   },
   "packages/server/package.json": {
-    "mtime": 1795781786.1797392,
-    "ast_hash": "7c5b8b88d5bde6a959076b4c62ac3664",
+    "mtime": 1795806594.8433309,
+    "ast_hash": "89a780e620f46c3ce6562920c6e5d085",
     "semantic_hash": ""
   },
   "packages/server/src/application/use-cases/auth/backchannel-logout.usecase.ts": {
@@ -1922,6 +1922,36 @@
   ".specify/feature.json": {
     "mtime": 1795736272.511944,
     "ast_hash": "c45d118f955d894afcbaa6e5b17be763",
+    "semantic_hash": ""
+  },
+  "packages/elements/src/components/feedback/genova-loading-state.ts": {
+    "mtime": 1795806555.1031027,
+    "ast_hash": "5140f5797aa4eb98afecc1cf4d807fd3",
+    "semantic_hash": ""
+  },
+  "packages/elements/tests/loading-state.test.ts": {
+    "mtime": 1795806555.1036065,
+    "ast_hash": "9bf10b6b873dd32ba59dc16976c598fe",
+    "semantic_hash": ""
+  },
+  "specs/009-shared-loading-and-i18n/codes.md": {
+    "mtime": 1795806555.10561,
+    "ast_hash": "134f34196c6cab0557e8f2821f48624c",
+    "semantic_hash": ""
+  },
+  "specs/009-shared-loading-and-i18n/plan.md": {
+    "mtime": 1795806555.10561,
+    "ast_hash": "2561b7a693d4144a811000da99ac5995",
+    "semantic_hash": ""
+  },
+  "specs/009-shared-loading-and-i18n/spec.md": {
+    "mtime": 1795806555.10561,
+    "ast_hash": "366b6e29273efdb40e96cc283af678fd",
+    "semantic_hash": ""
+  },
+  "specs/009-shared-loading-and-i18n/tasks.md": {
+    "mtime": 1795806555.1066105,
+    "ast_hash": "131be4235948d96838d4701d66be3bed",
     "semantic_hash": ""
   }
 }
