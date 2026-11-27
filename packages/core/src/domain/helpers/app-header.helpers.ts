@@ -5,8 +5,10 @@ const HIDDEN_ENV_VALUES = new Set(['', 'production', 'prod']);
  */
 export function getUserInitials(fullName?: string | null, email?: string | null): string {
   const words = (fullName ?? '').trim().split(/\s+/).filter(Boolean);
-  if (words.length >= 2) {
-    return `${words[0][0]}${words[words.length - 1][0]}`.toUpperCase();
+  const [first, ...rest] = words;
+  const last = rest.pop();
+  if (first && last) {
+    return `${first.charAt(0)}${last.charAt(0)}`.toUpperCase();
   }
   const cleanWord = (words[0] ?? '').replace(/[^a-zA-Z0-9]/g, '');
   if (cleanWord.length >= 1) {

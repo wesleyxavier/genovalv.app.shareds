@@ -21,6 +21,7 @@ Executar a partir de `New/Shareds/`:
 - **Branch & Worktree (`/openspec-worktree`):** toda nova feature/change deve seguir o fluxo da skill `/openspec-worktree` — iniciar o `tasks.md` com `## 0. Branch`, criar a worktree em `worktrees/{branch}` a partir da `develop`, validar a branch base antes de codificar e remover a worktree após o merge.
 - **Autorização obrigatória:** nunca execute `git commit`, `git push` ou crie PR sem confirmação explícita do usuário.
 - Toda nova feature ou mudança de contrato exige atualização de `spec.md`, `plan.md`, `tasks.md` e `README.md`.
+- **Versionamo versionamento deve seguir o padrão do gitflow, com branches de feature, develop, release e hotfix. skill referente devops-security-agent-skills-semantic-versioning finalizar a etapa de especificação. Ao criar as tasks de spec ao final incluir nova versão nas tarefas**
 
 ## Architecture & Package Boundaries
 

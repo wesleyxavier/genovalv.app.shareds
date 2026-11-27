@@ -13,6 +13,7 @@ describe('app-header helpers', () => {
     expect(getUserInitials('  ', '  ')).toBe('AD');
     expect(getUserInitials('X', null)).toBe('X');
     expect(getUserInitials(null, 'a@b.c')).toBe('AB');
+    expect(getUserInitials(null, null)).toBe('AD');
   });
 
   it('formats environment badge and hides it in production', () => {

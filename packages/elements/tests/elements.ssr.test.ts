@@ -10,6 +10,9 @@ import {
   GenovaHeaderElement,
   GenovaAppHeaderElement,
   GenovaMfaSelectorElement,
+  GenovaListToolbarElement,
+  GenovaPaginationElement,
+  GenovaFileDropzoneElement,
   registerGenovaElements,
 } from '../src/index';
 
@@ -24,6 +27,9 @@ describe('SSR-safety', () => {
     expect(GenovaActionButtonElement).toBeDefined();
     expect(GenovaAlertBannerElement).toBeDefined();
     expect(GenovaMfaSelectorElement).toBeDefined();
+    expect(GenovaListToolbarElement).toBeDefined();
+    expect(GenovaPaginationElement).toBeDefined();
+    expect(GenovaFileDropzoneElement).toBeDefined();
     expect(() => registerGenovaElements()).not.toThrow();
     expect(registerCustomElement('genova-dummy-ssr', class {} as unknown as CustomElementConstructor)).toBe(false);
   });

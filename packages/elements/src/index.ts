@@ -54,6 +54,9 @@ import { GenovaListElement } from './components/data/genova-list';
 import { GenovaStatsElement } from './components/data/genova-stats';
 import { GenovaTableElement } from './components/data/genova-table';
 import { GenovaTagElement } from './components/data/genova-tag';
+import { GenovaListToolbarElement } from './components/data/genova-list-toolbar';
+import { GenovaPaginationElement } from './components/data/genova-pagination';
+import { GenovaFileDropzoneElement } from './components/forms/genova-file-dropzone';
 
 export {
   GenovaActionButtonElement, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement,
@@ -68,6 +71,7 @@ export {
   GenovaAlertElement, GenovaCircularProgressElement, GenovaProgressElement, GenovaSkeletonElement, GenovaSpinnerElement, GenovaToastElement,
   GenovaAlertDialogElement, GenovaDrawerElement, GenovaModalElement, GenovaTooltipElement,
   GenovaAvatarElement, GenovaBadgeElement, GenovaListElement, GenovaStatsElement, GenovaTableElement, GenovaTagElement,
+  GenovaListToolbarElement, GenovaPaginationElement, GenovaFileDropzoneElement,
 };
 
 const ELEMENTS: Array<[string, CustomElementConstructor]> = [
@@ -96,6 +100,8 @@ const ELEMENTS: Array<[string, CustomElementConstructor]> = [
   ['genova-avatar', GenovaAvatarElement], ['genova-badge', GenovaBadgeElement],
   ['genova-list', GenovaListElement], ['genova-stats', GenovaStatsElement],
   ['genova-table', GenovaTableElement], ['genova-tag', GenovaTagElement],
+  ['genova-list-toolbar', GenovaListToolbarElement], ['genova-pagination', GenovaPaginationElement],
+  ['genova-file-dropzone', GenovaFileDropzoneElement],
 ];
 
 export function registerGenovaElements(): void {
