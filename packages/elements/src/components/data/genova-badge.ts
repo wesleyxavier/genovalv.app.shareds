@@ -15,10 +15,11 @@ export class GenovaBadgeElement extends LitElement {
       .badge[data-variant='success'] { background: var(--gnv-status-success-bg, #e6f5ee); color: var(--gnv-status-success-text, #1f5c4a); }
       .badge[data-variant='warning'] { background: var(--gnv-status-warning-bg, #fef3c7); color: var(--gnv-status-warning, #92400e); }
       .badge[data-variant='error'] { background: var(--gnv-error-container, #fef2f2); color: var(--gnv-error, #bc3737); }
+      .badge[data-variant='neutral'] { background: var(--gnv-surface-muted, #f1f5f9); color: var(--gnv-text-secondary, #475569); }
     `,
   ];
 
-  @property({ type: String }) variant: 'primary' | 'success' | 'warning' | 'error' = 'primary';
+  @property({ type: String }) variant: 'primary' | 'success' | 'warning' | 'error' | 'neutral' = 'primary';
 
   override render() {
     return html`<span class="badge" data-variant=${this.variant}><slot></slot></span>`;

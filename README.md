@@ -29,3 +29,9 @@ cd New/Shareds
 Copy-Item .env.example .env
 docker compose up -d
 ```
+
+
+## v0.2.0 — Catalog, List UI & File Dropzone (`008-shared-catalog-and-data-ui`)
+
+- **`@genovalv/core`**: `BASE_MODULE_CATALOG`, `resolveEffectiveModules`, `validateCatalogCode`, `validateCatalogName`, `Money`, `computePaginationRange`, `formatMaskedCpf`, `formatFileSize`, `validateUploadFile`.
+- **`@genovalv/elements`**: `<genova-list-toolbar>`, `<genova-pagination>`, `<genova-file-dropzone>`, `<genova-modal>` (`size`, `subtitle`, `slot="footer"`, `Escape`), e `<genova-badge variant="neutral">`.
