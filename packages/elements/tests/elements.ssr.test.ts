@@ -8,6 +8,7 @@ import {
   GenovaAuthShellElement,
   GenovaFooterElement,
   GenovaHeaderElement,
+  GenovaAppHeaderElement,
   GenovaMfaSelectorElement,
   registerGenovaElements,
 } from '../src/index';
@@ -16,6 +17,7 @@ describe('SSR-safety', () => {
   it('imports full @genovalv/elements barrel in Node without throwing', () => {
     expect(typeof window).toBe('undefined');
     expect(GenovaHeaderElement).toBeDefined();
+    expect(GenovaAppHeaderElement).toBeDefined();
     expect(GenovaFooterElement).toBeDefined();
     expect(GenovaAuthCardElement).toBeDefined();
     expect(GenovaAuthShellElement).toBeDefined();

@@ -37,6 +37,7 @@ import { GenovaTabsElement } from './components/navigation/genova-tabs';
 import { GenovaMenuElement } from './components/navigation/genova-menu';
 import { GenovaAccordionElement } from './components/navigation/genova-accordion';
 import { GenovaCollapseElement } from './components/navigation/genova-collapse';
+import { GenovaAppHeaderElement } from './components/navigation/app-header/genova-app-header';
 import { GenovaAlertElement } from './components/feedback/genova-alert';
 import { GenovaCircularProgressElement } from './components/feedback/genova-circular-progress';
 import { GenovaProgressElement } from './components/feedback/genova-progress';
@@ -63,7 +64,7 @@ export {
   GenovaButtonElement, GenovaButtonGroupElement, GenovaCloseButtonElement, GenovaIconButtonElement, GenovaLinkElement,
   GenovaInputGroupElement, GenovaNumberInputElement, GenovaTextareaElement, GenovaEditableElement, GenovaFormControlElement,
   GenovaCheckboxGroupElement, GenovaRadioElement, GenovaRadioButtonGroupElement, GenovaSelectElement, GenovaSwitchElement, GenovaSliderElement,
-  GenovaBreadcrumbElement, GenovaTabsElement, GenovaMenuElement, GenovaAccordionElement, GenovaCollapseElement,
+  GenovaBreadcrumbElement, GenovaTabsElement, GenovaMenuElement, GenovaAccordionElement, GenovaCollapseElement, GenovaAppHeaderElement,
   GenovaAlertElement, GenovaCircularProgressElement, GenovaProgressElement, GenovaSkeletonElement, GenovaSpinnerElement, GenovaToastElement,
   GenovaAlertDialogElement, GenovaDrawerElement, GenovaModalElement, GenovaTooltipElement,
   GenovaAvatarElement, GenovaBadgeElement, GenovaListElement, GenovaStatsElement, GenovaTableElement, GenovaTagElement,
@@ -86,7 +87,7 @@ const ELEMENTS: Array<[string, CustomElementConstructor]> = [
   ['genova-radio-button-group', GenovaRadioButtonGroupElement], ['genova-select', GenovaSelectElement],
   ['genova-switch', GenovaSwitchElement], ['genova-slider', GenovaSliderElement],
   ['genova-breadcrumb', GenovaBreadcrumbElement], ['genova-tabs', GenovaTabsElement],
-  ['genova-menu', GenovaMenuElement], ['genova-accordion', GenovaAccordionElement], ['genova-collapse', GenovaCollapseElement],
+  ['genova-menu', GenovaMenuElement], ['genova-accordion', GenovaAccordionElement], ['genova-collapse', GenovaCollapseElement], ['genova-app-header', GenovaAppHeaderElement],
   ['genova-alert', GenovaAlertElement], ['genova-circular-progress', GenovaCircularProgressElement],
   ['genova-progress', GenovaProgressElement], ['genova-skeleton', GenovaSkeletonElement],
   ['genova-spinner', GenovaSpinnerElement], ['genova-toast', GenovaToastElement],

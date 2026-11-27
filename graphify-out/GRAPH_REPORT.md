@@ -1,16 +1,16 @@
-# Graph Report - fix-etapa1-storybook-offline-branding  (2026-11-26)
+# Graph Report - 007-app-header-menu  (2026-11-26)
 
 ## Corpus Check
-- 327 files · ~121,357 words
+- 348 files · ~127,741 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1524 nodes · 2051 edges · 169 communities (135 shown, 34 thin omitted)
+- 1623 nodes · 2190 edges · 179 communities (143 shown, 36 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 10 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7b14ee90`
+- Built from commit: `81e51244`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -171,6 +171,15 @@
 - tooltip.stories.ts
 - logos.stories.ts
 - Implementation Plan: 005-shared-storybook
+- genova-alert.ts
+- genova-toast.ts
+- genova-form-control.ts
+- genova-collapse.ts
+- genova-menu.ts
+- genova-box.ts
+- genova-divider.ts
+- Data Model: 007-app-header-menu
+- Implementation Plan: 006-ui-ux-etapa-1
 
 ## God Nodes (most connected - your core abstractions)
 1. `etapa1BaseStyles` - 45 edges
@@ -193,29 +202,29 @@
   packages/core/src/domain/entities/remembered-auth-session.entity.ts → packages/core/src/domain/entities/auth-session.entity.ts
 - `UserCookieSession` --references--> `CompanyBinding`  [EXTRACTED]
   packages/core/src/domain/server-auth/user-cookie-session.ts → packages/core/src/domain/entities/company-binding.entity.ts
-- `registerGenovaElements()` --calls--> `registerCustomElement()`  [EXTRACTED]
-  packages/elements/src/index.ts → packages/elements/src/register.ts
+- `BaseLoginAuthUseCase` --implements--> `ILoginAuthUseCase`  [EXTRACTED]
+  packages/core/src/application/use-cases/base-login-auth.usecase.ts → packages/core/src/domain/interfaces/ilogin-auth-use-case.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (169 total, 34 thin omitted)
+## Communities (179 total, 36 thin omitted)
 
 ### Community 0 - "types.ts"
-Cohesion: 0.07
-Nodes (39): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, AdminProfileRole, BaseSeedConfig, BaseSeedProfile (+31 more)
+Cohesion: 0.06
+Nodes (42): DEFAULT_BASE_PROFILES, DEFAULT_BASE_SEED_CONFIG, DEFAULT_LOGIN_CONTEXT, LOGIN_TRANSLATIONS, MFA_GUIDANCE_MAP, AdminProfileRole, BaseSeedConfig, BaseSeedProfile (+34 more)
 
 ### Community 1 - "index.ts"
-Cohesion: 0.09
-Nodes (13): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, renderGenovaBrandSymbol(), renderGenovaCloudHorizontalDark(), GenovaFooterElement (+5 more)
+Cohesion: 0.06
+Nodes (17): GenovaActionButtonElement, AlertVariant, GenovaAlertBannerElement, GenovaAuthCardElement, GenovaAuthShellElement, renderGenovaBrandSymbol(), renderGenovaCloudHorizontalDark(), GenovaCheckboxElement (+9 more)
 
 ### Community 2 - "Tasks: Shared Login Foundation & Base Components"
 Cohesion: 0.05
 Nodes (38): 0. Branch, 1.1 Commit Group — Setup, 2.1 Commit Group — Foundational, 3.1 Commit Group — US1, 4.1 Commit Group — US2, 5.1 Commit Group — US3, 6.1 Commit Group — US4, 7.1 Commit Group — Resiliência (+30 more)
 
 ### Community 3 - "Custom Elements Catalog"
-Cohesion: 0.07
-Nodes (19): GenovaButtonElement, property, GenovaTableElement, property, GenovaTagElement, property, GenovaToastElement, property (+11 more)
+Cohesion: 0.17
+Nodes (6): GenovaSpinnerElement, property, GenovaInputGroupElement, GenovaBreadcrumbElement, property, etapa1BaseStyles
 
 ### Community 4 - "main.ts"
 Cohesion: 0.10
@@ -246,8 +255,8 @@ Cohesion: 0.08
 Nodes (24): dependencies, dotenv, jose, devDependencies, @genovalv/core, @types/node, typescript, vite (+16 more)
 
 ### Community 11 - "compilerOptions"
-Cohesion: 0.09
-Nodes (12): GenovaAlertElement, property, GenovaCollapseElement, property, GenovaMenuElement, property, GenovaBoxElement, property (+4 more)
+Cohesion: 0.11
+Nodes (9): GenovaTableElement, property, GenovaRadioButtonGroupElement, property, GenovaRadioElement, property, GenovaSwitchElement, property (+1 more)
 
 ### Community 12 - "Execution Steps"
 Cohesion: 0.09
@@ -278,8 +287,8 @@ Cohesion: 0.12
 Nodes (15): 1. Initialize Convergence Context, 2. Load Artifacts (Progressive Disclosure), 3. Build the Intent Inventory, 4. Assess the Codebase and Classify Findings, 5. Assign Severity, 6. Present the In-Session Findings Summary, 7. Append Convergence Tasks (or report converged), 8. Provide Next Actions (Handoff) (+7 more)
 
 ### Community 19 - "package.json"
-Cohesion: 0.14
-Nodes (13): exports, ./fonts/*, ./fonts.css, ./logo/*, ./tailwind.css, ./tokens.css, files, name (+5 more)
+Cohesion: 0.10
+Nodes (22): renderGenovaHeaderLogo(), GenovaAppHeaderElement, renderBellIcon(), renderChevronDownIcon(), renderChevronRightIcon(), renderHamburgerIcon(), renderSearchIcon(), renderUserMenuIcon() (+14 more)
 
 ### Community 20 - "Core Principles"
 Cohesion: 0.23
@@ -326,8 +335,8 @@ Cohesion: 0.18
 Nodes (10): Core Principles, Governance, [PRINCIPLE_1_NAME], [PRINCIPLE_2_NAME], [PRINCIPLE_3_NAME], [PRINCIPLE_4_NAME], [PRINCIPLE_5_NAME], [PROJECT_NAME] Constitution (+2 more)
 
 ### Community 31 - "SKILL.md"
-Cohesion: 0.18
-Nodes (10): 0. Branch, 1. Fundamentos, Tokens, Fonte & Logos (`@genovalv/tokens`), 2. Primitivos & Ações (`00-fundamentos` + `01-acoes`), 3. Formulários & Seleção (`02-formularios` + `03-selecao`), 4. Navegação & Feedback (`04-navegacao` + `05-feedback`), 5. Sobreposições & Dados (`06-sobreposicoes` + `07-dados`), 6. Testes, Build & E2E, 7. Pre-PR Checklist (+2 more)
+Cohesion: 0.08
+Nodes (21): Content Quality, Requirement Completeness, Specification Quality Checklist: 007-app-header-menu, Constitution Check, Documentation (`specs/007-app-header-menu/`), Implementation Plan: 007-app-header-menu, Project Structure, Source Code (`New/Shareds/`) (+13 more)
 
 ### Community 32 - "SKILL.md"
 Cohesion: 0.20
@@ -372,6 +381,10 @@ Nodes (7): 1. Monorepo / Workspace Orchestration, 2. Pure TypeScript Domain & Va
 ### Community 48 - "User Scenarios & Testing *(mandatory)*"
 Cohesion: 0.25
 Nodes (8): Complexity Tracking, Constitution Check, Documentation (this feature), Implementation Plan: Proxy de Borda Local (Simulação Cloudflare), Project Structure, Source Code (repository root: `New/Shareds/`), Summary, Technical Context
+
+### Community 49 - "Plano de Testes E2E: Proxy de Borda Local"
+Cohesion: 0.14
+Nodes (13): exports, ./fonts/*, ./fonts.css, ./logo/*, ./tailwind.css, ./tokens.css, files, name (+5 more)
 
 ### Community 50 - "Implementation Plan: Proxy de Borda Local (Simulação Cloudflare)"
 Cohesion: 0.29
@@ -438,8 +451,8 @@ Cohesion: 0.33
 Nodes (5): Content Quality, Feature Readiness, Notes, Requirement Completeness, Specification Quality Checklist: Proxy de Borda Local (Simulação Cloudflare)
 
 ### Community 67 - "compilerOptions"
-Cohesion: 0.33
-Nodes (5): Component Catalog (46 Componentes no Storybook), Feature Specification: 006-ui-ux-etapa-1, Overview, Requirements, Visual Foundations & Typography (`00-fundamentos.svg`)
+Cohesion: 0.18
+Nodes (10): 0. Branch, 1. Fundamentos, Tokens, Fonte & Logos (`@genovalv/tokens`), 2. Primitivos & Ações (`00-fundamentos` + `01-acoes`), 3. Formulários & Seleção (`02-formularios` + `03-selecao`), 4. Navegação & Feedback (`04-navegacao` + `05-feedback`), 5. Sobreposições & Dados (`06-sobreposicoes` + `07-dados`), 6. Testes, Build & E2E, 7. Pre-PR Checklist (+2 more)
 
 ### Community 68 - "login-foundation.stories.ts"
 Cohesion: 0.29
@@ -481,6 +494,10 @@ Nodes (5): Certificado local (LocalCertificate), Data Model: Proxy de Borda Loca
 Cohesion: 0.40
 Nodes (5): 1. Subir a borda, 2. Validação manual, 3. Suíte automatizada, 4. Apps reais, Quickstart: validar a borda local
 
+### Community 82 - "GenovaAvatarElement"
+Cohesion: 0.13
+Nodes (7): GenovaAvatarElement, property, GenovaBadgeElement, property, GenovaIconElement, ICON_PATHS, property
+
 ### Community 83 - "GenovaEditableElement"
 Cohesion: 0.40
 Nodes (3): GenovaEditableElement, property, state
@@ -497,9 +514,21 @@ Nodes (3): GenovaImageElement, property, state
 Cohesion: 0.50
 Nodes (3): Feature Specification: 004-shared-remove-h3, Overview, Requirements
 
+### Community 91 - "genova-badge.ts"
+Cohesion: 0.20
+Nodes (9): 0. Branch, 1.1 Commit Group 1, 1. Core Contracts & Helpers (`@genovalv/core` — TDD), 2.1 Commit Group 2, 2. Shared Web Component `<genova-app-header>` (`@genovalv/elements` — TDD), 3. Storybook Stories, Build, Pack & E2E, 4. Pre-PR Checklist, 5. Create PR (+1 more)
+
 ### Community 94 - "genova-tag.ts"
 Cohesion: 0.33
 Nodes (5): columns, Default, meta, rows, Story
+
+### Community 98 - "genova-spinner.ts"
+Cohesion: 0.29
+Nodes (6): ADMIN_NAV, AdminDefault, meta, ProductionEnvironment, Story, USER_MENU
+
+### Community 100 - "GenovaCheckboxElement"
+Cohesion: 0.33
+Nodes (5): Component Catalog (46 Componentes no Storybook), Feature Specification: 006-ui-ux-etapa-1, Overview, Requirements, Visual Foundations & Typography (`00-fundamentos.svg`)
 
 ### Community 102 - "genova-breadcrumb.ts"
 Cohesion: 0.40
@@ -520,6 +549,10 @@ Nodes (4): AllVariants, Default, meta, Story
 ### Community 109 - "genova-divider.ts"
 Cohesion: 0.40
 Nodes (4): Default, meta, Story, Variants
+
+### Community 111 - "genova-radio-button-group.ts"
+Cohesion: 0.33
+Nodes (5): AppHeaderNavItem, AppHeaderNavSubItem, AppHeaderSearchConfig, AppHeaderUserMenuIcon, AppHeaderUserMenuItem
 
 ### Community 114 - "genova-switch.ts"
 Cohesion: 0.40
@@ -689,25 +722,29 @@ Nodes (3): Default, meta, Story
 Cohesion: 0.50
 Nodes (3): BrandLogos, meta, Story
 
+### Community 176 - "Data Model: 007-app-header-menu"
+Cohesion: 0.50
+Nodes (3): Data Model: 007-app-header-menu, Pure Contracts (`@genovalv/core`), Pure Helpers (`@genovalv/core`)
+
 ## Knowledge Gaps
-- **716 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+711 more)
+- **756 isolated node(s):** `name`, `version`, `private`, `type`, `workspaces` (+751 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **34 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **36 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Tasks: Proxy de Borda Local (Simulação Cloudflare)` connect `Tasks: Shared Login Foundation & Base Components` to `Quickstart: validar a borda local`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `audit-log.ts`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `CompanyBinding` connect `auth-contracts.ts` to `audit-log.ts`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `GenovaCheckboxElement` connect `GenovaCheckboxElement` to `index.ts`, `compilerOptions`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `private` to the rest of the system?**
-  _716 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _756 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.06741250717154332 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06205311542390194 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.0931174089068826 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05576441102756892 - nodes in this community are weakly interconnected._
 - **Should `Tasks: Shared Login Foundation & Base Components` be split into smaller, more focused modules?**
   _Cohesion score 0.05263157894736842 - nodes in this community are weakly interconnected._
+- **Should `main.ts` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
