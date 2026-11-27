@@ -1,6 +1,6 @@
 {
   "name": "@genovalv/server",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "main": "./dist/index.js",
@@ -27,7 +27,7 @@
     "@genovalv/core": "^0.2.0"
   },
   "devDependencies": {
-    "@genovalv/core": "0.2.0",
+    "@genovalv/core": "0.3.0",
     "@types/node": "^22.0.0",
     "typescript": "^5.8.2",
     "vite": "^6.2.0",

@@ -201,6 +201,9 @@
   "199": "genova-switch.ts",
   "200": "GenovaLocaleSelectorElement",
   "201": "GenovaMfaSelectorElement",
-  "202": "Implementation Plan: 008-shared-catalog-and-data-ui",
-  "203": "list-and-upload.spec.ts"
+  "202": "Feature Specification: 009-shared-loading-and-i18n",
+  "203": "list-and-upload.spec.ts",
+  "204": "codes.md",
+  "205": "plan.md",
+  "206": "tasks.md"
 }
