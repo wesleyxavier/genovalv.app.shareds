@@ -38,6 +38,8 @@ export * from './domain/dtos/http-auth-routes.dto';
 export * from './domain/dtos/http-request-init.dto';
 export * from './domain/dtos/http-response-like.dto';
 export * from './domain/dtos/http-fetch.dto';
+export * from './domain/dtos/app-header.dto';
+export * from './domain/helpers/app-header.helpers';
 export * from './domain/entities/session-user.entity';
 export * from './domain/entities/auth-session.entity';
 export * from './domain/entities/remembered-auth-session.entity';
