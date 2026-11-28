@@ -7,16 +7,15 @@ Contrato observável por origens e por testes. Simulação de desenvolvimento; n
 | Host | Porta host | Origem (upstream padrão) |
 |------|-----------|--------------------------|
 | `http://*.genova.localhost` | `EDGE_HTTP_PORT` (8080) | 301 → HTTPS |
-| `https://playground.genova.localhost` | `EDGE_HTTPS_PORT` (8443) | `host.docker.internal:4173` |
-| `https://erp.genova.localhost` | 8443 | `host.docker.internal:3101` |
-| `https://factoryfloor.genova.localhost` | 8443 | `host.docker.internal:3000` |
-| `https://echo.genova.localhost` (profile `test`) | 8443 | `edge-origin-echo` |
-
-Admin não é roteado.
+| `https://playground.genova.localhost` | `EDGE_HTTPS_PORT` (3010) | `host.docker.internal:4173` |
+| `https://admin.genova.localhost` | 3010 | `host.docker.internal:3103` |
+| `https://erp.genova.localhost` | 3010 | `host.docker.internal:3101` |
+| `https://factoryfloor.genova.localhost` | 3010 | `host.docker.internal:3102` |
+| `https://echo.genova.localhost` (profile `test`) | 3010 | `edge-origin-echo` |
 
 ## Redirecionamento
 
-`GET http://<host>:8080/<path>` → `301 Location: https://<host>:8443/<path>`.
+`GET http://<host>:8080/<path>` → `301 Location: https://<host>:3010/<path>`.
 
 ## Headers enviados à origem (sobrescrevem valores do cliente)
 
@@ -43,6 +42,7 @@ Admin não é roteado.
 |--------|----------|
 | 301 | HTTP → HTTPS |
 | 403 | WAF: método inválido, path/user-agent malicioso conhecido |
+| 400 | traversal codificado rejeitado pelo parser do Nginx |
 | 429 | excedeu `EDGE_RATE_LIMIT_RPS` + `EDGE_RATE_LIMIT_BURST` por IP |
 | 502/504 | origem indisponível/lenta (mensagem genérica, sem detalhes internos) |
 
@@ -55,7 +55,8 @@ Admin não é roteado.
 | `EDGE_UPSTREAM_PLAYGROUND` | `host.docker.internal:4173` |
 | `EDGE_UPSTREAM_ERP` | `host.docker.internal:3101` |
 | `EDGE_UPSTREAM_FACTORYFLOOR` | `host.docker.internal:3000` |
-| `EDGE_RATE_LIMIT_RPS` / `EDGE_RATE_LIMIT_BURST` | `20` / `40` |
+| `EDGE_RATE_LIMIT_RPS` / `EDGE_RATE_LIMIT_BURST` | `100` / `200` |
 | `EDGE_CF_COUNTRY` / `EDGE_CF_COLO` | `BR` / `GRU` |
 | `EDGE_CERT_DAYS` | `825` |
-| `EDGE_DATA_DIR` | `${DOCKER_VOLUMES_ROOT}/genova/new-edge` |
+| `EDGE_DATA_DIR` | `C:/Docker-Volumes/genova/new-edge` (certs) |
+| `EDGE_ECHO_PORT` | `9100` (origin-echo, profile `test`) |

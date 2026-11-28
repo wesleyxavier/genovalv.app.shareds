@@ -1,0 +1,58 @@
+ssl_protocols TLSv1.2 TLSv1.3;
+resolver 127.0.0.11 valid=10s ipv6=off;
+
+upstream edge_playground   { server ${EDGE_UPSTREAM_PLAYGROUND}; }
+upstream edge_admin        { server ${EDGE_UPSTREAM_ADMIN}; }
+upstream edge_erp          { server ${EDGE_UPSTREAM_ERP}; }
+upstream edge_factoryfloor { server ${EDGE_UPSTREAM_FACTORYFLOOR}; }
+
+# Host desconhecido
+server {
+  listen 443 ssl default_server;
+  server_name _;
+  ssl_certificate     /etc/nginx/certs/tls.crt;
+  ssl_certificate_key /etc/nginx/certs/tls.key;
+  default_type text/plain;
+  return 404 "edge: host nao roteado\n";
+}
+
+server {
+  listen 443 ssl;
+  http2 on;
+  server_name playground.${EDGE_BASE_DOMAIN};
+  set $edge_target http://edge_playground;
+  include /etc/nginx/edge.d/snippets/server-common.conf;
+}
+
+server {
+  listen 443 ssl;
+  http2 on;
+  server_name admin.${EDGE_BASE_DOMAIN};
+  set $edge_target http://edge_admin;
+  include /etc/nginx/edge.d/snippets/server-common.conf;
+}
+
+server {
+  listen 443 ssl;
+  http2 on;
+  server_name erp.${EDGE_BASE_DOMAIN};
+  set $edge_target http://edge_erp;
+  include /etc/nginx/edge.d/snippets/server-common.conf;
+}
+
+server {
+  listen 443 ssl;
+  http2 on;
+  server_name factoryfloor.${EDGE_BASE_DOMAIN};
+  set $edge_target http://edge_factoryfloor;
+  include /etc/nginx/edge.d/snippets/server-common.conf;
+}
+
+# Origem de teste (profile test). DNS resolvido sob demanda para nao impedir o start sem o echo.
+server {
+  listen 443 ssl;
+  http2 on;
+  server_name echo.${EDGE_BASE_DOMAIN};
+  set $edge_target http://edge-origin-echo:8080;
+  include /etc/nginx/edge.d/snippets/server-common.conf;
+}

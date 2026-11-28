@@ -34,6 +34,10 @@ Admin NÃO é uma Origem (FR-014).
 
 **Transições**: `ausente → gerado → válido → expirado → regenerado`.
 
+## Cache de borda
+
+Efêmero em `tmpfs` (`/var/cache/nginx/edge`); recriar o contêiner limpa o cache.
+
 ## Variáveis de configuração
 
 Ver [contracts/edge-contract.md](contracts/edge-contract.md).

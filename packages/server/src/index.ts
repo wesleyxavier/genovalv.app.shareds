@@ -4,7 +4,6 @@ export * from './application/use-cases/auth/resolve-post-login.usecase';
 export * from './application/use-cases/auth/password-login.usecase';
 export * from './application/use-cases/auth/oauth-callback.usecase';
 export * from './application/use-cases/auth/backchannel-logout.usecase';
-export * from './application/use-cases/auth/bootstrap-user.usecase';
 export * from './infrastructure/config/auth0-gateway-config';
 export * from './infrastructure/config/load-env-file';
 export * from './infrastructure/auth0/resolve-auth0-base-url';

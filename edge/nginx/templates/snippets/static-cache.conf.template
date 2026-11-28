@@ -1,0 +1,7 @@
+# Cache de borda para estaticos (FR-004).
+proxy_cache edge_cache;
+proxy_cache_lock on;
+proxy_cache_valid 200 10m;
+proxy_cache_key "$scheme$host$request_uri";
+add_header X-Cache-Status $upstream_cache_status always;
+add_header CF-Cache-Status $upstream_cache_status always;

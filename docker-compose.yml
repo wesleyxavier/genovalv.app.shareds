@@ -1,22 +1,97 @@
+name: genova-proxy-reverse
 services:
-  postgres:
-    image: postgres:17-alpine
-    container_name: genovalv-postgres
-    restart: unless-stopped
+  # --- Proxy de borda local (simula Cloudflare) - specs 002 & 010 ---
+  edge-certs-init:
+    image: alpine/openssl:latest
+    restart: "no"
+    entrypoint: [ "/bin/sh", "/init/generate-cert.sh" ]
     environment:
-      POSTGRES_DB: ${POSTGRES_DB:-GenovaIADB}
-      POSTGRES_USER: ${POSTGRES_USER:-genovadmin}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-genova_dev_pass}
-      PGDATA: /var/lib/postgresql/data/pgdata
-    ports:
-      - "${POSTGRES_PORT:-5433}:5432"
+      EDGE_BASE_DOMAIN: ${EDGE_BASE_DOMAIN:-genova.localhost}
+      EDGE_CERT_DAYS: ${EDGE_CERT_DAYS:-825}
     volumes:
-      - ${DOCKER_VOLUMES_ROOT:-C:/Docker-Volumes}/genova/new-shell/postgres:/var/lib/postgresql/data
+      - ./edge/certs-init/generate-cert.sh:/init/generate-cert.sh:ro
+      - ${EDGE_DATA_DIR:-C:/Docker-Volumes/genova/new-edge}/certs:/certs
+    networks:
+      - genova-new-network
+
+  edge-proxy:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    entrypoint: [ "/bin/sh", "/edge/entrypoint.sh" ]
+    depends_on:
+      edge-certs-init:
+        condition: service_completed_successfully
+    environment:
+      NGINX_ENVSUBST_FILTER: "^EDGE_"
+      NGINX_ENVSUBST_OUTPUT_DIR: /etc/nginx/edge.d
+      EDGE_BASE_DOMAIN: ${EDGE_BASE_DOMAIN:-genova.localhost}
+      EDGE_HTTPS_PORT: ${EDGE_HTTPS_PORT:-3010}
+      EDGE_UPSTREAM_PLAYGROUND: ${EDGE_UPSTREAM_PLAYGROUND:-host.docker.internal:4173}
+      EDGE_UPSTREAM_ADMIN: ${EDGE_UPSTREAM_ADMIN:-host.docker.internal:3103}
+      EDGE_UPSTREAM_ERP: ${EDGE_UPSTREAM_ERP:-host.docker.internal:3101}
+      EDGE_UPSTREAM_FACTORYFLOOR: ${EDGE_UPSTREAM_FACTORYFLOOR:-host.docker.internal:3102}
+      EDGE_RATE_LIMIT_RPS: ${EDGE_RATE_LIMIT_RPS:-100}
+      EDGE_RATE_LIMIT_BURST: ${EDGE_RATE_LIMIT_BURST:-200}
+      EDGE_CF_COUNTRY: ${EDGE_CF_COUNTRY:-BR}
+      EDGE_CF_COLO: ${EDGE_CF_COLO:-GRU}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "${EDGE_HTTP_PORT:-8080}:80"
+      - "${EDGE_HTTPS_PORT:-3010}:443"
+    volumes:
+      - ./edge/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./edge/nginx/templates:/etc/nginx/templates:ro
+      - ./edge/nginx/entrypoint.sh:/edge/entrypoint.sh:ro
+      - ${EDGE_DATA_DIR:-C:/Docker-Volumes/genova/new-edge}/certs:/etc/nginx/certs:ro
+    # cache em tmpfs: o bind mount do Windows quebra a validacao de inode do Nginx (sempre MISS)
+    tmpfs:
+      - /var/cache/nginx/edge:mode=1777
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-genovadmin} -d ${POSTGRES_DB:-GenovaIADB}"]
+      test: [ "CMD-SHELL", "wget -qO- http://127.0.0.1/__edge_health >/dev/null || exit 1" ]
       interval: 5s
-      timeout: 5s
-      retries: 15
+      timeout: 3s
+      retries: 10
+    networks:
+      - genova-new-network
+
+  # Playground (origem atras da borda). Dockerfile existente; src montado para HMR.
+  playground:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    profiles: [ "test", "playground" ]
+    restart: "no"
+    # serve Storybook build estatico em 0.0.0.0:4173 atras da borda
+    command: [ "npm", "exec", "--workspace=@genovalv/playground", "--", "sirv", "storybook-static", "--port", "4173", "--host", "0.0.0.0", "--single" ]
+    environment:
+      VITE_USE_POLLING: "1"
+    ports:
+      - "${PLAYGROUND_PORT:-4173}:4173"
+    volumes:
+      - ./playground/src:/app/playground/src
+    healthcheck:
+      test: [ "CMD-SHELL", "wget -qO- http://127.0.0.1:4173/ >/dev/null || exit 1" ]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - genova-new-network
+
+  edge-origin-echo:
+    image: node:22-alpine
+    profiles: [ "test" ]
+    restart: "no"
+    command: [ "node", "/app/server.mjs" ]
+    ports:
+      - "127.0.0.1:${EDGE_ECHO_PORT:-9100}:8080"
+    volumes:
+      - ./edge/origin-echo:/app:ro
+    healthcheck:
+      test: [ "CMD-SHELL", "wget -qO- http://127.0.0.1:8080/__health >/dev/null || exit 1" ]
+      interval: 3s
+      timeout: 3s
+      retries: 10
     networks:
       - genova-new-network
 

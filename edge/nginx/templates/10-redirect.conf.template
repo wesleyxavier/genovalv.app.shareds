@@ -1,0 +1,21 @@
+# HTTP -> HTTPS (FR-002). Porta HTTPS do host e parametrizavel (EDGE_HTTPS_PORT).
+server {
+  listen 80;
+  server_name .${EDGE_BASE_DOMAIN};
+  return 301 https://$host:${EDGE_HTTPS_PORT}$request_uri;
+}
+
+server {
+  listen 80 default_server;
+  server_name _;
+
+  location = /__edge_health {
+    default_type text/plain;
+    return 200 "ok\n";
+  }
+
+  location / {
+    default_type text/plain;
+    return 404 "edge: host nao roteado\n";
+  }
+}

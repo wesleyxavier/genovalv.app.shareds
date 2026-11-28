@@ -1,3 +1,4 @@
+export * from './domain/constants/brand-name';
 export * from './domain/constants/default-locale';
 export * from './domain/constants/default-login-context';
 export * from './domain/constants/login-translations';
@@ -61,8 +62,6 @@ export * from './domain/server-auth/resolve-user-result';
 export * from './domain/server-auth/password-login-input';
 export * from './domain/server-auth/password-login-outcome';
 export * from './domain/server-auth/oauth-callback-outcome';
-export * from './domain/server-auth/bootstrap-user-input';
-export * from './domain/server-auth/bootstrap-user-result';
 export * from './domain/server-auth/auth-cookie-config';
 export * from './domain/server-auth/auth0-jwt-claims';
 export * from './domain/server-auth/auth0-token-exchange-result';
