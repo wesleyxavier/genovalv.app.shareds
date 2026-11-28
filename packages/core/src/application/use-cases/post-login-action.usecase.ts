@@ -24,11 +24,18 @@ export async function onExecutePostLogin(
     return;
   }
   if (event.authorization) {
-    for (const [k, v] of Object.entries({
+    const claims: Record<string, unknown> = {
       [`${namespace}id`]: metadata.sql_id,
       [`${namespace}cpf`]: metadata.cpf,
       [`${namespace}bindings`]: validation.activeBindings,
-    })) {
+    };
+    if (metadata.app_setup_id) claims[`${namespace}app_setup_id`] = metadata.app_setup_id;
+    if (metadata.app_setup_secret) claims[`${namespace}app_setup_secret`] = metadata.app_setup_secret;
+    if (metadata.environment) claims[`${namespace}environment`] = metadata.environment;
+    if (event.user.user_metadata?.genova_admin !== undefined) {
+      claims[`${namespace}genova_admin`] = event.user.user_metadata.genova_admin;
+    }
+    for (const [k, v] of Object.entries(claims)) {
       api.idToken.setCustomClaim(k, v);
       api.accessToken.setCustomClaim(k, v);
     }

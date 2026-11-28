@@ -1,4 +1,5 @@
 import type {
+  AppSetupContext,
   AuditLogger,
   IAuth0Gateway,
   ISessionTokenGateway,
@@ -11,6 +12,7 @@ import {
 } from '../../../domain/constants/auth-cookie.constants';
 import { SHARED_AUTH_AUDIT_ACTIONS } from '../../../domain/constants/shared-auth-audit-actions';
 import type { ResolvePostLoginUseCase } from './resolve-post-login.usecase';
+import { verifyAppSetupLogin } from './verify-app-setup-login';
 
 export class PasswordLoginUseCase {
   constructor(
@@ -18,6 +20,7 @@ export class PasswordLoginUseCase {
     private readonly resolvePostLogin: ResolvePostLoginUseCase,
     private readonly sessionTokens: ISessionTokenGateway,
     private readonly auditLogger: AuditLogger,
+    private readonly expectedAppSetup?: AppSetupContext,
   ) {}
 
   async execute(input: PasswordLoginInput): Promise<PasswordLoginOutcome> {
@@ -33,6 +36,12 @@ export class PasswordLoginUseCase {
 
     const claims = await this.auth0.verifyJwt(tokenRes.idToken);
     const sub = String(claims.sub || '');
+    const appCheck = await verifyAppSetupLogin(this.auth0, claims, sub, this.expectedAppSetup);
+    if (!appCheck.ok) {
+      await this.auditLogger.log({ level: 'warn', action: SHARED_AUTH_AUDIT_ACTIONS.passwordLoginDenied, actorEmail: email, errorMessage: appCheck.reason });
+      return { ok: false, statusCode: 403, message: appCheck.reason };
+    }
+
     let emailVerified = claims.email_verified === true;
     if (!emailVerified && this.auth0.getUserEmailVerified) {
       const fetched = await this.auth0.getUserEmailVerified(sub, tokenRes.accessToken);

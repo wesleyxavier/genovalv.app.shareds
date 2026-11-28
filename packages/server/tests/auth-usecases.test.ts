@@ -61,4 +61,26 @@ describe('@genovalv/server auth use cases', () => {
     expect(auth0.getUserEmailVerified).toHaveBeenCalledWith('auth0|1', 'act');
     expect(resolvePostLogin.execute).toHaveBeenCalledWith('auth0|1', 'a@b.c', true);
   });
+
+  it('enforces expectedAppSetup in PasswordLogin and OAuthCallback with getUserMetadata fallback', async () => {
+    const expected = { appSetupId: 'app-1', appSetupSecret: 'sec-1', environment: 'production', requireGenovaAdmin: true, claimsNamespace: 'https://genova.cloud/' };
+    const auth0 = {
+      loginWithPassword: vi.fn().mockResolvedValue({ ok: true, idToken: 'idt' }),
+      exchangeAuthorizationCode: vi.fn().mockResolvedValue({ ok: true, idToken: 'idt' }),
+      verifyJwt: vi.fn().mockResolvedValue({ sub: 'auth0|1', email: 'a@b.c', email_verified: true }),
+      getUserMetadata: vi.fn()
+        .mockResolvedValueOnce({ appMetadata: { app_setup_id: 'wrong', app_setup_secret: 'sec-1', environment: 'production' }, userMetadata: { genova_admin: true } })
+        .mockResolvedValueOnce({ appMetadata: { app_setup_id: 'app-1', app_setup_secret: 'sec-1', environment: 'production' }, userMetadata: { genova_admin: true } }),
+    } as unknown as IAuth0Gateway;
+    const resolvePostLogin = {
+      execute: vi.fn().mockResolvedValue({ ok: true, session: { userId: 'u-1', auth0Id: 'auth0|1', email: 'a@b.c', fullName: 'A', documentType: 'CPF', documentNumber: '000', bindings: [] } }),
+    } as unknown as ResolvePostLoginUseCase;
+    const tokens = { sign: vi.fn().mockResolvedValue('jwt-tok') } as unknown as ISessionTokenGateway;
+
+    const denied = await new PasswordLoginUseCase(auth0, resolvePostLogin, tokens, { log: vi.fn() }, expected).execute({ email: 'a@b.c', password: '123' });
+    expect(denied).toEqual({ ok: false, statusCode: 403, message: 'app_setup_mismatch' });
+
+    const allowed = await new OAuthCallbackUseCase(auth0, resolvePostLogin, tokens, { log: vi.fn() }, expected).execute('code-ok');
+    expect(allowed).toEqual({ ok: true, sessionJwt: 'jwt-tok', redirectTo: '/' });
+  });
 });
