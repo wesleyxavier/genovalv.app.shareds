@@ -214,5 +214,10 @@
   "212": "setup-plan.ps1",
   "213": "setup-tasks.ps1",
   "214": "vite.config.ts",
-  "215": "genova-control-box.ts"
+  "215": "genova-control-box.ts",
+  "216": "genova-table.ts",
+  "217": "genova-collapse.ts",
+  "218": "genova-drawer.ts",
+  "219": "genova-box.ts",
+  "220": "genova-radio-button-group.ts"
 }

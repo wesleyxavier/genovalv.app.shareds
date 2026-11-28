@@ -4,6 +4,7 @@ import {
   type AppHeaderNavItem, type AppHeaderSearchConfig, type AppHeaderUserMenuItem,
 } from '@genovalv/core';
 import { renderGenovaHeaderLogo } from '../../genova-header-brand';
+import { etapa1BaseStyles } from '../../../styles/etapa1-base.css';
 import { appHeaderLayoutStyles } from './genova-app-header.styles';
 import { appHeaderMenuStyles } from './genova-app-header-menu.styles';
 import { renderDesktopNav } from './genova-app-header-nav';
@@ -29,7 +30,7 @@ export class GenovaAppHeaderElement extends LitElement {
     userMenuOpen: { state: true },
     mobileOpen: { state: true },
   };
-  static override styles = [appHeaderLayoutStyles, appHeaderMenuStyles];
+  static override styles = [etapa1BaseStyles, appHeaderLayoutStyles, appHeaderMenuStyles];
 
   brandHref = '/';
   navItems: readonly AppHeaderNavItem[] = [];

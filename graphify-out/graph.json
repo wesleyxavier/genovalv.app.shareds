@@ -1336,7 +1336,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_execute_idempotent_usecase",
-      "community": 51,
+      "community": 193,
       "norm_label": "execute-idempotent.usecase.ts"
     },
     {
@@ -1346,7 +1346,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_execute_idempotent_usecase_executeidempotent",
-      "community": 51,
+      "community": 193,
       "norm_label": "executeidempotent()"
     },
     {
@@ -1356,7 +1356,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_post_login_action_usecase",
-      "community": 5,
+      "community": 171,
       "norm_label": "post-login-action.usecase.ts"
     },
     {
@@ -1366,7 +1366,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_post_login_action_usecase_onexecutepostlogin",
-      "community": 5,
+      "community": 171,
       "norm_label": "onexecutepostlogin()"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_auth0_token_claims_dto",
-      "community": 5,
+      "community": 182,
       "norm_label": "auth0-token-claims.dto.ts"
     },
     {
@@ -1756,7 +1756,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_auth0_token_claims_dto_auth0tokenclaims",
-      "community": 5,
+      "community": 182,
       "norm_label": "auth0tokenclaims"
     },
     {
@@ -1826,7 +1826,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_binding_validation_result_dto",
-      "community": 5,
+      "community": 171,
       "norm_label": "binding-validation-result.dto.ts"
     },
     {
@@ -1836,7 +1836,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_binding_validation_result_dto_bindingvalidationresult",
-      "community": 5,
+      "community": 171,
       "norm_label": "bindingvalidationresult"
     },
     {
@@ -1846,7 +1846,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_branch_type_dto",
-      "community": 5,
+      "community": 182,
       "norm_label": "branch-type.dto.ts"
     },
     {
@@ -1856,7 +1856,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_branch_type_dto_branchtype",
-      "community": 5,
+      "community": 182,
       "norm_label": "branchtype"
     },
     {
@@ -2076,7 +2076,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_idempotency_record_dto",
-      "community": 51,
+      "community": 193,
       "norm_label": "idempotency-record.dto.ts"
     },
     {
@@ -2086,7 +2086,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_idempotency_record_dto_idempotencyrecord",
-      "community": 51,
+      "community": 193,
       "norm_label": "idempotencyrecord"
     },
     {
@@ -2096,7 +2096,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_list_ui_dto",
-      "community": 51,
+      "community": 215,
       "norm_label": "list-ui.dto.ts"
     },
     {
@@ -2106,7 +2106,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_list_ui_dto_listfilteroption",
-      "community": 51,
+      "community": 215,
       "norm_label": "listfilteroption"
     },
     {
@@ -2116,7 +2116,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_list_ui_dto_listfilterconfig",
-      "community": 51,
+      "community": 215,
       "norm_label": "listfilterconfig"
     },
     {
@@ -2126,7 +2126,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_list_ui_dto_paginationsummary",
-      "community": 51,
+      "community": 215,
       "norm_label": "paginationsummary"
     },
     {
@@ -2456,7 +2456,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_company_binding_entity",
-      "community": 5,
+      "community": 182,
       "norm_label": "company-binding.entity.ts"
     },
     {
@@ -2466,7 +2466,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_company_binding_entity_companybinding",
-      "community": 5,
+      "community": 182,
       "norm_label": "companybinding"
     },
     {
@@ -2546,7 +2546,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_user_model_entity_usermodel",
-      "community": 5,
+      "community": 201,
       "norm_label": "usermodel"
     },
     {
@@ -2636,7 +2636,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_helpers_list_ui_helpers",
-      "community": 51,
+      "community": 215,
       "norm_label": "list-ui.helpers.ts"
     },
     {
@@ -2646,7 +2646,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_domain_helpers_list_ui_helpers_computepaginationrange",
-      "community": 51,
+      "community": 215,
       "norm_label": "computepaginationrange()"
     },
     {
@@ -2656,7 +2656,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "packages_core_src_domain_helpers_list_ui_helpers_formatmaskedcpf",
-      "community": 51,
+      "community": 215,
       "norm_label": "formatmaskedcpf()"
     },
     {
@@ -2846,7 +2846,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iidempotency_store",
-      "community": 51,
+      "community": 193,
       "norm_label": "iidempotency-store.ts"
     },
     {
@@ -2856,7 +2856,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iidempotency_store_idempotencystore",
-      "community": 51,
+      "community": 193,
       "norm_label": "idempotencystore"
     },
     {
@@ -2866,7 +2866,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iidempotency_store_idempotencystore_findbykey",
-      "community": 51,
+      "community": 193,
       "norm_label": ".findbykey()"
     },
     {
@@ -2876,7 +2876,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iidempotency_store_idempotencystore_save",
-      "community": 51,
+      "community": 193,
       "norm_label": ".save()"
     },
     {
@@ -3246,7 +3246,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ibase_auth_user_repository",
-      "community": 5,
+      "community": 201,
       "norm_label": "ibase-auth-user-repository.ts"
     },
     {
@@ -3256,7 +3256,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ibase_auth_user_repository_ibaseauthuserrepository",
-      "community": 5,
+      "community": 201,
       "norm_label": "ibaseauthuserrepository"
     },
     {
@@ -3266,7 +3266,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ibase_auth_user_repository_ibaseauthuserrepository_findbyid",
-      "community": 5,
+      "community": 201,
       "norm_label": ".findbyid()"
     },
     {
@@ -3276,7 +3276,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ibase_auth_user_repository_ibaseauthuserrepository_findbyemail",
-      "community": 5,
+      "community": 201,
       "norm_label": ".findbyemail()"
     },
     {
@@ -3286,7 +3286,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ibase_auth_user_repository_ibaseauthuserrepository_findbyauth0id",
-      "community": 5,
+      "community": 201,
       "norm_label": ".findbyauth0id()"
     },
     {
@@ -3296,7 +3296,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ibase_auth_user_repository_ibaseauthuserrepository_linkauth0id",
-      "community": 5,
+      "community": 201,
       "norm_label": ".linkauth0id()"
     },
     {
@@ -3306,7 +3306,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ibase_auth_user_repository_ibaseauthuserrepository_findbindingsbyuserid",
-      "community": 5,
+      "community": 201,
       "norm_label": ".findbindingsbyuserid()"
     },
     {
@@ -3356,7 +3356,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ipost_login_api",
-      "community": 5,
+      "community": 171,
       "norm_label": "ipost-login-api.ts"
     },
     {
@@ -3366,7 +3366,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ipost_login_api_postloginapi",
-      "community": 5,
+      "community": 171,
       "norm_label": "postloginapi"
     },
     {
@@ -3376,7 +3376,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ipost_login_event",
-      "community": 5,
+      "community": 182,
       "norm_label": "ipost-login-event.ts"
     },
     {
@@ -3386,7 +3386,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_ipost_login_event_postloginevent",
-      "community": 5,
+      "community": 182,
       "norm_label": "postloginevent"
     },
     {
@@ -3516,7 +3516,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_post_login_user_metadata",
-      "community": 5,
+      "community": 182,
       "norm_label": "post-login-user-metadata.ts"
     },
     {
@@ -3526,7 +3526,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_post_login_user_metadata_postloginusermetadata",
-      "community": 5,
+      "community": 182,
       "norm_label": "postloginusermetadata"
     },
     {
@@ -3676,7 +3676,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_extract_cnpj_root",
-      "community": 5,
+      "community": 171,
       "norm_label": "extract-cnpj-root.ts"
     },
     {
@@ -3686,7 +3686,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_extract_cnpj_root_extractcnpjroot",
-      "community": 5,
+      "community": 171,
       "norm_label": "extractcnpjroot()"
     },
     {
@@ -3936,7 +3936,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_validate_active_bindings",
-      "community": 5,
+      "community": 171,
       "norm_label": "validate-active-bindings.ts"
     },
     {
@@ -3946,7 +3946,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_validate_active_bindings_validateactivebindings",
-      "community": 5,
+      "community": 171,
       "norm_label": "validateactivebindings()"
     },
     {
@@ -4286,7 +4286,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_domain_and_idempotency_test",
-      "community": 51,
+      "community": 193,
       "norm_label": "domain-and-idempotency.test.ts"
     },
     {
@@ -4326,7 +4326,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_list_ui_test",
-      "community": 51,
+      "community": 215,
       "norm_label": "list-ui.test.ts"
     },
     {
@@ -4346,7 +4346,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_post_login_action_test",
-      "community": 5,
+      "community": 171,
       "norm_label": "post-login-action.test.ts"
     },
     {
@@ -4356,7 +4356,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_tests_post_login_action_test_createapi",
-      "community": 5,
+      "community": 171,
       "norm_label": "createapi()"
     },
     {
@@ -4366,7 +4366,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "packages_core_tests_post_login_action_test_binding",
-      "community": 5,
+      "community": 171,
       "norm_label": "binding()"
     },
     {
@@ -4716,7 +4716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_actions_genova_button",
-      "community": 158,
+      "community": 82,
       "norm_label": "genova-button.ts"
     },
     {
@@ -5116,7 +5116,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_styles",
-      "community": 201,
+      "community": 82,
       "norm_label": "genova-pagination.styles.ts"
     },
     {
@@ -5126,7 +5126,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_styles_paginationstyles",
-      "community": 201,
+      "community": 82,
       "norm_label": "paginationstyles"
     },
     {
@@ -5136,7 +5136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination",
-      "community": 201,
+      "community": 82,
       "norm_label": "genova-pagination.ts"
     },
     {
@@ -5226,7 +5226,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table",
-      "community": 11,
+      "community": 216,
       "norm_label": "genova-table.ts"
     },
     {
@@ -5236,7 +5236,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table_genovatableelement",
-      "community": 11,
+      "community": 216,
       "norm_label": "genovatableelement"
     },
     {
@@ -5246,7 +5246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table_ts_property",
-      "community": 11,
+      "community": 216,
       "norm_label": "property"
     },
     {
@@ -5256,7 +5256,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table_genovatableelement_render",
-      "community": 11,
+      "community": 216,
       "norm_label": ".render()"
     },
     {
@@ -5546,7 +5546,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_toast",
-      "community": 182,
+      "community": 11,
       "norm_label": "genova-toast.ts"
     },
     {
@@ -5556,7 +5556,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_toast_genovatoastelement",
-      "community": 182,
+      "community": 11,
       "norm_label": "genovatoastelement"
     },
     {
@@ -5566,7 +5566,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_toast_ts_property",
-      "community": 182,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -5576,7 +5576,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_toast_genovatoastelement_render",
-      "community": 182,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -5776,7 +5776,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_input_group",
-      "community": 82,
+      "community": 11,
       "norm_label": "genova-input-group.ts"
     },
     {
@@ -5786,7 +5786,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_input_group_genovainputgroupelement",
-      "community": 82,
+      "community": 11,
       "norm_label": "genovainputgroupelement"
     },
     {
@@ -5796,7 +5796,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_input_group_genovainputgroupelement_render",
-      "community": 82,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -6883,7 +6883,7 @@
       "label": "GenovaAppHeaderElement",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L15",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "community": 19,
@@ -6893,7 +6893,7 @@
       "label": ".onDocClick()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L50",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_ondocclick",
       "community": 19,
@@ -6903,7 +6903,7 @@
       "label": ".onDocKey()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L53",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_ondockey",
       "community": 19,
@@ -6913,7 +6913,7 @@
       "label": ".connectedCallback()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L57",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_connectedcallback",
       "community": 19,
@@ -6923,7 +6923,7 @@
       "label": ".disconnectedCallback()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L61",
+      "source_location": "L62",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_disconnectedcallback",
       "community": 19,
@@ -6933,7 +6933,7 @@
       "label": ".emitNav()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L66",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_emitnav",
       "community": 19,
@@ -6943,7 +6943,7 @@
       "label": ".emitUser()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L71",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_emituser",
       "community": 19,
@@ -6953,7 +6953,7 @@
       "label": ".onSearchKey()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L76",
+      "source_location": "L77",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_onsearchkey",
       "community": 19,
@@ -6963,7 +6963,7 @@
       "label": ".render()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L82",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_render",
       "community": 19,
@@ -6976,7 +6976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion",
-      "community": 193,
+      "community": 11,
       "norm_label": "genova-accordion.ts"
     },
     {
@@ -6986,7 +6986,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_genovaaccordionelement",
-      "community": 193,
+      "community": 11,
       "norm_label": "genovaaccordionelement"
     },
     {
@@ -6996,7 +6996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_ts_property",
-      "community": 193,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -7006,7 +7006,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_genovaaccordionelement_render",
-      "community": 193,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -7056,7 +7056,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse",
-      "community": 11,
+      "community": 217,
       "norm_label": "genova-collapse.ts"
     },
     {
@@ -7066,7 +7066,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse_genovacollapseelement",
-      "community": 11,
+      "community": 217,
       "norm_label": "genovacollapseelement"
     },
     {
@@ -7076,7 +7076,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse_ts_property",
-      "community": 11,
+      "community": 217,
       "norm_label": "property"
     },
     {
@@ -7086,7 +7086,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse_genovacollapseelement_render",
-      "community": 11,
+      "community": 217,
       "norm_label": ".render()"
     },
     {
@@ -7176,7 +7176,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_alert_dialog",
-      "community": 171,
+      "community": 82,
       "norm_label": "genova-alert-dialog.ts"
     },
     {
@@ -7186,7 +7186,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_alert_dialog_genovaalertdialogelement",
-      "community": 171,
+      "community": 82,
       "norm_label": "genovaalertdialogelement"
     },
     {
@@ -7196,7 +7196,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_alert_dialog_ts_property",
-      "community": 171,
+      "community": 82,
       "norm_label": "property"
     },
     {
@@ -7206,7 +7206,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_alert_dialog_genovaalertdialogelement_render",
-      "community": 171,
+      "community": 82,
       "norm_label": ".render()"
     },
     {
@@ -7216,7 +7216,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer",
-      "community": 82,
+      "community": 218,
       "norm_label": "genova-drawer.ts"
     },
     {
@@ -7226,7 +7226,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer_genovadrawerelement",
-      "community": 82,
+      "community": 218,
       "norm_label": "genovadrawerelement"
     },
     {
@@ -7236,7 +7236,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer_ts_property",
-      "community": 82,
+      "community": 218,
       "norm_label": "property"
     },
     {
@@ -7246,7 +7246,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer_genovadrawerelement_render",
-      "community": 82,
+      "community": 218,
       "norm_label": ".render()"
     },
     {
@@ -7256,7 +7256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_modal",
-      "community": 82,
+      "community": 156,
       "norm_label": "genova-modal.ts"
     },
     {
@@ -7386,7 +7386,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box",
-      "community": 11,
+      "community": 219,
       "norm_label": "genova-box.ts"
     },
     {
@@ -7396,7 +7396,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box_genovaboxelement",
-      "community": 11,
+      "community": 219,
       "norm_label": "genovaboxelement"
     },
     {
@@ -7406,7 +7406,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box_ts_property",
-      "community": 11,
+      "community": 219,
       "norm_label": "property"
     },
     {
@@ -7416,7 +7416,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box_genovaboxelement_render",
-      "community": 11,
+      "community": 219,
       "norm_label": ".render()"
     },
     {
@@ -7426,7 +7426,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box",
-      "community": 215,
+      "community": 198,
       "norm_label": "genova-control-box.ts"
     },
     {
@@ -7436,7 +7436,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box_genovacontrolboxelement",
-      "community": 215,
+      "community": 198,
       "norm_label": "genovacontrolboxelement"
     },
     {
@@ -7446,7 +7446,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box_ts_property",
-      "community": 215,
+      "community": 198,
       "norm_label": "property"
     },
     {
@@ -7456,7 +7456,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box_genovacontrolboxelement_render",
-      "community": 215,
+      "community": 198,
       "norm_label": ".render()"
     },
     {
@@ -7736,7 +7736,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group",
-      "community": 82,
+      "community": 220,
       "norm_label": "genova-radio-button-group.ts"
     },
     {
@@ -7746,7 +7746,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group_genovaradiobuttongroupelement",
-      "community": 82,
+      "community": 220,
       "norm_label": "genovaradiobuttongroupelement"
     },
     {
@@ -7756,7 +7756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group_ts_property",
-      "community": 82,
+      "community": 220,
       "norm_label": "property"
     },
     {
@@ -7766,7 +7766,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group_genovaradiobuttongroupelement_render",
-      "community": 82,
+      "community": 220,
       "norm_label": ".render()"
     },
     {
@@ -7906,7 +7906,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_slider",
-      "community": 113,
+      "community": 82,
       "norm_label": "genova-slider.ts"
     },
     {
@@ -7916,7 +7916,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_slider_genovasliderelement",
-      "community": 113,
+      "community": 82,
       "norm_label": "genovasliderelement"
     },
     {
@@ -7926,7 +7926,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_slider_ts_property",
-      "community": 113,
+      "community": 82,
       "norm_label": "property"
     },
     {
@@ -7936,7 +7936,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_slider_genovasliderelement_render",
-      "community": 113,
+      "community": 82,
       "norm_label": ".render()"
     },
     {
@@ -8676,7 +8676,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase_execute",
-      "community": 5,
+      "community": 201,
       "norm_label": ".execute()"
     },
     {
@@ -14860,14 +14860,14 @@
       "norm_label": "genova shareds (`new/shareds`)"
     },
     {
-      "label": "Pacotes (`v0.6.0`)",
+      "label": "Pacotes (`v0.6.1`)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "readme_pacotes_v0_6_0",
+      "id": "readme_pacotes_v0_6_1",
       "community": 157,
-      "norm_label": "pacotes (`v0.6.0`)"
+      "norm_label": "pacotes (`v0.6.1`)"
     },
     {
       "label": "Comandos",
@@ -19398,6 +19398,186 @@
       "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_3_documenta\u00e7\u00e3o_semver_0_6_0_tarballs_tgz_pr_us4",
       "community": 48,
       "norm_label": "phase 3: documentacao, semver `0.6.0`, tarballs `.tgz` & pr (us4)"
+    },
+    {
+      "label": "plan.md",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_plan",
+      "community": 113,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "Implementation Plan: Shared App Header Box-Sizing & Viewport Width Fix (v0.6.1)",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_plan_implementation_plan_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "community": 113,
+      "norm_label": "implementation plan: shared app header box-sizing & viewport width fix (v0.6.1)"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_plan_summary",
+      "community": 113,
+      "norm_label": "summary"
+    },
+    {
+      "label": "Technical Context",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_plan_technical_context",
+      "community": 113,
+      "norm_label": "technical context"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_spec",
+      "community": 113,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Feature Specification: Shared App Header Box-Sizing & Viewport Width Fix (v0.6.1)",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_spec_feature_specification_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "community": 113,
+      "norm_label": "feature specification: shared app header box-sizing & viewport width fix (v0.6.1)"
+    },
+    {
+      "label": "User Scenarios & Testing *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_spec_user_scenarios_testing_mandatory",
+      "community": 113,
+      "norm_label": "user scenarios & testing *(mandatory)*"
+    },
+    {
+      "label": "User Story 1 - Conter `<genova-app-header>` em `100%` da Largura (Priority: P1)",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_spec_user_story_1_conter_genova_app_header_em_100_da_largura_priority_p1",
+      "community": 113,
+      "norm_label": "user story 1 - conter `<genova-app-header>` em `100%` da largura (priority: p1)"
+    },
+    {
+      "label": "Requirements *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_spec_requirements_mandatory",
+      "community": 113,
+      "norm_label": "requirements *(mandatory)*"
+    },
+    {
+      "label": "Success Criteria *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_spec_success_criteria_mandatory",
+      "community": 113,
+      "norm_label": "success criteria *(mandatory)*"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks",
+      "community": 113,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "Tasks: 013-shared-app-header-box-sizing",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks_tasks_013_shared_app_header_box_sizing",
+      "community": 113,
+      "norm_label": "tasks: 013-shared-app-header-box-sizing"
+    },
+    {
+      "label": "0. Branch",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks_0_branch",
+      "community": 113,
+      "norm_label": "0. branch"
+    },
+    {
+      "label": "Phase 1: Fix `box-sizing` no `<genova-app-header>` (US1 \u2014 TDD) \ud83c\udfaf MVP",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks_phase_1_fix_box_sizing_no_genova_app_header_us1_tdd_mvp",
+      "community": 113,
+      "norm_label": "phase 1: fix `box-sizing` no `<genova-app-header>` (us1 \u2014 tdd) \ud83c\udfaf mvp"
+    },
+    {
+      "label": "Tests First (Red)",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks_tests_first_red",
+      "community": 113,
+      "norm_label": "tests first (red)"
+    },
+    {
+      "label": "Implementation (Green)",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks_implementation_green",
+      "community": 113,
+      "norm_label": "implementation (green)"
+    },
+    {
+      "label": "Group 1 Commit Gate (Explicit User Authorization Required)",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks_group_1_commit_gate_explicit_user_authorization_required",
+      "community": 113,
+      "norm_label": "group 1 commit gate (explicit user authorization required)"
+    },
+    {
+      "label": "Phase 2: Release `0.6.1`, `README.md`, Tarballs `.tgz` & PR",
+      "file_type": "document",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "specs_013_shared_app_header_box_sizing_tasks_phase_2_release_0_6_1_readme_md_tarballs_tgz_pr",
+      "community": 113,
+      "norm_label": "phase 2: release `0.6.1`, `readme.md`, tarballs `.tgz` & pr"
     }
   ],
   "links": [
@@ -32626,7 +32806,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L90",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_render",
       "target": "packages_elements_src_components_genova_header_brand_rendergenovaheaderlogo"
@@ -33468,7 +33648,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_menu_styles",
@@ -33489,7 +33669,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_menu_styles_appheadermenustyles",
@@ -33500,7 +33680,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_mobile",
@@ -33607,7 +33787,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_mobile_rendermobilemenu",
@@ -33619,7 +33799,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L91",
+      "source_location": "L92",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_render",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_mobile_rendermobilemenu"
@@ -33662,7 +33842,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_nav",
@@ -33747,7 +33927,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_nav_renderdesktopnav",
@@ -33759,7 +33939,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L90",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_render",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_nav_renderdesktopnav"
@@ -33780,7 +33960,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_right",
@@ -33887,7 +34067,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_right_renderheaderrightbar",
@@ -33899,7 +34079,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L90",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_render",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_right_renderheaderrightbar"
@@ -34109,7 +34289,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_styles",
@@ -34130,7 +34310,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_styles_appheaderlayoutstyles",
@@ -34140,10 +34320,32 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
+      "target": "packages_elements_src_styles_etapa1_base_css",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_navigation_app_header_genova_app_header",
+      "target": "packages_elements_src_styles_etapa1_base_css_etapa1basestyles",
       "confidence_score": 1.0
     },
     {
@@ -34161,7 +34363,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L57",
+      "source_location": "L58",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_connectedcallback",
@@ -34171,7 +34373,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L61",
+      "source_location": "L62",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_disconnectedcallback",
@@ -34181,7 +34383,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L66",
+      "source_location": "L67",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_emitnav",
@@ -34191,7 +34393,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L71",
+      "source_location": "L72",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_emituser",
@@ -34201,7 +34403,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L50",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_ondocclick",
@@ -34211,7 +34413,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L53",
+      "source_location": "L54",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_ondockey",
@@ -34221,7 +34423,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L76",
+      "source_location": "L77",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_onsearchkey",
@@ -34231,7 +34433,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L82",
+      "source_location": "L83",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_render",
@@ -34264,7 +34466,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/navigation/app-header/genova-app-header.ts",
-      "source_location": "L90",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_render",
       "target": "packages_elements_src_components_navigation_app_header_genova_app_header_genovaappheaderelement_emitnav",
@@ -42782,7 +42984,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "source": "readme_genova_shareds_new_shareds",
-      "target": "readme_pacotes_v0_6_0",
+      "target": "readme_pacotes_v0_6_1",
       "confidence_score": 1.0
     },
     {
@@ -47064,8 +47266,188 @@
       "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_2_valida\u00e7\u00e3o_nativa_type_search_inputmode_cpf_cnpj_cep_em_genovalv_elements_us2_us3_tdd",
       "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_tests_first_red_33",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_plan",
+      "target": "specs_013_shared_app_header_box_sizing_plan_implementation_plan_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_plan",
+      "target": "specs_013_shared_app_header_box_sizing_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks",
+      "target": "specs_013_shared_app_header_box_sizing_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_plan_implementation_plan_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "target": "specs_013_shared_app_header_box_sizing_plan_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/plan.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_plan_implementation_plan_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "target": "specs_013_shared_app_header_box_sizing_plan_technical_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_spec",
+      "target": "specs_013_shared_app_header_box_sizing_spec_feature_specification_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks",
+      "target": "specs_013_shared_app_header_box_sizing_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_spec_feature_specification_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "target": "specs_013_shared_app_header_box_sizing_spec_requirements_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_spec_feature_specification_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "target": "specs_013_shared_app_header_box_sizing_spec_success_criteria_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_spec_feature_specification_shared_app_header_box_sizing_viewport_width_fix_v0_6_1",
+      "target": "specs_013_shared_app_header_box_sizing_spec_user_scenarios_testing_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_spec_user_scenarios_testing_mandatory",
+      "target": "specs_013_shared_app_header_box_sizing_spec_user_story_1_conter_genova_app_header_em_100_da_largura_priority_p1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks",
+      "target": "specs_013_shared_app_header_box_sizing_tasks_tasks_013_shared_app_header_box_sizing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks_tasks_013_shared_app_header_box_sizing",
+      "target": "specs_013_shared_app_header_box_sizing_tasks_0_branch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks_tasks_013_shared_app_header_box_sizing",
+      "target": "specs_013_shared_app_header_box_sizing_tasks_phase_1_fix_box_sizing_no_genova_app_header_us1_tdd_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks_tasks_013_shared_app_header_box_sizing",
+      "target": "specs_013_shared_app_header_box_sizing_tasks_phase_2_release_0_6_1_readme_md_tarballs_tgz_pr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks_phase_1_fix_box_sizing_no_genova_app_header_us1_tdd_mvp",
+      "target": "specs_013_shared_app_header_box_sizing_tasks_group_1_commit_gate_explicit_user_authorization_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks_phase_1_fix_box_sizing_no_genova_app_header_us1_tdd_mvp",
+      "target": "specs_013_shared_app_header_box_sizing_tasks_implementation_green",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/013-shared-app-header-box-sizing/tasks.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "specs_013_shared_app_header_box_sizing_tasks_phase_1_fix_box_sizing_no_genova_app_header_us1_tdd_mvp",
+      "target": "specs_013_shared_app_header_box_sizing_tasks_tests_first_red",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "77802b386b81289be673c25738dfc27324dd8fb4"
+  "built_at_commit": "f4c7e6de5046df7a1b3e74ed30ab8c064be9a21b"
 }

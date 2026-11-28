@@ -114,4 +114,20 @@ describe('<genova-app-header>', () => {
     expect(el.shadowRoot!.querySelector('[data-testid="mobile-menu-panel"]')).not.toBeNull();
     el.remove();
   });
+
+  it('enforces border-box sizing on header bar so 100% width + padding never overflows viewport', async () => {
+    const el = mountHeader();
+    await el.updateComplete;
+    const sheetCss = (el.shadowRoot!.adoptedStyleSheets ?? [])
+      .map((s) => Array.from(s.cssRules ?? []).map((r) => r.cssText).join('\n'))
+      .join('\n');
+    const styleCss = Array.from(el.shadowRoot!.querySelectorAll('style'))
+      .map((s) => s.textContent ?? '')
+      .join('\n');
+    const ctorCss = (el.constructor as { elementStyles?: Array<{ cssText?: string }> }).elementStyles
+      ?.map((s) => s.cssText ?? '')
+      .join('\n') ?? '';
+    expect(`${sheetCss}\n${styleCss}\n${ctorCss}`).toContain('box-sizing: border-box');
+    el.remove();
+  });
 });

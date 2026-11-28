@@ -1,6 +1,6 @@
 {
   "name": "@genovalv/elements",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "private": true,
   "type": "module",
   "main": "./dist/index.js",
@@ -19,7 +19,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@genovalv/core": "0.6.0",
+    "@genovalv/core": "0.6.1",
     "lit": "^3.2.1"
   },
   "devDependencies": {

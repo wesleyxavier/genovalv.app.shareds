@@ -1256,7 +1256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase",
-      "community": 3,
+      "community": 154,
       "norm_label": "base-logout-auth.usecase.ts"
     },
     {
@@ -1266,7 +1266,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase_baselogoutauthusecase",
-      "community": 3,
+      "community": 154,
       "norm_label": "baselogoutauthusecase"
     },
     {
@@ -1276,7 +1276,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase_baselogoutauthusecase_constructor",
-      "community": 3,
+      "community": 154,
       "norm_label": ".constructor()"
     },
     {
@@ -1286,7 +1286,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase_baselogoutauthusecase_logout",
-      "community": 3,
+      "community": 154,
       "norm_label": ".logout()"
     },
     {
@@ -1296,7 +1296,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase",
-      "community": 3,
+      "community": 187,
       "norm_label": "base-refresh-session.usecase.ts"
     },
     {
@@ -1306,7 +1306,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase_baserefreshsessionusecase",
-      "community": 3,
+      "community": 187,
       "norm_label": "baserefreshsessionusecase"
     },
     {
@@ -1316,7 +1316,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase_baserefreshsessionusecase_constructor",
-      "community": 3,
+      "community": 187,
       "norm_label": ".constructor()"
     },
     {
@@ -1326,7 +1326,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase_baserefreshsessionusecase_refreshfromcookie",
-      "community": 3,
+      "community": 187,
       "norm_label": ".refreshfromcookie()"
     },
     {
@@ -1406,7 +1406,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_brand_name",
-      "community": 52,
+      "community": 0,
       "norm_label": "brand-name.ts"
     },
     {
@@ -1456,7 +1456,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_default_locale",
-      "community": 49,
+      "community": 0,
       "norm_label": "default-locale.ts"
     },
     {
@@ -1466,7 +1466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_default_login_context",
-      "community": 52,
+      "community": 0,
       "norm_label": "default-login-context.ts"
     },
     {
@@ -1476,8 +1476,68 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_default_login_context_default_login_context",
-      "community": 52,
+      "community": 0,
       "norm_label": "default_login_context"
+    },
+    {
+      "label": "login-translations.en.ts",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/constants/login-translations.en.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_constants_login_translations_en",
+      "community": 0,
+      "norm_label": "login-translations.en.ts"
+    },
+    {
+      "label": "LOGIN_TRANSLATIONS_EN",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/constants/login-translations.en.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_constants_login_translations_en_login_translations_en",
+      "community": 0,
+      "norm_label": "login_translations_en"
+    },
+    {
+      "label": "login-translations.es.ts",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/constants/login-translations.es.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_constants_login_translations_es",
+      "community": 0,
+      "norm_label": "login-translations.es.ts"
+    },
+    {
+      "label": "LOGIN_TRANSLATIONS_ES",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/constants/login-translations.es.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_constants_login_translations_es_login_translations_es",
+      "community": 0,
+      "norm_label": "login_translations_es"
+    },
+    {
+      "label": "login-translations.pt.ts",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/constants/login-translations.pt.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_constants_login_translations_pt",
+      "community": 0,
+      "norm_label": "login-translations.pt.ts"
+    },
+    {
+      "label": "LOGIN_TRANSLATIONS_PT",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/constants/login-translations.pt.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_constants_login_translations_pt_login_translations_pt",
+      "community": 0,
+      "norm_label": "login_translations_pt"
     },
     {
       "label": "login-translations.ts",
@@ -1486,17 +1546,17 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_login_translations",
-      "community": 49,
+      "community": 0,
       "norm_label": "login-translations.ts"
     },
     {
       "label": "LOGIN_TRANSLATIONS",
       "file_type": "code",
       "source_file": "packages/core/src/domain/constants/login-translations.ts",
-      "source_location": "L4",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_login_translations_login_translations",
-      "community": 49,
+      "community": 0,
       "norm_label": "login_translations"
     },
     {
@@ -1506,7 +1566,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_mfa_guidance_map",
-      "community": 62,
+      "community": 0,
       "norm_label": "mfa-guidance-map.ts"
     },
     {
@@ -1606,7 +1666,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_entry_dto",
-      "community": 55,
+      "community": 54,
       "norm_label": "audit-log-entry.dto.ts"
     },
     {
@@ -1616,7 +1676,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_entry_dto_auditlogentry",
-      "community": 55,
+      "community": 54,
       "norm_label": "auditlogentry"
     },
     {
@@ -1626,7 +1686,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_input_dto",
-      "community": 55,
+      "community": 54,
       "norm_label": "audit-log-input.dto.ts"
     },
     {
@@ -1636,7 +1696,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_input_dto_auditloginput",
-      "community": 55,
+      "community": 54,
       "norm_label": "auditloginput"
     },
     {
@@ -1646,7 +1706,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_level_dto",
-      "community": 55,
+      "community": 54,
       "norm_label": "audit-log-level.dto.ts"
     },
     {
@@ -1656,7 +1716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_audit_log_level_dto_auditloglevel",
-      "community": 55,
+      "community": 54,
       "norm_label": "auditloglevel"
     },
     {
@@ -1946,7 +2006,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_fetch_dto",
-      "community": 3,
+      "community": 10,
       "norm_label": "http-fetch.dto.ts"
     },
     {
@@ -1966,7 +2026,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_request_init_dto",
-      "community": 3,
+      "community": 10,
       "norm_label": "http-request-init.dto.ts"
     },
     {
@@ -1976,7 +2036,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_request_init_dto_httprequestinit",
-      "community": 3,
+      "community": 10,
       "norm_label": "httprequestinit"
     },
     {
@@ -1986,7 +2046,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_response_like_dto",
-      "community": 3,
+      "community": 10,
       "norm_label": "http-response-like.dto.ts"
     },
     {
@@ -1996,7 +2056,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_response_like_dto_httpresponselike",
-      "community": 3,
+      "community": 10,
       "norm_label": "httpresponselike"
     },
     {
@@ -2006,7 +2066,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_response_like_dto_httpresponselike_json",
-      "community": 3,
+      "community": 10,
       "norm_label": ".json()"
     },
     {
@@ -2076,7 +2136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_context_configuration_dto",
-      "community": 52,
+      "community": 0,
       "norm_label": "login-context-configuration.dto.ts"
     },
     {
@@ -2086,7 +2146,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_context_configuration_dto_logincontextconfiguration",
-      "community": 52,
+      "community": 0,
       "norm_label": "logincontextconfiguration"
     },
     {
@@ -2096,7 +2156,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_dictionary_dto",
-      "community": 49,
+      "community": 0,
       "norm_label": "login-dictionary.dto.ts"
     },
     {
@@ -2106,7 +2166,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_dictionary_dto_logindictionary",
-      "community": 49,
+      "community": 0,
       "norm_label": "logindictionary"
     },
     {
@@ -2116,7 +2176,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_field_name_dto",
-      "community": 154,
+      "community": 0,
       "norm_label": "login-field-name.dto.ts"
     },
     {
@@ -2126,7 +2186,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_field_name_dto_loginfieldname",
-      "community": 154,
+      "community": 0,
       "norm_label": "loginfieldname"
     },
     {
@@ -2136,7 +2196,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_link_dto",
-      "community": 52,
+      "community": 0,
       "norm_label": "login-link.dto.ts"
     },
     {
@@ -2146,7 +2206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_link_dto_loginlink",
-      "community": 52,
+      "community": 0,
       "norm_label": "loginlink"
     },
     {
@@ -2156,7 +2216,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_raw_input_dto",
-      "community": 62,
+      "community": 0,
       "norm_label": "login-raw-input.dto.ts"
     },
     {
@@ -2166,7 +2226,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_raw_input_dto_loginrawinput",
-      "community": 62,
+      "community": 0,
       "norm_label": "loginrawinput"
     },
     {
@@ -2176,7 +2236,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_submission_input_dto",
-      "community": 154,
+      "community": 0,
       "norm_label": "login-submission-input.dto.ts"
     },
     {
@@ -2186,7 +2246,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_submission_input_dto_loginsubmissioninput",
-      "community": 154,
+      "community": 0,
       "norm_label": "loginsubmissioninput"
     },
     {
@@ -2196,7 +2256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_translation_key_dto",
-      "community": 49,
+      "community": 0,
       "norm_label": "login-translation-key.dto.ts"
     },
     {
@@ -2206,7 +2266,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_translation_key_dto_logintranslationkey",
-      "community": 49,
+      "community": 0,
       "norm_label": "logintranslationkey"
     },
     {
@@ -2216,7 +2276,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_validation_result_dto",
-      "community": 154,
+      "community": 0,
       "norm_label": "login-validation-result.dto.ts"
     },
     {
@@ -2226,7 +2286,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_validation_result_dto_loginvalidationresult",
-      "community": 154,
+      "community": 0,
       "norm_label": "loginvalidationresult"
     },
     {
@@ -2236,7 +2296,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_guidance_dto",
-      "community": 62,
+      "community": 0,
       "norm_label": "mfa-guidance.dto.ts"
     },
     {
@@ -2246,7 +2306,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_guidance_dto_mfaguidance",
-      "community": 62,
+      "community": 0,
       "norm_label": "mfaguidance"
     },
     {
@@ -2256,7 +2316,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_method_dto",
-      "community": 62,
+      "community": 0,
       "norm_label": "mfa-method.dto.ts"
     },
     {
@@ -2266,7 +2326,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_method_dto_mfamethod",
-      "community": 62,
+      "community": 0,
       "norm_label": "mfamethod"
     },
     {
@@ -2356,7 +2416,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_supported_locale_dto",
-      "community": 49,
+      "community": 0,
       "norm_label": "supported-locale.dto.ts"
     },
     {
@@ -2366,7 +2426,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_supported_locale_dto_supportedlocale",
-      "community": 49,
+      "community": 0,
       "norm_label": "supportedlocale"
     },
     {
@@ -2376,7 +2436,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_auth_session_entity",
-      "community": 3,
+      "community": 62,
       "norm_label": "auth-session.entity.ts"
     },
     {
@@ -2386,7 +2446,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_auth_session_entity_authsession",
-      "community": 3,
+      "community": 62,
       "norm_label": "authsession"
     },
     {
@@ -2436,7 +2496,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_remembered_auth_session_entity",
-      "community": 3,
+      "community": 62,
       "norm_label": "remembered-auth-session.entity.ts"
     },
     {
@@ -2446,7 +2506,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_remembered_auth_session_entity_rememberedauthsession",
-      "community": 3,
+      "community": 62,
       "norm_label": "rememberedauthsession"
     },
     {
@@ -2456,7 +2516,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_session_user_entity",
-      "community": 3,
+      "community": 62,
       "norm_label": "session-user.entity.ts"
     },
     {
@@ -2466,7 +2526,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_session_user_entity_sessionuser",
-      "community": 3,
+      "community": 62,
       "norm_label": "sessionuser"
     },
     {
@@ -2626,7 +2686,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_i18n_create_translator",
-      "community": 49,
+      "community": 0,
       "norm_label": "create-translator.ts"
     },
     {
@@ -2646,7 +2706,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_i18n_resolve_supported_locale",
-      "community": 49,
+      "community": 0,
       "norm_label": "resolve-supported-locale.ts"
     },
     {
@@ -2656,7 +2716,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_i18n_resolve_supported_locale_resolvesupportedlocale",
-      "community": 49,
+      "community": 0,
       "norm_label": "resolvesupportedlocale()"
     },
     {
@@ -2666,7 +2726,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iaudit_logger",
-      "community": 55,
+      "community": 54,
       "norm_label": "iaudit-logger.ts"
     },
     {
@@ -2676,7 +2736,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iaudit_logger_auditlogger",
-      "community": 55,
+      "community": 54,
       "norm_label": "auditlogger"
     },
     {
@@ -2686,7 +2746,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iaudit_logger_auditlogger_log",
-      "community": 55,
+      "community": 54,
       "norm_label": ".log()"
     },
     {
@@ -2746,7 +2806,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer",
-      "community": 3,
+      "community": 62,
       "norm_label": "iauth-session-writer.ts"
     },
     {
@@ -2756,7 +2816,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer_iauthsessionwriter",
-      "community": 3,
+      "community": 154,
       "norm_label": "iauthsessionwriter"
     },
     {
@@ -2766,7 +2826,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer_iauthsessionwriter_setsession",
-      "community": 3,
+      "community": 154,
       "norm_label": ".setsession()"
     },
     {
@@ -2776,7 +2836,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer_iauthsessionwriter_clearsession",
-      "community": 3,
+      "community": 154,
       "norm_label": ".clearsession()"
     },
     {
@@ -2856,7 +2916,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_ilogout_auth_use_case",
-      "community": 3,
+      "community": 154,
       "norm_label": "ilogout-auth-use-case.ts"
     },
     {
@@ -2866,7 +2926,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_ilogout_auth_use_case_ilogoutauthusecase",
-      "community": 3,
+      "community": 154,
       "norm_label": "ilogoutauthusecase"
     },
     {
@@ -2876,7 +2936,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_ilogout_auth_use_case_ilogoutauthusecase_logout",
-      "community": 3,
+      "community": 154,
       "norm_label": ".logout()"
     },
     {
@@ -2886,7 +2946,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_irefresh_from_cookie_auth_use_case",
-      "community": 3,
+      "community": 187,
       "norm_label": "irefresh-from-cookie-auth-use-case.ts"
     },
     {
@@ -2896,7 +2956,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_irefresh_from_cookie_auth_use_case_irefreshfromcookieauthusecase",
-      "community": 3,
+      "community": 187,
       "norm_label": "irefreshfromcookieauthusecase"
     },
     {
@@ -2906,7 +2966,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_irefresh_from_cookie_auth_use_case_irefreshfromcookieauthusecase_refreshfromcookie",
-      "community": 3,
+      "community": 187,
       "norm_label": ".refreshfromcookie()"
     },
     {
@@ -2916,7 +2976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_app_setup_context",
-      "community": 55,
+      "community": 107,
       "norm_label": "app-setup-context.ts"
     },
     {
@@ -2926,7 +2986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_app_setup_context_appsetupcontext",
-      "community": 55,
+      "community": 107,
       "norm_label": "appsetupcontext"
     },
     {
@@ -2936,7 +2996,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_app_setup_context_auth0usermetadatasnapshot",
-      "community": 55,
+      "community": 107,
       "norm_label": "auth0usermetadatasnapshot"
     },
     {
@@ -3026,7 +3086,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader",
-      "community": 55,
+      "community": 54,
       "norm_label": "iaudit-log-reader.ts"
     },
     {
@@ -3036,7 +3096,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader_iauditlogreader",
-      "community": 55,
+      "community": 54,
       "norm_label": "iauditlogreader"
     },
     {
@@ -3046,7 +3106,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iaudit_log_reader_iauditlogreader_listrecent",
-      "community": 55,
+      "community": 54,
       "norm_label": ".listrecent()"
     },
     {
@@ -3176,7 +3236,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getusermetadata",
-      "community": 55,
+      "community": 107,
       "norm_label": ".getusermetadata()"
     },
     {
@@ -3516,7 +3576,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
-      "community": 55,
+      "community": 107,
       "norm_label": "validate-app-setup-metadata.ts"
     },
     {
@@ -3526,7 +3586,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_appsetupvalidationsuccess",
-      "community": 55,
+      "community": 107,
       "norm_label": "appsetupvalidationsuccess"
     },
     {
@@ -3536,7 +3596,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_appsetupvalidationfailure",
-      "community": 55,
+      "community": 107,
       "norm_label": "appsetupvalidationfailure"
     },
     {
@@ -3546,7 +3606,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_readstring",
-      "community": 55,
+      "community": 107,
       "norm_label": "readstring()"
     },
     {
@@ -3556,7 +3616,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_extractappsetupmetadata",
-      "community": 55,
+      "community": 107,
       "norm_label": "extractappsetupmetadata()"
     },
     {
@@ -3566,7 +3626,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_validateappsetupmetadata",
-      "community": 55,
+      "community": 107,
       "norm_label": "validateappsetupmetadata()"
     },
     {
@@ -3576,7 +3636,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators",
-      "community": 10,
+      "community": 189,
       "norm_label": "catalog-validators.ts"
     },
     {
@@ -3586,7 +3646,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators_validatecatalogcode",
-      "community": 10,
+      "community": 189,
       "norm_label": "validatecatalogcode()"
     },
     {
@@ -3596,7 +3656,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators_validatecatalogname",
-      "community": 10,
+      "community": 189,
       "norm_label": "validatecatalogname()"
     },
     {
@@ -3606,7 +3666,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators_validatecatalogdescription",
-      "community": 10,
+      "community": 189,
       "norm_label": "validatecatalogdescription()"
     },
     {
@@ -3616,7 +3676,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_extract_cnpj_root",
-      "community": 51,
+      "community": 5,
       "norm_label": "extract-cnpj-root.ts"
     },
     {
@@ -3626,8 +3686,68 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_extract_cnpj_root_extractcnpjroot",
-      "community": 51,
+      "community": 5,
       "norm_label": "extractcnpjroot()"
+    },
+    {
+      "label": "format-document-mask.ts",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_validators_format_document_mask",
+      "community": 51,
+      "norm_label": "format-document-mask.ts"
+    },
+    {
+      "label": "applyNumericMask()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_validators_format_document_mask_applynumericmask",
+      "community": 51,
+      "norm_label": "applynumericmask()"
+    },
+    {
+      "label": "formatCpf()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_validators_format_document_mask_formatcpf",
+      "community": 51,
+      "norm_label": "formatcpf()"
+    },
+    {
+      "label": "formatCnpj()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_validators_format_document_mask_formatcnpj",
+      "community": 51,
+      "norm_label": "formatcnpj()"
+    },
+    {
+      "label": "formatCep()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_validators_format_document_mask_formatcep",
+      "community": 51,
+      "norm_label": "formatcep()"
+    },
+    {
+      "label": "isValidCep()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_validators_format_document_mask_isvalidcep",
+      "community": 51,
+      "norm_label": "isvalidcep()"
     },
     {
       "label": "format-mfa-code-display.ts",
@@ -3656,7 +3776,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_get_mfa_guidance",
-      "community": 62,
+      "community": 0,
       "norm_label": "get-mfa-guidance.ts"
     },
     {
@@ -3916,7 +4036,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_create_unauthenticated_session_vo",
-      "community": 3,
+      "community": 62,
       "norm_label": "create-unauthenticated-session.vo.ts"
     },
     {
@@ -3926,7 +4046,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_create_unauthenticated_session_vo_createunauthenticatedsession",
-      "community": 3,
+      "community": 62,
       "norm_label": "createunauthenticatedsession()"
     },
     {
@@ -3966,7 +4086,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_unauthenticated_session_vo",
-      "community": 3,
+      "community": 62,
       "norm_label": "unauthenticated-session.vo.ts"
     },
     {
@@ -3976,7 +4096,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_unauthenticated_session_vo_unauthenticated_session",
-      "community": 3,
+      "community": 62,
       "norm_label": "unauthenticated_session"
     },
     {
@@ -4076,7 +4196,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_app_setup_validation_test",
-      "community": 55,
+      "community": 107,
       "norm_label": "app-setup-validation.test.ts"
     },
     {
@@ -4086,7 +4206,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_tests_app_setup_validation_test_basectx",
-      "community": 55,
+      "community": 107,
       "norm_label": "basectx"
     },
     {
@@ -4096,7 +4216,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_auth_architecture_test",
-      "community": 3,
+      "community": 62,
       "norm_label": "auth-architecture.test.ts"
     },
     {
@@ -4106,7 +4226,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_auth_context_test",
-      "community": 52,
+      "community": 0,
       "norm_label": "auth.context.test.ts"
     },
     {
@@ -4146,8 +4266,18 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_catalog_validators_test",
-      "community": 10,
+      "community": 189,
       "norm_label": "catalog-validators.test.ts"
+    },
+    {
+      "label": "document-mask-and-cep.test.ts",
+      "file_type": "code",
+      "source_file": "packages/core/tests/document-mask-and-cep.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_tests_document_mask_and_cep_test",
+      "community": 51,
+      "norm_label": "document-mask-and-cep.test.ts"
     },
     {
       "label": "domain-and-idempotency.test.ts",
@@ -4186,7 +4316,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_i18n_translator_test",
-      "community": 49,
+      "community": 0,
       "norm_label": "i18n.translator.test.ts"
     },
     {
@@ -4610,10 +4740,40 @@
       "norm_label": "property"
     },
     {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_actions_genova_button_genovabuttonelement_constructor",
+      "community": 158,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".validateFormControls()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_actions_genova_button_genovabuttonelement_validateformcontrols",
+      "community": 158,
+      "norm_label": ".validateformcontrols()"
+    },
+    {
+      "label": ".handleClick()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_actions_genova_button_genovabuttonelement_handleclick",
+      "community": 158,
+      "norm_label": ".handleclick()"
+    },
+    {
       "label": ".render()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/actions/genova-button.ts",
-      "source_location": "L35",
+      "source_location": "L73",
       "_origin": "ast",
       "id": "packages_elements_src_components_actions_genova_button_genovabuttonelement_render",
       "community": 158,
@@ -4836,7 +4996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar_styles",
-      "community": 93,
+      "community": 82,
       "norm_label": "genova-list-toolbar.styles.ts"
     },
     {
@@ -4846,7 +5006,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar_styles_listtoolbarstyles",
-      "community": 93,
+      "community": 82,
       "norm_label": "listtoolbarstyles"
     },
     {
@@ -4856,7 +5016,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar",
-      "community": 93,
+      "community": 82,
       "norm_label": "genova-list-toolbar.ts"
     },
     {
@@ -4866,7 +5026,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar_genovalisttoolbarelement",
-      "community": 191,
+      "community": 1,
       "norm_label": "genovalisttoolbarelement"
     },
     {
@@ -4876,7 +5036,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar_ts_property",
-      "community": 191,
+      "community": 1,
       "norm_label": "property"
     },
     {
@@ -4886,7 +5046,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar_genovalisttoolbarelement_onsearch",
-      "community": 191,
+      "community": 1,
       "norm_label": ".onsearch()"
     },
     {
@@ -4896,7 +5056,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar_genovalisttoolbarelement_onfilter",
-      "community": 191,
+      "community": 1,
       "norm_label": ".onfilter()"
     },
     {
@@ -4906,7 +5066,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_list_toolbar_genovalisttoolbarelement_render",
-      "community": 191,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -4956,7 +5116,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_styles",
-      "community": 93,
+      "community": 201,
       "norm_label": "genova-pagination.styles.ts"
     },
     {
@@ -4966,7 +5126,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_styles_paginationstyles",
-      "community": 93,
+      "community": 201,
       "norm_label": "paginationstyles"
     },
     {
@@ -4976,7 +5136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination",
-      "community": 93,
+      "community": 201,
       "norm_label": "genova-pagination.ts"
     },
     {
@@ -4986,7 +5146,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_genovapaginationelement",
-      "community": 193,
+      "community": 1,
       "norm_label": "genovapaginationelement"
     },
     {
@@ -4996,7 +5156,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_ts_property",
-      "community": 193,
+      "community": 1,
       "norm_label": "property"
     },
     {
@@ -5006,7 +5166,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_genovapaginationelement_goto",
-      "community": 193,
+      "community": 1,
       "norm_label": ".goto()"
     },
     {
@@ -5016,7 +5176,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_genovapaginationelement_render",
-      "community": 193,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -5106,7 +5266,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_tag",
-      "community": 172,
+      "community": 82,
       "norm_label": "genova-tag.ts"
     },
     {
@@ -5116,7 +5276,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_tag_genovatagelement",
-      "community": 172,
+      "community": 82,
       "norm_label": "genovatagelement"
     },
     {
@@ -5126,7 +5286,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_tag_ts_property",
-      "community": 172,
+      "community": 82,
       "norm_label": "property"
     },
     {
@@ -5136,7 +5296,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_tag_genovatagelement_render",
-      "community": 172,
+      "community": 82,
       "norm_label": ".render()"
     },
     {
@@ -5516,7 +5676,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_genovafiledropzoneelement",
-      "community": 187,
+      "community": 1,
       "norm_label": "genovafiledropzoneelement"
     },
     {
@@ -5526,7 +5686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_ts_property",
-      "community": 187,
+      "community": 1,
       "norm_label": "property"
     },
     {
@@ -5536,7 +5696,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_ts_state",
-      "community": 187,
+      "community": 1,
       "norm_label": "state"
     },
     {
@@ -5546,7 +5706,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_genovafiledropzoneelement_processfiles",
-      "community": 187,
+      "community": 1,
       "norm_label": ".processfiles()"
     },
     {
@@ -5556,7 +5716,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_genovafiledropzoneelement_openpicker",
-      "community": 187,
+      "community": 1,
       "norm_label": ".openpicker()"
     },
     {
@@ -5566,7 +5726,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_genovafiledropzoneelement_render",
-      "community": 187,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -5616,7 +5776,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_input_group",
-      "community": 11,
+      "community": 82,
       "norm_label": "genova-input-group.ts"
     },
     {
@@ -5626,7 +5786,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_input_group_genovainputgroupelement",
-      "community": 11,
+      "community": 82,
       "norm_label": "genovainputgroupelement"
     },
     {
@@ -5636,7 +5796,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_input_group_genovainputgroupelement_render",
-      "community": 11,
+      "community": 82,
       "norm_label": ".render()"
     },
     {
@@ -5680,10 +5840,20 @@
       "norm_label": ".updateval()"
     },
     {
+      "label": ".onKeyDown()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/forms/genova-number-input.ts",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement_onkeydown",
+      "community": 84,
+      "norm_label": ".onkeydown()"
+    },
+    {
       "label": ".render()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/forms/genova-number-input.ts",
-      "source_location": "L29",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement_render",
       "community": 84,
@@ -5696,14 +5866,14 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_textarea",
-      "community": 200,
+      "community": 82,
       "norm_label": "genova-textarea.ts"
     },
     {
       "label": "GenovaTextareaElement",
       "file_type": "code",
       "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
-      "source_location": "L5",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
       "community": 200,
@@ -5720,10 +5890,60 @@
       "norm_label": "property"
     },
     {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_constructor",
+      "community": 200,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".syncValidity()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_syncvalidity",
+      "community": 200,
+      "norm_label": ".syncvalidity()"
+    },
+    {
+      "label": ".updated()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_updated",
+      "community": 200,
+      "norm_label": ".updated()"
+    },
+    {
+      "label": ".checkValidity()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_checkvalidity",
+      "community": 200,
+      "norm_label": ".checkvalidity()"
+    },
+    {
+      "label": ".reportValidity()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_reportvalidity",
+      "community": 200,
+      "norm_label": ".reportvalidity()"
+    },
+    {
       "label": ".render()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
-      "source_location": "L25",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_render",
       "community": 200,
@@ -5736,7 +5956,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_action_button",
-      "community": 48,
+      "community": 1,
       "norm_label": "genova-action-button.ts"
     },
     {
@@ -5746,27 +5966,27 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_action_button_genovaactionbuttonelement",
-      "community": 54,
+      "community": 1,
       "norm_label": "genovaactionbuttonelement"
     },
     {
       "label": ".handleClick()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-action-button.ts",
-      "source_location": "L79",
+      "source_location": "L80",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_action_button_genovaactionbuttonelement_handleclick",
-      "community": 54,
+      "community": 1,
       "norm_label": ".handleclick()"
     },
     {
       "label": ".render()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-action-button.ts",
-      "source_location": "L94",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_action_button_genovaactionbuttonelement_render",
-      "community": 54,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -5776,7 +5996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_alert_banner",
-      "community": 48,
+      "community": 1,
       "norm_label": "genova-alert-banner.ts"
     },
     {
@@ -5786,7 +6006,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_alert_banner_alertvariant",
-      "community": 48,
+      "community": 1,
       "norm_label": "alertvariant"
     },
     {
@@ -5796,7 +6016,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_alert_banner_genovaalertbannerelement",
-      "community": 54,
+      "community": 1,
       "norm_label": "genovaalertbannerelement"
     },
     {
@@ -5806,7 +6026,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_alert_banner_genovaalertbannerelement_render",
-      "community": 54,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -5916,7 +6136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_checkbox",
-      "community": 48,
+      "community": 1,
       "norm_label": "genova-checkbox.ts"
     },
     {
@@ -5926,7 +6146,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_checkbox_genovacheckboxelement",
-      "community": 196,
+      "community": 1,
       "norm_label": "genovacheckboxelement"
     },
     {
@@ -5936,7 +6156,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_checkbox_genovacheckboxelement_constructor",
-      "community": 196,
+      "community": 1,
       "norm_label": ".constructor()"
     },
     {
@@ -5946,7 +6166,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_checkbox_genovacheckboxelement_handlechange",
-      "community": 196,
+      "community": 1,
       "norm_label": ".handlechange()"
     },
     {
@@ -5956,7 +6176,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_checkbox_genovacheckboxelement_render",
-      "community": 196,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -5966,7 +6186,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_footer",
-      "community": 48,
+      "community": 1,
       "norm_label": "genova-footer.ts"
     },
     {
@@ -5976,7 +6196,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_footer_genovafooterelement",
-      "community": 216,
+      "community": 1,
       "norm_label": "genovafooterelement"
     },
     {
@@ -5986,7 +6206,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_footer_genovafooterelement_handlelinkclick",
-      "community": 216,
+      "community": 1,
       "norm_label": ".handlelinkclick()"
     },
     {
@@ -5996,7 +6216,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_footer_genovafooterelement_render",
-      "community": 216,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -6050,20 +6270,140 @@
       "norm_label": ".render()"
     },
     {
+      "label": "genova-input.helpers.ts",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers",
+      "community": 184,
+      "norm_label": "genova-input.helpers.ts"
+    },
+    {
+      "label": "MaskedInputMode",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_maskedinputmode",
+      "community": 184,
+      "norm_label": "maskedinputmode"
+    },
+    {
+      "label": "isMaskedMode()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_ismaskedmode",
+      "community": 184,
+      "norm_label": "ismaskedmode()"
+    },
+    {
+      "label": "formatMaskedValue()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_formatmaskedvalue",
+      "community": 184,
+      "norm_label": "formatmaskedvalue()"
+    },
+    {
+      "label": "resolveNativeInputMode()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_resolvenativeinputmode",
+      "community": 184,
+      "norm_label": "resolvenativeinputmode()"
+    },
+    {
+      "label": "ALLOWED_KEYS",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_allowed_keys",
+      "community": 184,
+      "norm_label": "allowed_keys"
+    },
+    {
+      "label": "isBlockedNumericKey()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_isblockednumerickey",
+      "community": 184,
+      "norm_label": "isblockednumerickey()"
+    },
+    {
+      "label": "computeInputValidity()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_computeinputvalidity",
+      "community": 184,
+      "norm_label": "computeinputvalidity()"
+    },
+    {
+      "label": "renderInputIcon()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_renderinputicon",
+      "community": 184,
+      "norm_label": "renderinputicon()"
+    },
+    {
+      "label": "renderSearchIcon()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_helpers_rendersearchicon",
+      "community": 184,
+      "norm_label": "rendersearchicon()"
+    },
+    {
+      "label": "genova-input.styles.ts",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.styles.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_styles",
+      "community": 184,
+      "norm_label": "genova-input.styles.ts"
+    },
+    {
+      "label": "genovaInputStyles",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.styles.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_styles_genovainputstyles",
+      "community": 184,
+      "norm_label": "genovainputstyles"
+    },
+    {
       "label": "genova-input.ts",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input",
-      "community": 48,
+      "community": 184,
       "norm_label": "genova-input.ts"
     },
     {
       "label": "GenovaInputElement",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L5",
+      "source_location": "L10",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement",
       "community": 184,
@@ -6073,7 +6413,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L50",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_constructor",
       "community": 184,
@@ -6083,57 +6423,87 @@
       "label": ".focus()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L182",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_focus",
       "community": 184,
       "norm_label": ".focus()"
     },
     {
-      "label": ".handleInput()",
+      "label": ".syncValidity()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L186",
+      "source_location": "L38",
       "_origin": "ast",
-      "id": "packages_elements_src_components_genova_input_genovainputelement_handleinput",
+      "id": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
       "community": 184,
-      "norm_label": ".handleinput()"
+      "norm_label": ".syncvalidity()"
     },
     {
-      "label": ".handleChange()",
+      "label": ".updated()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L199",
+      "source_location": "L47",
       "_origin": "ast",
-      "id": "packages_elements_src_components_genova_input_genovainputelement_handlechange",
+      "id": "packages_elements_src_components_genova_input_genovainputelement_updated",
       "community": 184,
-      "norm_label": ".handlechange()"
+      "norm_label": ".updated()"
     },
     {
-      "label": ".togglePassword()",
+      "label": ".checkValidity()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L212",
+      "source_location": "L48",
       "_origin": "ast",
-      "id": "packages_elements_src_components_genova_input_genovainputelement_togglepassword",
+      "id": "packages_elements_src_components_genova_input_genovainputelement_checkvalidity",
       "community": 184,
-      "norm_label": ".togglepassword()"
+      "norm_label": ".checkvalidity()"
     },
     {
-      "label": ".renderIcon()",
+      "label": ".reportValidity()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L216",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "packages_elements_src_components_genova_input_genovainputelement_rendericon",
+      "id": "packages_elements_src_components_genova_input_genovainputelement_reportvalidity",
       "community": 184,
-      "norm_label": ".rendericon()"
+      "norm_label": ".reportvalidity()"
+    },
+    {
+      "label": ".handleKeyDown()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_genovainputelement_handlekeydown",
+      "community": 184,
+      "norm_label": ".handlekeydown()"
+    },
+    {
+      "label": ".updateFromInput()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_genovainputelement_updatefrominput",
+      "community": 184,
+      "norm_label": ".updatefrominput()"
+    },
+    {
+      "label": ".emitSearch()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_genova_input_genovainputelement_emitsearch",
+      "community": 184,
+      "norm_label": ".emitsearch()"
     },
     {
       "label": ".render()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L242",
+      "source_location": "L73",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_input_genovainputelement_render",
       "community": 184,
@@ -6146,7 +6516,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_locale_selector",
-      "community": 48,
+      "community": 1,
       "norm_label": "genova-locale-selector.ts"
     },
     {
@@ -6156,7 +6526,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_locale_selector_genovalocaleselectorelement",
-      "community": 201,
+      "community": 1,
       "norm_label": "genovalocaleselectorelement"
     },
     {
@@ -6166,7 +6536,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_locale_selector_genovalocaleselectorelement_handlechange",
-      "community": 201,
+      "community": 1,
       "norm_label": ".handlechange()"
     },
     {
@@ -6176,7 +6546,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_locale_selector_genovalocaleselectorelement_render",
-      "community": 201,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -6186,7 +6556,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector",
-      "community": 48,
+      "community": 1,
       "norm_label": "genova-mfa-selector.ts"
     },
     {
@@ -6196,7 +6566,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector_methods",
-      "community": 48,
+      "community": 1,
       "norm_label": "methods"
     },
     {
@@ -6206,7 +6576,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector_genovamfaselectorelement",
-      "community": 54,
+      "community": 1,
       "norm_label": "genovamfaselectorelement"
     },
     {
@@ -6216,7 +6586,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector_genovamfaselectorelement_selectmethod",
-      "community": 54,
+      "community": 1,
       "norm_label": ".selectmethod()"
     },
     {
@@ -6226,7 +6596,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector_genovamfaselectorelement_render",
-      "community": 54,
+      "community": 1,
       "norm_label": ".render()"
     },
     {
@@ -6606,7 +6976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion",
-      "community": 11,
+      "community": 193,
       "norm_label": "genova-accordion.ts"
     },
     {
@@ -6616,7 +6986,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_genovaaccordionelement",
-      "community": 11,
+      "community": 193,
       "norm_label": "genovaaccordionelement"
     },
     {
@@ -6626,7 +6996,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_ts_property",
-      "community": 11,
+      "community": 193,
       "norm_label": "property"
     },
     {
@@ -6636,7 +7006,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_genovaaccordionelement_render",
-      "community": 11,
+      "community": 193,
       "norm_label": ".render()"
     },
     {
@@ -6686,7 +7056,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse",
-      "community": 189,
+      "community": 11,
       "norm_label": "genova-collapse.ts"
     },
     {
@@ -6696,7 +7066,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse_genovacollapseelement",
-      "community": 189,
+      "community": 11,
       "norm_label": "genovacollapseelement"
     },
     {
@@ -6706,7 +7076,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse_ts_property",
-      "community": 189,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -6716,7 +7086,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_collapse_genovacollapseelement_render",
-      "community": 189,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -6846,7 +7216,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer",
-      "community": 107,
+      "community": 82,
       "norm_label": "genova-drawer.ts"
     },
     {
@@ -6856,7 +7226,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer_genovadrawerelement",
-      "community": 107,
+      "community": 82,
       "norm_label": "genovadrawerelement"
     },
     {
@@ -6866,7 +7236,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer_ts_property",
-      "community": 107,
+      "community": 82,
       "norm_label": "property"
     },
     {
@@ -6876,7 +7246,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_drawer_genovadrawerelement_render",
-      "community": 107,
+      "community": 82,
       "norm_label": ".render()"
     },
     {
@@ -6886,7 +7256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_overlays_genova_modal",
-      "community": 93,
+      "community": 82,
       "norm_label": "genova-modal.ts"
     },
     {
@@ -7016,7 +7386,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box",
-      "community": 195,
+      "community": 11,
       "norm_label": "genova-box.ts"
     },
     {
@@ -7026,7 +7396,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box_genovaboxelement",
-      "community": 195,
+      "community": 11,
       "norm_label": "genovaboxelement"
     },
     {
@@ -7036,7 +7406,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box_ts_property",
-      "community": 195,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -7046,7 +7416,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_box_genovaboxelement_render",
-      "community": 195,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -7176,7 +7546,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_icon",
-      "community": 82,
+      "community": 191,
       "norm_label": "genova-icon.ts"
     },
     {
@@ -7186,7 +7556,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_icon_icon_paths",
-      "community": 82,
+      "community": 191,
       "norm_label": "icon_paths"
     },
     {
@@ -7196,7 +7566,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_icon_genovaiconelement",
-      "community": 82,
+      "community": 191,
       "norm_label": "genovaiconelement"
     },
     {
@@ -7206,7 +7576,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_icon_ts_property",
-      "community": 82,
+      "community": 191,
       "norm_label": "property"
     },
     {
@@ -7216,7 +7586,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_icon_genovaiconelement_render",
-      "community": 82,
+      "community": 191,
       "norm_label": ".render()"
     },
     {
@@ -7276,7 +7646,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box",
-      "community": 11,
+      "community": 195,
       "norm_label": "genova-pseudo-box.ts"
     },
     {
@@ -7286,7 +7656,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box_genovapseudoboxelement",
-      "community": 11,
+      "community": 195,
       "norm_label": "genovapseudoboxelement"
     },
     {
@@ -7296,7 +7666,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box_ts_property",
-      "community": 11,
+      "community": 195,
       "norm_label": "property"
     },
     {
@@ -7306,7 +7676,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box_genovapseudoboxelement_render",
-      "community": 11,
+      "community": 195,
       "norm_label": ".render()"
     },
     {
@@ -7366,7 +7736,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group",
-      "community": 11,
+      "community": 82,
       "norm_label": "genova-radio-button-group.ts"
     },
     {
@@ -7376,7 +7746,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group_genovaradiobuttongroupelement",
-      "community": 11,
+      "community": 82,
       "norm_label": "genovaradiobuttongroupelement"
     },
     {
@@ -7386,7 +7756,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group_ts_property",
-      "community": 11,
+      "community": 82,
       "norm_label": "property"
     },
     {
@@ -7396,7 +7766,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_radio_button_group_genovaradiobuttongroupelement_render",
-      "community": 11,
+      "community": 82,
       "norm_label": ".render()"
     },
     {
@@ -7456,27 +7826,77 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_select_genovaselectelement",
-      "community": 82,
+      "community": 172,
       "norm_label": "genovaselectelement"
     },
     {
-      "label": "property",
+      "label": ".constructor()",
       "file_type": "code",
-      "source_file": "",
-      "source_location": "",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L47",
       "_origin": "ast",
-      "id": "packages_elements_src_components_selection_genova_select_ts_property",
-      "community": 82,
-      "norm_label": "property"
+      "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_constructor",
+      "community": 172,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".syncValidity()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_syncvalidity",
+      "community": 172,
+      "norm_label": ".syncvalidity()"
+    },
+    {
+      "label": ".updated()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_updated",
+      "community": 172,
+      "norm_label": ".updated()"
+    },
+    {
+      "label": ".checkValidity()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_checkvalidity",
+      "community": 172,
+      "norm_label": ".checkvalidity()"
+    },
+    {
+      "label": ".reportValidity()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_reportvalidity",
+      "community": 172,
+      "norm_label": ".reportvalidity()"
+    },
+    {
+      "label": ".handleChange()",
+      "file_type": "code",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_handlechange",
+      "community": 172,
+      "norm_label": ".handlechange()"
     },
     {
       "label": ".render()",
       "file_type": "code",
       "source_file": "packages/elements/src/components/selection/genova-select.ts",
-      "source_location": "L22",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_render",
-      "community": 82,
+      "community": 172,
       "norm_label": ".render()"
     },
     {
@@ -7526,7 +7946,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch",
-      "community": 11,
+      "community": 196,
       "norm_label": "genova-switch.ts"
     },
     {
@@ -7536,7 +7956,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch_genovaswitchelement",
-      "community": 11,
+      "community": 196,
       "norm_label": "genovaswitchelement"
     },
     {
@@ -7546,7 +7966,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch_ts_property",
-      "community": 11,
+      "community": 196,
       "norm_label": "property"
     },
     {
@@ -7556,7 +7976,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch_genovaswitchelement_render",
-      "community": 11,
+      "community": 196,
       "norm_label": ".render()"
     },
     {
@@ -7586,7 +8006,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "packages_elements_src_index_registergenovaelements",
-      "community": 112,
+      "community": 11,
       "norm_label": "registergenovaelements()"
     },
     {
@@ -7596,7 +8016,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_register",
-      "community": 48,
+      "community": 1,
       "norm_label": "register.ts"
     },
     {
@@ -7606,7 +8026,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_register_registercustomelement",
-      "community": 48,
+      "community": 1,
       "norm_label": "registercustomelement()"
     },
     {
@@ -7616,7 +8036,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_styles_etapa1_base_css",
-      "community": 93,
+      "community": 82,
       "norm_label": "etapa1-base.css.ts"
     },
     {
@@ -7636,7 +8056,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_app_header_test",
-      "community": 112,
+      "community": 11,
       "norm_label": "app-header.test.ts"
     },
     {
@@ -7646,7 +8066,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_elements_tests_app_header_test_appheaderel",
-      "community": 112,
+      "community": 11,
       "norm_label": "appheaderel"
     },
     {
@@ -7656,7 +8076,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_elements_tests_app_header_test_mountheader",
-      "community": 112,
+      "community": 11,
       "norm_label": "mountheader()"
     },
     {
@@ -7666,7 +8086,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_elements_ssr_test",
-      "community": 54,
+      "community": 1,
       "norm_label": "elements.ssr.test.ts"
     },
     {
@@ -7676,8 +8096,28 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_etapa1_elements_test",
-      "community": 112,
+      "community": 11,
       "norm_label": "etapa1.elements.test.ts"
+    },
+    {
+      "label": "form-validation.test.ts",
+      "file_type": "code",
+      "source_file": "packages/elements/tests/form-validation.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_elements_tests_form_validation_test",
+      "community": 11,
+      "norm_label": "form-validation.test.ts"
+    },
+    {
+      "label": "input-search-masks.test.ts",
+      "file_type": "code",
+      "source_file": "packages/elements/tests/input-search-masks.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_elements_tests_input_search_masks_test",
+      "community": 11,
+      "norm_label": "input-search-masks.test.ts"
     },
     {
       "label": "list-and-upload.test.ts",
@@ -7686,7 +8126,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_list_and_upload_test",
-      "community": 112,
+      "community": 11,
       "norm_label": "list-and-upload.test.ts"
     },
     {
@@ -7696,7 +8136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_loading_state_test",
-      "community": 112,
+      "community": 11,
       "norm_label": "loading-state.test.ts"
     },
     {
@@ -7736,7 +8176,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_us4_form_controls_test",
-      "community": 112,
+      "community": 11,
       "norm_label": "us4.form-controls.test.ts"
     },
     {
@@ -8086,7 +8526,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase",
-      "community": 60,
+      "community": 55,
       "norm_label": "backchannel-logout.usecase.ts"
     },
     {
@@ -8096,7 +8536,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase",
-      "community": 60,
+      "community": 55,
       "norm_label": "backchannellogoutusecase"
     },
     {
@@ -8106,7 +8546,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase_constructor",
-      "community": 60,
+      "community": 55,
       "norm_label": ".constructor()"
     },
     {
@@ -8156,7 +8596,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
-      "community": 55,
+      "community": 60,
       "norm_label": ".execute()"
     },
     {
@@ -8266,7 +8706,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_domain_constants_auth_cookie_constants",
-      "community": 60,
+      "community": 49,
       "norm_label": "auth-cookie.constants.ts"
     },
     {
@@ -8276,7 +8716,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_domain_constants_auth_cookie_constants_auth0_password_realm_grant",
-      "community": 60,
+      "community": 49,
       "norm_label": "auth0_password_realm_grant"
     },
     {
@@ -8316,7 +8756,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway",
-      "community": 60,
+      "community": 112,
       "norm_label": "auth0.gateway.ts"
     },
     {
@@ -8326,7 +8766,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
-      "community": 60,
+      "community": 52,
       "norm_label": "auth0gateway"
     },
     {
@@ -8336,7 +8776,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_constructor",
-      "community": 60,
+      "community": 112,
       "norm_label": ".constructor()"
     },
     {
@@ -8346,7 +8786,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_verifyjwt",
-      "community": 60,
+      "community": 52,
       "norm_label": ".verifyjwt()"
     },
     {
@@ -8356,7 +8796,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthcreds",
-      "community": 60,
+      "community": 52,
       "norm_label": ".oauthcreds()"
     },
     {
@@ -8366,7 +8806,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_loginwithpassword",
-      "community": 60,
+      "community": 52,
       "norm_label": ".loginwithpassword()"
     },
     {
@@ -8376,7 +8816,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_exchangeauthorizationcode",
-      "community": 60,
+      "community": 52,
       "norm_label": ".exchangeauthorizationcode()"
     },
     {
@@ -8386,7 +8826,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_buildauthorizeurl",
-      "community": 60,
+      "community": 52,
       "norm_label": ".buildauthorizeurl()"
     },
     {
@@ -8396,7 +8836,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_buildlogouturl",
-      "community": 60,
+      "community": 52,
       "norm_label": ".buildlogouturl()"
     },
     {
@@ -8406,7 +8846,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_obtainmanagementtoken",
-      "community": 60,
+      "community": 52,
       "norm_label": ".obtainmanagementtoken()"
     },
     {
@@ -8416,7 +8856,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_createmanagementuser",
-      "community": 60,
+      "community": 112,
       "norm_label": ".createmanagementuser()"
     },
     {
@@ -8426,7 +8866,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_createpasswordchangeticket",
-      "community": 60,
+      "community": 52,
       "norm_label": ".createpasswordchangeticket()"
     },
     {
@@ -8436,7 +8876,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_signupdatabaseuser",
-      "community": 60,
+      "community": 52,
       "norm_label": ".signupdatabaseuser()"
     },
     {
@@ -8446,7 +8886,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getuseremailverified",
-      "community": 60,
+      "community": 52,
       "norm_label": ".getuseremailverified()"
     },
     {
@@ -8456,7 +8896,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getusermetadata",
-      "community": 60,
+      "community": 52,
       "norm_label": ".getusermetadata()"
     },
     {
@@ -8466,7 +8906,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_build_management_user_body",
-      "community": 60,
+      "community": 112,
       "norm_label": "build-management-user-body.ts"
     },
     {
@@ -8476,7 +8916,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_build_management_user_body_buildmanagementuserbody",
-      "community": 60,
+      "community": 112,
       "norm_label": "buildmanagementuserbody()"
     },
     {
@@ -8486,7 +8926,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_exchange_auth0_token",
-      "community": 60,
+      "community": 52,
       "norm_label": "exchange-auth0-token.ts"
     },
     {
@@ -8496,7 +8936,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_exchange_auth0_token_exchangeauth0token",
-      "community": 60,
+      "community": 52,
       "norm_label": "exchangeauth0token()"
     },
     {
@@ -8506,7 +8946,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_post_auth0_json",
-      "community": 60,
+      "community": 112,
       "norm_label": "post-auth0-json.ts"
     },
     {
@@ -8516,7 +8956,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_post_auth0_json_postauth0json",
-      "community": 60,
+      "community": 112,
       "norm_label": "postauth0json()"
     },
     {
@@ -8526,7 +8966,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_resolve_auth0_base_url",
-      "community": 60,
+      "community": 112,
       "norm_label": "resolve-auth0-base-url.ts"
     },
     {
@@ -8536,7 +8976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_resolve_auth0_base_url_resolveauth0baseurl",
-      "community": 60,
+      "community": 112,
       "norm_label": "resolveauth0baseurl()"
     },
     {
@@ -8546,7 +8986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_config_auth0_gateway_config",
-      "community": 60,
+      "community": 112,
       "norm_label": "auth0-gateway-config.ts"
     },
     {
@@ -8556,7 +8996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_config_auth0_gateway_config_auth0gatewayconfig",
-      "community": 60,
+      "community": 112,
       "norm_label": "auth0gatewayconfig"
     },
     {
@@ -8586,7 +9026,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_build_session_cookie_header",
-      "community": 60,
+      "community": 49,
       "norm_label": "build-session-cookie-header.ts"
     },
     {
@@ -8596,7 +9036,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_build_session_cookie_header_buildsessioncookieheader",
-      "community": 60,
+      "community": 49,
       "norm_label": "buildsessioncookieheader()"
     },
     {
@@ -8606,7 +9046,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_clear_session_cookie_header",
-      "community": 60,
+      "community": 49,
       "norm_label": "clear-session-cookie-header.ts"
     },
     {
@@ -8616,7 +9056,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_http_clear_session_cookie_header_clearsessioncookieheader",
-      "community": 60,
+      "community": 49,
       "norm_label": "clearsessioncookieheader()"
     },
     {
@@ -8626,7 +9066,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway",
-      "community": 60,
+      "community": 49,
       "norm_label": "jose-session-token.gateway.ts"
     },
     {
@@ -8636,7 +9076,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway",
-      "community": 60,
+      "community": 49,
       "norm_label": "josesessiontokengateway"
     },
     {
@@ -8646,7 +9086,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway_constructor",
-      "community": 60,
+      "community": 49,
       "norm_label": ".constructor()"
     },
     {
@@ -8656,7 +9096,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway_sign",
-      "community": 60,
+      "community": 49,
       "norm_label": ".sign()"
     },
     {
@@ -8666,7 +9106,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_jose_session_token_gateway_josesessiontokengateway_verify",
-      "community": 60,
+      "community": 49,
       "norm_label": ".verify()"
     },
     {
@@ -8676,7 +9116,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service",
-      "community": 60,
+      "community": 49,
       "norm_label": "node-hash.service.ts"
     },
     {
@@ -8686,7 +9126,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service_nodehashservice",
-      "community": 60,
+      "community": 49,
       "norm_label": "nodehashservice"
     },
     {
@@ -8696,7 +9136,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service_nodehashservice_sha256",
-      "community": 60,
+      "community": 49,
       "norm_label": ".sha256()"
     },
     {
@@ -8706,7 +9146,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_security_node_hash_service_nodehashservice_generatestrongpassword",
-      "community": 60,
+      "community": 49,
       "norm_label": ".generatestrongpassword()"
     },
     {
@@ -8726,7 +9166,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_server_tests_auth0_and_security_test",
-      "community": 60,
+      "community": 49,
       "norm_label": "auth0-and-security.test.ts"
     },
     {
@@ -14420,14 +14860,14 @@
       "norm_label": "genova shareds (`new/shareds`)"
     },
     {
-      "label": "Pacotes (`v0.5.0`)",
+      "label": "Pacotes (`v0.6.0`)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "readme_pacotes_v0_5_0",
+      "id": "readme_pacotes_v0_6_0",
       "community": 157,
-      "norm_label": "pacotes (`v0.5.0`)"
+      "norm_label": "pacotes (`v0.6.0`)"
     },
     {
       "label": "Comandos",
@@ -18648,6 +19088,316 @@
       "id": "specs_011_shared_auth0_app_metadata_tasks_phase_4_pr_worktree_cleanup_explicit_user_authorization_required",
       "community": 28,
       "norm_label": "phase 4: pr & worktree cleanup (explicit user authorization required)"
+    },
+    {
+      "label": "plan.md",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan",
+      "community": 48,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "Implementation Plan: Shared Native Form Validation, Masked Inputs & Search Action (v0.6.0)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan_implementation_plan_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "community": 48,
+      "norm_label": "implementation plan: shared native form validation, masked inputs & search action (v0.6.0)"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan_summary",
+      "community": 48,
+      "norm_label": "summary"
+    },
+    {
+      "label": "Technical Context",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan_technical_context",
+      "community": 48,
+      "norm_label": "technical context"
+    },
+    {
+      "label": "Constitution Check",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan_constitution_check",
+      "community": 48,
+      "norm_label": "constitution check"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan_project_structure",
+      "community": 48,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Documentation (this feature)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan_documentation_this_feature",
+      "community": 48,
+      "norm_label": "documentation (this feature)"
+    },
+    {
+      "label": "Source Code Affected (`New/Shareds/`)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_plan_source_code_affected_new_shareds",
+      "community": 48,
+      "norm_label": "source code affected (`new/shareds/`)"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec",
+      "community": 48,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Feature Specification: Shared Native Form Validation, Masked Inputs & Search Action (v0.6.0)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_feature_specification_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "community": 48,
+      "norm_label": "feature specification: shared native form validation, masked inputs & search action (v0.6.0)"
+    },
+    {
+      "label": "User Scenarios & Testing *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_user_scenarios_testing_mandatory",
+      "community": 48,
+      "norm_label": "user scenarios & testing *(mandatory)*"
+    },
+    {
+      "label": "User Story 1 - M\u00e1scaras & Valida\u00e7\u00e3o Pura de CPF, CNPJ e CEP em `@genovalv/core` (Priority: P1)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_1_m\u00e1scaras_valida\u00e7\u00e3o_pura_de_cpf_cnpj_e_cep_em_genovalv_core_priority_p1",
+      "community": 48,
+      "norm_label": "user story 1 - mascaras & validacao pura de cpf, cnpj e cep em `@genovalv/core` (priority: p1)"
+    },
+    {
+      "label": "User Story 2 - Valida\u00e7\u00e3o Nativa & Submit de Formul\u00e1rios via `ElementInternals` em `@genovalv/elements` (Priority: P1)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_2_valida\u00e7\u00e3o_nativa_submit_de_formul\u00e1rios_via_elementinternals_em_genovalv_elements_priority_p1",
+      "community": 48,
+      "norm_label": "user story 2 - validacao nativa & submit de formularios via `elementinternals` em `@genovalv/elements` (priority: p1)"
+    },
+    {
+      "label": "User Story 3 - `<genova-input>` com `type=\"search\"` e `inputmode=\"cpf\" | \"cnpj\" | \"cep\"` (Priority: P1)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_3_genova_input_com_type_search_e_inputmode_cpf_cnpj_cep_priority_p1",
+      "community": 48,
+      "norm_label": "user story 3 - `<genova-input>` com `type=\"search\"` e `inputmode=\"cpf\" | \"cnpj\" | \"cep\"` (priority: p1)"
+    },
+    {
+      "label": "User Story 4 - Clean Code (`<= 100` linhas), Release `0.6.0` & Empacotamento `.tgz` (Priority: P2)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_4_clean_code_100_linhas_release_0_6_0_empacotamento_tgz_priority_p2",
+      "community": 48,
+      "norm_label": "user story 4 - clean code (`<= 100` linhas), release `0.6.0` & empacotamento `.tgz` (priority: p2)"
+    },
+    {
+      "label": "Edge Cases",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_edge_cases",
+      "community": 48,
+      "norm_label": "edge cases"
+    },
+    {
+      "label": "Requirements *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_requirements_mandatory",
+      "community": 48,
+      "norm_label": "requirements *(mandatory)*"
+    },
+    {
+      "label": "Functional Requirements",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_functional_requirements",
+      "community": 48,
+      "norm_label": "functional requirements"
+    },
+    {
+      "label": "Success Criteria *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_spec_success_criteria_mandatory",
+      "community": 48,
+      "norm_label": "success criteria *(mandatory)*"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks",
+      "community": 48,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "Tasks: 012-shared-form-validation-and-masked-inputs",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_tasks_012_shared_form_validation_and_masked_inputs",
+      "community": 48,
+      "norm_label": "tasks: 012-shared-form-validation-and-masked-inputs"
+    },
+    {
+      "label": "0. Branch",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_0_branch",
+      "community": 48,
+      "norm_label": "0. branch"
+    },
+    {
+      "label": "Phase 1: M\u00e1scaras CPF/CNPJ/CEP, Valida\u00e7\u00e3o de CEP & i18n em `@genovalv/core` (US1 \u2014 TDD) \ud83c\udfaf MVP",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_1_m\u00e1scaras_cpf_cnpj_cep_valida\u00e7\u00e3o_de_cep_i18n_em_genovalv_core_us1_tdd_mvp",
+      "community": 48,
+      "norm_label": "phase 1: mascaras cpf/cnpj/cep, validacao de cep & i18n em `@genovalv/core` (us1 \u2014 tdd) \ud83c\udfaf mvp"
+    },
+    {
+      "label": "Tests First (Red)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_tests_first_red",
+      "community": 48,
+      "norm_label": "tests first (red)"
+    },
+    {
+      "label": "Implementation (Green)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_implementation_green",
+      "community": 48,
+      "norm_label": "implementation (green)"
+    },
+    {
+      "label": "Group 1 Commit Gate (Explicit User Authorization Required)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_group_1_commit_gate_explicit_user_authorization_required",
+      "community": 48,
+      "norm_label": "group 1 commit gate (explicit user authorization required)"
+    },
+    {
+      "label": "Phase 2: Valida\u00e7\u00e3o Nativa & `type=\"search\"` + `inputmode=\"cpf|cnpj|cep\"` em `@genovalv/elements` (US2 & US3 \u2014 TDD)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_2_valida\u00e7\u00e3o_nativa_type_search_inputmode_cpf_cnpj_cep_em_genovalv_elements_us2_us3_tdd",
+      "community": 48,
+      "norm_label": "phase 2: validacao nativa & `type=\"search\"` + `inputmode=\"cpf|cnpj|cep\"` em `@genovalv/elements` (us2 & us3 \u2014 tdd)"
+    },
+    {
+      "label": "Tests First (Red)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_tests_first_red_33",
+      "community": 48,
+      "norm_label": "tests first (red)"
+    },
+    {
+      "label": "Implementation (Green)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_implementation_green_37",
+      "community": 48,
+      "norm_label": "implementation (green)"
+    },
+    {
+      "label": "Group 2 Commit Gate (Explicit User Authorization Required)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_group_2_commit_gate_explicit_user_authorization_required",
+      "community": 48,
+      "norm_label": "group 2 commit gate (explicit user authorization required)"
+    },
+    {
+      "label": "Phase 3: Documenta\u00e7\u00e3o, SemVer `0.6.0`, Tarballs `.tgz` & PR (US4)",
+      "file_type": "document",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_3_documenta\u00e7\u00e3o_semver_0_6_0_tarballs_tgz_pr_us4",
+      "community": 48,
+      "norm_label": "phase 3: documentacao, semver `0.6.0`, tarballs `.tgz` & pr (us4)"
     }
   ],
   "links": [
@@ -20493,7 +21243,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L95",
+      "source_location": "L96",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_base_login_auth_usecase",
@@ -20655,7 +21405,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L96",
+      "source_location": "L97",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_base_logout_auth_usecase",
@@ -20850,7 +21600,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L97",
+      "source_location": "L98",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_base_refresh_session_usecase",
@@ -20968,7 +21718,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L98",
+      "source_location": "L99",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_execute_idempotent_usecase",
@@ -21077,7 +21827,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L99",
+      "source_location": "L100",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_post_login_action_usecase",
@@ -21130,7 +21880,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L101",
+      "source_location": "L102",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_constants_base_module_catalog",
@@ -21387,10 +22137,172 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations",
+      "target": "packages_core_src_domain_constants_login_translations_en",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.en.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_en",
+      "target": "packages_core_src_domain_constants_login_translations_en_login_translations_en",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.en.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_en",
+      "target": "packages_core_src_domain_dtos_login_dictionary_dto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.en.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_en",
+      "target": "packages_core_src_domain_dtos_login_dictionary_dto_logindictionary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations",
+      "target": "packages_core_src_domain_constants_login_translations_en_login_translations_en",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/constants/login-translations.ts",
       "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations",
+      "target": "packages_core_src_domain_constants_login_translations_es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.es.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_es",
+      "target": "packages_core_src_domain_constants_login_translations_es_login_translations_es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.es.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_es",
+      "target": "packages_core_src_domain_dtos_login_dictionary_dto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.es.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_es",
+      "target": "packages_core_src_domain_dtos_login_dictionary_dto_logindictionary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations",
+      "target": "packages_core_src_domain_constants_login_translations_es_login_translations_es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations",
+      "target": "packages_core_src_domain_constants_login_translations_pt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.pt.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_pt",
+      "target": "packages_core_src_domain_constants_login_translations_pt_login_translations_pt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.pt.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_pt",
+      "target": "packages_core_src_domain_dtos_login_dictionary_dto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.pt.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations_pt",
+      "target": "packages_core_src_domain_dtos_login_dictionary_dto_logindictionary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_constants_login_translations",
+      "target": "packages_core_src_domain_constants_login_translations_pt_login_translations_pt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/constants/login-translations.ts",
+      "source_location": "L7",
       "weight": 1.0,
       "source": "packages_core_src_domain_constants_login_translations",
       "target": "packages_core_src_domain_constants_login_translations_login_translations",
@@ -22619,7 +23531,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L107",
+      "source_location": "L108",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_dtos_file_upload_dto",
@@ -22984,7 +23896,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L105",
+      "source_location": "L106",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_dtos_list_ui_dto",
@@ -24827,7 +25739,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L108",
+      "source_location": "L109",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_helpers_file_upload_helpers",
@@ -24902,7 +25814,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L106",
+      "source_location": "L107",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_helpers_list_ui_helpers",
@@ -24956,7 +25868,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L102",
+      "source_location": "L103",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_helpers_resolve_effective_modules",
@@ -25158,6 +26070,17 @@
       "weight": 1.0,
       "source": "packages_core_src_domain_validators_validate_password_validatepassword",
       "target": "packages_core_src_domain_i18n_create_translator_createtranslator"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/document-mask-and-cep.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_document_mask_and_cep_test",
+      "target": "packages_core_src_domain_i18n_create_translator_createtranslator",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -26768,7 +27691,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L103",
+      "source_location": "L104",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_catalog_validators",
@@ -26855,7 +27778,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L84",
+      "source_location": "L85",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_extract_cnpj_root",
@@ -26908,6 +27831,188 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask",
+      "target": "packages_core_src_domain_validators_format_document_mask_applynumericmask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask",
+      "target": "packages_core_src_domain_validators_format_document_mask_formatcep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask",
+      "target": "packages_core_src_domain_validators_format_document_mask_formatcnpj",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask",
+      "target": "packages_core_src_domain_validators_format_document_mask_formatcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask",
+      "target": "packages_core_src_domain_validators_format_document_mask_isvalidcep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask",
+      "target": "packages_core_src_domain_validators_strip_non_digits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask",
+      "target": "packages_core_src_domain_validators_strip_non_digits_stripnondigits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/index.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "packages_core_src_index",
+      "target": "packages_core_src_domain_validators_format_document_mask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask_applynumericmask",
+      "target": "packages_core_src_domain_validators_strip_non_digits_stripnondigits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask_formatcep",
+      "target": "packages_core_src_domain_validators_format_document_mask_applynumericmask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask_formatcnpj",
+      "target": "packages_core_src_domain_validators_format_document_mask_applynumericmask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask_formatcpf",
+      "target": "packages_core_src_domain_validators_format_document_mask_applynumericmask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/document-mask-and-cep.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_document_mask_and_cep_test",
+      "target": "packages_core_src_domain_validators_format_document_mask_formatcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/document-mask-and-cep.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_document_mask_and_cep_test",
+      "target": "packages_core_src_domain_validators_format_document_mask_formatcnpj",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/document-mask-and-cep.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_document_mask_and_cep_test",
+      "target": "packages_core_src_domain_validators_format_document_mask_formatcep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/core/src/domain/validators/format-document-mask.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_validators_format_document_mask_isvalidcep",
+      "target": "packages_core_src_domain_validators_strip_non_digits_stripnondigits"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/document-mask-and-cep.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_document_mask_and_cep_test",
+      "target": "packages_core_src_domain_validators_format_document_mask_isvalidcep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/validators/format-mfa-code-display.ts",
       "source_location": "L3",
       "weight": 1.0,
@@ -26942,7 +28047,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L88",
+      "source_location": "L89",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_format_mfa_code_display",
@@ -26985,7 +28090,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L90",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_get_mfa_guidance",
@@ -27039,7 +28144,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L86",
+      "source_location": "L87",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_has_email_cpf_company_conflict",
@@ -27276,7 +28381,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L91",
+      "source_location": "L92",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_normalize_email",
@@ -27374,7 +28479,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L87",
+      "source_location": "L88",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_sanitize_mfa_code",
@@ -27471,7 +28576,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_active_bindings",
@@ -27514,7 +28619,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L92",
+      "source_location": "L93",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_email",
@@ -27612,7 +28717,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L94",
+      "source_location": "L95",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_login_submission",
@@ -27677,7 +28782,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L89",
+      "source_location": "L90",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_mfa_code",
@@ -27709,7 +28814,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L93",
+      "source_location": "L94",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_password",
@@ -27783,7 +28888,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L104",
+      "source_location": "L105",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_value_objects_money",
@@ -27837,7 +28942,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L100",
+      "source_location": "L101",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_infrastructure_http_auth_repository",
@@ -27928,6 +29033,17 @@
       "source_location": "L2",
       "weight": 1.0,
       "source": "packages_core_tests_catalog_validators_test",
+      "target": "packages_core_src_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/document-mask-and-cep.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_document_mask_and_cep_test",
       "target": "packages_core_src_index",
       "confidence_score": 1.0
     },
@@ -28512,17 +29628,47 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/actions/genova-button.ts",
-      "source_location": "L35",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_actions_genova_button_genovabuttonelement",
+      "target": "packages_elements_src_components_actions_genova_button_genovabuttonelement_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_actions_genova_button_genovabuttonelement",
+      "target": "packages_elements_src_components_actions_genova_button_genovabuttonelement_handleclick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L73",
       "weight": 1.0,
       "source": "packages_elements_src_components_actions_genova_button_genovabuttonelement",
       "target": "packages_elements_src_components_actions_genova_button_genovabuttonelement_render",
       "confidence_score": 1.0
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_actions_genova_button_genovabuttonelement",
+      "target": "packages_elements_src_components_actions_genova_button_genovabuttonelement_validateformcontrols",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/actions/genova-button.ts",
-      "source_location": "L33",
+      "source_location": "L36",
       "weight": 1.0,
       "context": "decorator",
       "source": "packages_elements_src_components_actions_genova_button_genovabuttonelement",
@@ -28538,6 +29684,28 @@
       "weight": 1.0,
       "source": "packages_elements_src_index",
       "target": "packages_elements_src_components_actions_genova_button_genovabuttonelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_actions_genova_button_genovabuttonelement_handleclick",
+      "target": "packages_elements_src_components_actions_genova_button_genovabuttonelement_validateformcontrols",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/actions/genova-button.ts",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_actions_genova_button_genovabuttonelement_render",
+      "target": "packages_elements_src_components_actions_genova_button_genovabuttonelement_handleclick",
       "confidence_score": 1.0
     },
     {
@@ -30513,7 +31681,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/forms/genova-number-input.ts",
-      "source_location": "L29",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement",
+      "target": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement_onkeydown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-number-input.ts",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement",
       "target": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement_render",
@@ -30556,7 +31734,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/forms/genova-number-input.ts",
-      "source_location": "L32",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement_render",
       "target": "packages_elements_src_components_forms_genova_number_input_genovanumberinputelement_updateval",
@@ -30566,7 +31744,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
       "source": "packages_elements_src_components_forms_genova_textarea",
       "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
@@ -30577,7 +31755,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "source": "packages_elements_src_components_forms_genova_textarea",
       "target": "packages_elements_src_styles_etapa1_base_css",
@@ -30588,7 +31766,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "source": "packages_elements_src_components_forms_genova_textarea",
       "target": "packages_elements_src_styles_etapa1_base_css_etapa1basestyles",
@@ -30609,17 +31787,67 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
-      "source_location": "L25",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_checkvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L54",
       "weight": 1.0,
       "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
       "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_render",
       "confidence_score": 1.0
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_reportvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_updated",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
-      "source_location": "L23",
+      "source_location": "L31",
       "weight": 1.0,
       "context": "decorator",
       "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
@@ -30638,10 +31866,65 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_checkvalidity",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_render",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_reportvalidity",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_updated",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/forms/genova-textarea.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_reportvalidity",
+      "target": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_checkvalidity",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "indirect_call",
       "confidence": "INFERRED",
       "source_file": "packages/elements/src/components/genova-action-button.ts",
-      "source_location": "L135",
+      "source_location": "L136",
       "weight": 1.0,
       "context": "argument",
       "source": "packages_elements_src_components_genova_action_button",
@@ -30685,7 +31968,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-action-button.ts",
-      "source_location": "L79",
+      "source_location": "L80",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_action_button_genovaactionbuttonelement",
       "target": "packages_elements_src_components_genova_action_button_genovaactionbuttonelement_handleclick",
@@ -30695,7 +31978,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-action-button.ts",
-      "source_location": "L94",
+      "source_location": "L95",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_action_button_genovaactionbuttonelement",
       "target": "packages_elements_src_components_genova_action_button_genovaactionbuttonelement_render",
@@ -31425,10 +32708,352 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_allowed_keys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_computeinputvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_formatmaskedvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_isblockednumerickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_ismaskedmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_maskedinputmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_renderinputicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_rendersearchicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers",
+      "target": "packages_elements_src_components_genova_input_helpers_resolvenativeinputmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers_ismaskedmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_handlekeydown",
+      "target": "packages_elements_src_components_genova_input_helpers_ismaskedmode"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "target": "packages_elements_src_components_genova_input_helpers_ismaskedmode"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_updatefrominput",
+      "target": "packages_elements_src_components_genova_input_helpers_ismaskedmode"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers_resolvenativeinputmode",
+      "target": "packages_elements_src_components_genova_input_helpers_ismaskedmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers_formatmaskedvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "target": "packages_elements_src_components_genova_input_helpers_formatmaskedvalue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_updatefrominput",
+      "target": "packages_elements_src_components_genova_input_helpers_formatmaskedvalue"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers_resolvenativeinputmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_render",
+      "target": "packages_elements_src_components_genova_input_helpers_resolvenativeinputmode"
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.helpers.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_helpers_isblockednumerickey",
+      "target": "packages_elements_src_components_genova_input_helpers_allowed_keys"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers_isblockednumerickey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_handlekeydown",
+      "target": "packages_elements_src_components_genova_input_helpers_isblockednumerickey"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers_computeinputvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "target": "packages_elements_src_components_genova_input_helpers_computeinputvalidity"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers_renderinputicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_render",
+      "target": "packages_elements_src_components_genova_input_helpers_renderinputicon"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_helpers_rendersearchicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_render",
+      "target": "packages_elements_src_components_genova_input_helpers_rendersearchicon"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_styles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.styles.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_styles",
+      "target": "packages_elements_src_components_genova_input_styles_genovainputstyles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input",
+      "target": "packages_elements_src_components_genova_input_styles_genovainputstyles",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "indirect_call",
       "confidence": "INFERRED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L305",
+      "source_location": "L98",
       "weight": 1.0,
       "context": "argument",
       "source": "packages_elements_src_components_genova_input",
@@ -31472,7 +33097,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L50",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_checkvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_input_genovainputelement",
       "target": "packages_elements_src_components_genova_input_genovainputelement_constructor",
@@ -31482,7 +33117,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L182",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_emitsearch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L36",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_input_genovainputelement",
       "target": "packages_elements_src_components_genova_input_genovainputelement_focus",
@@ -31492,27 +33137,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L199",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_input_genovainputelement",
-      "target": "packages_elements_src_components_genova_input_genovainputelement_handlechange",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_handlekeydown",
       "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L186",
-      "weight": 1.0,
-      "source": "packages_elements_src_components_genova_input_genovainputelement",
-      "target": "packages_elements_src_components_genova_input_genovainputelement_handleinput",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L242",
+      "source_location": "L73",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_input_genovainputelement",
       "target": "packages_elements_src_components_genova_input_genovainputelement_render",
@@ -31522,20 +33157,40 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L216",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_input_genovainputelement",
-      "target": "packages_elements_src_components_genova_input_genovainputelement_rendericon",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_reportvalidity",
       "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L212",
+      "source_location": "L38",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_input_genovainputelement",
-      "target": "packages_elements_src_components_genova_input_genovainputelement_togglepassword",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_updated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_updatefrominput",
       "confidence_score": 1.0
     },
     {
@@ -31554,10 +33209,76 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/genova-input.ts",
-      "source_location": "L265",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_checkvalidity",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_reportvalidity",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_updated",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_updatefrominput",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_handlekeydown",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_emitsearch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L88",
       "weight": 1.0,
       "source": "packages_elements_src_components_genova_input_genovainputelement_render",
-      "target": "packages_elements_src_components_genova_input_genovainputelement_rendericon",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_updatefrominput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/genova-input.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_genova_input_genovainputelement_render",
+      "target": "packages_elements_src_components_genova_input_genovainputelement_emitsearch",
       "confidence_score": 1.0
     },
     {
@@ -34136,21 +35857,70 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/selection/genova-select.ts",
-      "source_location": "L22",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_checkvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_handlechange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L72",
       "weight": 1.0,
       "source": "packages_elements_src_components_selection_genova_select_genovaselectelement",
       "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_render",
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/elements/src/components/selection/genova-select.ts",
-      "source_location": "L20",
+      "source_location": "L64",
       "weight": 1.0,
-      "context": "decorator",
       "source": "packages_elements_src_components_selection_genova_select_genovaselectelement",
-      "target": "packages_elements_src_components_selection_genova_select_ts_property",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_reportvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_updated",
       "confidence_score": 1.0
     },
     {
@@ -34162,6 +35932,61 @@
       "weight": 1.0,
       "source": "packages_elements_src_index",
       "target": "packages_elements_src_components_selection_genova_select_genovaselectelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement_checkvalidity",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement_handlechange",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement_reportvalidity",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement_updated",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_syncvalidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/src/components/selection/genova-select.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "packages_elements_src_components_selection_genova_select_genovaselectelement_reportvalidity",
+      "target": "packages_elements_src_components_selection_genova_select_genovaselectelement_checkvalidity",
       "confidence_score": 1.0
     },
     {
@@ -34393,6 +36218,28 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "packages/elements/tests/form-validation.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_elements_tests_form_validation_test",
+      "target": "packages_elements_src_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/tests/input-search-masks.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_elements_tests_input_search_masks_test",
+      "target": "packages_elements_src_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "packages/elements/tests/list-and-upload.test.ts",
       "source_location": "L2",
       "weight": 1.0,
@@ -34496,6 +36343,28 @@
       "source_location": "L2",
       "weight": 1.0,
       "source": "packages_elements_tests_etapa1_elements_test",
+      "target": "packages_elements_src_index_registergenovaelements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/tests/form-validation.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_elements_tests_form_validation_test",
+      "target": "packages_elements_src_index_registergenovaelements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/elements/tests/input-search-masks.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_elements_tests_input_search_masks_test",
       "target": "packages_elements_src_index_registergenovaelements",
       "confidence_score": 1.0
     },
@@ -40913,7 +42782,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "source": "readme_genova_shareds_new_shareds",
-      "target": "readme_pacotes_v0_5_0",
+      "target": "readme_pacotes_v0_6_0",
       "confidence_score": 1.0
     },
     {
@@ -44885,8 +46754,318 @@
       "source": "specs_011_shared_auth0_app_metadata_tasks_phase_2_auth0gateway_e_login_guards_em_genovalv_server_us2_tdd",
       "target": "specs_011_shared_auth0_app_metadata_tasks_tests_first_red_40",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan_implementation_plan_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan_implementation_plan_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan_constitution_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan_implementation_plan_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan_implementation_plan_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan_implementation_plan_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan_technical_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan_project_structure",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan_documentation_this_feature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/plan.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_plan_project_structure",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_plan_source_code_affected_new_shareds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_feature_specification_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_feature_specification_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_requirements_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_feature_specification_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_success_criteria_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_feature_specification_shared_native_form_validation_masked_inputs_search_action_v0_6_0",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_user_scenarios_testing_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_user_scenarios_testing_mandatory",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_edge_cases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_user_scenarios_testing_mandatory",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_1_m\u00e1scaras_valida\u00e7\u00e3o_pura_de_cpf_cnpj_e_cep_em_genovalv_core_priority_p1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_user_scenarios_testing_mandatory",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_2_valida\u00e7\u00e3o_nativa_submit_de_formul\u00e1rios_via_elementinternals_em_genovalv_elements_priority_p1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_user_scenarios_testing_mandatory",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_3_genova_input_com_type_search_e_inputmode_cpf_cnpj_cep_priority_p1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_user_scenarios_testing_mandatory",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_user_story_4_clean_code_100_linhas_release_0_6_0_empacotamento_tgz_priority_p2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/spec.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_spec_requirements_mandatory",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_spec_functional_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_tasks_012_shared_form_validation_and_masked_inputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_tasks_012_shared_form_validation_and_masked_inputs",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_0_branch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_tasks_012_shared_form_validation_and_masked_inputs",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_1_m\u00e1scaras_cpf_cnpj_cep_valida\u00e7\u00e3o_de_cep_i18n_em_genovalv_core_us1_tdd_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_tasks_012_shared_form_validation_and_masked_inputs",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_2_valida\u00e7\u00e3o_nativa_type_search_inputmode_cpf_cnpj_cep_em_genovalv_elements_us2_us3_tdd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_tasks_012_shared_form_validation_and_masked_inputs",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_3_documenta\u00e7\u00e3o_semver_0_6_0_tarballs_tgz_pr_us4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_1_m\u00e1scaras_cpf_cnpj_cep_valida\u00e7\u00e3o_de_cep_i18n_em_genovalv_core_us1_tdd_mvp",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_group_1_commit_gate_explicit_user_authorization_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_1_m\u00e1scaras_cpf_cnpj_cep_valida\u00e7\u00e3o_de_cep_i18n_em_genovalv_core_us1_tdd_mvp",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_implementation_green",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_1_m\u00e1scaras_cpf_cnpj_cep_valida\u00e7\u00e3o_de_cep_i18n_em_genovalv_core_us1_tdd_mvp",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_tests_first_red",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_2_valida\u00e7\u00e3o_nativa_type_search_inputmode_cpf_cnpj_cep_em_genovalv_elements_us2_us3_tdd",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_group_2_commit_gate_explicit_user_authorization_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_2_valida\u00e7\u00e3o_nativa_type_search_inputmode_cpf_cnpj_cep_em_genovalv_elements_us2_us3_tdd",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_implementation_green_37",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/012-shared-form-validation-and-masked-inputs/tasks.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "specs_012_shared_form_validation_and_masked_inputs_tasks_phase_2_valida\u00e7\u00e3o_nativa_type_search_inputmode_cpf_cnpj_cep_em_genovalv_elements_us2_us3_tdd",
+      "target": "specs_012_shared_form_validation_and_masked_inputs_tasks_tests_first_red_33",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "349caba687f18c7350f3571477fd95f2087360ae"
+  "built_at_commit": "77802b386b81289be673c25738dfc27324dd8fb4"
 }
