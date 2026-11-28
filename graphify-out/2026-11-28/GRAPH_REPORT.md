@@ -1,16 +1,16 @@
-# Graph Report - 012-shared-form-validation-and-masked-inputs  (2026-11-28)
+# Graph Report - 013-shared-app-header-box-sizing  (2026-11-28)
 
 ## Corpus Check
-- 422 files · ~145,954 words
+- 425 files · ~146,628 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1938 nodes · 2652 edges · 216 communities (167 shown, 49 thin omitted)
+- 1956 nodes · 2672 edges · 221 communities (173 shown, 48 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 10 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `77802b38`
+- Built from commit: `f4c7e6de`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -214,9 +214,14 @@
 - generate-cert.sh
 - entrypoint.sh
 - genova-control-box.ts
+- genova-table.ts
+- genova-collapse.ts
+- genova-drawer.ts
+- genova-box.ts
+- genova-radio-button-group.ts
 
 ## God Nodes (most connected - your core abstractions)
-1. `etapa1BaseStyles` - 49 edges
+1. `etapa1BaseStyles` - 50 edges
 2. `compilerOptions` - 16 edges
 3. `Tasks: Proxy de Borda Local (Simulação Cloudflare)` - 16 edges
 4. `Auth0Gateway` - 15 edges
@@ -234,15 +239,15 @@
   edge/tests/global-teardown.ts → edge/tests/helpers.ts
 - `Auth0TokenClaims` --references--> `CompanyBinding`  [EXTRACTED]
   packages/core/src/domain/dtos/auth0-token-claims.dto.ts → packages/core/src/domain/entities/company-binding.entity.ts
+- `UserModel` --references--> `DocumentType`  [EXTRACTED]
+  packages/core/src/domain/entities/user-model.entity.ts → packages/core/src/domain/dtos/document-type.dto.ts
 - `CredentialsSubmission` --references--> `SupportedLocale`  [EXTRACTED]
   packages/core/src/domain/entities/credentials-submission.entity.ts → packages/core/src/domain/dtos/supported-locale.dto.ts
-- `RememberedAuthSession` --inherits--> `AuthSession`  [EXTRACTED]
-  packages/core/src/domain/entities/remembered-auth-session.entity.ts → packages/core/src/domain/entities/auth-session.entity.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (216 total, 49 thin omitted)
+## Communities (221 total, 48 thin omitted)
 
 ### Community 0 - "types.ts"
 Cohesion: 0.09
@@ -265,8 +270,8 @@ Cohesion: 0.08
 Nodes (28): certDir, globalSetup(), globalTeardown(), Echo, compose(), echoCount(), echoDirectUrl(), edge() (+20 more)
 
 ### Community 5 - "Tasks: [FEATURE NAME]"
-Cohesion: 0.08
-Nodes (18): onExecutePostLogin(), Auth0TokenClaims, BindingValidationResult, BranchType, DocumentType, CompanyBinding, UserModel, IBaseAuthUserRepository (+10 more)
+Cohesion: 0.22
+Nodes (6): DocumentType, ISessionTokenGateway, PasswordLoginOutcome, PostLoginDenyReason, ResolveUserResult, UserCookieSession
 
 ### Community 6 - "SKILL.md"
 Cohesion: 0.06
@@ -289,8 +294,8 @@ Cohesion: 0.09
 Nodes (11): BASE_MODULE_CATALOG, BaseModuleCatalogEntry, HttpRequestInit, HttpResponseLike, SubmissionState, resolveEffectiveModules(), AuthCookieConfig, IHashService (+3 more)
 
 ### Community 11 - "compilerOptions"
-Cohesion: 0.10
-Nodes (9): GenovaTableElement, property, GenovaCollapseElement, property, GenovaBoxElement, property, ELEMENTS, registerGenovaElements() (+1 more)
+Cohesion: 0.11
+Nodes (8): GenovaToastElement, property, GenovaInputGroupElement, GenovaAccordionElement, property, ELEMENTS, registerGenovaElements(), AppHeaderEl
 
 ### Community 12 - "Execution Steps"
 Cohesion: 0.08
@@ -425,8 +430,8 @@ Cohesion: 0.25
 Nodes (7): Edge Cases, Feature Specification: 008-shared-catalog-and-data-ui, Requirements *(mandatory)*, User Scenarios & Testing *(mandatory)*, User Story 1 - Catalog Modules, Effective Resolution & Money Contracts (`@genovalv/core`) (Priority: P1), User Story 2 - Generic List Toolbar & Pagination (`@genovalv/elements` + `@genovalv/core`) (Priority: P1), User Story 3 - Generic Drag-and-Drop File Dropzone & Enhanced Modal (`@genovalv/elements` + `@genovalv/core`) (Priority: P1)
 
 ### Community 51 - "auth-contracts.ts"
-Cohesion: 0.10
-Nodes (20): executeIdempotent(), EmailCpfCompanyEntry, IdempotencyRecord, ListFilterConfig, ListFilterOption, PaginationSummary, computePaginationRange(), formatMaskedCpf() (+12 more)
+Cohesion: 0.21
+Nodes (12): EmailCpfCompanyEntry, applyNumericMask(), formatCep(), formatCnpj(), formatCpf(), isValidCep(), hasEmailCpfCompanyConflict(), computeCnpjDigit() (+4 more)
 
 ### Community 53 - "tasks.md"
 Cohesion: 0.22
@@ -530,7 +535,7 @@ Nodes (6): compilerOptions, lib, outDir, rootDir, extends, include
 
 ### Community 82 - "GenovaAvatarElement"
 Cohesion: 0.11
-Nodes (10): listToolbarStyles, GenovaTagElement, property, fileDropzoneStyles, GenovaInputGroupElement, GenovaDrawerElement, property, GenovaRadioButtonGroupElement (+2 more)
+Nodes (10): listToolbarStyles, paginationStyles, GenovaTagElement, property, fileDropzoneStyles, GenovaAlertDialogElement, property, GenovaSliderElement (+2 more)
 
 ### Community 83 - "GenovaEditableElement"
 Cohesion: 0.40
@@ -619,6 +624,10 @@ Nodes (5): AppHeaderNavItem, AppHeaderNavSubItem, AppHeaderSearchConfig, AppHead
 ### Community 112 - "genova-select.ts"
 Cohesion: 0.27
 Nodes (4): buildManagementUserBody(), postAuth0Json(), resolveAuth0BaseUrl(), Auth0GatewayConfig
+
+### Community 113 - "genova-slider.ts"
+Cohesion: 0.12
+Nodes (15): Implementation Plan: Shared App Header Box-Sizing & Viewport Width Fix (v0.6.1), Summary, Technical Context, Feature Specification: Shared App Header Box-Sizing & Viewport Width Fix (v0.6.1), Requirements *(mandatory)*, Success Criteria *(mandatory)*, User Scenarios & Testing *(mandatory)*, User Story 1 - Conter `<genova-app-header>` em `100%` da Largura (Priority: P1) (+7 more)
 
 ### Community 114 - "genova-switch.ts"
 Cohesion: 0.40
@@ -782,7 +791,7 @@ Nodes (3): BaseLogoutAuthUseCase, IAuthSessionWriter, ILogoutAuthUseCase
 
 ### Community 157 - "Genova Shareds (`New/Shareds`)"
 Cohesion: 0.40
-Nodes (4): Comandos, Genova Shareds (`New/Shareds`), Pacotes (`v0.6.0`), Proxy de borda local (simulação Cloudflare)
+Nodes (4): Comandos, Genova Shareds (`New/Shareds`), Pacotes (`v0.6.1`), Proxy de borda local (simulação Cloudflare)
 
 ### Community 159 - "genova-radio.ts"
 Cohesion: 0.25
@@ -824,6 +833,14 @@ Nodes (3): BrandLogos, meta, Story
 Cohesion: 0.50
 Nodes (3): Data Model: 007-app-header-menu, Pure Contracts (`@genovalv/core`), Pure Helpers (`@genovalv/core`)
 
+### Community 171 - "genova-form-control.ts"
+Cohesion: 0.24
+Nodes (5): onExecutePostLogin(), BindingValidationResult, PostLoginApi, extractCnpjRoot(), validateActiveBindings()
+
+### Community 182 - "genova-toast.ts"
+Cohesion: 0.38
+Nodes (5): Auth0TokenClaims, BranchType, CompanyBinding, PostLoginEvent, PostLoginUserMetadata
+
 ### Community 184 - "GenovaInputElement"
 Cohesion: 0.18
 Nodes (11): GenovaInputElement, ALLOWED_KEYS, computeInputValidity(), formatMaskedValue(), isBlockedNumericKey(), isMaskedMode(), MaskedInputMode, renderInputIcon() (+3 more)
@@ -844,10 +861,22 @@ Nodes (3): validateCatalogCode(), validateCatalogDescription(), validateCatalogN
 Cohesion: 0.40
 Nodes (3): GenovaIconElement, ICON_PATHS, property
 
+### Community 193 - "GenovaPaginationElement"
+Cohesion: 0.42
+Nodes (3): executeIdempotent(), IdempotencyRecord, IdempotencyStore
+
+### Community 198 - "genova-radio.ts"
+Cohesion: 0.21
+Nodes (4): GenovaControlBoxElement, property, GenovaRadioElement, property
+
+### Community 215 - "genova-control-box.ts"
+Cohesion: 0.32
+Nodes (5): ListFilterConfig, ListFilterOption, PaginationSummary, computePaginationRange(), formatMaskedCpf()
+
 ## Knowledge Gaps
-- **864 isolated node(s):** `generate-cert.sh script`, `entrypoint.sh script`, `certDir`, `Echo`, `EDGE_ECHO_PORT` (+859 more)
+- **874 isolated node(s):** `generate-cert.sh script`, `entrypoint.sh script`, `certDir`, `Echo`, `EDGE_ECHO_PORT` (+869 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **49 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -856,10 +885,10 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `verifyAppSetupLogin()` connect `Auth0Gateway` to `genova-drawer.ts`, `audit-log.ts`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `Tasks: [FEATURE NAME]`?**
+- **Why does `ResolvePostLoginUseCase` connect `Auth0Gateway` to `GenovaLocaleSelectorElement`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `generate-cert.sh script`, `entrypoint.sh script`, `certDir` to the rest of the system?**
-  _864 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _874 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `types.ts` be split into smaller, more focused modules?**
   _Cohesion score 0.09201480698043363 - nodes in this community are weakly interconnected._
 - **Should `index.ts` be split into smaller, more focused modules?**

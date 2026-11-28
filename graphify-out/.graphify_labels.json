@@ -219,5 +219,13 @@
   "217": "genova-collapse.ts",
   "218": "genova-drawer.ts",
   "219": "genova-box.ts",
-  "220": "genova-radio-button-group.ts"
+  "220": "genova-radio-button-group.ts",
+  "221": "Feature Specification: 009-shared-loading-and-i18n",
+  "222": "codes.md",
+  "223": "plan.md",
+  "224": "tasks.md",
+  "225": "check-prerequisites.ps1",
+  "226": "resolve-template.ps1",
+  "227": "setup-plan.ps1",
+  "228": "setup-tasks.ps1"
 }
