@@ -33,13 +33,13 @@ Fatos verificados no repositório (2026-11-23):
 
 ## D5 — Cache de borda
 
-- **Decision**: `proxy_cache_path` em volume (`/var/cache/nginx`, zona `edge_cache`), `proxy_cache` apenas em `location` de estáticos (`~* \.(js|mjs|css|png|jpe?g|svg|woff2?|ico)$` e `/_nuxt/`, `/_next/static/`); `add_header X-Cache-Status $upstream_cache_status always`; sem cache em outras rotas (`proxy_cache off`, `Cache-Control` respeitado).
+- **Decision**: `proxy_cache_path` em `tmpfs` (`/var/cache/nginx/edge`, zona `edge_cache`; bind mount do Windows causava sempre MISS por validação de inode, verificado empiricamente), `proxy_cache` apenas em `location` de estáticos (`~* \.(js|mjs|css|png|jpe?g|svg|woff2?|ico)$` e `/_nuxt/`, `/_next/static/`); `add_header X-Cache-Status $upstream_cache_status always`; sem cache em outras rotas (`proxy_cache off`, `Cache-Control` respeitado).
 - **Rationale**: atende FR-004 e US2; `X-Cache-Status` ≈ `CF-Cache-Status` (adicionado também como `CF-Cache-Status` para paridade).
 - **Alternatives**: cache global (cacheia HTML dinâmico, violaria US2-3).
 
 ## D6 — Rate limit
 
-- **Decision**: `limit_req_zone $binary_remote_addr zone=edge_rl:10m rate=${EDGE_RATE_LIMIT_RPS}r/s`; `limit_req zone=edge_rl burst=${EDGE_RATE_LIMIT_BURST} nodelay`; `limit_req_status 429`. Padrão conservador: 20 r/s, burst 40. Testes sobrescrevem para limite baixo via env no profile de teste.
+- **Decision**: `limit_req_zone $binary_remote_addr zone=edge_rl:10m rate=${EDGE_RATE_LIMIT_RPS}r/s`; `limit_req zone=edge_rl burst=${EDGE_RATE_LIMIT_BURST} nodelay`; `limit_req_status 429`. Padrão 100 r/s, burst 200 (um page load do Vite dev passa de 40 requisições e batia no limite). Testes de 429 sobem uma stack alternativa (projeto compose próprio) com 5 r/s e burst 10.
 - **Rationale**: nativo, sem dependências, parametrizável (FR-005/007).
 - **Alternatives**: `limit_conn` (mede conexões, não taxa).
 
@@ -61,7 +61,7 @@ Fatos verificados no repositório (2026-11-23):
 
 ## D10 — Estratégia de testes (TDD)
 
-- **Decision**: Playwright `APIRequestContext` (`ignoreHTTPSErrors`, `maxRedirects: 0`) em `playwright.edge.config.ts`, contra `edge-origin-echo` (profile `test`, devolve JSON dos headers recebidos). Asserts: redirect 301 e `Location`; headers `CF-*` presentes e valores forjados substituídos; cache `MISS`→`HIT` em estático e ausência em rota dinâmica; 429 após exceder; 403 + `X-Edge-Rule` para WAF.
+- **Decision**: Playwright `APIRequestContext` (`ignoreHTTPSErrors`, `maxRedirects: 0`; conecta em `127.0.0.1` com header `Host`, pois o Node não resolve `*.localhost`) em `playwright.edge.config.ts`, contra `edge-origin-echo` (profile `test`, devolve JSON dos headers recebidos). Asserts: redirect 301 e `Location`; headers `CF-*` presentes e valores forjados substituídos; cache `MISS`→`HIT` em estático e ausência em rota dinâmica; 429 após exceder; 403 + `X-Edge-Rule` para WAF.
 - **Rationale**: sem browser = rápido, determinístico; origin-echo permite verificar o que a origem realmente recebe (SC-002). Nota: "não alcança a origem" é verificado pelo header `X-Edge-Rule` (a origem nunca o emite).
 
 ## D11 — Dockerização do FactoryFloor
@@ -73,3 +73,11 @@ Fatos verificados no repositório (2026-11-23):
 
 - Valores finais de `EDGE_CF_COUNTRY`/`EDGE_CF_COLO` (padrão `BR`/`GRU`): ajustáveis por `.env`.
 - Hosts `*.genova.localhost` assumidos por convenção; confirmar com o time.
+
+## Achados da implementação (2026-11-23)
+
+- **Cache e bind mount (Windows)**: com `/var/cache/nginx/edge` em bind mount o Nginx gravava os arquivos mas nunca entregava HIT; em `tmpfs` o HIT funciona. Cache é efêmero por natureza, então `tmpfs` é adotado.
+- **Traversal codificado** (`..%2f`, `%2e%2e%2f`): o parser do Nginx rejeita com 400 antes da regra WAF; os testes aceitam 400 ou 403 (ambos não alcançam a origem).
+- **`add_header` não é permitido em `if` no contexto server**: a regra WAF usa `return 403` + `error_page 403 = @edge_waf`, que define `X-Edge-Rule`.
+- **Dev server do Vite no playground**: o `CMD` padrão do Dockerfile usa `vite preview` (exige `dist/` do playground); o compose sobrescreve para `npm run dev` e `playground/vite.config.ts` libera `allowedHosts: ['.localhost']`.
+- **Scripts em contêiner**: `.gitattributes` força LF em `*.sh`, `*.conf`, `*.template`, `*.mjs` (CRLF quebra no Alpine).

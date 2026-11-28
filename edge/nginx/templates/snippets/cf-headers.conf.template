@@ -1,0 +1,9 @@
+# Headers de borda (FR-003). proxy_set_header sobrescreve qualquer valor enviado pelo cliente.
+proxy_set_header Host $host;
+proxy_set_header CF-Connecting-IP $remote_addr;
+proxy_set_header CF-Ray "$request_id-${EDGE_CF_COLO}";
+proxy_set_header CF-IPCountry "${EDGE_CF_COUNTRY}";
+proxy_set_header CF-Visitor '{"scheme":"https"}';
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_set_header X-Forwarded-Proto $scheme;
+proxy_set_header X-Forwarded-Host $host;

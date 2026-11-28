@@ -5,6 +5,7 @@ COPY package.json package-lock.json tsconfig.base.json ./
 COPY packages/core/package.json packages/core/
 COPY packages/tokens/package.json packages/tokens/
 COPY packages/elements/package.json packages/elements/
+COPY packages/server/package.json packages/server/
 COPY playground/package.json playground/
 
 RUN npm ci
@@ -12,10 +13,10 @@ RUN npm ci
 COPY packages ./packages
 COPY playground ./playground
 
-RUN npm run build
+RUN npm run build && npm run build --workspace=@genovalv/playground
 
 FROM node:22-alpine AS preview
 WORKDIR /app
 COPY --from=build /app /app
 EXPOSE 4173
-CMD ["npm", "run", "preview", "--workspace=@genovalv/playground", "--", "--host", "0.0.0.0", "--port", "4173"]
+CMD ["npm", "exec", "--workspace=@genovalv/playground", "--", "sirv", "storybook-static", "--port", "4173", "--host", "0.0.0.0", "--single"]

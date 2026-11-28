@@ -6,3 +6,11 @@ playwright-report/
 storybook-static/
 .env
 worktrees/
+graphify-out/cache/
+
+# Proxy de borda local: nunca versionar certificados/chaves nem cache
+*.pem
+*.key
+*.crt
+edge/certs/
+edge/cache/

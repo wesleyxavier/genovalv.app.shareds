@@ -95,7 +95,7 @@ Como pessoa desenvolvedora, acesso o ERP e o FactoryFloor por hosts locais HTTPS
 - **FR-006**: A borda DEVE bloquear requisições com métodos inválidos e padrões maliciosos comuns (paths e user-agents), respondendo 403 sem alcançar a origem.
 - **FR-007**: Portas, hosts, limites e caminhos de certificado DEVEM ser configuráveis por variáveis de ambiente com valores padrão seguros.
 - **FR-008**: Certificados, chaves privadas e credenciais reais do Cloudflare NÃO DEVEM ser versionados.
-- **FR-009**: Dados persistentes (certificados, cache) DEVEM residir em `C:\Docker-Volumes\genova\...`.
+- **FR-009**: Dados persistentes (certificados) DEVEM residir em `C:\Docker-Volumes\genova\...`; o cache de borda é efêmero.
 - **FR-010**: O comportamento da borda DEVE ser coberto por testes automatizados escritos antes da configuração (redirecionamento, headers, cache hit/miss, 429 e bloqueio WAF).
 - **FR-011**: A documentação (README) DEVE declarar que é uma simulação de desenvolvimento, não equivalente funcional ao Cloudflare real.
 - **FR-012**: A borda DEVE rotear por host local distinto, no mínimo: ERP, FactoryFloor e playground, usando cada um como origem independente.

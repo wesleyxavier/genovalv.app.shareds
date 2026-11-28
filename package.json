@@ -1,6 +1,6 @@
 {
   "name": "@genovalv/shareds",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -12,10 +12,13 @@
     "test:unit": "npm run test --workspace=@genovalv/core && npm run test --workspace=@genovalv/elements && npm run test --workspace=@genovalv/server",
     "test:coverage": "npm run test:coverage --workspace=@genovalv/core && npm run test --workspace=@genovalv/elements && npm run test --workspace=@genovalv/server",
     "preview": "npm run dev --workspace=@genovalv/playground",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:edge": "playwright test -c playwright.edge.config.ts --grep-invert @hmr",
+    "test:edge:hmr": "playwright test -c playwright.edge.config.ts --grep @hmr"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
+    "@types/node": "^22.20.5",
     "typescript": "^5.8.2",
     "vite": "^6.2.0",
     "vitest": "^3.1.0"

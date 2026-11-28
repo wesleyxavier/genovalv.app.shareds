@@ -18,7 +18,8 @@ Configuração: `playwright.edge.config.ts` com projetos `edge-api`, `edge-chrom
 
 ## 2. Pré-requisitos e dados
 
-- Docker Desktop ativo; `.env` a partir de `.env.example` (valores de teste: `EDGE_RATE_LIMIT_RPS=5`, `EDGE_RATE_LIMIT_BURST=10` via `.env.test`).
+- Docker Desktop ativo; `.env` a partir de `.env.example` (`edge/test.env`).
+- Rate limit (E2E-121/122) usa stack alternativa (`-p genova-edge-rl`, RPS=5, BURST=10, portas 28080/28443); a stack principal usa 100/200.
 - Profile `test` sobe `edge-origin-echo` (`echo.genova.localhost`).
 - Playground servido em contêiner (Dockerfile existente) na porta 4173.
 - ERP via compose do repo ERP (porta 3101). Se indisponível, os testes de ERP são marcados `skip` com motivo explícito (não falsos verdes).

@@ -1,8 +1,7 @@
-import type { IAuth0Gateway, IBaseAuthUserRepository, IHashService, ISessionTokenGateway } from '@genovalv/core';
+import type { IAuth0Gateway, IBaseAuthUserRepository, ISessionTokenGateway } from '@genovalv/core';
 import { describe, expect, it, vi } from 'vitest';
 import {
   BackchannelLogoutUseCase,
-  BootstrapUseCase,
   OAuthCallbackUseCase,
   PasswordLoginUseCase,
   ResolvePostLoginUseCase,
@@ -26,14 +25,11 @@ describe('@genovalv/server auth use cases', () => {
     expect(repo.linkAuth0Id).toHaveBeenCalledWith('u-1', 'auth0|1', true);
   });
 
-  it('handles PasswordLogin, OAuthCallback, BackchannelLogout and Bootstrap', async () => {
+  it('handles PasswordLogin, OAuthCallback and BackchannelLogout', async () => {
     const auth0 = {
       loginWithPassword: vi.fn().mockResolvedValue({ ok: true, idToken: 'idt' }),
       exchangeAuthorizationCode: vi.fn().mockResolvedValue({ ok: true, idToken: 'idt' }),
       verifyJwt: vi.fn().mockResolvedValue({ sub: 'auth0|1', email: 'a@b.c', email_verified: true, sid: 's-1' }),
-      obtainManagementToken: vi.fn().mockResolvedValue({ ok: true, token: 'mgmt' }),
-      createManagementUser: vi.fn().mockResolvedValue({ userId: 'auth0|1' }),
-      createPasswordChangeTicket: vi.fn().mockResolvedValue('https://ticket'),
     } as unknown as IAuth0Gateway;
     const resolvePostLogin = {
       execute: vi.fn().mockResolvedValue({
@@ -42,19 +38,12 @@ describe('@genovalv/server auth use cases', () => {
     } as unknown as ResolvePostLoginUseCase;
     const tokens = { sign: vi.fn().mockResolvedValue('jwt-tok') } as unknown as ISessionTokenGateway;
     const audit = { log: vi.fn() };
-    const repo = {
-      findByEmail: vi.fn().mockResolvedValue({ id: 'u-1', email: 'a@b.c', fullName: 'A', documentNumber: '000' }),
-      linkAuth0Id: vi.fn(),
-    } as unknown as IBaseAuthUserRepository;
-    const hash = { generateStrongPassword: () => 'Strong!1' } as unknown as IHashService;
 
     const pwdRes = await new PasswordLoginUseCase(auth0, resolvePostLogin, tokens, audit).execute({ email: 'a@b.c', password: '123' });
     expect(pwdRes.ok).toBe(true);
     const cbRes = await new OAuthCallbackUseCase(auth0, resolvePostLogin, tokens, audit).execute('code-1');
     expect(cbRes).toEqual({ ok: true, sessionJwt: 'jwt-tok', redirectTo: '/' });
     expect(await new BackchannelLogoutUseCase(auth0).execute('lt')).toEqual({ ok: true, sid: 's-1', sub: 'auth0|1' });
-    const boot = await new BootstrapUseCase(repo, auth0, hash).execute({ seedUserEmail: 'a@b.c', appBaseUrl: 'https://app' });
-    expect(boot.provisioningMode).toBe('management-api');
   });
 
   it('fetches email_verified from Auth0 user when omitted from id_token', async () => {

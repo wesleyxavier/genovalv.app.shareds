@@ -14,7 +14,7 @@ Adicionar ao `docker-compose.yml` de `New/Shareds/` um serviço `edge-proxy` (Ng
 
 **Primary Dependencies**: Docker Compose, Nginx (`ngx_http_limit_req`, `proxy_cache`, `map`), OpenSSL (via imagem alpine, apenas em contêiner), Playwright ^1.52
 
-**Storage**: Arquivos em `C:/Docker-Volumes/genova/new-edge/` (`certs/`, `cache/`); nenhum banco
+**Storage**: Certificados em `C:/Docker-Volumes/genova/new-edge/certs/` (persistente); cache de borda em `tmpfs` (efêmero); nenhum banco
 
 **Testing**: Estratégia completa em [e2e-test-plan.md](e2e-test-plan.md): L0 smoke (`docker compose config`, `nginx -t`), L1 contrato via Playwright `request`, L2/L3 browser Chromium (desktop + mobile, HMR), L4 resiliência; projeto próprio `playwright.edge.config.ts`
 
@@ -24,7 +24,7 @@ Adicionar ao `docker-compose.yml` de `New/Shareds/` um serviço `edge-proxy` (Ng
 
 **Performance Goals**: Subida do ambiente com borda em ≤ 5 min seguindo README (SC-001); HMR refletido em ≤ 5 s (SC-006)
 
-**Constraints**: Sem Nginx/OpenSSL/mkcert instalados no host; certificados e chaves não versionados; volumes só em `C:\Docker-Volumes\genova\...`; sem segredos Cloudflare; simulação declarada como não equivalente ao Cloudflare real
+**Constraints**: Rate limit padrão 100 r/s (burst 200); limites baixos só em stack de teste alternativa. Sem Nginx/OpenSSL/mkcert instalados no host; certificados e chaves não versionados; volumes só em `C:\Docker-Volumes\genova\...`; sem segredos Cloudflare; simulação declarada como não equivalente ao Cloudflare real
 
 **Scale/Scope**: 1 serviço de borda + 1 init de certificado + 1 origin-echo (profile `test`); 3 hosts roteados (playground, ERP, FactoryFloor)
 
@@ -63,24 +63,26 @@ specs/002-cloudflare-edge-proxy/
 
 ```text
 New/Shareds/
-├── docker-compose.yml                 # + edge-certs-init, edge-proxy, edge-origin-echo (profile test)
+├── docker-compose.yml                 # + edge-certs-init, edge-proxy, playground, edge-origin-echo (profile test)
 ├── .env.example                       # + variáveis EDGE_*
 ├── playwright.edge.config.ts          # projeto de testes da borda (sem webServer Vite)
 ├── edge/
 │   ├── nginx/
-│   │   ├── nginx.conf                 # http{}: includes, cache zone, limit zone, maps
-│   │   ├── templates/
-│   │   │   ├── 00-maps.conf.template      # WAF maps, upgrade map, país/ray
-│   │   │   ├── 10-redirect.conf.template  # :80 → https
-│   │   │   └── 20-vhosts.conf.template    # playground / erp / factoryfloor (+ echo em teste)
-│   │   └── snippets/
-│   │       ├── cf-headers.conf        # injeção/sobrescrita CF-* e X-Forwarded-*
-│   │       ├── waf.conf               # bloqueio 403
-│   │       └── proxy-common.conf     # upgrade/websocket, timeouts, cache static
+│   │   ├── nginx.conf                 # http{}: includes, cache zone, upgrade map
+│   │   ├── entrypoint.sh              # valida cert e roda envsubst (saída em /etc/nginx/edge.d)
+│   │   └── templates/
+│   │       ├── 00-maps.conf.template      # rate limit zone + maps WAF
+│   │       ├── 10-redirect.conf.template  # :80 → https
+│   │       ├── 20-vhosts.conf.template    # playground / erp / factoryfloor / echo
+│   │       └── snippets/
+│   │           ├── server-common.conf.template  # WAF, rate limit, erros, locations
+│   │           ├── cf-headers.conf.template     # injeção/sobrescrita CF-* e X-Forwarded-*
+│   │           ├── proxy-common.conf.template   # upgrade/websocket, timeouts
+│   │           └── static-cache.conf.template   # proxy_cache + X-Cache-Status
 │   ├── certs-init/
 │   │   └── generate-cert.sh           # openssl em contêiner, idempotente
 │   ├── origin-echo/
-│   │   └── nginx.conf                 # origem de teste: devolve headers recebidos em JSON
+│   │   └── server.mjs                 # origem de teste (Node): headers em JSON, contador, estático
 │   └── tests/
 │       ├── redirect.spec.ts
 │       ├── headers.spec.ts

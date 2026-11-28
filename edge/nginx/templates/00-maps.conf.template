@@ -1,0 +1,29 @@
+# Rate limit por IP (FR-005) e regras WAF basicas (FR-006). Simulacao de dev, nao equivale ao WAF Cloudflare.
+limit_req_zone $binary_remote_addr zone=edge_rl:10m rate=${EDGE_RATE_LIMIT_RPS}r/s;
+limit_req_status 429;
+
+map $request_method $waf_method {
+  default  "method-not-allowed";
+  GET      "";
+  HEAD     "";
+  POST     "";
+  PUT      "";
+  PATCH    "";
+  DELETE   "";
+  OPTIONS  "";
+}
+
+map $request_uri $waf_uri {
+  default "";
+  "~*(^|/)\.(env|git)(\.|/|\?|$)"         "sensitive-file";
+  "~*(\.\.|%2e%2e)(/|%2f|%5c)"            "path-traversal";
+  "~*/wp-(admin|login)"                   "wordpress-probe";
+  "~*phpmyadmin"                          "phpmyadmin-probe";
+  "~*(<script|%3cscript)"                 "xss";
+  "~*union(\+|%20|\s)+select"             "sqli";
+}
+
+map $http_user_agent $waf_ua {
+  default "";
+  "~*(sqlmap|nikto|masscan|nmap)" "bad-user-agent";
+}

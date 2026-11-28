@@ -1,0 +1,52 @@
+# Incluido em cada server HTTPS roteado. Requer `set $edge_target <url>;` antes do include.
+ssl_certificate     /etc/nginx/certs/tls.crt;
+ssl_certificate_key /etc/nginx/certs/tls.key;
+
+# WAF basico (FR-006): 403 sem alcancar a origem
+set $waf_rule "$waf_method$waf_uri$waf_ua";
+if ($waf_rule != "") {
+  return 403;
+}
+error_page 403 = @edge_waf;
+location @edge_waf {
+  default_type text/plain;
+  add_header X-Edge-Rule $waf_rule always;
+  return 403 "edge: bloqueado ($waf_rule)\n";
+}
+
+# Rate limit por IP (FR-005)
+limit_req zone=edge_rl burst=${EDGE_RATE_LIMIT_BURST} nodelay;
+
+# Erros de gateway genericos, sem detalhes internos
+error_page 502 504 = @edge_gateway_error;
+location @edge_gateway_error {
+  default_type text/plain;
+  return 502 "edge: origem indisponivel\n";
+}
+
+location / {
+  include /etc/nginx/edge.d/snippets/proxy-common.conf;
+  include /etc/nginx/edge.d/snippets/cf-headers.conf;
+  proxy_pass $edge_target;
+}
+
+location ~* \.(js|mjs|css|png|jpe?g|svg|woff2?|ico)$ {
+  include /etc/nginx/edge.d/snippets/proxy-common.conf;
+  include /etc/nginx/edge.d/snippets/cf-headers.conf;
+  include /etc/nginx/edge.d/snippets/static-cache.conf;
+  proxy_pass $edge_target;
+}
+
+location ^~ /_nuxt/ {
+  include /etc/nginx/edge.d/snippets/proxy-common.conf;
+  include /etc/nginx/edge.d/snippets/cf-headers.conf;
+  include /etc/nginx/edge.d/snippets/static-cache.conf;
+  proxy_pass $edge_target;
+}
+
+location ^~ /_next/static/ {
+  include /etc/nginx/edge.d/snippets/proxy-common.conf;
+  include /etc/nginx/edge.d/snippets/cf-headers.conf;
+  include /etc/nginx/edge.d/snippets/static-cache.conf;
+  proxy_pass $edge_target;
+}

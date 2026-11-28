@@ -12,6 +12,7 @@ Executar a partir de `New/Shareds/`:
 - **Gate de cobertura (100% obrigatório no `core`):** `npm run test:coverage`
 - **Playground visual (Vite):** `npm run preview` (`http://localhost:4173`)
 - **Testes E2E (Playwright desktop `1280x800` + mobile `390x844`):** `npm run test:e2e`
+- **Testes da borda local (Docker obrigatório; sobe/derruba `edge-proxy`, `edge-origin-echo`, `playground`):** `npm run test:edge` e `npm run test:edge:hmr`. `KEEP_EDGE=1` mantém os contêineres após a suíte.
 
 > No Windows PowerShell 5.1, encadeie comandos dependentes com `; if ($LASTEXITCODE -eq 0) { ... }` em vez de `&&`.
 
@@ -30,7 +31,8 @@ Monorepo `npm workspaces` (`packages/*` e `playground`):
 - **`@genovalv/core` (`packages/core/`)**: TypeScript puro, zero dependências de DOM/browser/Node/framework. Contém tipos, contratos de auth/repositórios base, `DEFAULT_LOGIN_CONTEXT`, normalização/validação (`email`, `password`, `mfaCode`), `onExecutePostLogin` e i18n (`pt-BR`, `en-US`, `es-ES` com fallback para `pt-BR`).
 - **`@genovalv/tokens` (`packages/tokens/`)**: CSS Custom Properties (`src/tokens.css`), mapeamento `@theme` Tailwind v4 (`src/tailwind.css`) e classes utilitárias para `<input>` / `<label>` / checkbox nativos alinhados ao `DESIGN.md`.
 - **`@genovalv/elements` (`packages/elements/`)**: Web Components em **Lit 3** (`<genova-auth-shell>`, `<genova-header>`, `<genova-footer>`, `<genova-auth-card>`, `<genova-action-button>`, `<genova-alert-banner>`, `<genova-mfa-selector>`, `<genova-locale-selector>`, `<genova-input>`, `<genova-checkbox>`).
-- **`@genovalv/server` (`packages/server/`)**: Camada BFF/Node compartilhada (Auth0 Gateway/HTTP helpers, `JoseSessionTokenGateway`, `NodeHashService`, cookies `HttpOnly`, guards H3, `loadEnvFile`, casos de uso de auth e base/auth controllers H3). **Nunca** importar `@genovalv/server` em código client/browser nem incluir secrets hardcoded ou regras/migrations específicas de um único app (`Admin`, `ERP`, `FactoryFloor`).
+- **`@genovalv/server` (`packages/server/`)**: Camada BFF/Node compartilhada (Auth0 Gateway/HTTP helpers, `JoseSessionTokenGateway`, `NodeHashService`, cookies `HttpOnly`, `loadEnvFile` e casos de uso de auth). **Nunca** importar `@genovalv/server` em código client/browser nem incluir secrets hardcoded ou regras/migrations específicas de um único app (`Admin`, `ERP`, `FactoryFloor`).
+- **`edge/` (proxy de borda local, specs `002` & `010`):** Nginx em Docker simulando Cloudflare (`edge/nginx/templates/*.template` via `envsubst`, `edge/certs-init/`, `edge/origin-echo/`, testes em `edge/tests/` com `playwright.edge.config.ts`). Não há serviço `postgres` no `docker-compose.yml` de `New/Shareds`. Não é pacote npm.
 - **`@genovalv/playground` (`playground/`)**: Sandbox Vite e alvo dos testes E2E do Playwright. Na tela inicial (`/`), o MFA fica oculto por padrão (`mfaMode = 'hidden'`); use `?mfaMode=required` ou `?mfaMode=optional` para testá-lo.
 
 ## Conventions
@@ -61,3 +63,5 @@ Monorepo `npm workspaces` (`packages/*` e `playground`):
 - Não duplique regras de validação, sanitização ou dicionários i18n fora de `@genovalv/core`.
 - Não coloque chamadas HTTP, tokens Auth0 ou módulos Node/H3 dentro de `@genovalv/core`, `@genovalv/elements` ou `@genovalv/tokens` (use `@genovalv/server` apenas para lógica BFF compartilhada, sem secrets hardcoded e sem schema/regras exclusivas de um app).
 - Não edite arquivos gerados em `dist/`, `test-results/` ou `playwright-report/`.
+- Não instale Nginx/OpenSSL/mkcert no host nem versione certificados/chaves (`*.pem`, `*.key`, `*.crt`) nem credenciais do Cloudflare.
+- Não monte o cache do Nginx em bind mount do Windows (sempre MISS); mantenha em `tmpfs`.
