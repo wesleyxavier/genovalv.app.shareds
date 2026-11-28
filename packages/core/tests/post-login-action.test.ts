@@ -56,7 +56,13 @@ describe('onExecutePostLogin', () => {
     const apiWithAuth = createApi();
     await onExecutePostLogin(
       {
-        user: { email_verified: true, app_metadata: { sql_id: 'u-1', cpf: '000', bindings: [binding()] } },
+        user: {
+          email_verified: true,
+          app_metadata: {
+            sql_id: 'u-1', cpf: '000', app_setup_id: 'app-1', app_setup_secret: 'sec-1', environment: 'production', bindings: [binding()],
+          },
+          user_metadata: { genova_admin: true },
+        },
         authorization: {},
       },
       apiWithAuth,
@@ -64,5 +70,9 @@ describe('onExecutePostLogin', () => {
     );
     expect(apiWithAuth.idToken.setCustomClaim).toHaveBeenCalledWith('https://custom.genova/id', 'u-1');
     expect(apiWithAuth.accessToken.setCustomClaim).toHaveBeenCalledWith('https://custom.genova/bindings', [binding()]);
+    expect(apiWithAuth.idToken.setCustomClaim).toHaveBeenCalledWith('https://custom.genova/app_setup_id', 'app-1');
+    expect(apiWithAuth.idToken.setCustomClaim).toHaveBeenCalledWith('https://custom.genova/app_setup_secret', 'sec-1');
+    expect(apiWithAuth.idToken.setCustomClaim).toHaveBeenCalledWith('https://custom.genova/environment', 'production');
+    expect(apiWithAuth.accessToken.setCustomClaim).toHaveBeenCalledWith('https://custom.genova/genova_admin', true);
   });
 });

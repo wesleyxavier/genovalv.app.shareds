@@ -1256,7 +1256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase",
-      "community": 62,
+      "community": 3,
       "norm_label": "base-logout-auth.usecase.ts"
     },
     {
@@ -1266,7 +1266,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase_baselogoutauthusecase",
-      "community": 62,
+      "community": 3,
       "norm_label": "baselogoutauthusecase"
     },
     {
@@ -1276,7 +1276,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase_baselogoutauthusecase_constructor",
-      "community": 62,
+      "community": 3,
       "norm_label": ".constructor()"
     },
     {
@@ -1286,7 +1286,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_logout_auth_usecase_baselogoutauthusecase_logout",
-      "community": 62,
+      "community": 3,
       "norm_label": ".logout()"
     },
     {
@@ -1296,7 +1296,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase",
-      "community": 28,
+      "community": 3,
       "norm_label": "base-refresh-session.usecase.ts"
     },
     {
@@ -1306,7 +1306,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase_baserefreshsessionusecase",
-      "community": 28,
+      "community": 3,
       "norm_label": "baserefreshsessionusecase"
     },
     {
@@ -1316,7 +1316,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase_baserefreshsessionusecase_constructor",
-      "community": 28,
+      "community": 3,
       "norm_label": ".constructor()"
     },
     {
@@ -1326,7 +1326,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "packages_core_src_application_use_cases_base_refresh_session_usecase_baserefreshsessionusecase_refreshfromcookie",
-      "community": 28,
+      "community": 3,
       "norm_label": ".refreshfromcookie()"
     },
     {
@@ -1406,7 +1406,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_brand_name",
-      "community": 0,
+      "community": 52,
       "norm_label": "brand-name.ts"
     },
     {
@@ -1456,7 +1456,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_default_locale",
-      "community": 0,
+      "community": 49,
       "norm_label": "default-locale.ts"
     },
     {
@@ -1466,7 +1466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_default_login_context",
-      "community": 0,
+      "community": 52,
       "norm_label": "default-login-context.ts"
     },
     {
@@ -1476,7 +1476,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_default_login_context_default_login_context",
-      "community": 0,
+      "community": 52,
       "norm_label": "default_login_context"
     },
     {
@@ -1486,7 +1486,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_login_translations",
-      "community": 0,
+      "community": 49,
       "norm_label": "login-translations.ts"
     },
     {
@@ -1496,7 +1496,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_login_translations_login_translations",
-      "community": 0,
+      "community": 49,
       "norm_label": "login_translations"
     },
     {
@@ -1506,7 +1506,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_constants_mfa_guidance_map",
-      "community": 0,
+      "community": 62,
       "norm_label": "mfa-guidance-map.ts"
     },
     {
@@ -1526,7 +1526,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_admin_profile_role_dto",
-      "community": 10,
+      "community": 110,
       "norm_label": "admin-profile-role.dto.ts"
     },
     {
@@ -1536,7 +1536,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_admin_profile_role_dto_adminprofilerole",
-      "community": 10,
+      "community": 110,
       "norm_label": "adminprofilerole"
     },
     {
@@ -1706,7 +1706,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_authenticated_me_response_dto",
-      "community": 28,
+      "community": 3,
       "norm_label": "authenticated-me-response.dto.ts"
     },
     {
@@ -1716,7 +1716,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_authenticated_me_response_dto_authenticatedmeresponse",
-      "community": 28,
+      "community": 3,
       "norm_label": "authenticatedmeresponse"
     },
     {
@@ -1806,7 +1806,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_client_profile_role_dto",
-      "community": 10,
+      "community": 110,
       "norm_label": "client-profile-role.dto.ts"
     },
     {
@@ -1816,7 +1816,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_client_profile_role_dto_clientprofilerole",
-      "community": 10,
+      "community": 110,
       "norm_label": "clientprofilerole"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_auth_routes_dto",
-      "community": 49,
+      "community": 3,
       "norm_label": "http-auth-routes.dto.ts"
     },
     {
@@ -1936,7 +1936,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_auth_routes_dto_httpauthroutes",
-      "community": 49,
+      "community": 3,
       "norm_label": "httpauthroutes"
     },
     {
@@ -1946,7 +1946,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_fetch_dto",
-      "community": 49,
+      "community": 3,
       "norm_label": "http-fetch.dto.ts"
     },
     {
@@ -1956,7 +1956,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_fetch_dto_httpfetch",
-      "community": 49,
+      "community": 3,
       "norm_label": "httpfetch"
     },
     {
@@ -1966,7 +1966,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_request_init_dto",
-      "community": 49,
+      "community": 3,
       "norm_label": "http-request-init.dto.ts"
     },
     {
@@ -1976,7 +1976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_request_init_dto_httprequestinit",
-      "community": 49,
+      "community": 3,
       "norm_label": "httprequestinit"
     },
     {
@@ -1986,7 +1986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_response_like_dto",
-      "community": 49,
+      "community": 3,
       "norm_label": "http-response-like.dto.ts"
     },
     {
@@ -1996,7 +1996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_response_like_dto_httpresponselike",
-      "community": 49,
+      "community": 3,
       "norm_label": "httpresponselike"
     },
     {
@@ -2006,7 +2006,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_http_response_like_dto_httpresponselike_json",
-      "community": 49,
+      "community": 3,
       "norm_label": ".json()"
     },
     {
@@ -2076,7 +2076,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_context_configuration_dto",
-      "community": 0,
+      "community": 52,
       "norm_label": "login-context-configuration.dto.ts"
     },
     {
@@ -2086,7 +2086,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_context_configuration_dto_logincontextconfiguration",
-      "community": 0,
+      "community": 52,
       "norm_label": "logincontextconfiguration"
     },
     {
@@ -2096,7 +2096,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_dictionary_dto",
-      "community": 0,
+      "community": 49,
       "norm_label": "login-dictionary.dto.ts"
     },
     {
@@ -2106,7 +2106,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_dictionary_dto_logindictionary",
-      "community": 0,
+      "community": 49,
       "norm_label": "logindictionary"
     },
     {
@@ -2116,7 +2116,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_field_name_dto",
-      "community": 0,
+      "community": 154,
       "norm_label": "login-field-name.dto.ts"
     },
     {
@@ -2126,7 +2126,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_field_name_dto_loginfieldname",
-      "community": 0,
+      "community": 154,
       "norm_label": "loginfieldname"
     },
     {
@@ -2136,7 +2136,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_link_dto",
-      "community": 0,
+      "community": 52,
       "norm_label": "login-link.dto.ts"
     },
     {
@@ -2146,7 +2146,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_link_dto_loginlink",
-      "community": 0,
+      "community": 52,
       "norm_label": "loginlink"
     },
     {
@@ -2156,7 +2156,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_raw_input_dto",
-      "community": 0,
+      "community": 62,
       "norm_label": "login-raw-input.dto.ts"
     },
     {
@@ -2166,7 +2166,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_raw_input_dto_loginrawinput",
-      "community": 0,
+      "community": 62,
       "norm_label": "loginrawinput"
     },
     {
@@ -2176,7 +2176,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_submission_input_dto",
-      "community": 0,
+      "community": 154,
       "norm_label": "login-submission-input.dto.ts"
     },
     {
@@ -2186,7 +2186,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_submission_input_dto_loginsubmissioninput",
-      "community": 0,
+      "community": 154,
       "norm_label": "loginsubmissioninput"
     },
     {
@@ -2196,7 +2196,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_translation_key_dto",
-      "community": 0,
+      "community": 49,
       "norm_label": "login-translation-key.dto.ts"
     },
     {
@@ -2206,7 +2206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_translation_key_dto_logintranslationkey",
-      "community": 0,
+      "community": 49,
       "norm_label": "logintranslationkey"
     },
     {
@@ -2216,7 +2216,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_validation_result_dto",
-      "community": 0,
+      "community": 154,
       "norm_label": "login-validation-result.dto.ts"
     },
     {
@@ -2226,7 +2226,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_login_validation_result_dto_loginvalidationresult",
-      "community": 0,
+      "community": 154,
       "norm_label": "loginvalidationresult"
     },
     {
@@ -2236,7 +2236,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_guidance_dto",
-      "community": 0,
+      "community": 62,
       "norm_label": "mfa-guidance.dto.ts"
     },
     {
@@ -2246,7 +2246,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_guidance_dto_mfaguidance",
-      "community": 0,
+      "community": 62,
       "norm_label": "mfaguidance"
     },
     {
@@ -2256,7 +2256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_method_dto",
-      "community": 0,
+      "community": 62,
       "norm_label": "mfa-method.dto.ts"
     },
     {
@@ -2266,7 +2266,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_mfa_method_dto_mfamethod",
-      "community": 0,
+      "community": 62,
       "norm_label": "mfamethod"
     },
     {
@@ -2296,7 +2296,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_profile_role_dto",
-      "community": 10,
+      "community": 110,
       "norm_label": "profile-role.dto.ts"
     },
     {
@@ -2356,7 +2356,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_supported_locale_dto",
-      "community": 0,
+      "community": 49,
       "norm_label": "supported-locale.dto.ts"
     },
     {
@@ -2366,7 +2366,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_dtos_supported_locale_dto_supportedlocale",
-      "community": 0,
+      "community": 49,
       "norm_label": "supportedlocale"
     },
     {
@@ -2376,7 +2376,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_auth_session_entity",
-      "community": 52,
+      "community": 3,
       "norm_label": "auth-session.entity.ts"
     },
     {
@@ -2386,7 +2386,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_auth_session_entity_authsession",
-      "community": 52,
+      "community": 3,
       "norm_label": "authsession"
     },
     {
@@ -2436,7 +2436,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_remembered_auth_session_entity",
-      "community": 52,
+      "community": 3,
       "norm_label": "remembered-auth-session.entity.ts"
     },
     {
@@ -2446,7 +2446,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_remembered_auth_session_entity_rememberedauthsession",
-      "community": 52,
+      "community": 3,
       "norm_label": "rememberedauthsession"
     },
     {
@@ -2456,7 +2456,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_session_user_entity",
-      "community": 52,
+      "community": 3,
       "norm_label": "session-user.entity.ts"
     },
     {
@@ -2466,7 +2466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_entities_session_user_entity_sessionuser",
-      "community": 52,
+      "community": 3,
       "norm_label": "sessionuser"
     },
     {
@@ -2626,7 +2626,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_i18n_create_translator",
-      "community": 0,
+      "community": 49,
       "norm_label": "create-translator.ts"
     },
     {
@@ -2646,7 +2646,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_i18n_resolve_supported_locale",
-      "community": 0,
+      "community": 49,
       "norm_label": "resolve-supported-locale.ts"
     },
     {
@@ -2656,7 +2656,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_i18n_resolve_supported_locale_resolvesupportedlocale",
-      "community": 0,
+      "community": 49,
       "norm_label": "resolvesupportedlocale()"
     },
     {
@@ -2746,7 +2746,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer",
-      "community": 52,
+      "community": 3,
       "norm_label": "iauth-session-writer.ts"
     },
     {
@@ -2756,7 +2756,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer_iauthsessionwriter",
-      "community": 62,
+      "community": 3,
       "norm_label": "iauthsessionwriter"
     },
     {
@@ -2766,7 +2766,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer_iauthsessionwriter_setsession",
-      "community": 62,
+      "community": 3,
       "norm_label": ".setsession()"
     },
     {
@@ -2776,7 +2776,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_iauth_session_writer_iauthsessionwriter_clearsession",
-      "community": 62,
+      "community": 3,
       "norm_label": ".clearsession()"
     },
     {
@@ -2856,7 +2856,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_ilogout_auth_use_case",
-      "community": 62,
+      "community": 3,
       "norm_label": "ilogout-auth-use-case.ts"
     },
     {
@@ -2866,7 +2866,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_ilogout_auth_use_case_ilogoutauthusecase",
-      "community": 62,
+      "community": 3,
       "norm_label": "ilogoutauthusecase"
     },
     {
@@ -2876,7 +2876,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_ilogout_auth_use_case_ilogoutauthusecase_logout",
-      "community": 62,
+      "community": 3,
       "norm_label": ".logout()"
     },
     {
@@ -2886,7 +2886,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_irefresh_from_cookie_auth_use_case",
-      "community": 28,
+      "community": 3,
       "norm_label": "irefresh-from-cookie-auth-use-case.ts"
     },
     {
@@ -2896,7 +2896,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_irefresh_from_cookie_auth_use_case_irefreshfromcookieauthusecase",
-      "community": 28,
+      "community": 3,
       "norm_label": "irefreshfromcookieauthusecase"
     },
     {
@@ -2906,8 +2906,38 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "packages_core_src_domain_interfaces_irefresh_from_cookie_auth_use_case_irefreshfromcookieauthusecase_refreshfromcookie",
-      "community": 28,
+      "community": 3,
       "norm_label": ".refreshfromcookie()"
+    },
+    {
+      "label": "app-setup-context.ts",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/app-setup-context.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_app_setup_context",
+      "community": 55,
+      "norm_label": "app-setup-context.ts"
+    },
+    {
+      "label": "AppSetupContext",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/app-setup-context.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_app_setup_context_appsetupcontext",
+      "community": 55,
+      "norm_label": "appsetupcontext"
+    },
+    {
+      "label": "Auth0UserMetadataSnapshot",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/app-setup-context.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_app_setup_context_auth0usermetadatasnapshot",
+      "community": 55,
+      "norm_label": "auth0usermetadatasnapshot"
     },
     {
       "label": "auth-cookie-config.ts",
@@ -2970,6 +3000,26 @@
       "norm_label": "auth0tokenexchangeresult"
     },
     {
+      "label": "create-management-user-payload.ts",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/create-management-user-payload.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_create_management_user_payload",
+      "community": 55,
+      "norm_label": "create-management-user-payload.ts"
+    },
+    {
+      "label": "CreateManagementUserPayload",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/create-management-user-payload.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_create_management_user_payload_createmanagementuserpayload",
+      "community": 55,
+      "norm_label": "createmanagementuserpayload"
+    },
+    {
       "label": "iaudit-log-reader.ts",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iaudit-log-reader.ts",
@@ -3013,7 +3063,7 @@
       "label": "IAuth0Gateway",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L4",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "community": 55,
@@ -3023,7 +3073,7 @@
       "label": ".verifyJwt()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L5",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_verifyjwt",
       "community": 55,
@@ -3033,7 +3083,7 @@
       "label": ".loginWithPassword()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L6",
+      "source_location": "L8",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_loginwithpassword",
       "community": 55,
@@ -3043,7 +3093,7 @@
       "label": ".exchangeAuthorizationCode()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L7",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_exchangeauthorizationcode",
       "community": 55,
@@ -3053,7 +3103,7 @@
       "label": ".buildAuthorizeUrl()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L8",
+      "source_location": "L10",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_buildauthorizeurl",
       "community": 55,
@@ -3063,7 +3113,7 @@
       "label": ".buildLogoutUrl()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L9",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_buildlogouturl",
       "community": 55,
@@ -3073,7 +3123,7 @@
       "label": ".obtainManagementToken()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L10",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_obtainmanagementtoken",
       "community": 55,
@@ -3083,7 +3133,7 @@
       "label": ".createManagementUser()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L11",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_createmanagementuser",
       "community": 55,
@@ -3093,7 +3143,7 @@
       "label": ".createPasswordChangeTicket()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L15",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_createpasswordchangeticket",
       "community": 55,
@@ -3103,7 +3153,7 @@
       "label": ".signupDatabaseUser()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L16",
+      "source_location": "L15",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_signupdatabaseuser",
       "community": 55,
@@ -3113,11 +3163,21 @@
       "label": ".getUserEmailVerified()",
       "file_type": "code",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L17",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getuseremailverified",
       "community": 55,
       "norm_label": ".getuseremailverified()"
+    },
+    {
+      "label": ".getUserMetadata()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getusermetadata",
+      "community": 55,
+      "norm_label": ".getusermetadata()"
     },
     {
       "label": "ibase-auth-user-repository.ts",
@@ -3450,13 +3510,73 @@
       "norm_label": "usercookiesession"
     },
     {
+      "label": "validate-app-setup-metadata.ts",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "community": 55,
+      "norm_label": "validate-app-setup-metadata.ts"
+    },
+    {
+      "label": "AppSetupValidationSuccess",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_appsetupvalidationsuccess",
+      "community": 55,
+      "norm_label": "appsetupvalidationsuccess"
+    },
+    {
+      "label": "AppSetupValidationFailure",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_appsetupvalidationfailure",
+      "community": 55,
+      "norm_label": "appsetupvalidationfailure"
+    },
+    {
+      "label": "readString()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_readstring",
+      "community": 55,
+      "norm_label": "readstring()"
+    },
+    {
+      "label": "extractAppSetupMetadata()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_extractappsetupmetadata",
+      "community": 55,
+      "norm_label": "extractappsetupmetadata()"
+    },
+    {
+      "label": "validateAppSetupMetadata()",
+      "file_type": "code",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "packages_core_src_domain_server_auth_validate_app_setup_metadata_validateappsetupmetadata",
+      "community": 55,
+      "norm_label": "validateappsetupmetadata()"
+    },
+    {
       "label": "catalog-validators.ts",
       "file_type": "code",
       "source_file": "packages/core/src/domain/validators/catalog-validators.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators",
-      "community": 154,
+      "community": 10,
       "norm_label": "catalog-validators.ts"
     },
     {
@@ -3466,7 +3586,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators_validatecatalogcode",
-      "community": 154,
+      "community": 10,
       "norm_label": "validatecatalogcode()"
     },
     {
@@ -3476,7 +3596,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators_validatecatalogname",
-      "community": 154,
+      "community": 10,
       "norm_label": "validatecatalogname()"
     },
     {
@@ -3486,7 +3606,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_catalog_validators_validatecatalogdescription",
-      "community": 154,
+      "community": 10,
       "norm_label": "validatecatalogdescription()"
     },
     {
@@ -3536,7 +3656,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_validators_get_mfa_guidance",
-      "community": 0,
+      "community": 62,
       "norm_label": "get-mfa-guidance.ts"
     },
     {
@@ -3796,7 +3916,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_create_unauthenticated_session_vo",
-      "community": 52,
+      "community": 3,
       "norm_label": "create-unauthenticated-session.vo.ts"
     },
     {
@@ -3806,7 +3926,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_create_unauthenticated_session_vo_createunauthenticatedsession",
-      "community": 52,
+      "community": 3,
       "norm_label": "createunauthenticatedsession()"
     },
     {
@@ -3846,7 +3966,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_unauthenticated_session_vo",
-      "community": 52,
+      "community": 3,
       "norm_label": "unauthenticated-session.vo.ts"
     },
     {
@@ -3856,7 +3976,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_core_src_domain_value_objects_unauthenticated_session_vo_unauthenticated_session",
-      "community": 52,
+      "community": 3,
       "norm_label": "unauthenticated_session"
     },
     {
@@ -3876,7 +3996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_src_infrastructure_http_auth_repository",
-      "community": 49,
+      "community": 3,
       "norm_label": "http-auth-repository.ts"
     },
     {
@@ -3886,7 +4006,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "packages_core_src_infrastructure_http_auth_repository_defaultfetch",
-      "community": 49,
+      "community": 3,
       "norm_label": "defaultfetch()"
     },
     {
@@ -3896,7 +4016,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "packages_core_src_infrastructure_http_auth_repository_httpauthrepository",
-      "community": 49,
+      "community": 3,
       "norm_label": "httpauthrepository"
     },
     {
@@ -3906,7 +4026,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "packages_core_src_infrastructure_http_auth_repository_httpauthrepository_constructor",
-      "community": 49,
+      "community": 3,
       "norm_label": ".constructor()"
     },
     {
@@ -3916,7 +4036,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "packages_core_src_infrastructure_http_auth_repository_httpauthrepository_login",
-      "community": 49,
+      "community": 3,
       "norm_label": ".login()"
     },
     {
@@ -3926,7 +4046,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "packages_core_src_infrastructure_http_auth_repository_httpauthrepository_logout",
-      "community": 49,
+      "community": 3,
       "norm_label": ".logout()"
     },
     {
@@ -3936,7 +4056,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "packages_core_src_infrastructure_http_auth_repository_httpauthrepository_refreshfromcookie",
-      "community": 28,
+      "community": 3,
       "norm_label": ".refreshfromcookie()"
     },
     {
@@ -3950,13 +4070,33 @@
       "norm_label": "app-header.helpers.test.ts"
     },
     {
+      "label": "app-setup-validation.test.ts",
+      "file_type": "code",
+      "source_file": "packages/core/tests/app-setup-validation.test.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_core_tests_app_setup_validation_test",
+      "community": 55,
+      "norm_label": "app-setup-validation.test.ts"
+    },
+    {
+      "label": "baseCtx",
+      "file_type": "code",
+      "source_file": "packages/core/tests/app-setup-validation.test.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "packages_core_tests_app_setup_validation_test_basectx",
+      "community": 55,
+      "norm_label": "basectx"
+    },
+    {
       "label": "auth-architecture.test.ts",
       "file_type": "code",
       "source_file": "packages/core/tests/auth-architecture.test.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_auth_architecture_test",
-      "community": 52,
+      "community": 3,
       "norm_label": "auth-architecture.test.ts"
     },
     {
@@ -3966,7 +4106,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_auth_context_test",
-      "community": 0,
+      "community": 52,
       "norm_label": "auth.context.test.ts"
     },
     {
@@ -4006,7 +4146,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_catalog_validators_test",
-      "community": 154,
+      "community": 10,
       "norm_label": "catalog-validators.test.ts"
     },
     {
@@ -4036,7 +4176,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_http_auth_repository_test",
-      "community": 49,
+      "community": 3,
       "norm_label": "http-auth-repository.test.ts"
     },
     {
@@ -4046,7 +4186,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_core_tests_i18n_translator_test",
-      "community": 0,
+      "community": 49,
       "norm_label": "i18n.translator.test.ts"
     },
     {
@@ -4446,7 +4586,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_actions_genova_button",
-      "community": 82,
+      "community": 158,
       "norm_label": "genova-button.ts"
     },
     {
@@ -4456,7 +4596,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_actions_genova_button_genovabuttonelement",
-      "community": 82,
+      "community": 158,
       "norm_label": "genovabuttonelement"
     },
     {
@@ -4466,7 +4606,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_actions_genova_button_ts_property",
-      "community": 82,
+      "community": 158,
       "norm_label": "property"
     },
     {
@@ -4476,7 +4616,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "packages_elements_src_components_actions_genova_button_genovabuttonelement_render",
-      "community": 82,
+      "community": 158,
       "norm_label": ".render()"
     },
     {
@@ -4656,7 +4796,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_badge",
-      "community": 192,
+      "community": 93,
       "norm_label": "genova-badge.ts"
     },
     {
@@ -4666,7 +4806,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_badge_genovabadgeelement",
-      "community": 192,
+      "community": 93,
       "norm_label": "genovabadgeelement"
     },
     {
@@ -4676,7 +4816,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_badge_ts_property",
-      "community": 192,
+      "community": 93,
       "norm_label": "property"
     },
     {
@@ -4686,7 +4826,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_badge_genovabadgeelement_render",
-      "community": 192,
+      "community": 93,
       "norm_label": ".render()"
     },
     {
@@ -4816,7 +4956,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_styles",
-      "community": 82,
+      "community": 93,
       "norm_label": "genova-pagination.styles.ts"
     },
     {
@@ -4826,7 +4966,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination_styles_paginationstyles",
-      "community": 82,
+      "community": 93,
       "norm_label": "paginationstyles"
     },
     {
@@ -4836,7 +4976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_pagination",
-      "community": 82,
+      "community": 93,
       "norm_label": "genova-pagination.ts"
     },
     {
@@ -4886,7 +5026,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_stats",
-      "community": 93,
+      "community": 185,
       "norm_label": "genova-stats.ts"
     },
     {
@@ -4896,7 +5036,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_stats_genovastatselement",
-      "community": 93,
+      "community": 185,
       "norm_label": "genovastatselement"
     },
     {
@@ -4906,7 +5046,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_stats_ts_property",
-      "community": 93,
+      "community": 185,
       "norm_label": "property"
     },
     {
@@ -4916,7 +5056,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_stats_genovastatselement_render",
-      "community": 93,
+      "community": 185,
       "norm_label": ".render()"
     },
     {
@@ -4926,7 +5066,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table",
-      "community": 93,
+      "community": 11,
       "norm_label": "genova-table.ts"
     },
     {
@@ -4936,7 +5076,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table_genovatableelement",
-      "community": 93,
+      "community": 11,
       "norm_label": "genovatableelement"
     },
     {
@@ -4946,7 +5086,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table_ts_property",
-      "community": 93,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -4956,7 +5096,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_elements_src_components_data_genova_table_genovatableelement_render",
-      "community": 93,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -5006,7 +5146,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_alert",
-      "community": 82,
+      "community": 192,
       "norm_label": "genova-alert.ts"
     },
     {
@@ -5016,7 +5156,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_alert_genovaalertelement",
-      "community": 82,
+      "community": 192,
       "norm_label": "genovaalertelement"
     },
     {
@@ -5026,7 +5166,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_alert_ts_property",
-      "community": 82,
+      "community": 192,
       "norm_label": "property"
     },
     {
@@ -5036,7 +5176,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_alert_genovaalertelement_render",
-      "community": 82,
+      "community": 192,
       "norm_label": ".render()"
     },
     {
@@ -5126,7 +5266,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_progress",
-      "community": 11,
+      "community": 199,
       "norm_label": "genova-progress.ts"
     },
     {
@@ -5136,7 +5276,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_progress_genovaprogresselement",
-      "community": 11,
+      "community": 199,
       "norm_label": "genovaprogresselement"
     },
     {
@@ -5146,7 +5286,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_progress_ts_property",
-      "community": 11,
+      "community": 199,
       "norm_label": "property"
     },
     {
@@ -5156,7 +5296,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "packages_elements_src_components_feedback_genova_progress_genovaprogresselement_render",
-      "community": 11,
+      "community": 199,
       "norm_label": ".render()"
     },
     {
@@ -5346,7 +5486,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_styles",
-      "community": 200,
+      "community": 82,
       "norm_label": "genova-file-dropzone.styles.ts"
     },
     {
@@ -5356,7 +5496,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone_styles_filedropzonestyles",
-      "community": 200,
+      "community": 82,
       "norm_label": "filedropzonestyles"
     },
     {
@@ -5366,7 +5506,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_file_dropzone",
-      "community": 200,
+      "community": 82,
       "norm_label": "genova-file-dropzone.ts"
     },
     {
@@ -5556,7 +5696,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_textarea",
-      "community": 93,
+      "community": 200,
       "norm_label": "genova-textarea.ts"
     },
     {
@@ -5566,7 +5706,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement",
-      "community": 93,
+      "community": 200,
       "norm_label": "genovatextareaelement"
     },
     {
@@ -5576,7 +5716,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_textarea_ts_property",
-      "community": 93,
+      "community": 200,
       "norm_label": "property"
     },
     {
@@ -5586,7 +5726,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "packages_elements_src_components_forms_genova_textarea_genovatextareaelement_render",
-      "community": 93,
+      "community": 200,
       "norm_label": ".render()"
     },
     {
@@ -5836,7 +5976,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_footer_genovafooterelement",
-      "community": 54,
+      "community": 216,
       "norm_label": "genovafooterelement"
     },
     {
@@ -5846,7 +5986,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_footer_genovafooterelement_handlelinkclick",
-      "community": 54,
+      "community": 216,
       "norm_label": ".handlelinkclick()"
     },
     {
@@ -5856,7 +5996,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_footer_genovafooterelement_render",
-      "community": 54,
+      "community": 216,
       "norm_label": ".render()"
     },
     {
@@ -6066,7 +6206,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector_genovamfaselectorelement",
-      "community": 202,
+      "community": 54,
       "norm_label": "genovamfaselectorelement"
     },
     {
@@ -6076,7 +6216,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector_genovamfaselectorelement_selectmethod",
-      "community": 202,
+      "community": 54,
       "norm_label": ".selectmethod()"
     },
     {
@@ -6086,7 +6226,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "packages_elements_src_components_genova_mfa_selector_genovamfaselectorelement_render",
-      "community": 202,
+      "community": 54,
       "norm_label": ".render()"
     },
     {
@@ -6466,7 +6606,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion",
-      "community": 185,
+      "community": 11,
       "norm_label": "genova-accordion.ts"
     },
     {
@@ -6476,7 +6616,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_genovaaccordionelement",
-      "community": 185,
+      "community": 11,
       "norm_label": "genovaaccordionelement"
     },
     {
@@ -6486,7 +6626,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_ts_property",
-      "community": 185,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -6496,7 +6636,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_accordion_genovaaccordionelement_render",
-      "community": 185,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -6506,7 +6646,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_breadcrumb",
-      "community": 82,
+      "community": 202,
       "norm_label": "genova-breadcrumb.ts"
     },
     {
@@ -6516,7 +6656,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_breadcrumb_genovabreadcrumbelement",
-      "community": 82,
+      "community": 202,
       "norm_label": "genovabreadcrumbelement"
     },
     {
@@ -6526,7 +6666,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_breadcrumb_ts_property",
-      "community": 82,
+      "community": 202,
       "norm_label": "property"
     },
     {
@@ -6536,7 +6676,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "packages_elements_src_components_navigation_genova_breadcrumb_genovabreadcrumbelement_render",
-      "community": 82,
+      "community": 202,
       "norm_label": ".render()"
     },
     {
@@ -6916,7 +7056,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box",
-      "community": 11,
+      "community": 215,
       "norm_label": "genova-control-box.ts"
     },
     {
@@ -6926,7 +7066,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box_genovacontrolboxelement",
-      "community": 11,
+      "community": 215,
       "norm_label": "genovacontrolboxelement"
     },
     {
@@ -6936,7 +7076,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box_ts_property",
-      "community": 11,
+      "community": 215,
       "norm_label": "property"
     },
     {
@@ -6946,7 +7086,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_control_box_genovacontrolboxelement_render",
-      "community": 11,
+      "community": 215,
       "norm_label": ".render()"
     },
     {
@@ -7136,7 +7276,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box",
-      "community": 158,
+      "community": 11,
       "norm_label": "genova-pseudo-box.ts"
     },
     {
@@ -7146,7 +7286,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box_genovapseudoboxelement",
-      "community": 158,
+      "community": 11,
       "norm_label": "genovapseudoboxelement"
     },
     {
@@ -7156,7 +7296,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box_ts_property",
-      "community": 158,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -7166,7 +7306,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "packages_elements_src_components_primitives_genova_pseudo_box_genovapseudoboxelement_render",
-      "community": 158,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -7306,7 +7446,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_select",
-      "community": 112,
+      "community": 82,
       "norm_label": "genova-select.ts"
     },
     {
@@ -7316,7 +7456,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_select_genovaselectelement",
-      "community": 112,
+      "community": 82,
       "norm_label": "genovaselectelement"
     },
     {
@@ -7326,7 +7466,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_select_ts_property",
-      "community": 112,
+      "community": 82,
       "norm_label": "property"
     },
     {
@@ -7336,7 +7476,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_select_genovaselectelement_render",
-      "community": 112,
+      "community": 82,
       "norm_label": ".render()"
     },
     {
@@ -7386,7 +7526,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch",
-      "community": 199,
+      "community": 11,
       "norm_label": "genova-switch.ts"
     },
     {
@@ -7396,7 +7536,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch_genovaswitchelement",
-      "community": 199,
+      "community": 11,
       "norm_label": "genovaswitchelement"
     },
     {
@@ -7406,7 +7546,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch_ts_property",
-      "community": 199,
+      "community": 11,
       "norm_label": "property"
     },
     {
@@ -7416,7 +7556,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "packages_elements_src_components_selection_genova_switch_genovaswitchelement_render",
-      "community": 199,
+      "community": 11,
       "norm_label": ".render()"
     },
     {
@@ -7446,7 +7586,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "packages_elements_src_index_registergenovaelements",
-      "community": 11,
+      "community": 112,
       "norm_label": "registergenovaelements()"
     },
     {
@@ -7496,7 +7636,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_app_header_test",
-      "community": 11,
+      "community": 112,
       "norm_label": "app-header.test.ts"
     },
     {
@@ -7506,7 +7646,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "packages_elements_tests_app_header_test_appheaderel",
-      "community": 11,
+      "community": 112,
       "norm_label": "appheaderel"
     },
     {
@@ -7516,7 +7656,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "packages_elements_tests_app_header_test_mountheader",
-      "community": 11,
+      "community": 112,
       "norm_label": "mountheader()"
     },
     {
@@ -7536,7 +7676,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_etapa1_elements_test",
-      "community": 11,
+      "community": 112,
       "norm_label": "etapa1.elements.test.ts"
     },
     {
@@ -7546,7 +7686,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_list_and_upload_test",
-      "community": 11,
+      "community": 112,
       "norm_label": "list-and-upload.test.ts"
     },
     {
@@ -7556,7 +7696,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_loading_state_test",
-      "community": 11,
+      "community": 112,
       "norm_label": "loading-state.test.ts"
     },
     {
@@ -7596,7 +7736,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "packages_elements_tests_us4_form_controls_test",
-      "community": 11,
+      "community": 112,
       "norm_label": "us4.form-controls.test.ts"
     },
     {
@@ -7976,7 +8116,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_backchannel_logout_usecase_backchannellogoutusecase_execute",
-      "community": 60,
+      "community": 55,
       "norm_label": ".execute()"
     },
     {
@@ -7993,7 +8133,7 @@
       "label": "OAuthCallbackUseCase",
       "file_type": "code",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L10",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
       "community": 60,
@@ -8003,7 +8143,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L11",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_constructor",
       "community": 60,
@@ -8013,7 +8153,7 @@
       "label": ".execute()",
       "file_type": "code",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L18",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "community": 55,
@@ -8033,7 +8173,7 @@
       "label": "PasswordLoginUseCase",
       "file_type": "code",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L15",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
       "community": 60,
@@ -8043,7 +8183,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L16",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_constructor",
       "community": 60,
@@ -8053,7 +8193,7 @@
       "label": ".execute()",
       "file_type": "code",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L23",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "community": 55,
@@ -8098,6 +8238,26 @@
       "id": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase_execute",
       "community": 5,
       "norm_label": ".execute()"
+    },
+    {
+      "label": "verify-app-setup-login.ts",
+      "file_type": "code",
+      "source_file": "packages/server/src/application/use-cases/auth/verify-app-setup-login.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_server_src_application_use_cases_auth_verify_app_setup_login",
+      "community": 60,
+      "norm_label": "verify-app-setup-login.ts"
+    },
+    {
+      "label": "verifyAppSetupLogin()",
+      "file_type": "code",
+      "source_file": "packages/server/src/application/use-cases/auth/verify-app-setup-login.ts",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "packages_server_src_application_use_cases_auth_verify_app_setup_login_verifyappsetuplogin",
+      "community": 60,
+      "norm_label": "verifyappsetuplogin()"
     },
     {
       "label": "auth-cookie.constants.ts",
@@ -8163,7 +8323,7 @@
       "label": "Auth0Gateway",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "community": 60,
@@ -8173,7 +8333,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_constructor",
       "community": 60,
@@ -8183,27 +8343,27 @@
       "label": ".verifyJwt()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L16",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_verifyjwt",
       "community": 60,
       "norm_label": ".verifyjwt()"
     },
     {
-      "label": ".oauthClientCredentials()",
+      "label": ".oauthCreds()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L23",
+      "source_location": "L25",
       "_origin": "ast",
-      "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthclientcredentials",
+      "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthcreds",
       "community": 60,
-      "norm_label": ".oauthclientcredentials()"
+      "norm_label": ".oauthcreds()"
     },
     {
       "label": ".loginWithPassword()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L27",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_loginwithpassword",
       "community": 60,
@@ -8213,7 +8373,7 @@
       "label": ".exchangeAuthorizationCode()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L39",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_exchangeauthorizationcode",
       "community": 60,
@@ -8223,7 +8383,7 @@
       "label": ".buildAuthorizeUrl()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L48",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_buildauthorizeurl",
       "community": 60,
@@ -8233,7 +8393,7 @@
       "label": ".buildLogoutUrl()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L59",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_buildlogouturl",
       "community": 60,
@@ -8243,7 +8403,7 @@
       "label": ".obtainManagementToken()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L63",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_obtainmanagementtoken",
       "community": 60,
@@ -8253,7 +8413,7 @@
       "label": ".createManagementUser()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L76",
+      "source_location": "L65",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_createmanagementuser",
       "community": 60,
@@ -8263,7 +8423,7 @@
       "label": ".createPasswordChangeTicket()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L95",
+      "source_location": "L70",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_createpasswordchangeticket",
       "community": 60,
@@ -8273,7 +8433,7 @@
       "label": ".signupDatabaseUser()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L100",
+      "source_location": "L75",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_signupdatabaseuser",
       "community": 60,
@@ -8283,11 +8443,41 @@
       "label": ".getUserEmailVerified()",
       "file_type": "code",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L107",
+      "source_location": "L82",
       "_origin": "ast",
       "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getuseremailverified",
       "community": 60,
       "norm_label": ".getuseremailverified()"
+    },
+    {
+      "label": ".getUserMetadata()",
+      "file_type": "code",
+      "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getusermetadata",
+      "community": 60,
+      "norm_label": ".getusermetadata()"
+    },
+    {
+      "label": "build-management-user-body.ts",
+      "file_type": "code",
+      "source_file": "packages/server/src/infrastructure/auth0/build-management-user-body.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "packages_server_src_infrastructure_auth0_build_management_user_body",
+      "community": 60,
+      "norm_label": "build-management-user-body.ts"
+    },
+    {
+      "label": "buildManagementUserBody()",
+      "file_type": "code",
+      "source_file": "packages/server/src/infrastructure/auth0/build-management-user-body.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "packages_server_src_infrastructure_auth0_build_management_user_body_buildmanagementuserbody",
+      "community": 60,
+      "norm_label": "buildmanagementuserbody()"
     },
     {
       "label": "exchange-auth0-token.ts",
@@ -14230,14 +14420,14 @@
       "norm_label": "genova shareds (`new/shareds`)"
     },
     {
-      "label": "Pacotes (`v0.4.0`)",
+      "label": "Pacotes (`v0.5.0`)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "readme_pacotes_v0_4_0",
+      "id": "readme_pacotes_v0_5_0",
       "community": 157,
-      "norm_label": "pacotes (`v0.4.0`)"
+      "norm_label": "pacotes (`v0.5.0`)"
     },
     {
       "label": "Comandos",
@@ -18148,6 +18338,316 @@
       "id": "specs_010_shared_cleanup_and_edge_proxy_tasks_phase_4_create_pr_clean_up_all_worktrees_explicit_user_authorization_required",
       "community": 9,
       "norm_label": "phase 4: create pr & clean up all worktrees (explicit user authorization required)"
+    },
+    {
+      "label": "plan.md",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan",
+      "community": 28,
+      "norm_label": "plan.md"
+    },
+    {
+      "label": "Implementation Plan: Shared Auth0 App Setup Metadata & Login Guard (v0.5.0)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan_implementation_plan_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "community": 28,
+      "norm_label": "implementation plan: shared auth0 app setup metadata & login guard (v0.5.0)"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan_summary",
+      "community": 28,
+      "norm_label": "summary"
+    },
+    {
+      "label": "Technical Context",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan_technical_context",
+      "community": 28,
+      "norm_label": "technical context"
+    },
+    {
+      "label": "Constitution Check",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan_constitution_check",
+      "community": 28,
+      "norm_label": "constitution check"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan_project_structure",
+      "community": 28,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Documentation (this feature)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan_documentation_this_feature",
+      "community": 28,
+      "norm_label": "documentation (this feature)"
+    },
+    {
+      "label": "Source Code (`New/Shareds/`)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_plan_source_code_new_shareds",
+      "community": 28,
+      "norm_label": "source code (`new/shareds/`)"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec",
+      "community": 28,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Feature Specification: Shared Auth0 App Setup Metadata & Login Guard (v0.5.0)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_feature_specification_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "community": 28,
+      "norm_label": "feature specification: shared auth0 app setup metadata & login guard (v0.5.0)"
+    },
+    {
+      "label": "User Scenarios & Testing *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_user_scenarios_testing_mandatory",
+      "community": 28,
+      "norm_label": "user scenarios & testing *(mandatory)*"
+    },
+    {
+      "label": "User Story 1 - Contrato e Validador Puro em `@genovalv/core` (Priority: P1)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_user_story_1_contrato_e_validador_puro_em_genovalv_core_priority_p1",
+      "community": 28,
+      "norm_label": "user story 1 - contrato e validador puro em `@genovalv/core` (priority: p1)"
+    },
+    {
+      "label": "User Story 2 - Provisionamento e Verifica\u00e7\u00e3o no `@genovalv/server` (Priority: P1)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_user_story_2_provisionamento_e_verifica\u00e7\u00e3o_no_genovalv_server_priority_p1",
+      "community": 28,
+      "norm_label": "user story 2 - provisionamento e verificacao no `@genovalv/server` (priority: p1)"
+    },
+    {
+      "label": "User Story 3 - Documenta\u00e7\u00e3o, Bump SemVer `0.5.0` e Tarballs `.tgz` (Priority: P2)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_user_story_3_documenta\u00e7\u00e3o_bump_semver_0_5_0_e_tarballs_tgz_priority_p2",
+      "community": 28,
+      "norm_label": "user story 3 - documentacao, bump semver `0.5.0` e tarballs `.tgz` (priority: p2)"
+    },
+    {
+      "label": "Edge Cases",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_edge_cases",
+      "community": 28,
+      "norm_label": "edge cases"
+    },
+    {
+      "label": "Requirements *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_requirements_mandatory",
+      "community": 28,
+      "norm_label": "requirements *(mandatory)*"
+    },
+    {
+      "label": "Functional Requirements",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_functional_requirements",
+      "community": 28,
+      "norm_label": "functional requirements"
+    },
+    {
+      "label": "Success Criteria *(mandatory)*",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_spec_success_criteria_mandatory",
+      "community": 28,
+      "norm_label": "success criteria *(mandatory)*"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks",
+      "community": 28,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "Tasks: 011-shared-auth0-app-metadata",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_tasks_011_shared_auth0_app_metadata",
+      "community": 28,
+      "norm_label": "tasks: 011-shared-auth0-app-metadata"
+    },
+    {
+      "label": "0. Branch",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_0_branch",
+      "community": 28,
+      "norm_label": "0. branch"
+    },
+    {
+      "label": "Phase 1: Contratos e Validadores Puros em `@genovalv/core` (US1 \u2014 TDD) \ud83c\udfaf MVP",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_phase_1_contratos_e_validadores_puros_em_genovalv_core_us1_tdd_mvp",
+      "community": 28,
+      "norm_label": "phase 1: contratos e validadores puros em `@genovalv/core` (us1 \u2014 tdd) \ud83c\udfaf mvp"
+    },
+    {
+      "label": "Tests First (Red)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_tests_first_red",
+      "community": 28,
+      "norm_label": "tests first (red)"
+    },
+    {
+      "label": "Implementation (Green)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_implementation_green",
+      "community": 28,
+      "norm_label": "implementation (green)"
+    },
+    {
+      "label": "Group 1 Commit Gate (Explicit User Authorization Required)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_group_1_commit_gate_explicit_user_authorization_required",
+      "community": 28,
+      "norm_label": "group 1 commit gate (explicit user authorization required)"
+    },
+    {
+      "label": "Phase 2: `Auth0Gateway` e Login Guards em `@genovalv/server` (US2 \u2014 TDD)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_phase_2_auth0gateway_e_login_guards_em_genovalv_server_us2_tdd",
+      "community": 28,
+      "norm_label": "phase 2: `auth0gateway` e login guards em `@genovalv/server` (us2 \u2014 tdd)"
+    },
+    {
+      "label": "Tests First (Red)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_tests_first_red_40",
+      "community": 28,
+      "norm_label": "tests first (red)"
+    },
+    {
+      "label": "Implementation (Green)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_implementation_green_44",
+      "community": 28,
+      "norm_label": "implementation (green)"
+    },
+    {
+      "label": "Group 2 Commit Gate (Explicit User Authorization Required)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_group_2_commit_gate_explicit_user_authorization_required",
+      "community": 28,
+      "norm_label": "group 2 commit gate (explicit user authorization required)"
+    },
+    {
+      "label": "Phase 3: Documenta\u00e7\u00e3o, SemVer `0.5.0` & Empacotamento `.tgz` (US3)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_phase_3_documenta\u00e7\u00e3o_semver_0_5_0_empacotamento_tgz_us3",
+      "community": 28,
+      "norm_label": "phase 3: documentacao, semver `0.5.0` & empacotamento `.tgz` (us3)"
+    },
+    {
+      "label": "Phase 4: PR & Worktree Cleanup (Explicit User Authorization Required)",
+      "file_type": "document",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "specs_011_shared_auth0_app_metadata_tasks_phase_4_pr_worktree_cleanup_explicit_user_authorization_required",
+      "community": 28,
+      "norm_label": "phase 4: pr & worktree cleanup (explicit user authorization required)"
     }
   ],
   "links": [
@@ -19993,7 +20493,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L92",
+      "source_location": "L95",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_base_login_auth_usecase",
@@ -20155,7 +20655,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L93",
+      "source_location": "L96",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_base_logout_auth_usecase",
@@ -20350,7 +20850,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L94",
+      "source_location": "L97",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_base_refresh_session_usecase",
@@ -20468,7 +20968,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L95",
+      "source_location": "L98",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_execute_idempotent_usecase",
@@ -20577,7 +21077,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L96",
+      "source_location": "L99",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_application_use_cases_post_login_action_usecase",
@@ -20630,7 +21130,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L98",
+      "source_location": "L101",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_constants_base_module_catalog",
@@ -22119,7 +22619,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L104",
+      "source_location": "L107",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_dtos_file_upload_dto",
@@ -22484,7 +22984,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L102",
+      "source_location": "L105",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_dtos_list_ui_dto",
@@ -23875,7 +24375,7 @@
       "context": "field",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/post-login-user-metadata.ts",
-      "source_location": "L7",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_post_login_user_metadata_postloginusermetadata",
       "target": "packages_core_src_domain_entities_company_binding_entity_companybinding",
@@ -24327,7 +24827,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L105",
+      "source_location": "L108",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_helpers_file_upload_helpers",
@@ -24402,7 +24902,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L103",
+      "source_location": "L106",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_helpers_list_ui_helpers",
@@ -24456,7 +24956,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L99",
+      "source_location": "L102",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_helpers_resolve_effective_modules",
@@ -24554,7 +25054,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L77",
+      "source_location": "L80",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_i18n_create_translator",
@@ -24685,7 +25185,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L76",
+      "source_location": "L79",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_i18n_resolve_supported_locale",
@@ -24728,7 +25228,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L22",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "target": "packages_core_src_domain_interfaces_iaudit_logger_auditlogger_log"
@@ -24739,7 +25239,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L30",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "target": "packages_core_src_domain_interfaces_iaudit_logger_auditlogger_log"
@@ -25028,6 +25528,114 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/app-setup-context.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_app_setup_context",
+      "target": "packages_core_src_domain_server_auth_app_setup_context_appsetupcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/app-setup-context.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_app_setup_context",
+      "target": "packages_core_src_domain_server_auth_app_setup_context_auth0usermetadatasnapshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_iauth0_gateway",
+      "target": "packages_core_src_domain_server_auth_app_setup_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_app_setup_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/index.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "packages_core_src_index",
+      "target": "packages_core_src_domain_server_auth_app_setup_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_app_setup_context_appsetupcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/app-setup-validation.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_app_setup_validation_test",
+      "target": "packages_core_src_domain_server_auth_app_setup_context_appsetupcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_iauth0_gateway",
+      "target": "packages_core_src_domain_server_auth_app_setup_context_auth0usermetadatasnapshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getusermetadata",
+      "target": "packages_core_src_domain_server_auth_app_setup_context_auth0usermetadatasnapshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_app_setup_context_auth0usermetadatasnapshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/auth-cookie-config.ts",
       "source_location": "L1",
       "weight": 1.0,
@@ -25061,7 +25669,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L1",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway",
       "target": "packages_core_src_domain_server_auth_auth0_jwt_claims",
@@ -25072,7 +25680,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L66",
+      "source_location": "L69",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_auth0_jwt_claims",
@@ -25083,7 +25691,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L1",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway",
       "target": "packages_core_src_domain_server_auth_auth0_jwt_claims_auth0jwtclaims",
@@ -25094,7 +25702,7 @@
       "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L5",
+      "source_location": "L7",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_verifyjwt",
       "target": "packages_core_src_domain_server_auth_auth0_jwt_claims_auth0jwtclaims",
@@ -25115,7 +25723,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway",
       "target": "packages_core_src_domain_server_auth_auth0_token_exchange_result",
@@ -25126,7 +25734,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L67",
+      "source_location": "L70",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_auth0_token_exchange_result",
@@ -25137,7 +25745,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway",
       "target": "packages_core_src_domain_server_auth_auth0_token_exchange_result_auth0tokenexchangeresult",
@@ -25148,7 +25756,7 @@
       "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L7",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_exchangeauthorizationcode",
       "target": "packages_core_src_domain_server_auth_auth0_token_exchange_result_auth0tokenexchangeresult",
@@ -25159,10 +25767,64 @@
       "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_loginwithpassword",
       "target": "packages_core_src_domain_server_auth_auth0_token_exchange_result_auth0tokenexchangeresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/create-management-user-payload.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_create_management_user_payload",
+      "target": "packages_core_src_domain_server_auth_create_management_user_payload_createmanagementuserpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_iauth0_gateway",
+      "target": "packages_core_src_domain_server_auth_create_management_user_payload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/index.ts",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "packages_core_src_index",
+      "target": "packages_core_src_domain_server_auth_create_management_user_payload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_iauth0_gateway",
+      "target": "packages_core_src_domain_server_auth_create_management_user_payload_createmanagementuserpayload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_createmanagementuser",
+      "target": "packages_core_src_domain_server_auth_create_management_user_payload_createmanagementuserpayload",
       "confidence_score": 1.0
     },
     {
@@ -25180,7 +25842,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L74",
+      "source_location": "L77",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_iaudit_log_reader",
@@ -25200,7 +25862,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L4",
+      "source_location": "L6",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
@@ -25211,7 +25873,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L71",
+      "source_location": "L74",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway",
@@ -25221,7 +25883,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L8",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_buildauthorizeurl",
@@ -25231,7 +25893,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L9",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_buildlogouturl",
@@ -25241,7 +25903,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L11",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_createmanagementuser",
@@ -25251,7 +25913,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L15",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_createpasswordchangeticket",
@@ -25261,7 +25923,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L7",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_exchangeauthorizationcode",
@@ -25271,7 +25933,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L17",
+      "source_location": "L16",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getuseremailverified",
@@ -25281,7 +25943,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L6",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
+      "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getusermetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_loginwithpassword",
@@ -25291,7 +25963,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L10",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_obtainmanagementtoken",
@@ -25301,7 +25973,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L16",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_signupdatabaseuser",
@@ -25311,7 +25983,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/server-auth/iauth0-gateway.ts",
-      "source_location": "L5",
+      "source_location": "L7",
       "weight": 1.0,
       "source": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_verifyjwt",
@@ -25334,7 +26006,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L26",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_verifyjwt"
@@ -25345,7 +26017,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L34",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_verifyjwt"
@@ -25356,7 +26028,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L28",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_loginwithpassword"
@@ -25367,7 +26039,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L20",
+      "source_location": "L23",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_exchangeauthorizationcode"
@@ -25378,7 +26050,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L31",
+      "source_location": "L40",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getuseremailverified"
@@ -25389,10 +26061,21 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L38",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getuseremailverified"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/server/src/application/use-cases/auth/verify-app-setup-login.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_verify_app_setup_login_verifyappsetuplogin",
+      "target": "packages_core_src_domain_server_auth_iauth0_gateway_iauth0gateway_getusermetadata"
     },
     {
       "relation": "contains",
@@ -25409,7 +26092,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L72",
+      "source_location": "L75",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_ibase_auth_user_repository",
@@ -25524,7 +26207,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L75",
+      "source_location": "L78",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_ihash_service",
@@ -25565,7 +26248,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L70",
+      "source_location": "L73",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_ipost_login_api",
@@ -25619,7 +26302,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L69",
+      "source_location": "L72",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_ipost_login_event",
@@ -25673,7 +26356,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L73",
+      "source_location": "L76",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_isession_token_gateway",
@@ -25716,7 +26399,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L40",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "target": "packages_core_src_domain_server_auth_isession_token_gateway_isessiontokengateway_sign"
@@ -25727,7 +26410,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L48",
+      "source_location": "L57",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "target": "packages_core_src_domain_server_auth_isession_token_gateway_isessiontokengateway_sign"
@@ -25886,7 +26569,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L68",
+      "source_location": "L71",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_server_auth_post_login_user_metadata",
@@ -25959,6 +26642,100 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_appsetupvalidationfailure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_appsetupvalidationsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_extractappsetupmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_readstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_validateappsetupmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/index.ts",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "packages_core_src_index",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata_extractappsetupmetadata",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_readstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/src/domain/server-auth/validate-app-setup-metadata.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "packages_core_src_domain_server_auth_validate_app_setup_metadata_validateappsetupmetadata",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_extractappsetupmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/app-setup-validation.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_app_setup_validation_test",
+      "target": "packages_core_src_domain_server_auth_validate_app_setup_metadata_validateappsetupmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "packages/core/src/domain/validators/catalog-validators.ts",
       "source_location": "L3",
       "weight": 1.0,
@@ -25991,7 +26768,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L100",
+      "source_location": "L103",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_catalog_validators",
@@ -26078,7 +26855,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L81",
+      "source_location": "L84",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_extract_cnpj_root",
@@ -26165,7 +26942,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L85",
+      "source_location": "L88",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_format_mfa_code_display",
@@ -26208,7 +26985,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L87",
+      "source_location": "L90",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_get_mfa_guidance",
@@ -26262,7 +27039,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L83",
+      "source_location": "L86",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_has_email_cpf_company_conflict",
@@ -26337,7 +27114,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L80",
+      "source_location": "L83",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_is_valid_cnpj",
@@ -26423,7 +27200,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L79",
+      "source_location": "L82",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_is_valid_cpf",
@@ -26499,7 +27276,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L88",
+      "source_location": "L91",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_normalize_email",
@@ -26597,7 +27374,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L84",
+      "source_location": "L87",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_sanitize_mfa_code",
@@ -26673,7 +27450,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L78",
+      "source_location": "L81",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_strip_non_digits",
@@ -26694,7 +27471,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L82",
+      "source_location": "L85",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_active_bindings",
@@ -26737,7 +27514,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L89",
+      "source_location": "L92",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_email",
@@ -26835,7 +27612,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L91",
+      "source_location": "L94",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_login_submission",
@@ -26900,7 +27677,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L86",
+      "source_location": "L89",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_mfa_code",
@@ -26932,7 +27709,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L90",
+      "source_location": "L93",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_validators_validate_password",
@@ -27006,7 +27783,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L101",
+      "source_location": "L104",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_domain_value_objects_money",
@@ -27060,7 +27837,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "packages/core/src/index.ts",
-      "source_location": "L97",
+      "source_location": "L100",
       "weight": 1.0,
       "source": "packages_core_src_index",
       "target": "packages_core_src_infrastructure_http_auth_repository",
@@ -27074,6 +27851,17 @@
       "source_location": "L2",
       "weight": 1.0,
       "source": "packages_core_tests_app_header_helpers_test",
+      "target": "packages_core_src_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/app-setup-validation.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "packages_core_tests_app_setup_validation_test",
       "target": "packages_core_src_index",
       "confidence_score": 1.0
     },
@@ -27300,6 +28088,16 @@
       "weight": 1.0,
       "source": "packages_core_tests_http_auth_repository_test",
       "target": "packages_core_src_infrastructure_http_auth_repository_httpauthrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/core/tests/app-setup-validation.test.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_core_tests_app_setup_validation_test",
+      "target": "packages_core_tests_app_setup_validation_test_basectx",
       "confidence_score": 1.0
     },
     {
@@ -34162,7 +34960,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L10",
+      "source_location": "L12",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
       "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
@@ -34173,7 +34971,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase",
@@ -34184,7 +34982,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase",
@@ -34195,7 +34993,29 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L7",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
+      "target": "packages_server_src_application_use_cases_auth_verify_app_setup_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
+      "target": "packages_server_src_application_use_cases_auth_verify_app_setup_login_verifyappsetuplogin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
       "target": "packages_server_src_domain_constants_shared_auth_audit_actions",
@@ -34206,7 +35026,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase",
       "target": "packages_server_src_domain_constants_shared_auth_audit_actions_shared_auth_audit_actions",
@@ -34227,7 +35047,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L11",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
       "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_constructor",
@@ -34237,7 +35057,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L18",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase",
       "target": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
@@ -34259,7 +35079,7 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L11",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_constructor",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase",
@@ -34271,16 +35091,27 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
-      "source_location": "L34",
+      "source_location": "L43",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase_execute"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/server/src/application/use-cases/auth/oauth-callback.usecase.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_oauth_callback_usecase_oauthcallbackusecase_execute",
+      "target": "packages_server_src_application_use_cases_auth_verify_app_setup_login_verifyappsetuplogin"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L15",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
       "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
@@ -34291,7 +35122,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase",
@@ -34302,7 +35133,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase",
@@ -34313,7 +35144,29 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L8",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
+      "target": "packages_server_src_application_use_cases_auth_verify_app_setup_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
+      "target": "packages_server_src_application_use_cases_auth_verify_app_setup_login_verifyappsetuplogin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
       "target": "packages_server_src_domain_constants_auth_cookie_constants",
@@ -34324,7 +35177,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
       "target": "packages_server_src_domain_constants_shared_auth_audit_actions",
@@ -34335,7 +35188,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase",
       "target": "packages_server_src_domain_constants_shared_auth_audit_actions_shared_auth_audit_actions",
@@ -34356,7 +35209,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L16",
+      "source_location": "L18",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
       "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_constructor",
@@ -34366,7 +35219,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L23",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase",
       "target": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
@@ -34388,7 +35241,7 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L16",
+      "source_location": "L18",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_constructor",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase",
@@ -34400,10 +35253,21 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
-      "source_location": "L41",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase_execute"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/server/src/application/use-cases/auth/password-login.usecase.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_password_login_usecase_passwordloginusecase_execute",
+      "target": "packages_server_src_application_use_cases_auth_verify_app_setup_login_verifyappsetuplogin"
     },
     {
       "relation": "contains",
@@ -34455,6 +35319,16 @@
       "weight": 1.0,
       "source": "packages_server_tests_auth_usecases_test",
       "target": "packages_server_src_application_use_cases_auth_resolve_post_login_usecase_resolvepostloginusecase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/application/use-cases/auth/verify-app-setup-login.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "packages_server_src_application_use_cases_auth_verify_app_setup_login",
+      "target": "packages_server_src_application_use_cases_auth_verify_app_setup_login_verifyappsetuplogin",
       "confidence_score": 1.0
     },
     {
@@ -34679,7 +35553,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
@@ -34693,7 +35567,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
-      "target": "packages_server_src_infrastructure_auth0_exchange_auth0_token",
+      "target": "packages_server_src_infrastructure_auth0_build_management_user_body",
       "confidence_score": 1.0
     },
     {
@@ -34704,7 +35578,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
-      "target": "packages_server_src_infrastructure_auth0_exchange_auth0_token_exchangeauth0token",
+      "target": "packages_server_src_infrastructure_auth0_build_management_user_body_buildmanagementuserbody",
       "confidence_score": 1.0
     },
     {
@@ -34713,6 +35587,28 @@
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
       "source_location": "L6",
+      "weight": 1.0,
+      "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
+      "target": "packages_server_src_infrastructure_auth0_exchange_auth0_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
+      "target": "packages_server_src_infrastructure_auth0_exchange_auth0_token_exchangeauth0token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
+      "source_location": "L7",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
       "target": "packages_server_src_infrastructure_auth0_post_auth0_json",
@@ -34723,7 +35619,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
       "target": "packages_server_src_infrastructure_auth0_post_auth0_json_postauth0json",
@@ -34734,7 +35630,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
       "target": "packages_server_src_infrastructure_auth0_resolve_auth0_base_url",
@@ -34745,7 +35641,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway",
       "target": "packages_server_src_infrastructure_auth0_resolve_auth0_base_url_resolveauth0baseurl",
@@ -34777,7 +35673,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L48",
+      "source_location": "L42",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_buildauthorizeurl",
@@ -34787,7 +35683,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L59",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_buildlogouturl",
@@ -34797,7 +35693,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_constructor",
@@ -34807,7 +35703,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L76",
+      "source_location": "L65",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_createmanagementuser",
@@ -34817,7 +35713,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L95",
+      "source_location": "L70",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_createpasswordchangeticket",
@@ -34827,7 +35723,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L39",
+      "source_location": "L36",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_exchangeauthorizationcode",
@@ -34837,7 +35733,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L107",
+      "source_location": "L82",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getuseremailverified",
@@ -34847,7 +35743,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L27",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
+      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getusermetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_loginwithpassword",
@@ -34857,17 +35763,17 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L23",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
-      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthclientcredentials",
+      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthcreds",
       "confidence_score": 1.0
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L63",
+      "source_location": "L54",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_obtainmanagementtoken",
@@ -34877,7 +35783,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L100",
+      "source_location": "L75",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_signupdatabaseuser",
@@ -34887,7 +35793,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_verifyjwt",
@@ -34910,7 +35816,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_constructor",
       "target": "packages_server_src_infrastructure_auth0_resolve_auth0_base_url_resolveauth0baseurl"
@@ -34920,7 +35826,7 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_constructor",
       "target": "packages_server_src_infrastructure_config_auth0_gateway_config_auth0gatewayconfig",
@@ -34931,10 +35837,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L42",
+      "source_location": "L38",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_exchangeauthorizationcode",
-      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthclientcredentials",
+      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthcreds",
       "confidence_score": 1.0
     },
     {
@@ -34942,10 +35848,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L33",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_loginwithpassword",
-      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthclientcredentials",
+      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_oauthcreds",
       "confidence_score": 1.0
     },
     {
@@ -34954,7 +35860,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L28",
+      "source_location": "L30",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_loginwithpassword",
       "target": "packages_server_src_infrastructure_auth0_exchange_auth0_token_exchangeauth0token"
@@ -34965,7 +35871,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L40",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_exchangeauthorizationcode",
       "target": "packages_server_src_infrastructure_auth0_exchange_auth0_token_exchangeauth0token"
@@ -34975,10 +35881,42 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
-      "source_location": "L117",
+      "source_location": "L92",
       "weight": 1.0,
       "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getuseremailverified",
       "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_obtainmanagementtoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_getusermetadata",
+      "target": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_obtainmanagementtoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "packages/server/src/infrastructure/auth0/auth0.gateway.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "packages_server_src_infrastructure_auth0_auth0_gateway_auth0gateway_createmanagementuser",
+      "target": "packages_server_src_infrastructure_auth0_build_management_user_body_buildmanagementuserbody"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "packages/server/src/infrastructure/auth0/build-management-user-body.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "packages_server_src_infrastructure_auth0_build_management_user_body",
+      "target": "packages_server_src_infrastructure_auth0_build_management_user_body_buildmanagementuserbody",
       "confidence_score": 1.0
     },
     {
@@ -39975,7 +40913,7 @@
       "source_location": "L5",
       "weight": 1.0,
       "source": "readme_genova_shareds_new_shareds",
-      "target": "readme_pacotes_v0_4_0",
+      "target": "readme_pacotes_v0_5_0",
       "confidence_score": 1.0
     },
     {
@@ -43637,8 +44575,318 @@
       "source": "specs_010_shared_cleanup_and_edge_proxy_tasks_phase_2_migrate_cloudflare_edge_proxy_remove_postgres_from_compose_us2",
       "target": "specs_010_shared_cleanup_and_edge_proxy_tasks_group_2_commit_gate_explicit_user_authorization_required",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan",
+      "target": "specs_011_shared_auth0_app_metadata_plan_implementation_plan_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan",
+      "target": "specs_011_shared_auth0_app_metadata_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks",
+      "target": "specs_011_shared_auth0_app_metadata_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan_implementation_plan_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "target": "specs_011_shared_auth0_app_metadata_plan_constitution_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan_implementation_plan_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "target": "specs_011_shared_auth0_app_metadata_plan_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan_implementation_plan_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "target": "specs_011_shared_auth0_app_metadata_plan_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan_implementation_plan_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "target": "specs_011_shared_auth0_app_metadata_plan_technical_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan_project_structure",
+      "target": "specs_011_shared_auth0_app_metadata_plan_documentation_this_feature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/plan.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_plan_project_structure",
+      "target": "specs_011_shared_auth0_app_metadata_plan_source_code_new_shareds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec",
+      "target": "specs_011_shared_auth0_app_metadata_spec_feature_specification_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks",
+      "target": "specs_011_shared_auth0_app_metadata_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_feature_specification_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "target": "specs_011_shared_auth0_app_metadata_spec_requirements_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_feature_specification_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "target": "specs_011_shared_auth0_app_metadata_spec_success_criteria_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_feature_specification_shared_auth0_app_setup_metadata_login_guard_v0_5_0",
+      "target": "specs_011_shared_auth0_app_metadata_spec_user_scenarios_testing_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_user_scenarios_testing_mandatory",
+      "target": "specs_011_shared_auth0_app_metadata_spec_edge_cases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_user_scenarios_testing_mandatory",
+      "target": "specs_011_shared_auth0_app_metadata_spec_user_story_1_contrato_e_validador_puro_em_genovalv_core_priority_p1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_user_scenarios_testing_mandatory",
+      "target": "specs_011_shared_auth0_app_metadata_spec_user_story_2_provisionamento_e_verifica\u00e7\u00e3o_no_genovalv_server_priority_p1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_user_scenarios_testing_mandatory",
+      "target": "specs_011_shared_auth0_app_metadata_spec_user_story_3_documenta\u00e7\u00e3o_bump_semver_0_5_0_e_tarballs_tgz_priority_p2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/spec.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_spec_requirements_mandatory",
+      "target": "specs_011_shared_auth0_app_metadata_spec_functional_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_tasks_011_shared_auth0_app_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_tasks_011_shared_auth0_app_metadata",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_0_branch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_tasks_011_shared_auth0_app_metadata",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_phase_1_contratos_e_validadores_puros_em_genovalv_core_us1_tdd_mvp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_tasks_011_shared_auth0_app_metadata",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_phase_2_auth0gateway_e_login_guards_em_genovalv_server_us2_tdd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_tasks_011_shared_auth0_app_metadata",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_phase_3_documenta\u00e7\u00e3o_semver_0_5_0_empacotamento_tgz_us3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_tasks_011_shared_auth0_app_metadata",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_phase_4_pr_worktree_cleanup_explicit_user_authorization_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_phase_1_contratos_e_validadores_puros_em_genovalv_core_us1_tdd_mvp",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_group_1_commit_gate_explicit_user_authorization_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_phase_1_contratos_e_validadores_puros_em_genovalv_core_us1_tdd_mvp",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_implementation_green",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_phase_1_contratos_e_validadores_puros_em_genovalv_core_us1_tdd_mvp",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_tests_first_red",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_phase_2_auth0gateway_e_login_guards_em_genovalv_server_us2_tdd",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_group_2_commit_gate_explicit_user_authorization_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_phase_2_auth0gateway_e_login_guards_em_genovalv_server_us2_tdd",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_implementation_green_44",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "specs/011-shared-auth0-app-metadata/tasks.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "specs_011_shared_auth0_app_metadata_tasks_phase_2_auth0gateway_e_login_guards_em_genovalv_server_us2_tdd",
+      "target": "specs_011_shared_auth0_app_metadata_tasks_tests_first_red_40",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5d3a71699709cd22b0a3e3e4b505a36fd8ae6f3e"
+  "built_at_commit": "349caba687f18c7350f3571477fd95f2087360ae"
 }

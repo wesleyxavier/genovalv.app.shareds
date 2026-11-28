@@ -1,4 +1,5 @@
 import type {
+  AppSetupContext,
   AuditLogger,
   IAuth0Gateway,
   ISessionTokenGateway,
@@ -6,6 +7,7 @@ import type {
 } from '@genovalv/core';
 import { SHARED_AUTH_AUDIT_ACTIONS } from '../../../domain/constants/shared-auth-audit-actions';
 import type { ResolvePostLoginUseCase } from './resolve-post-login.usecase';
+import { verifyAppSetupLogin } from './verify-app-setup-login';
 
 export class OAuthCallbackUseCase {
   constructor(
@@ -13,6 +15,7 @@ export class OAuthCallbackUseCase {
     private readonly resolvePostLogin: ResolvePostLoginUseCase,
     private readonly sessionTokens: ISessionTokenGateway,
     private readonly auditLogger: AuditLogger,
+    private readonly expectedAppSetup?: AppSetupContext,
   ) {}
 
   async execute(code: string): Promise<OAuthCallbackOutcome> {
@@ -26,6 +29,12 @@ export class OAuthCallbackUseCase {
     const claims = await this.auth0.verifyJwt(tokenRes.idToken);
     const email = String(claims.email || '');
     const sub = String(claims.sub || '');
+    const appCheck = await verifyAppSetupLogin(this.auth0, claims, sub, this.expectedAppSetup);
+    if (!appCheck.ok) {
+      await this.auditLogger.log({ level: 'warn', action: SHARED_AUTH_AUDIT_ACTIONS.oauthCallbackDenied, actorEmail: email, errorMessage: appCheck.reason });
+      return { ok: false, redirectTo: `/login?error=${appCheck.reason}` };
+    }
+
     let emailVerified = claims.email_verified === true;
     if (!emailVerified && this.auth0.getUserEmailVerified) {
       const fetched = await this.auth0.getUserEmailVerified(sub, tokenRes.accessToken);

@@ -43,11 +43,33 @@ describe('@genovalv/server security, http & auth0', () => {
 
     const res = await gw.createManagementUser('mgmt-tok', {
       email: 'admin@empresa.com', fullName: 'Admin', password: 'Strong!2026', sqlId: 'u-1', cpf: '52998224725', env: 'staging', mustChangePassword: false,
+      appSetupId: 'app-1', appSetupSecret: 'sec-1', environment: 'staging', genovaAdmin: true,
     });
     expect(res.userId).toBe('auth0|admin1');
     const body = JSON.parse((fetchMock.mock.calls[0]?.[1] as { body: string }).body);
     expect(body.app_metadata).toEqual({
       sql_id: 'u-1', cpf: '52998224725', active: true, must_change_password: false, env: 'staging',
+      app_setup_id: 'app-1', app_setup_secret: 'sec-1', environment: 'staging',
+    });
+    expect(body.user_metadata).toEqual({ genova_admin: true });
+  });
+
+  it('fetches user app_metadata and user_metadata via Management API', async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce({ ok: true, json: async () => ({ access_token: 'mgmt-tok' }) })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: async () => ({ app_metadata: { app_setup_id: 'app-1' }, user_metadata: { genova_admin: true } }),
+      });
+    const gw = new Auth0Gateway({
+      auth0Domain: 'tenant.us.auth0.com', auth0ClientId: 'cid', auth0ClientSecret: 'sec',
+      auth0MgmtClientId: '', auth0MgmtClientSecret: '', auth0Audience: 'https://api',
+      auth0CallbackUrl: 'https://app/cb', auth0LogoutReturnUrl: 'https://app/logout',
+    }, fetchMock as unknown as typeof fetch);
+
+    expect(await gw.getUserMetadata('auth0|1')).toEqual({
+      appMetadata: { app_setup_id: 'app-1' },
+      userMetadata: { genova_admin: true },
     });
   });
 });
