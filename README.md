@@ -2,7 +2,7 @@
 
 Camada compartilhada multi-framework para os frontends **Admin** (`AnalogJS`), **ERP** (`Next.js`) e **FactoryFloor** (`Nuxt.js`), além do proxy de borda local (simulação Cloudflare).
 
-## Pacotes (`v0.6.0`)
+## Pacotes (`v0.6.1`)
 
 - **`@genovalv/core`** (`packages/core/`): TypeScript puro (SSR-safe, zero dependências de DOM/Node/framework) com `GENOVA_BRAND_NAME` (`'Genova Cloud'`), contratos puros de sessão/auth/repositórios base (`AppSetupContext`, `CreateManagementUserPayload`, `validateAppSetupMetadata`), normalização/validação (`email`, `password`, `mfaCode`, CPF/CNPJ/CEP e máscaras `formatCpf`, `formatCnpj`, `formatCep`, `isValidCep`), catálogo/resolução de módulos, `Money`, idempotência, `onExecutePostLogin` e i18n padrão (`pt-BR`, `en-US`, `es-ES`).
 - **`@genovalv/server`** (`packages/server/`): Pacote BFF/Node compartilhado **agnóstico de framework** (zero dependência de `h3`, Next ou Nuxt) com `Auth0Gateway` (suporte a `app_setup_id`, `app_setup_secret`, `environment` em `app_metadata` e `genova_admin` em `user_metadata`, além de `getUserMetadata`), `JoseSessionTokenGateway`, `NodeHashService`, cookies `HttpOnly`, `loadEnvFile` e casos de uso de autenticação (`ResolvePostLoginUseCase`, `PasswordLoginUseCase`, `OAuthCallbackUseCase`, `BackchannelLogoutUseCase`, com validação opcional `expectedAppSetup`).

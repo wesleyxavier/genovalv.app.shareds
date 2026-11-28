@@ -1,10 +1,10 @@
 import { css } from 'lit';
 
 export const appHeaderLayoutStyles = css`
-  :host { display: block; width: 100%; position: relative; z-index: 30; }
+  :host { display: block; width: 100%; max-width: 100%; box-sizing: border-box; position: relative; z-index: 30; }
   :host([hidden]) { display: none; }
   .bar {
-    height: 4rem; width: 100%; background: var(--gnv-surface-container-lowest, #ffffff);
+    box-sizing: border-box; height: 4rem; width: 100%; max-width: 100%; background: var(--gnv-surface-container-lowest, #ffffff);
     border-bottom: 1px solid var(--gnv-outline-variant, #e7e2d8);
     padding: 0 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
   }
