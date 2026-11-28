@@ -3,12 +3,15 @@ import { property } from 'lit/decorators.js';
 import { etapa1BaseStyles } from '../../styles/etapa1-base.css';
 
 export class GenovaButtonElement extends LitElement {
+  static formAssociated = true;
+
   static override styles = [
     etapa1BaseStyles,
     css`
       :host { display: inline-block; }
       button {
         display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+        min-height: 34.5px; width: 100%;
         border-radius: 0.5rem; font-family: inherit; font-weight: 600; cursor: pointer;
         border: 1px solid transparent; transition: background-color 0.15s ease, border-color 0.15s ease;
       }
@@ -32,10 +35,45 @@ export class GenovaButtonElement extends LitElement {
   @property({ type: Boolean }) loading = false;
   @property({ type: String }) type: 'button' | 'submit' | 'reset' = 'button';
 
+  private internals?: ElementInternals;
+
+  constructor() {
+    super();
+    if (typeof HTMLElement !== 'undefined' && typeof this.attachInternals === 'function') {
+      try { this.internals = this.attachInternals(); } catch { this.internals = undefined; }
+    }
+  }
+
+  private validateFormControls(form: HTMLFormElement): boolean {
+    const controls = Array.from(form.querySelectorAll<HTMLElement & { reportValidity?: () => boolean; checkValidity?: () => boolean }>('*'));
+    let valid = typeof form.checkValidity === 'function' ? form.checkValidity() : true;
+    for (const el of controls) {
+      if (typeof el.reportValidity === 'function') { if (!el.reportValidity()) valid = false; }
+      else if (typeof el.checkValidity === 'function' && !el.checkValidity()) valid = false;
+    }
+    return valid;
+  }
+
+  private handleClick(): void {
+    if (this.disabled || this.loading) return;
+    const pressEvent = new CustomEvent('genova-press', { bubbles: true, composed: true, cancelable: true });
+    this.dispatchEvent(pressEvent);
+    if (pressEvent.defaultPrevented) return;
+    const form = this.internals?.form ?? this.closest('form');
+    if (!form) return;
+    if (this.type === 'submit') {
+      if (!form.noValidate && !this.validateFormControls(form)) return;
+      if (typeof form.requestSubmit === 'function') form.requestSubmit();
+      else form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+    } else if (this.type === 'reset') {
+      form.reset();
+    }
+  }
+
   override render() {
     return html`
       <button type=${this.type} data-variant=${this.variant} data-size=${this.size} ?disabled=${this.disabled || this.loading}
-        @click=${() => this.dispatchEvent(new CustomEvent('genova-press', { bubbles: true, composed: true }))}>
+        @click=${() => this.handleClick()}>
         ${this.loading ? html`<span>...</span>` : ''}<slot></slot>
       </button>
     `;

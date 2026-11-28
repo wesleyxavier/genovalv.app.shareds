@@ -21,16 +21,22 @@ export class GenovaNumberInputElement extends LitElement {
   @property({ type: Boolean }) disabled = false;
 
   private updateVal(next: number) {
-    const clamped = Math.min(this.max, Math.max(this.min, next));
+    const safe = Number.isFinite(next) ? next : this.min > -Infinity ? this.min : 0;
+    const clamped = Math.min(this.max, Math.max(this.min, safe));
     this.value = clamped;
     this.dispatchEvent(new CustomEvent('genova-change', { detail: { value: clamped }, bubbles: true, composed: true }));
+  }
+
+  private onKeyDown(e: KeyboardEvent): void {
+    if (this.min >= 0 && (e.key === '-' || e.key === 'e' || e.key === 'E')) e.preventDefault();
   }
 
   override render() {
     return html`
       <div class="wrap">
         <button type="button" aria-label="Diminuir" ?disabled=${this.disabled || this.value <= this.min} @click=${() => this.updateVal(this.value - this.step)}>−</button>
-        <input type="number" .value=${String(this.value)} ?disabled=${this.disabled} @change=${(e: Event) => this.updateVal(Number((e.target as HTMLInputElement).value))} />
+        <input type="number" .value=${String(this.value)} min=${this.min > -Infinity ? String(this.min) : ''} ?disabled=${this.disabled}
+          @keydown=${this.onKeyDown} @change=${(e: Event) => this.updateVal(Number((e.target as HTMLInputElement).value))} />
         <button type="button" aria-label="Aumentar" ?disabled=${this.disabled || this.value >= this.max} @click=${() => this.updateVal(this.value + this.step)}>+</button>
       </div>
     `;
