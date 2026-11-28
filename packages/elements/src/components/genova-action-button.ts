@@ -28,6 +28,7 @@ export class GenovaActionButtonElement extends LitElement {
     }
     button {
       width: 100%;
+      min-height: 34.5px;
       border: 0;
       border-radius: var(--gnv-radius-md, 0.25rem);
       background: var(--gnv-primary, #715faf);

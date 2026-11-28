@@ -214,6 +214,5 @@
   "212": "setup-plan.ps1",
   "213": "setup-tasks.ps1",
   "214": "vite.config.ts",
-  "215": "genova-control-box.ts",
-  "216": "GenovaFooterElement"
+  "215": "genova-control-box.ts"
 }

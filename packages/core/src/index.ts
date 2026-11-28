@@ -81,6 +81,7 @@ export * from './domain/i18n/create-translator';
 export * from './domain/validators/strip-non-digits';
 export * from './domain/validators/is-valid-cpf';
 export * from './domain/validators/is-valid-cnpj';
+export * from './domain/validators/format-document-mask';
 export * from './domain/validators/extract-cnpj-root';
 export * from './domain/validators/validate-active-bindings';
 export * from './domain/validators/has-email-cpf-company-conflict';
